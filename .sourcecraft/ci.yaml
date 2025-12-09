@@ -1,0 +1,26 @@
+# This is a basic workflow to help you get started with SourceCraft CI/CD
+# Controls when the workflow will run
+
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  pull_request:
+    - workflows: [sample-workflow]
+      filter:
+        target_branches: ["main"]
+
+workflows:
+  sample-workflow:
+    tasks:
+      - name: sample-task
+        
+        cubes:
+          # Runs a set of commands using the runners shell
+          - name: sample-cube1
+            image: docker.io/library/node
+            script:
+              - echo Hello, world!
+             
+          - name: sample-cube2
+            script:
+              - echo Add other cubes to build,
+              - echo test, and deploy your project.
