@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "path": "go",
+      "type": "ENTRY_TYPE_DIR"
+    },
+    {
+      "path": "go/example.go",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "json",
+      "type": "ENTRY_TYPE_DIR"
+    }
+  ],
+  "next_page_token": "eyJjb21taXRfaGFzaCI6IjZlY2YwZWYyYzJkZmZiNzk2MDMzZTVhMDIyMTlhZjg2ZWM2NTg0ZTUiLCJuYW1lX2ZpbHRlciI6IiIsImNhc2VfaW5zZW5zaXRpdmUiOmZhbHNlLCJwYXRoIjoiIiwibGltaXRfbWF0Y2hlcyI6MywicmVjdXJzaXZlIjp0cnVlLCJzdGFydF9mcm9tIjp7InBhdGgiOiJqc29uL2xvbmcuanNvbiIsIm1vZGUiOjMzMTg4fX0="
+}

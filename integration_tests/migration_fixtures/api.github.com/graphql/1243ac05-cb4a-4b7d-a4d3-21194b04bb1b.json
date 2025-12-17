@@ -1,0 +1,17 @@
+{
+  "data": {
+    "repository": {
+      "pullRequests": {
+        "nodes": [],
+        "pageInfo": {
+          "endCursor": null,
+          "hasNextPage": false
+        }
+      }
+    },
+    "rateLimit": {
+      "remaining": 4995,
+      "resetAt": "2025-10-16T17:38:01Z"
+    }
+  }
+}

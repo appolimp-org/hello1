@@ -1,0 +1,20 @@
+{
+  "Code": 200,
+  "Payload": {
+    "author": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    },
+    "created_at": "2025-05-27T13:34:53.347048Z",
+    "description": "",
+    "id": "019711f4-01a3-7094-9759-529dcff86deb",
+    "name": "Milestone 2",
+    "slug": "milestone-2",
+    "status": "open",
+    "updated_at": "2025-05-27T13:34:53.347048Z",
+    "updated_by": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    }
+  }
+}

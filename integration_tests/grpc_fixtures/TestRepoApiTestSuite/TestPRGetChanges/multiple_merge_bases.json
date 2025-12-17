@@ -1,0 +1,12 @@
+{
+  "tree_diffs":  [
+    {
+      "paths":  {
+        "target":  "a1",
+        "source":  "a1"
+      },
+      "type":  "FILE",
+      "status":  "MODIFIED"
+    }
+  ]
+}

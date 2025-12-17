@@ -1,0 +1,118 @@
+{
+  "tags":  [
+    {
+      "name":  "v2.main-an",
+      "commit":  {
+        "hash":  "78350efe20fc33f940c2894e7c74e15963d7356a",
+        "message":  "main 2\n",
+        "parent_commits":  [
+          "39427c55a3c59b91b11b5c1413033ebb85f84364"
+        ],
+        "author":  {
+          "name":  "Author",
+          "email":  "author@example.com",
+          "date":  "2024-02-19T12:03:20Z"
+        },
+        "commiter":  {
+          "name":  "Commiter",
+          "email":  "committer@example.com",
+          "date":  "2024-02-19T12:03:20Z"
+        }
+      },
+      "message":  "annotated tag\n",
+      "author":  {
+        "name":  "Commiter",
+        "email":  "committer@example.com",
+        "date":  "2024-02-19T12:03:20Z"
+      },
+      "pgp_signature":  ""
+    },
+    {
+      "name":  "v3-an",
+      "commit":  {
+        "hash":  "94d20dfa7b2ae3c998de92780be3058a68280d76",
+        "message":  "final\n",
+        "parent_commits":  [
+          "78350efe20fc33f940c2894e7c74e15963d7356a"
+        ],
+        "author":  {
+          "name":  "Author",
+          "email":  "author@example.com",
+          "date":  "2024-02-19T12:05:00Z"
+        },
+        "commiter":  {
+          "name":  "Commiter",
+          "email":  "committer@example.com",
+          "date":  "2024-02-19T12:05:00Z"
+        }
+      },
+      "message":  "annotated tag 2\n",
+      "author":  {
+        "name":  "Commiter",
+        "email":  "committer@example.com",
+        "date":  "2024-02-19T12:05:00Z"
+      },
+      "pgp_signature":  ""
+    },
+    {
+      "name":  "v2.main",
+      "commit":  {
+        "hash":  "78350efe20fc33f940c2894e7c74e15963d7356a",
+        "message":  "main 2\n",
+        "parent_commits":  [
+          "39427c55a3c59b91b11b5c1413033ebb85f84364"
+        ],
+        "author":  {
+          "name":  "Author",
+          "email":  "author@example.com",
+          "date":  "2024-02-19T12:03:20Z"
+        },
+        "commiter":  {
+          "name":  "Commiter",
+          "email":  "committer@example.com",
+          "date":  "2024-02-19T12:03:20Z"
+        }
+      }
+    },
+    {
+      "name":  "v2.b1",
+      "commit":  {
+        "hash":  "9ab452585ad6dae14356027d596c5a04e703decd",
+        "message":  "b1\n",
+        "parent_commits":  [
+          "39427c55a3c59b91b11b5c1413033ebb85f84364"
+        ],
+        "author":  {
+          "name":  "Author",
+          "email":  "author@example.com",
+          "date":  "2024-02-19T12:01:40Z"
+        },
+        "commiter":  {
+          "name":  "Commiter",
+          "email":  "committer@example.com",
+          "date":  "2024-02-19T12:01:40Z"
+        }
+      }
+    },
+    {
+      "name":  "v1.0",
+      "commit":  {
+        "hash":  "39427c55a3c59b91b11b5c1413033ebb85f84364",
+        "message":  "v1\n",
+        "parent_commits":  [],
+        "author":  {
+          "name":  "Author",
+          "email":  "author@example.com",
+          "date":  "2024-02-19T12:00:00Z"
+        },
+        "commiter":  {
+          "name":  "Commiter",
+          "email":  "committer@example.com",
+          "date":  "2024-02-19T12:00:00Z"
+        }
+      }
+    }
+  ],
+  "prev_page_token":  "",
+  "next_page_token":  ""
+}

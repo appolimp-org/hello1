@@ -1,0 +1,11 @@
+{
+  "release": {
+    "version": "0.0.1",
+    "tag": "tag-dir-0.0.1",
+    "changelog": " - Merge branch 'branch1' [a74c4c] @Author\n - change file1.txt [bc92ad] @Author\n - add ignored file [79d147] @Author\n - v1 [9e69fb] @Author",
+    "description": "",
+    "hash": "a74c4c3d59e704d4277f9ba0733f91f6a3d954db",
+    "reuse_existing_tag": false
+  },
+  "previous_version": ""
+}

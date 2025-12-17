@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": "7",
+      "user_identity": {
+        "id": "admin",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-f768-7674-962f-5e42b9afd5a0",
+      "display_name": "Admin",
+      "username": "admin",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PRIVATE",
+      "avatar": {
+        "url": "https://dev.null/avatars/admin.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "",
+      "revision": "",
+      "personal_org_id": "95006052554113390",
+      "onboarded_at": "2025-10-17T10:00:20.082177Z"
+    },
+    {
+      "id": "32",
+      "user_identity": {
+        "id": "user-l",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-414e-7e50-87cb-93126be76600",
+      "display_name": "User-l",
+      "username": "user-l",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-l.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.321327Z"
+    },
+    {
+      "id": "33",
+      "user_identity": {
+        "id": "user-m",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-415a-7e6b-a235-33e525672db3",
+      "display_name": "User-m",
+      "username": "user-m",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-m.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.333301Z"
+    },
+    {
+      "id": "34",
+      "user_identity": {
+        "id": "user-n",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-4166-7a9e-b645-0e4c5542e193",
+      "display_name": "User-n",
+      "username": "user-n",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-n.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.345091Z"
+    },
+    {
+      "id": "35",
+      "user_identity": {
+        "id": "user-o",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-4173-7883-8f11-aecfdb7185a6",
+      "display_name": "User-o",
+      "username": "user-o",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-o.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.358218Z"
+    },
+    {
+      "id": "36",
+      "user_identity": {
+        "id": "user-p",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-4180-763d-9b24-7ef20cb69ed5",
+      "display_name": "User-p",
+      "username": "user-p",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-p.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.370618Z"
+    },
+    {
+      "id": "37",
+      "user_identity": {
+        "id": "user-q",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-418b-779d-b2b9-df4557e4bd02",
+      "display_name": "User-q",
+      "username": "user-q",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-q.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.382237Z"
+    },
+    {
+      "id": "38",
+      "user_identity": {
+        "id": "user-r",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-4198-713c-888f-e5bc70067af1",
+      "display_name": "User-r",
+      "username": "user-r",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-r.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.394528Z"
+    },
+    {
+      "id": "39",
+      "user_identity": {
+        "id": "user-s",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-41a4-73c0-bbed-4a1513765223",
+      "display_name": "User-s",
+      "username": "user-s",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-s.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.406928Z"
+    },
+    {
+      "id": "40",
+      "user_identity": {
+        "id": "user-t",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-41b1-7c8e-b57f-e98d20d7e3e8",
+      "display_name": "User-t",
+      "username": "user-t",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-t.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.421465Z"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "added_user_ids":  [],
+  "created_invites":  [],
+  "errors":  [
+    {
+      "invitee_email":  "",
+      "invitee_id":  "1",
+      "invitee_username":  "",
+      "error":  {
+        "message_id":  "UnknownAccessBindingsError",
+        "fallback":  "Couldn't add an invitee to the repo because of an unexpected cloud error: forbidden subject",
+        "args":  [
+          {
+            "@type":  "type.googleapis.com/google.protobuf.StringValue",
+            "value":  "forbidden subject"
+          }
+        ]
+      }
+    }
+  ]
+}

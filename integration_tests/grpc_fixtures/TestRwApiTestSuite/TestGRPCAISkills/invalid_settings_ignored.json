@@ -1,0 +1,128 @@
+{
+  "skills": [
+    {
+      "slug": "bug-fix",
+      "name": "Bug Fix Assistant",
+      "description": "Help fix bugs in code",
+      "inputs": [
+        {
+          "name": "severity",
+          "required": false,
+          "default": "medium",
+          "description": "Bug severity level",
+          "type": "IST_CHOICE",
+          "options": [
+            "low",
+            "medium",
+            "high",
+            "critical"
+          ]
+        }
+      ],
+      "instructions_template": "Analyze the bug and suggest fixes.\n\nSystem bug fix guidelines.\n",
+      "definition_repo": {
+        "org_slug": "yandex",
+        "repo_slug": "system-skills"
+      },
+      "is_system": true
+    },
+    {
+      "slug": "code-review",
+      "name": "Code Review",
+      "description": "AI-powered code review assistant",
+      "inputs": [
+        {
+          "name": "language",
+          "required": false,
+          "default": "go",
+          "description": "Programming language",
+          "type": "IST_CHOICE",
+          "options": [
+            "go",
+            "python",
+            "java"
+          ]
+        },
+        {
+          "name": "style",
+          "required": false,
+          "default": "valid_string",
+          "description": "Code style guide",
+          "type": "IST_STRING",
+          "options": []
+        },
+        {
+          "name": "strict",
+          "required": false,
+          "default": "false",
+          "description": "Enable strict mode",
+          "type": "IST_BOOL",
+          "options": []
+        }
+      ],
+      "instructions_template": "Review the code for quality and best practices.\n\nSystem-level review rules apply.\n\nInvalid settings test.\n",
+      "definition_repo": {
+        "org_slug": "yandex",
+        "repo_slug": "system-skills"
+      },
+      "is_system": true
+    },
+    {
+      "slug": "code-review5",
+      "name": "Code Review",
+      "description": "AI-powered code review assistant",
+      "inputs": [
+        {
+          "name": "language",
+          "required": false,
+          "default": "go",
+          "description": "Programming language",
+          "type": "IST_CHOICE",
+          "options": [
+            "go",
+            "python",
+            "java"
+          ]
+        },
+        {
+          "name": "style",
+          "required": false,
+          "default": "standard",
+          "description": "Code style guide",
+          "type": "IST_STRING",
+          "options": []
+        },
+        {
+          "name": "strict",
+          "required": false,
+          "default": "false",
+          "description": "Enable strict mode",
+          "type": "IST_BOOL",
+          "options": []
+        }
+      ],
+      "instructions_template": "Review the code for quality and best practices.\n\nSystem-level review rules apply.\n",
+      "definition_repo": {
+        "org_slug": "yandex",
+        "repo_slug": "system-skills2"
+      },
+      "import_repo": {
+        "org_slug": "yandex",
+        "repo_slug": "system-skills"
+      },
+      "is_system": true
+    },
+    {
+      "slug": "documentation",
+      "name": "Documentation Generator",
+      "description": "Generate documentation",
+      "inputs": [],
+      "instructions_template": "Generate comprehensive documentation.\n",
+      "definition_repo": {
+        "org_slug": "yandex",
+        "repo_slug": "system-skills"
+      },
+      "is_system": true
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 157113672,
+    "node_id": "MDU6TGFiZWwxNTcxMTM2NzI=",
+    "url": "https://api.github.com/repos/vi34/Proxy-Server/labels/bug",
+    "name": "bug",
+    "color": "fc2929",
+    "default": true,
+    "description": null
+  },
+  {
+    "id": 157113673,
+    "node_id": "MDU6TGFiZWwxNTcxMTM2NzM=",
+    "url": "https://api.github.com/repos/vi34/Proxy-Server/labels/duplicate",
+    "name": "duplicate",
+    "color": "cccccc",
+    "default": true,
+    "description": null
+  },
+  {
+    "id": 157113674,
+    "node_id": "MDU6TGFiZWwxNTcxMTM2NzQ=",
+    "url": "https://api.github.com/repos/vi34/Proxy-Server/labels/enhancement",
+    "name": "enhancement",
+    "color": "84b6eb",
+    "default": true,
+    "description": null
+  },
+  {
+    "id": 157113675,
+    "node_id": "MDU6TGFiZWwxNTcxMTM2NzU=",
+    "url": "https://api.github.com/repos/vi34/Proxy-Server/labels/help%20wanted",
+    "name": "help wanted",
+    "color": "159818",
+    "default": true,
+    "description": null
+  },
+  {
+    "id": 157113676,
+    "node_id": "MDU6TGFiZWwxNTcxMTM2NzY=",
+    "url": "https://api.github.com/repos/vi34/Proxy-Server/labels/invalid",
+    "name": "invalid",
+    "color": "e6e6e6",
+    "default": true,
+    "description": null
+  },
+  {
+    "id": 157113677,
+    "node_id": "MDU6TGFiZWwxNTcxMTM2Nzc=",
+    "url": "https://api.github.com/repos/vi34/Proxy-Server/labels/question",
+    "name": "question",
+    "color": "cc317c",
+    "default": true,
+    "description": null
+  },
+  {
+    "id": 157113678,
+    "node_id": "MDU6TGFiZWwxNTcxMTM2Nzg=",
+    "url": "https://api.github.com/repos/vi34/Proxy-Server/labels/wontfix",
+    "name": "wontfix",
+    "color": "ffffff",
+    "default": true,
+    "description": null
+  }
+]

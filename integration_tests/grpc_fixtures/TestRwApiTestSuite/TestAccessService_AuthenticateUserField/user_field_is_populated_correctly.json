@@ -1,0 +1,14 @@
+{
+  "subject":  {
+    "type":  "USER",
+    "id":  "3"
+  },
+  "user":  {
+    "id":  "3",
+    "identity":  {
+      "id":  "slowpoke",
+      "src":  "IDP_IAM"
+    },
+    "public_id":  "019875fa-bb64-7d1b-9775-4f8b728d29ac"
+  }
+}

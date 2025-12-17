@@ -1,0 +1,113 @@
+{
+  "pull_requests":  [
+    {
+      "id":  "72264046304362497",
+      "title":  "1 - alpha",
+      "author_id":  "6",
+      "repo_id":  "1",
+      "pr_status":  "OPEN",
+      "created_at":  "2025-05-13T12:38:48.105951Z",
+      "updated_at":  "2025-05-13T12:38:48.141844Z",
+      "reviewers":  [
+        {
+          "user_id":  "2",
+          "created_at":  "2025-05-13T12:38:48.136330Z",
+          "updated_at":  "2025-05-13T12:38:48.136330Z"
+        },
+        {
+          "user_id":  "5",
+          "created_at":  "2025-05-13T12:38:48.136330Z",
+          "updated_at":  "2025-05-13T12:38:48.136330Z"
+        }
+      ],
+      "reviewers_revision":  {
+        "value":  "2",
+        "count":  2
+      },
+      "comments_count":  0,
+      "ships_count":  0,
+      "blocks_count":  0,
+      "pr_revision":  {
+        "value":  "1",
+        "count":  0
+      },
+      "public_id":  "1",
+      "linked_issues":  [],
+      "fork_repo_id":  "1",
+      "fork_repo_full_slug":  "yandex/alpha"
+    },
+    {
+      "id":  "72264046404960257",
+      "title":  "2 - alpha",
+      "author_id":  "6",
+      "repo_id":  "1",
+      "pr_status":  "OPEN",
+      "created_at":  "2025-05-13T12:38:48.162913Z",
+      "updated_at":  "2025-05-13T12:38:48.190420Z",
+      "reviewers":  [
+        {
+          "user_id":  "8",
+          "created_at":  "2025-05-13T12:38:48.179104Z",
+          "updated_at":  "2025-05-13T12:38:48.179104Z"
+        },
+        {
+          "user_id":  "3",
+          "created_at":  "2025-05-13T12:38:48.179104Z",
+          "updated_at":  "2025-05-13T12:38:48.179104Z"
+        }
+      ],
+      "reviewers_revision":  {
+        "value":  "2",
+        "count":  2
+      },
+      "comments_count":  0,
+      "ships_count":  0,
+      "blocks_count":  0,
+      "pr_revision":  {
+        "value":  "1",
+        "count":  0
+      },
+      "public_id":  "2",
+      "linked_issues":  [],
+      "fork_repo_id":  "1",
+      "fork_repo_full_slug":  "yandex/alpha"
+    },
+    {
+      "id":  "72264046472069121",
+      "title":  "3 - alpha",
+      "author_id":  "2",
+      "repo_id":  "1",
+      "pr_status":  "OPEN",
+      "created_at":  "2025-05-13T12:38:48.204218Z",
+      "updated_at":  "2025-05-13T12:38:48.229363Z",
+      "reviewers":  [
+        {
+          "user_id":  "6",
+          "created_at":  "2025-05-13T12:38:48.218395Z",
+          "updated_at":  "2025-05-13T12:38:48.218395Z"
+        }
+      ],
+      "reviewers_revision":  {
+        "value":  "2",
+        "count":  1
+      },
+      "comments_count":  0,
+      "ships_count":  0,
+      "blocks_count":  0,
+      "pr_revision":  {
+        "value":  "1",
+        "count":  0
+      },
+      "public_id":  "3",
+      "linked_issues":  [],
+      "fork_repo_id":  "1",
+      "fork_repo_full_slug":  "yandex/alpha"
+    }
+  ],
+  "revision":  {
+    "value":  "3",
+    "count":  3
+  },
+  "prev_page_token":  "",
+  "next_page_token":  ""
+}

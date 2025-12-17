@@ -1,0 +1,80 @@
+{
+  "Code": 200,
+  "Payload": {
+    "issues": [
+      {
+        "assignee": {
+          "id": "0198b19b-a523-7d60-9478-8f7326a306f9",
+          "slug": "slowpoke"
+        },
+        "author": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "created_at": "2025-08-18T22:25:45.992504Z",
+        "description": "Issue description",
+        "id": "0198bf49-de08-7755-8332-c1426f3ac8c6",
+        "labels": [
+          {
+            "color": "grey",
+            "id": "0198bf49-ddb1-7d7b-a137-b3cfcf4a27db",
+            "name": "Task",
+            "slug": "task"
+          }
+        ],
+        "linked_prs": [],
+        "milestone": {
+          "id": "0198bf49-dda5-7cf2-934d-eae1cb9172ad",
+          "slug": "milestone1"
+        },
+        "priority": "normal",
+        "slug": "3",
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "slug": "open",
+          "status_type": "initial"
+        },
+        "title": "%Issue3",
+        "updated_at": "2025-08-18T22:25:45.992504Z",
+        "updated_by": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "visibility": "public"
+      },
+      {
+        "assignee": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "author": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "created_at": "2025-08-18T22:25:46.053820Z",
+        "description": "Issue description",
+        "id": "0198bf49-de45-7c34-935c-1a15c67df032",
+        "labels": [],
+        "linked_prs": [],
+        "priority": "trivial",
+        "slug": "5",
+        "started_at": "2025-08-18T22:25:46.053263Z",
+        "status": {
+          "id": "2",
+          "name": "In progress",
+          "slug": "inProgress",
+          "status_type": "in_progress"
+        },
+        "title": "issue5",
+        "updated_at": "2025-08-18T22:25:46.053820Z",
+        "updated_by": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "visibility": "public"
+      }
+    ],
+    "next_page_token": ""
+  }
+}

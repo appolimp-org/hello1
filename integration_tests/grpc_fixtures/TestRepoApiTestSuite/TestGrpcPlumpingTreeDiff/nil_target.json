@@ -1,0 +1,137 @@
+{
+  "tree_entries": [
+    {
+      "source": {
+        "path": "dir1",
+        "type": "ENTRY_TYPE_DIR"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir1/file1.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir1/file2.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir1/file3.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir3",
+        "type": "ENTRY_TYPE_DIR"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir3/file1.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir3/file2.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir3/file3.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir4",
+        "type": "ENTRY_TYPE_DIR"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir4/file1.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir4/file2.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir4/file3.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir5",
+        "type": "ENTRY_TYPE_DIR"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir5/dir_to_file",
+        "type": "ENTRY_TYPE_DIR"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir5/dir_to_file/file2.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "dir5/file_to_dir",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "file1.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "file2.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "source": {
+        "path": "file3.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    }
+  ]
+}

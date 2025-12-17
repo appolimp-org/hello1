@@ -1,0 +1,30 @@
+{
+  "Code": 201,
+  "Payload": {
+    "clone_url": {
+      "https": "http://git@localhost:8081/yandex/opt.git",
+      "ssh": "ssh://localhost:2222/yandex/opt.git"
+    },
+    "counters": {
+      "branches": "1",
+      "forks": "0",
+      "issues": "0",
+      "pull_requests": "0",
+      "tags": "0"
+    },
+    "default_branch": "default/branch",
+    "description": "opt",
+    "id": "0197a2f0-6364-7772-8a81-c57121f74066",
+    "is_empty": false,
+    "last_updated": "2025-06-24T17:15:52.635387Z",
+    "links": [],
+    "name": "opt",
+    "organization": {
+      "id": "01978d8b-5372-7dcb-a94b-850c4712572f",
+      "slug": "yandex"
+    },
+    "slug": "opt",
+    "template_type": "not_a_template",
+    "visibility": "public"
+  }
+}

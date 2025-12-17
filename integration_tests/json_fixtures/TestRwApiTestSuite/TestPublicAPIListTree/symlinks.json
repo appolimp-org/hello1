@@ -1,0 +1,33 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "trees": [
+      {
+        "name": "another-link-to-the-same-file.txt",
+        "path": "another-link-to-the-same-file.txt",
+        "type": "symlink"
+      },
+      {
+        "name": "file-linked-to-not-exist.txt",
+        "path": "file-linked-to-not-exist.txt",
+        "type": "symlink"
+      },
+      {
+        "name": "file-linked.txt",
+        "path": "file-linked.txt",
+        "type": "symlink"
+      },
+      {
+        "name": "file-origin-2.txt",
+        "path": "file-origin-2.txt",
+        "type": "file"
+      },
+      {
+        "name": "file-origin.txt",
+        "path": "file-origin.txt",
+        "type": "file"
+      }
+    ]
+  }
+}

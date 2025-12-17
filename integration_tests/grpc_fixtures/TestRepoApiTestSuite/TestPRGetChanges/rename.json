@@ -1,0 +1,68 @@
+{
+  "tree_diffs":  [
+    {
+      "paths":  {
+        "target":  ".gitmodules",
+        "source":  ".gitmodules"
+      },
+      "type":  "FILE",
+      "status":  "MODIFIED"
+    },
+    {
+      "paths":  {
+        "target":  "renamed_dir",
+        "source":  "renamed_dir"
+      },
+      "type":  "DIR",
+      "status":  "MODIFIED"
+    },
+    {
+      "paths":  {
+        "target":  "renamed_dir/inner",
+        "source":  "renamed_dir/inner2"
+      },
+      "type":  "DIR",
+      "status":  "RENAMED"
+    },
+    {
+      "paths":  {
+        "target":  "renamed_dir/inner/3.txt",
+        "source":  "renamed_dir/inner2/3.txt"
+      },
+      "type":  "FILE",
+      "status":  "RENAMED"
+    },
+    {
+      "paths":  {
+        "target":  "renamed_dir/partial_notok",
+        "source":  ""
+      },
+      "type":  "FILE",
+      "status":  "DELETED"
+    },
+    {
+      "paths":  {
+        "target":  "",
+        "source":  "renamed_dir/partial_notok_2"
+      },
+      "type":  "FILE",
+      "status":  "ADDED"
+    },
+    {
+      "paths":  {
+        "target":  "renamed_dir/partial_ok",
+        "source":  "renamed_dir/partial_ok_2"
+      },
+      "type":  "FILE",
+      "status":  "RENAMED_MODIFIED"
+    },
+    {
+      "paths":  {
+        "target":  "subdir",
+        "source":  ""
+      },
+      "type":  "SUBMODULE",
+      "status":  "DELETED"
+    }
+  ]
+}

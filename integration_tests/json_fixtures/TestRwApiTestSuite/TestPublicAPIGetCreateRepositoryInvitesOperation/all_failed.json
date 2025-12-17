@@ -1,0 +1,40 @@
+{
+  "Code": 200,
+  "Payload": {
+    "created_at": "2025-12-08T16:26:41.824338Z",
+    "modified_at": "2025-12-08T16:26:41.824338Z",
+    "operation_id": "",
+    "response": {
+      "added_users": [],
+      "errors": [
+        {
+          "error_code": "InviteeHasAlreadyJoined",
+          "invitee": {
+            "email": "fail1@example.com",
+            "slug": ""
+          },
+          "message": "Invited user is already a member"
+        },
+        {
+          "error_code": "InviteeHasAlreadyJoined",
+          "invitee": {
+            "email": "fail2@example.com",
+            "slug": ""
+          },
+          "message": "Invited user is already a member"
+        },
+        {
+          "error_code": "InviteAlreadyCreated",
+          "invitee": {
+            "email": "",
+            "slug": ""
+          },
+          "message": "Invite to this user already exists"
+        }
+      ],
+      "invites": []
+    },
+    "status": "success",
+    "status_url": "/repos/by-id/019afec9-6038-7eaf-a5fd-ed1873a2ffec/operations/create-invites/all_failed__________"
+  }
+}

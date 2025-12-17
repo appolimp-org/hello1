@@ -1,0 +1,19 @@
+{
+  "commit":  {
+    "hash":  "983c83f8ff052de96a0787793fc31b920abfbeb6",
+    "message":  "TSK-084[internal]: Add new file",
+    "parent_hashes":  [
+      "36bc7e4edeaa6c65aa617ce05ad28c3c207f5116"
+    ],
+    "author":  {
+      "name":  "kopatych",
+      "email":  "kopatych@sourcecraft.dev",
+      "date":  "2025-05-27T11:21:31Z"
+    },
+    "committer":  {
+      "name":  "kopatych",
+      "email":  "kopatych@sourcecraft.dev",
+      "date":  "2025-05-27T11:21:31Z"
+    }
+  }
+}

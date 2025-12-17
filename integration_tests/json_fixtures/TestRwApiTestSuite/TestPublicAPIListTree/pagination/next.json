@@ -1,0 +1,53 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "trees": [
+      {
+        "name": "gog5.txt",
+        "path": "foo/bar/vendor/gog5.txt",
+        "type": "file"
+      },
+      {
+        "name": "barer.txt",
+        "path": "foo/bar/barer.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog.txt",
+        "path": "foo/bar/gog.txt",
+        "type": "file"
+      },
+      {
+        "name": "baz",
+        "path": "foo/baz",
+        "type": "dir"
+      },
+      {
+        "name": "barer.txt",
+        "path": "foo/baz/barer.txt",
+        "type": "file"
+      },
+      {
+        "name": "fooer.txt",
+        "path": "foo/fooer.txt",
+        "type": "file"
+      },
+      {
+        "name": "fooer2.txt",
+        "path": "foo/fooer2.txt",
+        "type": "file"
+      },
+      {
+        "name": "fooer3.txt",
+        "path": "foo/fooer3.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog.txt",
+        "path": "foo/gog.txt",
+        "type": "file"
+      }
+    ]
+  }
+}

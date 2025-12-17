@@ -1,0 +1,22 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "g6dDb2x1bW5zkYOkTmFtZaFfqURpcmVjdGlvbsKlVmFsdWXTAVbxht4AAAGpRGlyZWN0aW9uwqpDbG91ZFRva2VuwA",
+    "subject_roles": [
+      {
+        "role": "repo_role_unspecified",
+        "subject": {
+          "id": "019a27a2-ae1a-734f-a56a-c55fe18a8448",
+          "type": "user"
+        }
+      },
+      {
+        "role": "admin",
+        "subject": {
+          "id": "019a27a2-a5af-7528-b6cb-ba50d30e2338",
+          "type": "user"
+        }
+      }
+    ]
+  }
+}

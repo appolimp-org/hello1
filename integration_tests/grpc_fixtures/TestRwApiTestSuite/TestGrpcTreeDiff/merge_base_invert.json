@@ -1,0 +1,20 @@
+{
+  "tree_diffs": [
+    {
+      "paths": {
+        "target": "",
+        "source": "vendor"
+      },
+      "type": "DIR",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "vendor/foo.go"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    }
+  ]
+}

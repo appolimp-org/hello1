@@ -1,0 +1,31 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "g6dDb2x1bW5zkoOkTmFtZaRuYW1lqURpcmVjdGlvbsKlVmFsdWWvcmVmcy90YWdzL3YyLmIxg6ROYW1loV-pRGlyZWN0aW9uwqVWYWx1ZcQUmrRSWFrW2uFDVgJ9WWxaBOcD3s2pRGlyZWN0aW9uwqpDbG91ZFRva2VuwA",
+    "tags": [
+      {
+        "commit": {
+          "author": {
+            "date": "2024-02-19T12:01:40Z",
+            "email": "author@example.com",
+            "name": "Author"
+          },
+          "committer": {
+            "date": "2024-02-19T12:01:40Z",
+            "email": "committer@example.com",
+            "name": "Commiter"
+          },
+          "hash": "9ab452585ad6dae14356027d596c5a04e703decd",
+          "merge_tag": "",
+          "message": "b1\n",
+          "parent_hashes": [
+            "39427c55a3c59b91b11b5c1413033ebb85f84364"
+          ],
+          "tree_hash": "0000000000000000000000000000000000000000"
+        },
+        "name": "v2.b1",
+        "target": "9ab452585ad6dae14356027d596c5a04e703decd"
+      }
+    ]
+  }
+}

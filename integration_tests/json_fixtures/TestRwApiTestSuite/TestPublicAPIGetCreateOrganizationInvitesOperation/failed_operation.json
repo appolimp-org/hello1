@@ -1,0 +1,15 @@
+{
+  "Code": 200,
+  "Payload": {
+    "created_at": "2025-12-08T16:04:38.733610Z",
+    "error": {
+      "details": {},
+      "error_code": "Internal",
+      "message": "Internal: some error"
+    },
+    "modified_at": "2025-12-08T16:04:38.733610Z",
+    "operation_id": "failed_operation____",
+    "status": "success",
+    "status_url": "/orgs/id:019afeb1-e542-79c7-bc29-a05c2cfad234/operations/create-invites/failed_operation____"
+  }
+}

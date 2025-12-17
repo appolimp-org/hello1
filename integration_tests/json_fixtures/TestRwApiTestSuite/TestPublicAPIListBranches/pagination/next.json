@@ -1,0 +1,28 @@
+{
+  "Code": 200,
+  "Payload": {
+    "branches": [
+      {
+        "commit": {
+          "author": {
+            "date": "2024-02-19T12:00:00Z",
+            "email": "author@example.com",
+            "name": "Author"
+          },
+          "committer": {
+            "date": "2024-02-19T12:00:00Z",
+            "email": "committer@example.com",
+            "name": "Commiter"
+          },
+          "hash": "8bbd66694d34c3d512e97322df58c9114bfc18dd",
+          "merge_tag": "",
+          "message": "base\n",
+          "parent_hashes": [],
+          "tree_hash": "0000000000000000000000000000000000000000"
+        },
+        "name": "main"
+      }
+    ],
+    "next_page_token": ""
+  }
+}

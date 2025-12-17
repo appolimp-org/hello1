@@ -1,0 +1,180 @@
+{
+  "tree_diffs": [
+    {
+      "paths": {
+        "target": "",
+        "source": "dir1"
+      },
+      "type": "DIR",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "dir1/file1.txt"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "dir1/file2.txt"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "dir1/file3.txt"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "dir2",
+        "source": ""
+      },
+      "type": "DIR",
+      "status": "DELETED"
+    },
+    {
+      "paths": {
+        "target": "dir2/file1.txt",
+        "source": ""
+      },
+      "type": "FILE",
+      "status": "DELETED"
+    },
+    {
+      "paths": {
+        "target": "dir2/file2.txt",
+        "source": ""
+      },
+      "type": "FILE",
+      "status": "DELETED"
+    },
+    {
+      "paths": {
+        "target": "dir2/file3.txt",
+        "source": ""
+      },
+      "type": "FILE",
+      "status": "DELETED"
+    },
+    {
+      "paths": {
+        "target": "dir3",
+        "source": "dir3"
+      },
+      "type": "DIR",
+      "status": "MODIFIED"
+    },
+    {
+      "paths": {
+        "target": "dir3/file1.txt",
+        "source": "dir3/file1.txt"
+      },
+      "type": "FILE",
+      "status": "MODIFIED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "dir3/file3.txt"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "dir3/file4.txt",
+        "source": ""
+      },
+      "type": "FILE",
+      "status": "DELETED"
+    },
+    {
+      "paths": {
+        "target": "dir5",
+        "source": "dir5"
+      },
+      "type": "DIR",
+      "status": "MODIFIED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "dir5/dir_to_file"
+      },
+      "type": "DIR",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "dir5/dir_to_file",
+        "source": ""
+      },
+      "type": "FILE",
+      "status": "DELETED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "dir5/dir_to_file/file2.txt"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "dir5/file_to_dir"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "dir5/file_to_dir",
+        "source": ""
+      },
+      "type": "DIR",
+      "status": "DELETED"
+    },
+    {
+      "paths": {
+        "target": "dir5/file_to_dir/file1.txt",
+        "source": ""
+      },
+      "type": "FILE",
+      "status": "DELETED"
+    },
+    {
+      "paths": {
+        "target": "file1.txt",
+        "source": "file1.txt"
+      },
+      "type": "FILE",
+      "status": "MODIFIED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "file3.txt"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "file4.txt",
+        "source": ""
+      },
+      "type": "FILE",
+      "status": "DELETED"
+    }
+  ]
+}

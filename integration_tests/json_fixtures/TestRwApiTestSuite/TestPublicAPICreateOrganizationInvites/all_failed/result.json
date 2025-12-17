@@ -1,0 +1,31 @@
+{
+  "Code": 200,
+  "Payload": {
+    "created_at": "2025-12-08T15:58:06.739018Z",
+    "modified_at": "2025-12-08T15:58:06.767557Z",
+    "operation_id": "aengwsmbxqg8nmnl2o60",
+    "response": {
+      "errors": [
+        {
+          "error_code": "UnknownInviteError",
+          "invitee": {
+            "email": "fail1@example.com",
+            "slug": ""
+          },
+          "message": "IAM rejected creation of the invite"
+        },
+        {
+          "error_code": "UnknownInviteError",
+          "invitee": {
+            "email": "fail2@example.com",
+            "slug": ""
+          },
+          "message": "IAM rejected creation of the invite"
+        }
+      ],
+      "invites": []
+    },
+    "status": "success",
+    "status_url": "/orgs/id:019afeaf-326f-7aed-808a-8c6a196d6c47/operations/create-invites/aengwsmbxqg8nmnl2o60"
+  }
+}

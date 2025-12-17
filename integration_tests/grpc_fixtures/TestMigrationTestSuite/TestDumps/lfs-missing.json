@@ -1,0 +1,43 @@
+{
+  "status": "STATUS_SUCCESS",
+  "steps": [
+    {
+      "step": "STEP_CODE",
+      "status": "STATUS_SUCCESS",
+      "total": 1,
+      "processed": 1,
+      "errors": [
+        {
+          "error_type": "MIGRATION_ERROR_ENTITY_INACCESSIBLE",
+          "entity_type": "ENTITY_LFS_OBJECT",
+          "entity_url": "3dc49873215105dec45fe2770155fd902b17f7b6079d29028ba0eead0eb63bfc"
+        }
+      ]
+    },
+    {
+      "step": "STEP_ISSUES",
+      "status": "STATUS_SUCCESS",
+      "total": 0,
+      "processed": 0,
+      "errors": []
+    },
+    {
+      "step": "STEP_PR_MIGRATION",
+      "status": "STATUS_SUCCESS",
+      "total": 0,
+      "processed": 0,
+      "errors": []
+    },
+    {
+      "step": "STEP_COMMENTS",
+      "status": "STATUS_SUCCESS",
+      "total": -1,
+      "processed": 0,
+      "errors": []
+    }
+  ],
+  "repo_id": "94901511154302977",
+  "started_at": "2025-10-16T16:41:48.687869Z",
+  "finished_at": "2025-10-16T16:41:57.735499Z",
+  "validation_id": "aengm71onz07ry1luf2c"
+}

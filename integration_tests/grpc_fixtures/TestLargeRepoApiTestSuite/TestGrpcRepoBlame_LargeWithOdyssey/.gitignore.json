@@ -1,0 +1,556 @@
+{
+  "ranges":  [
+    {
+      "old_begin":  1,
+      "old_lines_count":  1,
+      "new_begin":  1,
+      "new_lines_count":  1,
+      "commit_hash":  "331f3693aadf5131f202e8beaada842f0bf759ba",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  2,
+      "old_lines_count":  2,
+      "new_begin":  2,
+      "new_lines_count":  2,
+      "commit_hash":  "6a434638823c4639b79d0fc7deca5dc79d005216",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  4,
+      "old_lines_count":  1,
+      "new_begin":  4,
+      "new_lines_count":  1,
+      "commit_hash":  "debfd09d8ebbb431b48ca4dba7fdd732482c59ab",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  5,
+      "old_lines_count":  1,
+      "new_begin":  5,
+      "new_lines_count":  1,
+      "commit_hash":  "0933d1ebb3ea0b7f3107e5841eb7b67e6e2cd92c",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  6,
+      "old_lines_count":  1,
+      "new_begin":  6,
+      "new_lines_count":  1,
+      "commit_hash":  "71c98b23a8872aed85d6bc76a198e00ebe0f1fdd",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  6,
+      "old_lines_count":  2,
+      "new_begin":  7,
+      "new_lines_count":  2,
+      "commit_hash":  "0933d1ebb3ea0b7f3107e5841eb7b67e6e2cd92c",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  9,
+      "old_lines_count":  1,
+      "new_begin":  9,
+      "new_lines_count":  1,
+      "commit_hash":  "f0ee140956ff703c4fdde7e9055bfde5ec093203",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  2,
+      "old_lines_count":  1,
+      "new_begin":  10,
+      "new_lines_count":  1,
+      "commit_hash":  "f108dcba09e37f618c218d3faa4ba7a592a335bf",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  6,
+      "old_lines_count":  1,
+      "new_begin":  11,
+      "new_lines_count":  1,
+      "commit_hash":  "c6542d7003e98780297750a952ff97ab3a08d67f",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  6,
+      "old_lines_count":  1,
+      "new_begin":  12,
+      "new_lines_count":  1,
+      "commit_hash":  "7e0cf28b7927e4884d6764e5d5c5e1106ee557d1",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  7,
+      "old_lines_count":  1,
+      "new_begin":  13,
+      "new_lines_count":  1,
+      "commit_hash":  "8518e9a959a0c7038d4a8ed27ce50bfda67f6698",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  9,
+      "old_lines_count":  1,
+      "new_begin":  14,
+      "new_lines_count":  1,
+      "commit_hash":  "95f174003117018073ab16d4c57478d19d6cab5b",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  7,
+      "old_lines_count":  2,
+      "new_begin":  15,
+      "new_lines_count":  2,
+      "commit_hash":  "64fb6c1f47c587f542ce70180d6a96bc919f0c52",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  15,
+      "old_lines_count":  1,
+      "new_begin":  17,
+      "new_lines_count":  1,
+      "commit_hash":  "c95f0bce191f09cb55a79016d2f7fc160b73fb8f",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  9,
+      "old_lines_count":  2,
+      "new_begin":  18,
+      "new_lines_count":  2,
+      "commit_hash":  "64fb6c1f47c587f542ce70180d6a96bc919f0c52",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  13,
+      "old_lines_count":  1,
+      "new_begin":  20,
+      "new_lines_count":  1,
+      "commit_hash":  "debfd09d8ebbb431b48ca4dba7fdd732482c59ab",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  15,
+      "old_lines_count":  1,
+      "new_begin":  21,
+      "new_lines_count":  1,
+      "commit_hash":  "bc568250bf66101ce6d8b844f30fb5d12f12424c",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  16,
+      "old_lines_count":  1,
+      "new_begin":  22,
+      "new_lines_count":  1,
+      "commit_hash":  "0709d7eb26501ac655853e8d60f0237fb055cf39",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  17,
+      "old_lines_count":  1,
+      "new_begin":  23,
+      "new_lines_count":  1,
+      "commit_hash":  "785e85ab6f9d0e1c80208118b4f9bfe46c63a399",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  24,
+      "old_lines_count":  1,
+      "new_begin":  24,
+      "new_lines_count":  1,
+      "commit_hash":  "8a3831b082a8aca8e7ca90723e43e0022e237fdd",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  25,
+      "old_lines_count":  1,
+      "new_begin":  25,
+      "new_lines_count":  1,
+      "commit_hash":  "d8b0cee67cdf69b5e8936047965f7cf878e64285",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  26,
+      "old_lines_count":  2,
+      "new_begin":  26,
+      "new_lines_count":  2,
+      "commit_hash":  "74623edfb5b29bb8ec5b073b1b2e85ad4a669730",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  27,
+      "old_lines_count":  3,
+      "new_begin":  28,
+      "new_lines_count":  3,
+      "commit_hash":  "ac6fe08e02cebcea259b2630a5a5217453860767",
+      "reblame_path":  ".gitignore"
+    },
+    {
+      "old_begin":  31,
+      "old_lines_count":  1,
+      "new_begin":  31,
+      "new_lines_count":  1,
+      "commit_hash":  "9a423940b9dc04d17e3a4fbd975f3e5d6acc4ae0",
+      "reblame_path":  ".gitignore"
+    }
+  ],
+  "commits": [
+    {
+      "hash": "331f3693aadf5131f202e8beaada842f0bf759ba",
+      "message": "odissey: add .gitignore file\n",
+      "parent_commits": [
+        "ce7d5a085e457b57de2040ea344073f57a39d5cb"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2016-11-07T10:00:37Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2016-11-07T10:00:37Z"
+      }
+    },
+    {
+      "hash": "6a434638823c4639b79d0fc7deca5dc79d005216",
+      "message": "odyssey: update .gitignore\n",
+      "parent_commits": [
+        "ca78d63fdbcf21ecca4f486783e1705e1e668694"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-26T14:54:16Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-26T14:54:16Z"
+      }
+    },
+    {
+      "hash": "debfd09d8ebbb431b48ca4dba7fdd732482c59ab",
+      "message": "Add PAM auth support\n",
+      "parent_commits": [
+        "7681160dd1a5c004bc207d7b753fa5c0d812bcda"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2019-09-09T09:17:41Z"
+      },
+      "commiter": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2019-09-26T08:54:53Z"
+      }
+    },
+    {
+      "hash": "0933d1ebb3ea0b7f3107e5841eb7b67e6e2cd92c",
+      "message": "better\n",
+      "parent_commits": [
+        "73f10f7b6cce7ffda52934d4f4c578a41cfdf125"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2020-12-30T13:44:19Z"
+      },
+      "commiter": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2020-12-30T13:49:34Z"
+      }
+    },
+    {
+      "hash": "71c98b23a8872aed85d6bc76a198e00ebe0f1fdd",
+      "message": "fix a couple of coverity issues\n",
+      "parent_commits": [
+        "9216f1d2f262304e0517086ee5402d827147fc99"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-05-20T13:05:17Z"
+      },
+      "commiter": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-05-20T13:13:05Z"
+      }
+    },
+    {
+      "hash": "f0ee140956ff703c4fdde7e9055bfde5ec093203",
+      "message": " Fix memory leaks with system server shutdown, fix prepared statemnet memeory leak (#458)\n\nFix memory leaks with system server shutdown. \r\nFix prepared statemnet memeory leak. \r\nSkip volatile param caching.",
+      "parent_commits": [
+        "40414018169b4d8fdd2cfa1aa6036ef591a1ec0f"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "reshke@double.cloud",
+        "date": "2022-08-23T13:39:43Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-08-23T13:39:43Z"
+      }
+    },
+    {
+      "hash": "f108dcba09e37f618c218d3faa4ba7a592a335bf",
+      "message": "odyssey: project rename\n",
+      "parent_commits": [
+        "b8f60f56de51d1a673da2afe7f946f9b081dbf64"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-12T14:03:15Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-12T14:03:15Z"
+      }
+    },
+    {
+      "hash": "c6542d7003e98780297750a952ff97ab3a08d67f",
+      "message": "odyssey: post merge fixes\n",
+      "parent_commits": [
+        "d84da24dc701d4e535f4082ba0f9dd4d07953a85"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2019-09-27T13:47:45Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2019-09-27T13:47:45Z"
+      }
+    },
+    {
+      "hash": "7e0cf28b7927e4884d6764e5d5c5e1106ee557d1",
+      "message": "odyssey: rename stress.c to odyssey_stress.c\n",
+      "parent_commits": [
+        "5ca3fa926a50337cac36e507849e6f80218720fb"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-04-04T13:34:10Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-04-04T13:34:10Z"
+      }
+    },
+    {
+      "hash": "8518e9a959a0c7038d4a8ed27ce50bfda67f6698",
+      "message": "odyssey: add initial odyssey test suite stub\n",
+      "parent_commits": [
+        "7e0cf28b7927e4884d6764e5d5c5e1106ee557d1"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-04-04T13:36:11Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-04-04T13:36:11Z"
+      }
+    },
+    {
+      "hash": "95f174003117018073ab16d4c57478d19d6cab5b",
+      "message": "Add integration tests for SCRAM Authentication (#78)\n\n* Add integration tests for SCRAM Authentication\r\n\r\n* Made tests independent of the postgresql version\r\n",
+      "parent_commits": [
+        "2262362349c734a367c04e1cc07f40a4f0055317"
+      ],
+      "author": {
+        "name": "Dima Starkov",
+        "email": "dvstark@yandex.ru",
+        "date": "2019-11-24T16:00:00Z"
+      },
+      "commiter": {
+        "name": "Andrey Borodin",
+        "email": "amborodin@acm.org",
+        "date": "2019-11-24T16:00:00Z"
+      }
+    },
+    {
+      "hash": "64fb6c1f47c587f542ce70180d6a96bc919f0c52",
+      "message": "Merge branch 'machinarium_merge'\n\nodyssey: merge machinarium into odyssey\n",
+      "parent_commits": [
+        "099468202194910db90da212aec318396d6d5429",
+        "eed0608914f78b284106d57a165aa84b4b410b73"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-29T11:32:18Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-29T11:32:18Z"
+      }
+    },
+    {
+      "hash": "c95f0bce191f09cb55a79016d2f7fc160b73fb8f",
+      "message": "one more bench on mm\n",
+      "parent_commits": [
+        "63f5b047d6b6de896a1219671734dda2b2e19ffd"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-04-30T15:03:19Z"
+      },
+      "commiter": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-04-30T15:11:50Z"
+      }
+    },
+    {
+      "hash": "bc568250bf66101ce6d8b844f30fb5d12f12424c",
+      "message": "odyssey tests with asan, little test refactor (#225)\n\n* odyssey tests with asan\r\n\r\n* better headers, rework test\r\n\r\nCo-authored-by: reshke <Kirill Reshke>",
+      "parent_commits": [
+        "a5f716025ce4478a704fd7d899484c04bdc01c7e"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2020-10-27T08:47:25Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-10-27T08:47:25Z"
+      }
+    },
+    {
+      "hash": "0709d7eb26501ac655853e8d60f0237fb055cf39",
+      "message": "fix cmake for version (#201)\n\n",
+      "parent_commits": [
+        "45111bf5e9c0806e020a51f28ef1bd46b5025079"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2020-08-04T04:00:14Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-08-04T04:00:14Z"
+      }
+    },
+    {
+      "hash": "785e85ab6f9d0e1c80208118b4f9bfe46c63a399",
+      "message": "Fix leaks and improve locking in cron (#229)\n\nAlso fix some warnings.",
+      "parent_commits": [
+        "dc9e2b03e7424c17dc1c7aa9472c58fc360c5c34"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2020-11-23T09:13:28Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-11-23T09:13:28Z"
+      }
+    },
+    {
+      "hash": "8a3831b082a8aca8e7ca90723e43e0022e237fdd",
+      "message": "Makefile build targets + quantileins memfree fix + online restart condition recheck (#261)\n\n",
+      "parent_commits": [
+        "23dafccc9565ffcd7863276946ae0c69eebc8d4a"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-01-14T06:54:16Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-01-14T06:54:16Z"
+      }
+    },
+    {
+      "hash": "d8b0cee67cdf69b5e8936047965f7cf878e64285",
+      "message": "fix local database conection stuck & tests (#262)\n\nCo-authored-by: reshke <Kirill Reshke>",
+      "parent_commits": [
+        "8a3831b082a8aca8e7ca90723e43e0022e237fdd"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-01-14T10:40:01Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-01-14T10:40:01Z"
+      }
+    },
+    {
+      "hash": "74623edfb5b29bb8ec5b073b1b2e85ad4a669730",
+      "message": "LDAP auth in od\n",
+      "parent_commits": [
+        "de71caf4abc9dd7c42281c6bad38eb84c635b8dc"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-04-21T13:11:18Z"
+      },
+      "commiter": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-04-28T12:54:56Z"
+      }
+    },
+    {
+      "hash": "ac6fe08e02cebcea259b2630a5a5217453860767",
+      "message": "Generate changelog with mdb@yandex-team.ru as cc (#388)\n\n",
+      "parent_commits": [
+        "56057468c044637ac3965e46c0e452c6c96ba985"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-12-10T11:13:48Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-12-10T11:13:48Z"
+      }
+    },
+    {
+      "hash": "9a423940b9dc04d17e3a4fbd975f3e5d6acc4ae0",
+      "message": "Added config testing (odyssey --test) (#537)\n\n* added configuration testing (odyssey --test)\r\n\r\n* fixes\r\n\r\n* fix names\r\n\r\n* fix names\r\n\r\n* apply fmt\r\n\r\n* start create tests\r\n\r\n* rebuild\r\n\r\n* tests done\r\n\r\n* --test no longer forks the process\r\n\r\n* config without rules is no longer valid\r\n\r\n* fix tests\r\n\r\n* fix storage_type tests\r\n\r\n* fix storage_tls tests\r\n\r\n* fix config-examples/odyssey-aq.conf\r\n\r\n* change .gitignore\r\n\r\n* rm .DS_Store",
+      "parent_commits": [
+        "5f4e64d110084cd8e73b2c2e25d062a8388b6ca2"
+      ],
+      "author": {
+        "name": "NikitaUnisikhin",
+        "email": "92248695+NikitaUnisikhin@users.noreply.github.com",
+        "date": "2023-11-10T09:57:22Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-11-10T09:57:22Z"
+      }
+    }
+  ]
+}

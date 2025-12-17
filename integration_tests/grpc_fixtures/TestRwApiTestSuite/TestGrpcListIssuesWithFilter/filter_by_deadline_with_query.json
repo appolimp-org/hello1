@@ -1,0 +1,72 @@
+{
+  "issues": [
+    {
+      "id": "84441383049691137",
+      "public_id": "1",
+      "title": "%issue1",
+      "description": "Issue description",
+      "repo_id": "84441382999293953",
+      "status_id": "1",
+      "priority": "PRIORITY_CRITICAL",
+      "author_id": "7",
+      "updated_by": "7",
+      "created_at": "2025-08-05T12:49:46.418799Z",
+      "updated_at": "2025-08-05T12:49:46.418799Z",
+      "deadline": "2024-01-01T00:00:00Z",
+      "assignee_id": "2",
+      "subscriber_ids": [],
+      "mention_ids": [],
+      "attachments_ids": [],
+      "milestone": {
+        "id": "84441383032586241",
+        "name": "Milestone2",
+        "slug": "milestone2",
+        "description": "",
+        "status": "STATUS_OPEN",
+        "author_id": "7",
+        "updated_by": "7",
+        "created_at": "2025-08-05T12:49:46.402243Z",
+        "updated_at": "2025-08-05T12:49:46.402243Z"
+      },
+      "labels": [
+        {
+          "id": "84441383032782849",
+          "name": "Task",
+          "slug": "task",
+          "color": "grey",
+          "author_id": "7",
+          "updated_by": "7",
+          "created_at": "2025-08-05T12:49:46.408530Z",
+          "updated_at": "2025-08-05T12:49:46.408530Z"
+        },
+        {
+          "id": "84441383049428993",
+          "name": "Bug",
+          "slug": "bug",
+          "color": "red",
+          "author_id": "7",
+          "updated_by": "7",
+          "created_at": "2025-08-05T12:49:46.413542Z",
+          "updated_at": "2025-08-05T12:49:46.413542Z"
+        }
+      ],
+      "reactions": {
+        "1": {
+          "count": 0,
+          "self_react": false
+        }
+      },
+      "comments_count": 0,
+      "linked_prs": [],
+      "visibility": "VISIBILITY_PUBLIC",
+      "effective_visibility": "VISIBILITY_UNSPECIFIED"
+    }
+  ],
+  "revision": {
+    "value": "5",
+    "count": 5
+  },
+  "prev_page_token": "",
+  "next_page_token": "",
+  "total": 1
+}

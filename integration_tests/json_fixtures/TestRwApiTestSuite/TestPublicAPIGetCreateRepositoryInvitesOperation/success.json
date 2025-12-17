@@ -1,0 +1,25 @@
+{
+  "Code": 200,
+  "Payload": {
+    "created_at": "2025-12-08T16:26:41.603368Z",
+    "modified_at": "2025-12-08T16:26:41.603368Z",
+    "operation_id": "",
+    "response": {
+      "added_users": [],
+      "errors": [],
+      "invites": [
+        {
+          "email": "test@example.com",
+          "id": "invite-1",
+          "status": "pending"
+        },
+        {
+          "id": "invite-2",
+          "status": "pending"
+        }
+      ]
+    },
+    "status": "success",
+    "status_url": "/repos/by-id/019afec9-6038-7eaf-a5fd-ed1873a2ffec/operations/create-invites/success_____________"
+  }
+}

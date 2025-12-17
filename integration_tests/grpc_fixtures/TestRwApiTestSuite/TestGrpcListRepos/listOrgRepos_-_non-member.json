@@ -1,0 +1,109 @@
+{
+  "repositories": [
+    {
+      "id": "101057666624782337",
+      "uuid": "019ac89c-13aa-74de-a3e5-488b1896624f",
+      "name": "a",
+      "default_branch": "master",
+      "org_slug": "corpb",
+      "slug": "a",
+      "is_empty": false,
+      "description": "a",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpb/a.git",
+        "ssh": "ssh://localhost:2222/corpb/a.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:43.572128Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057667329425409",
+      "uuid": "019ac89c-1550-72a7-a9a0-bdffc2159e22",
+      "name": "b",
+      "default_branch": "master",
+      "org_slug": "corpb",
+      "slug": "b",
+      "is_empty": false,
+      "description": "b",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpb/b.git",
+        "ssh": "ssh://localhost:2222/corpb/b.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:43.983514Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057668017291265",
+      "uuid": "019ac89c-16f0-7bf2-8f35-bc496b48c443",
+      "name": "c",
+      "default_branch": "master",
+      "org_slug": "corpb",
+      "slug": "c",
+      "is_empty": false,
+      "description": "c",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpb/c.git",
+        "ssh": "ssh://localhost:2222/corpb/c.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:44.421013Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    }
+  ],
+  "revision": {
+    "value": "8",
+    "count": 7
+  },
+  "prev_page_token": "",
+  "next_page_token": ""
+}

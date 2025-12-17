@@ -1,0 +1,143 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "trees": [
+      {
+        "name": "foo",
+        "path": "foo",
+        "type": "dir"
+      },
+      {
+        "name": "bam",
+        "path": "foo/bam",
+        "type": "dir"
+      },
+      {
+        "name": "bamer.txt",
+        "path": "foo/bam/bamer.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog.txt",
+        "path": "foo/bam/gog.txt",
+        "type": "file"
+      },
+      {
+        "name": "bar",
+        "path": "foo/bar",
+        "type": "dir"
+      },
+      {
+        "name": "vendor",
+        "path": "foo/bar/vendor",
+        "type": "dir"
+      },
+      {
+        "name": "gog.txt",
+        "path": "foo/bar/vendor/gog.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog1.txt",
+        "path": "foo/bar/vendor/gog1.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog2.txt",
+        "path": "foo/bar/vendor/gog2.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog3.txt",
+        "path": "foo/bar/vendor/gog3.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog4.txt",
+        "path": "foo/bar/vendor/gog4.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog5.txt",
+        "path": "foo/bar/vendor/gog5.txt",
+        "type": "file"
+      },
+      {
+        "name": "barer.txt",
+        "path": "foo/bar/barer.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog.txt",
+        "path": "foo/bar/gog.txt",
+        "type": "file"
+      },
+      {
+        "name": "baz",
+        "path": "foo/baz",
+        "type": "dir"
+      },
+      {
+        "name": "barer.txt",
+        "path": "foo/baz/barer.txt",
+        "type": "file"
+      },
+      {
+        "name": "fooer.txt",
+        "path": "foo/fooer.txt",
+        "type": "file"
+      },
+      {
+        "name": "fooer2.txt",
+        "path": "foo/fooer2.txt",
+        "type": "file"
+      },
+      {
+        "name": "fooer3.txt",
+        "path": "foo/fooer3.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog.txt",
+        "path": "foo/gog.txt",
+        "type": "file"
+      },
+      {
+        "name": "xxx",
+        "path": "xxx",
+        "type": "dir"
+      },
+      {
+        "name": "yyy",
+        "path": "xxx/yyy",
+        "type": "dir"
+      },
+      {
+        "name": "zzz",
+        "path": "xxx/yyy/zzz",
+        "type": "dir"
+      },
+      {
+        "name": "gog.txt",
+        "path": "xxx/yyy/zzz/gog.txt",
+        "type": "file"
+      },
+      {
+        "name": "unique.txt",
+        "path": "xxx/yyy/zzz/unique.txt",
+        "type": "file"
+      },
+      {
+        "name": "file1.txt",
+        "path": "file1.txt",
+        "type": "file"
+      },
+      {
+        "name": "file2.txt",
+        "path": "file2.txt",
+        "type": "file"
+      }
+    ]
+  }
+}

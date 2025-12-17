@@ -1,0 +1,204 @@
+{
+  "repositories": [
+    {
+      "id": "97041764359077889",
+      "uuid": "019a39ef-a899-7ae1-94f6-25b58e7ada59",
+      "name": "o",
+      "default_branch": "master",
+      "org_slug": "sourcecraft",
+      "slug": "o",
+      "is_empty": false,
+      "description": "o",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_ORGANIZATIONAL",
+      "clone_url": {
+        "https": "http://git@localhost:8081/sourcecraft/o.git",
+        "ssh": "ssh://localhost:2222/sourcecraft/o.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-10-31T11:03:19.139265Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "97041764744953857",
+      "uuid": "019a39ef-a97f-7586-bbc5-44d8aa1b7e5e",
+      "name": "dev",
+      "default_branch": "master",
+      "org_slug": "sourcecraft",
+      "slug": "dev",
+      "is_empty": false,
+      "description": "dev",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_ORGANIZATIONAL",
+      "clone_url": {
+        "https": "http://git@localhost:8081/sourcecraft/dev.git",
+        "ssh": "ssh://localhost:2222/sourcecraft/dev.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-10-31T11:03:19.363248Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "97041765114052609",
+      "uuid": "019a39ef-aa5d-70f2-a2fa-09d3dde47ee9",
+      "name": "aysya",
+      "default_branch": "master",
+      "org_slug": "sourcecraft",
+      "slug": "aysya",
+      "is_empty": false,
+      "description": "aysya",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_ORGANIZATIONAL",
+      "clone_url": {
+        "https": "http://git@localhost:8081/sourcecraft/aysya.git",
+        "ssh": "ssh://localhost:2222/sourcecraft/aysya.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-10-31T11:03:19.599777Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "97041765516705793",
+      "uuid": "019a39ef-ab4a-7df6-935d-7adc6e38e5a9",
+      "name": "githab",
+      "default_branch": "master",
+      "org_slug": "sourcecraft",
+      "slug": "githab",
+      "is_empty": false,
+      "description": "githab",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_ORGANIZATIONAL",
+      "clone_url": {
+        "https": "http://git@localhost:8081/sourcecraft/githab.git",
+        "ssh": "ssh://localhost:2222/sourcecraft/githab.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-10-31T11:03:19.826914Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "97041765902581761",
+      "uuid": "019a39ef-ac2c-70b3-8cc3-804be7f3b53c",
+      "name": "boysya",
+      "default_branch": "master",
+      "org_slug": "sourcecraft",
+      "slug": "boysya",
+      "is_empty": false,
+      "description": "boysya",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_ORGANIZATIONAL",
+      "clone_url": {
+        "https": "http://git@localhost:8081/sourcecraft/boysya.git",
+        "ssh": "ssh://localhost:2222/sourcecraft/boysya.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-10-31T11:03:20.049490Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "97041766271680513",
+      "uuid": "019a39ef-ad0b-7923-b4fc-1dd63eba6674",
+      "name": "souscrafta",
+      "default_branch": "master",
+      "org_slug": "sourcecraft",
+      "slug": "souscrafta",
+      "is_empty": false,
+      "description": "souscrafta",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_ORGANIZATIONAL",
+      "clone_url": {
+        "https": "http://git@localhost:8081/sourcecraft/souscrafta.git",
+        "ssh": "ssh://localhost:2222/sourcecraft/souscrafta.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-10-31T11:03:20.269720Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    }
+  ],
+  "prev_page_token": "",
+  "next_page_token": ""
+}

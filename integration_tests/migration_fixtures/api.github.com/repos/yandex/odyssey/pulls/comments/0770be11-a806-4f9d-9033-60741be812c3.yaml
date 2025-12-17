@@ -1,0 +1,61 @@
+status: 200 OK
+status_code: 200
+proto: HTTP/2.0
+proto_major: 2
+proto_minor: 0
+header:
+    Access-Control-Allow-Origin:
+        - '*'
+    Access-Control-Expose-Headers:
+        - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+    Cache-Control:
+        - private, max-age=60, s-maxage=60
+    Content-Security-Policy:
+        - default-src 'none'
+    Content-Type:
+        - application/json; charset=utf-8
+    Date:
+        - Thu, 16 Oct 2025 16:47:26 GMT
+    Etag:
+        - W/"c85cfe51f30d03d84d8b1b9368cbf390419eaebeabf610f16c1f1f006ce36132"
+    Link:
+        - <https://api.github.com/repositories/135175513/pulls/comments?page=4&per_page=100>; rel="prev", <https://api.github.com/repositories/135175513/pulls/comments?page=1&per_page=100>; rel="first"
+    Referrer-Policy:
+        - origin-when-cross-origin, strict-origin-when-cross-origin
+    Server:
+        - github.com
+    Strict-Transport-Security:
+        - max-age=31536000; includeSubdomains; preload
+    Vary:
+        - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+    X-Accepted-Oauth-Scopes:
+        - ""
+    X-Content-Type-Options:
+        - nosniff
+    X-Frame-Options:
+        - deny
+    X-Github-Api-Version-Selected:
+        - "2022-11-28"
+    X-Github-Media-Type:
+        - github.v3; param=squirrel-girl-preview.comfort-fade-preview
+    X-Github-Request-Id:
+        - 668C:38B4D9:556A56F:504FF4B:68F1219A
+    X-Oauth-Scopes:
+        - project, read:org, repo, user
+    X-Ratelimit-Limit:
+        - "5000"
+    X-Ratelimit-Remaining:
+        - "4877"
+    X-Ratelimit-Reset:
+        - "1760636275"
+    X-Ratelimit-Resource:
+        - core
+    X-Ratelimit-Used:
+        - "123"
+    X-Xss-Protection:
+        - "0"
+content_length: -1
+transfer_encoding: []
+close: false
+uncompressed: true
+trailer: {}

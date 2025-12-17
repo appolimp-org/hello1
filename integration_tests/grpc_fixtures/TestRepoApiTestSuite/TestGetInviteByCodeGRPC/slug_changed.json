@@ -1,0 +1,8 @@
+{
+  "id": "invite-anon-id",
+  "inviter_slug": "barash",
+  "org_slug": "yandex42",
+  "status": "PENDING",
+  "expires_at": "1970-01-01T00:00:00Z",
+  "created_at": "1970-01-01T00:00:00Z"
+}

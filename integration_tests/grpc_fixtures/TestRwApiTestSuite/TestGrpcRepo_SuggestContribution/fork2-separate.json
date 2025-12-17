@@ -1,0 +1,14 @@
+{
+  "suggests": [
+    {
+      "parent_branch": {
+        "repo_id": "1",
+        "branch_name": "master"
+      },
+      "parent_repo_full_slug": "yandex/alpha",
+      "pr_public_ids": [],
+      "ahead": 6,
+      "behind": 0
+    }
+  ]
+}

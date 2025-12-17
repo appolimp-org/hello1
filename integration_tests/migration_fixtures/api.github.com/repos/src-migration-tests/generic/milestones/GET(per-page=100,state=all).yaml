@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/src-migration-tests/generic/milestones?per_page=100&state=all
+        headers:
+            Accept:
+                - application/vnd.github.v3+json
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:40:41.955606+03:00
+      response_uuid: 339cd2db-ffe8-499c-a662-6b7d3906cb98

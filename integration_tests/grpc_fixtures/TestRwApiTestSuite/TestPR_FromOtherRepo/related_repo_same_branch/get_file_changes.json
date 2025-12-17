@@ -1,0 +1,50 @@
+{
+  "changes":  [
+    {
+      "diff":  {
+        "paths":  {
+          "target":  "CHANGELOG",
+          "source":  "CHANGELOG"
+        },
+        "hunks":  [
+          {
+            "from_start":  1,
+            "from_count":  1,
+            "to_start":  1,
+            "to_count":  3,
+            "patch":  " Initial changelog\n+And some other content\n+and other\n\\ No newline at end of file\n"
+          }
+        ],
+        "added":  2,
+        "removed":  0,
+        "target_cnt":  1,
+        "source_cnt":  3,
+        "result":  "SUCCESS"
+      },
+      "comments":  []
+    },
+    {
+      "diff":  {
+        "paths":  {
+          "target":  "",
+          "source":  "otherfile.txt"
+        },
+        "hunks":  [
+          {
+            "from_start":  0,
+            "from_count":  0,
+            "to_start":  1,
+            "to_count":  1,
+            "patch":  "+some other content\n\\ No newline at end of file\n"
+          }
+        ],
+        "added":  1,
+        "removed":  0,
+        "target_cnt":  0,
+        "source_cnt":  1,
+        "result":  "SUCCESS"
+      },
+      "comments":  []
+    }
+  ]
+}

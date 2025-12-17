@@ -1,0 +1,63 @@
+{
+  "comments":  [
+    {
+      "id":  "88340579376693249",
+      "body":  "First comment",
+      "iteration":  "88340579125100545",
+      "need_resolution":  false,
+      "author_id":  "1",
+      "is_published":  true,
+      "is_deleted":  false,
+      "is_outdated":  false,
+      "created_at":  "2025-09-01T10:24:48.536119Z",
+      "updated_at":  "2025-09-01T10:24:48.536119Z",
+      "reactions":  {},
+      "type":  "PR_COMMENT_TYPE_DEFAULT"
+    },
+    {
+      "id":  "88340579376758785",
+      "body":  "Second comment with parent",
+      "parent_id":  "88340579343138817",
+      "iteration":  "88340579125100545",
+      "need_resolution":  true,
+      "author_id":  "1",
+      "is_resolved":  false,
+      "is_published":  true,
+      "is_deleted":  false,
+      "is_outdated":  false,
+      "created_at":  "2025-09-01T10:24:48.536119Z",
+      "updated_at":  "2025-09-01T10:24:48.536119Z",
+      "reactions":  {},
+      "type":  "PR_COMMENT_TYPE_DEFAULT"
+    },
+    {
+      "id":  "88340579376824321",
+      "body":  "Third comment as draft",
+      "iteration":  "88340579125100545",
+      "need_resolution":  false,
+      "author_id":  "1",
+      "is_published":  false,
+      "is_deleted":  false,
+      "is_outdated":  false,
+      "created_at":  "2025-09-01T10:24:48.536119Z",
+      "updated_at":  "2025-09-01T10:24:48.536119Z",
+      "reactions":  {},
+      "type":  "PR_COMMENT_TYPE_DEFAULT"
+    },
+    {
+      "id":  "88340579376889857",
+      "body":  "Fourth comment AppSec type",
+      "iteration":  "88340579125100545",
+      "need_resolution":  false,
+      "author_id":  "1",
+      "is_published":  true,
+      "is_deleted":  false,
+      "is_outdated":  false,
+      "created_at":  "2025-09-01T10:24:48.536119Z",
+      "updated_at":  "2025-09-01T10:24:48.536119Z",
+      "reactions":  {},
+      "type":  "PR_COMMENT_TYPE_APPSEC"
+    }
+  ],
+  "created_count":  "4"
+}

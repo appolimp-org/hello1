@@ -1,0 +1,19 @@
+{
+  "commit":  {
+    "hash":  "6ecf0ef2c2dffb796033e5a02219af86ec6584e5",
+    "message":  "vendor stuff\n",
+    "parent_hashes":  [
+      "918c48b83bd081e863dbe1b80f8998f058cd8294"
+    ],
+    "author":  {
+      "name":  "Máximo Cuadros Ortiz",
+      "email":  "mcuadros@gmail.com",
+      "date":  "2015-04-05T21:30:47Z"
+    },
+    "committer":  {
+      "name":  "Máximo Cuadros Ortiz",
+      "email":  "mcuadros@gmail.com",
+      "date":  "2015-04-05T21:30:47Z"
+    }
+  }
+}

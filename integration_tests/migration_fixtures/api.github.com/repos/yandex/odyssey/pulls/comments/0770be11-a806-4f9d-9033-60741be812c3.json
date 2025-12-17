@@ -1,0 +1,2564 @@
+[
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2018437381",
+    "pull_request_review_id": 2725147538,
+    "id": 2018437381,
+    "node_id": "PRRC_kwDOCA6dWc54TukF",
+    "diff_hunk": "@@ -0,0 +1,96 @@\n+#include <machinarium.h>\n+#include <odyssey_test.h>\n+\n+static inline void sleepy(void *arg)\n+{\n+\t(void)arg;\n+\tmachine_sleep(50);\n+}\n+\n+#define max_test_len 20",
+    "path": "test/machinarium/test_coroutine_names.c",
+    "commit_id": "06c9177b4b971b38d34ee080cd74d6dfd1ce3a12",
+    "original_commit_id": "06c9177b4b971b38d34ee080cd74d6dfd1ce3a12",
+    "user": {
+      "login": "visill",
+      "id": 87538976,
+      "node_id": "MDQ6VXNlcjg3NTM4OTc2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87538976?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/visill",
+      "html_url": "https://github.com/visill",
+      "followers_url": "https://api.github.com/users/visill/followers",
+      "following_url": "https://api.github.com/users/visill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/visill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/visill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/visill/subscriptions",
+      "organizations_url": "https://api.github.com/users/visill/orgs",
+      "repos_url": "https://api.github.com/users/visill/repos",
+      "events_url": "https://api.github.com/users/visill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/visill/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "and max len eq 20 wtf with numbers",
+    "created_at": "2025-03-28T11:03:42Z",
+    "updated_at": "2025-03-28T11:03:47Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/778#discussion_r2018437381",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/778",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2018437381"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/778#discussion_r2018437381"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/778"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2018437381/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 10,
+    "original_line": 10,
+    "side": "RIGHT",
+    "author_association": "CONTRIBUTOR",
+    "original_position": 10,
+    "position": 10,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2021283942",
+    "pull_request_review_id": 2729717591,
+    "id": 2021283942,
+    "node_id": "PRRC_kwDOCA6dWc54elhm",
+    "diff_hunk": "@@ -0,0 +1,72 @@\n+daemonize yes\n+pid_file \"/var/run/odyssey.pid\"\n+\n+unix_socket_dir \"/tmp\"\n+unix_socket_mode \"0644\"\n+\n+locks_dir \"/tmp\"\n+\n+log_format \"%p %t %l [%i %s] (%c) %m\\n\"\n+log_file \"/var/log/odyssey.log\"\n+log_to_stdout no\n+log_config yes\n+log_debug yes\n+log_session yes\n+log_stats no\n+log_query yes\n+\n+coroutine_stack_size 24\n+\n+listen {\n+\thost \"127.0.0.1\"\n+\tport 6432\n+\n+\ttls \"require\"\n+\ttls_key_file \"/tls-compat/server.key\"\n+\ttls_cert_file \"/tls-compat/server.pem\"\n+\ttls_ca_file \"/tls-compat/root.pem\"\n+\ttls_protocols \"tlsv1.2\"\n+}\n+\n+storage \"postgres_server\" {\n+\ttype \"remote\"\n+\thost \"127.0.0.1\"\n+\tport 5432\n+}\n+\n+database \"postgres\" {",
+    "path": "docker/tls-compat/config.conf",
+    "commit_id": "bfd7751b98a37d15ba4cf53b7c1236f92cbdfa6d",
+    "original_commit_id": "bd504902a6eaf9f2dc862048e587ebbfe0f3644c",
+    "user": {
+      "login": "visill",
+      "id": 87538976,
+      "node_id": "MDQ6VXNlcjg3NTM4OTc2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87538976?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/visill",
+      "html_url": "https://github.com/visill",
+      "followers_url": "https://api.github.com/users/visill/followers",
+      "following_url": "https://api.github.com/users/visill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/visill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/visill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/visill/subscriptions",
+      "organizations_url": "https://api.github.com/users/visill/orgs",
+      "repos_url": "https://api.github.com/users/visill/repos",
+      "events_url": "https://api.github.com/users/visill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/visill/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "lol how it works?",
+    "created_at": "2025-03-31T15:37:21Z",
+    "updated_at": "2025-03-31T15:40:49Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/780#discussion_r2021283942",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/780",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2021283942"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/780#discussion_r2021283942"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/780"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2021283942/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 37,
+    "original_line": 37,
+    "side": "RIGHT",
+    "author_association": "CONTRIBUTOR",
+    "original_position": 37,
+    "position": 37,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2021287396",
+    "pull_request_review_id": 2729717591,
+    "id": 2021287396,
+    "node_id": "PRRC_kwDOCA6dWc54emXk",
+    "diff_hunk": "@@ -0,0 +1,72 @@\n+daemonize yes\n+pid_file \"/var/run/odyssey.pid\"\n+\n+unix_socket_dir \"/tmp\"\n+unix_socket_mode \"0644\"\n+\n+locks_dir \"/tmp\"\n+\n+log_format \"%p %t %l [%i %s] (%c) %m\\n\"\n+log_file \"/var/log/odyssey.log\"\n+log_to_stdout no\n+log_config yes\n+log_debug yes\n+log_session yes\n+log_stats no\n+log_query yes\n+\n+coroutine_stack_size 24\n+\n+listen {\n+\thost \"127.0.0.1\"\n+\tport 6432\n+\n+\ttls \"require\"\n+\ttls_key_file \"/tls-compat/server.key\"\n+\ttls_cert_file \"/tls-compat/server.pem\"\n+\ttls_ca_file \"/tls-compat/root.pem\"\n+\ttls_protocols \"tlsv1.2\"\n+}\n+\n+storage \"postgres_server\" {\n+\ttype \"remote\"\n+\thost \"127.0.0.1\"\n+\tport 5432\n+}\n+\n+database \"postgres\" {\n+\tuser \"postgres\" {\n+\t\tauthentication \"none\"\n+\t\tpool_routing \"internal\"\n+\t\tstorage \"postgres_server\"\n+\t\tpool \"session\"\n+\t}\n+}\n+\n+database \"postgres\" {",
+    "path": "docker/tls-compat/config.conf",
+    "commit_id": "bfd7751b98a37d15ba4cf53b7c1236f92cbdfa6d",
+    "original_commit_id": "bd504902a6eaf9f2dc862048e587ebbfe0f3644c",
+    "user": {
+      "login": "visill",
+      "id": 87538976,
+      "node_id": "MDQ6VXNlcjg3NTM4OTc2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87538976?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/visill",
+      "html_url": "https://github.com/visill",
+      "followers_url": "https://api.github.com/users/visill/followers",
+      "following_url": "https://api.github.com/users/visill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/visill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/visill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/visill/subscriptions",
+      "organizations_url": "https://api.github.com/users/visill/orgs",
+      "repos_url": "https://api.github.com/users/visill/repos",
+      "events_url": "https://api.github.com/users/visill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/visill/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "It's like having two databases with the same name or one database and two rules that have different pool routing?",
+    "created_at": "2025-03-31T15:39:38Z",
+    "updated_at": "2025-03-31T15:40:49Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/780#discussion_r2021287396",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/780",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2021287396"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/780#discussion_r2021287396"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/780"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2021287396/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 46,
+    "original_line": 46,
+    "side": "RIGHT",
+    "author_association": "CONTRIBUTOR",
+    "original_position": 46,
+    "position": 46,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2022128730",
+    "pull_request_review_id": 2731088500,
+    "id": 2022128730,
+    "node_id": "PRRC_kwDOCA6dWc54hzxa",
+    "diff_hunk": "@@ -0,0 +1,72 @@\n+daemonize yes\n+pid_file \"/var/run/odyssey.pid\"\n+\n+unix_socket_dir \"/tmp\"\n+unix_socket_mode \"0644\"\n+\n+locks_dir \"/tmp\"\n+\n+log_format \"%p %t %l [%i %s] (%c) %m\\n\"\n+log_file \"/var/log/odyssey.log\"\n+log_to_stdout no\n+log_config yes\n+log_debug yes\n+log_session yes\n+log_stats no\n+log_query yes\n+\n+coroutine_stack_size 24\n+\n+listen {\n+\thost \"127.0.0.1\"\n+\tport 6432\n+\n+\ttls \"require\"\n+\ttls_key_file \"/tls-compat/server.key\"\n+\ttls_cert_file \"/tls-compat/server.pem\"\n+\ttls_ca_file \"/tls-compat/root.pem\"\n+\ttls_protocols \"tlsv1.2\"\n+}\n+\n+storage \"postgres_server\" {\n+\ttype \"remote\"\n+\thost \"127.0.0.1\"\n+\tport 5432\n+}\n+\n+database \"postgres\" {",
+    "path": "docker/tls-compat/config.conf",
+    "commit_id": "bfd7751b98a37d15ba4cf53b7c1236f92cbdfa6d",
+    "original_commit_id": "bd504902a6eaf9f2dc862048e587ebbfe0f3644c",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "one route is internal",
+    "created_at": "2025-04-01T04:35:44Z",
+    "updated_at": "2025-04-01T04:35:44Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/780#discussion_r2022128730",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/780",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2022128730"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/780#discussion_r2022128730"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/780"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2022128730/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 37,
+    "original_line": 37,
+    "side": "RIGHT",
+    "in_reply_to_id": 2021283942,
+    "author_association": "COLLABORATOR",
+    "original_position": 37,
+    "position": 37,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2058688217",
+    "pull_request_review_id": 2791599419,
+    "id": 2058688217,
+    "node_id": "PRRC_kwDOCA6dWc56tRbZ",
+    "diff_hunk": "@@ -10,6 +10,13 @@ ody-stop\n \n setup\n \n+# path to log file\n+/log_path/test_log_path.sh",
+    "path": "docker/entrypoint.sh",
+    "commit_id": "3cf98347f3fbe18c927b569a896c6388d5e1ffb9",
+    "original_commit_id": "988a406f515fd6ce78ed31e7a627f6994ad1a59b",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "consider use another name for test, not log_path, which does not fully describe what is being roughly tested ",
+    "created_at": "2025-04-24T15:16:03Z",
+    "updated_at": "2025-04-24T15:16:04Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/794#discussion_r2058688217",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/794",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2058688217"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/794#discussion_r2058688217"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/794"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2058688217/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 14,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 5,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2081029463",
+    "pull_request_review_id": 2827176092,
+    "id": 2081029463,
+    "node_id": "PRRC_kwDOCA6dWc58Cf1X",
+    "diff_hunk": "@@ -1108,6 +1108,107 @@ static od_frontend_status_t od_frontend_remote_client(od_relay_t *relay,\n \t\tif (instance->config.log_query || route->rule->log_query)\n \t\t\tod_frontend_log_query(instance, client, data, size);\n \n+\t\t/* Ignore “DISCARD ALL” completely, but make sure",
+    "path": "sources/frontend.c",
+    "commit_id": "fbe43133fb809fc41ae76f39e93e4ec1d29974c4",
+    "original_commit_id": "14421cc42e22e6cd8a134f011bd46a86e25fe88c",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "It is better to move out this code (or some of it parts) into functions, to make the code much more readable",
+    "created_at": "2025-05-09T06:37:36Z",
+    "updated_at": "2025-08-04T04:44:29Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/808#discussion_r2081029463",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/808",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2081029463"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/808#discussion_r2081029463"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/808"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2081029463/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 1529,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 4,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108611044",
+    "pull_request_review_id": 2870226245,
+    "id": 2108611044,
+    "node_id": "PRRC_kwDOCA6dWc59rtnk",
+    "diff_hunk": "@@ -1,6 +1,12 @@\n #ifndef OD_SIGNAL_HANDLER\n #define OD_SIGNAL_HANDLER\n \n+/*\n+ * Odyssey.\n+ *\n+ * Scalable PostgreSQL connection pooler.\n+ */\n+",
+    "path": "sources/sighandler.h",
+    "commit_id": "d3e394958d9af5830439a39dbcc5279c6133d37c",
+    "original_commit_id": "d3e394958d9af5830439a39dbcc5279c6133d37c",
+    "user": {
+      "login": "visill",
+      "id": 87538976,
+      "node_id": "MDQ6VXNlcjg3NTM4OTc2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87538976?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/visill",
+      "html_url": "https://github.com/visill",
+      "followers_url": "https://api.github.com/users/visill/followers",
+      "following_url": "https://api.github.com/users/visill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/visill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/visill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/visill/subscriptions",
+      "organizations_url": "https://api.github.com/users/visill/orgs",
+      "repos_url": "https://api.github.com/users/visill/repos",
+      "events_url": "https://api.github.com/users/visill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/visill/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Why not at the beginning?",
+    "created_at": "2025-05-27T08:46:39Z",
+    "updated_at": "2025-05-27T08:47:04Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/834#discussion_r2108611044",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/834",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108611044"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/834#discussion_r2108611044"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/834"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108611044/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 9,
+    "original_line": 9,
+    "side": "RIGHT",
+    "author_association": "CONTRIBUTOR",
+    "original_position": 9,
+    "position": 9,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108611369",
+    "pull_request_review_id": 2870226245,
+    "id": 2108611369,
+    "node_id": "PRRC_kwDOCA6dWc59rtsp",
+    "diff_hunk": "@@ -1,6 +1,12 @@\n #ifndef ODYSSEY_SYSV_H\n #define ODYSSEY_SYSV_H\n \n+/*\n+ * Odyssey.\n+ *\n+ * Scalable PostgreSQL connection pooler.\n+ */\n+",
+    "path": "sources/sysv.h",
+    "commit_id": "d3e394958d9af5830439a39dbcc5279c6133d37c",
+    "original_commit_id": "d3e394958d9af5830439a39dbcc5279c6133d37c",
+    "user": {
+      "login": "visill",
+      "id": 87538976,
+      "node_id": "MDQ6VXNlcjg3NTM4OTc2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87538976?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/visill",
+      "html_url": "https://github.com/visill",
+      "followers_url": "https://api.github.com/users/visill/followers",
+      "following_url": "https://api.github.com/users/visill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/visill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/visill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/visill/subscriptions",
+      "organizations_url": "https://api.github.com/users/visill/orgs",
+      "repos_url": "https://api.github.com/users/visill/repos",
+      "events_url": "https://api.github.com/users/visill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/visill/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "same",
+    "created_at": "2025-05-27T08:46:46Z",
+    "updated_at": "2025-05-27T08:47:04Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/834#discussion_r2108611369",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/834",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108611369"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/834#discussion_r2108611369"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/834"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108611369/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 9,
+    "original_line": 9,
+    "side": "RIGHT",
+    "author_association": "CONTRIBUTOR",
+    "original_position": 9,
+    "position": 9,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108611727",
+    "pull_request_review_id": 2870226245,
+    "id": 2108611727,
+    "node_id": "PRRC_kwDOCA6dWc59rtyP",
+    "diff_hunk": "@@ -1,7 +1,12 @@\n #ifndef OD_THREAD_GLOBAL_H\n-\n #define OD_THREAD_GLOBAL_H\n \n+/*\n+ * Odyssey.\n+ *\n+ * Scalable PostgreSQL connection pooler.\n+ */\n+",
+    "path": "sources/thread_global.h",
+    "commit_id": "d3e394958d9af5830439a39dbcc5279c6133d37c",
+    "original_commit_id": "d3e394958d9af5830439a39dbcc5279c6133d37c",
+    "user": {
+      "login": "visill",
+      "id": 87538976,
+      "node_id": "MDQ6VXNlcjg3NTM4OTc2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87538976?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/visill",
+      "html_url": "https://github.com/visill",
+      "followers_url": "https://api.github.com/users/visill/followers",
+      "following_url": "https://api.github.com/users/visill/following{/other_user}",
+      "gists_url": "https://api.github.com/users/visill/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/visill/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/visill/subscriptions",
+      "organizations_url": "https://api.github.com/users/visill/orgs",
+      "repos_url": "https://api.github.com/users/visill/repos",
+      "events_url": "https://api.github.com/users/visill/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/visill/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "same",
+    "created_at": "2025-05-27T08:46:55Z",
+    "updated_at": "2025-05-27T08:47:04Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/834#discussion_r2108611727",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/834",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108611727"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/834#discussion_r2108611727"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/834"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108611727/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 9,
+    "original_line": 9,
+    "side": "RIGHT",
+    "author_association": "CONTRIBUTOR",
+    "original_position": 10,
+    "position": 10,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108625217",
+    "pull_request_review_id": 2870246996,
+    "id": 2108625217,
+    "node_id": "PRRC_kwDOCA6dWc59rxFB",
+    "diff_hunk": "@@ -1,6 +1,12 @@\n #ifndef ODYSSEY_SYSV_H\n #define ODYSSEY_SYSV_H\n \n+/*\n+ * Odyssey.\n+ *\n+ * Scalable PostgreSQL connection pooler.\n+ */\n+",
+    "path": "sources/sysv.h",
+    "commit_id": "d3e394958d9af5830439a39dbcc5279c6133d37c",
+    "original_commit_id": "d3e394958d9af5830439a39dbcc5279c6133d37c",
+    "user": {
+      "login": "reshke",
+      "id": 24353044,
+      "node_id": "MDQ6VXNlcjI0MzUzMDQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24353044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reshke",
+      "html_url": "https://github.com/reshke",
+      "followers_url": "https://api.github.com/users/reshke/followers",
+      "following_url": "https://api.github.com/users/reshke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reshke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reshke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reshke/subscriptions",
+      "organizations_url": "https://api.github.com/users/reshke/orgs",
+      "repos_url": "https://api.github.com/users/reshke/repos",
+      "events_url": "https://api.github.com/users/reshke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reshke/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Thats how we do this for headers https://github.com/yandex/odyssey/blob/master/sources/atomic.h#L1-L8",
+    "created_at": "2025-05-27T08:53:27Z",
+    "updated_at": "2025-05-27T08:53:27Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/834#discussion_r2108625217",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/834",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108625217"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/834#discussion_r2108625217"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/834"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2108625217/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 9,
+    "original_line": 9,
+    "side": "RIGHT",
+    "in_reply_to_id": 2108611369,
+    "author_association": "COLLABORATOR",
+    "original_position": 9,
+    "position": 9,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2115604607",
+    "pull_request_review_id": 2880876850,
+    "id": 2115604607,
+    "node_id": "PRRC_kwDOCA6dWc5-GZB_",
+    "diff_hunk": "@@ -0,0 +1,155 @@\n+#include \"odyssey.h\"\n+#include <odyssey_test.h>\n+\n+#define OD_TEST_DEFAULT_HASHMAP_SZ 420u\n+#define OD_TEST_LARGE_HASHMAP_SZ 65534u\n+\n+// Generate len-size string and safe to buf\n+void generate_random_string(char *buf, size_t len)\n+{\n+\tstatic const char ALPHABET[] =\n+\t\t\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789./,\\\\?,<>\";\n+\tstatic const int LEN_ALPHABET = sizeof(ALPHABET) - 1;\n+\n+\t--len;\n+\tfor (size_t i = 0; i < len; i++) {\n+\t\tbuf[i] = ALPHABET[rand() % LEN_ALPHABET];\n+\t}\n+\tbuf[len] = '\\0';\n+}\n+\n+// Save data in od_hashmap_elt_t, calc keyhash if need\n+static inline void test_hashmap_init_item(od_hashmap_elt_t *item, void *data,\n+\t\t\t\t\t  size_t len, od_hash_t *keyhash)\n+{\n+\titem->data = data;\n+\titem->len = len;\n+\tif (keyhash != NULL)",
+    "path": "test/odyssey/test_hashmap.c",
+    "commit_id": "92f65de9952c765f34341a56fe6b46ec77ffa869",
+    "original_commit_id": "a49fcf13eab87fefedf8b10971fc3446b51089a9",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "it is better to add braces {} around if then statements, even there is only one line",
+    "created_at": "2025-05-30T10:20:16Z",
+    "updated_at": "2025-05-30T10:20:53Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/849#discussion_r2115604607",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/849",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2115604607"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/849#discussion_r2115604607"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/849"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2115604607/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 27,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 27,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2142835581",
+    "pull_request_review_id": 2921310995,
+    "id": 2142835581,
+    "node_id": "PRRC_kwDOCA6dWc5_uRN9",
+    "diff_hunk": "@@ -188,22 +188,109 @@ static int od_frontend_startup(od_client_t *client)\n \treturn -1;\n }\n \n-static inline od_frontend_status_t\n-od_frontend_attach(od_client_t *client, char *context,\n-\t\t   kiwi_params_t *route_params)\n+typedef struct {\n+\tod_storage_endpoint_t *endpoint;\n+\tint priority;\n+} od_endpoint_attach_candidate_t;\n+\n+static inline int candidate_cmp_desc(const void *v1, const void *v2)\n+{\n+\tconst od_endpoint_attach_candidate_t *c1 = v1;\n+\tconst od_endpoint_attach_candidate_t *c2 = v2;\n+\n+\treturn c2->priority - c1->priority;\n+}\n+\n+static inline int od_frontend_attach_candidate_get_priority(\n+\tod_instance_t *instance, od_rule_storage_t *storage,\n+\tod_endpoint_attach_candidate_t *candidate,\n+\tod_target_session_attrs_t tsa)\n+{\n+\t/*\n+\t * priority of endpoints is determined by (from highest to lowest):\n+\t * - az: we should use same az as of odyssey instance if it is possible\n+\t * - tsa match: even if it is outdated, rw state of endpoint doesn't change frequently\n+\t * - random number: to select host randomly between several suitable hosts\n+\t * \n+\t * so:\n+\t * + 500 priority by matched az\n+\t * + 200 priority by matched tsa\n+\t * + [0..100) shuffle coeff\n+\t * \n+\t * also negative priority will mean endpoints, that is not suitable,\n+\t * ex: endpoints which read-write status certanly doesn't fit tsa\n+\t */\n+\n+\tod_storage_endpoint_t *endpoint = candidate->endpoint;\n+\n+\tint priority = 0;\n+\n+\tpriority += machine_lrand48() % 100;\n+\n+\tod_storage_endpoint_status_t status;\n+\tod_storage_endpoint_status_init(&status);\n+\tod_storage_endpoint_status_get(&endpoint->status, &status);\n+\n+\tint status_is_recent = !od_storage_endpoint_status_is_outdated(\n+\t\t&status, storage->endpoints_status_poll_interval_ms);\n+\tint tsa_match = od_tsa_match_rw_state(tsa, status.is_read_write);\n+\n+\tif (status_is_recent && !tsa_match) {\n+\t\treturn -1;\n+\t}\n+\n+\tif (tsa_match) {\n+\t\tpriority += 200;",
+    "path": "sources/frontend.c",
+    "commit_id": "393152412514db4151554d7583fa605092e3adb1",
+    "original_commit_id": "393152412514db4151554d7583fa605092e3adb1",
+    "user": {
+      "login": "reshke",
+      "id": 24353044,
+      "node_id": "MDQ6VXNlcjI0MzUzMDQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24353044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reshke",
+      "html_url": "https://github.com/reshke",
+      "followers_url": "https://api.github.com/users/reshke/followers",
+      "following_url": "https://api.github.com/users/reshke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reshke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reshke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reshke/subscriptions",
+      "organizations_url": "https://api.github.com/users/reshke/orgs",
+      "repos_url": "https://api.github.com/users/reshke/repos",
+      "events_url": "https://api.github.com/users/reshke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reshke/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "#define",
+    "created_at": "2025-06-12T13:58:04Z",
+    "updated_at": "2025-06-12T13:58:04Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/861#discussion_r2142835581",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/861",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2142835581"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/861#discussion_r2142835581"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/861"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2142835581/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 243,
+    "original_line": 243,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 59,
+    "position": 59,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2144966311",
+    "pull_request_review_id": 2924599469,
+    "id": 2144966311,
+    "node_id": "PRRC_kwDOCA6dWc5_2Zan",
+    "diff_hunk": "@@ -17,6 +17,8 @@ extern \"C\" {\n #include <openssl/sha.h>\n #include <openssl/hmac.h>\n \n+#include <stdatomic.h>",
+    "path": "third_party/machinarium/sources/machinarium.h",
+    "commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "original_commit_id": "26d5a4092c426a430b5a37c0da713c682d4714da",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "move to c.h",
+    "created_at": "2025-06-13T12:13:17Z",
+    "updated_at": "2025-06-13T12:13:18Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/881#discussion_r2144966311",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/881",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2144966311"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/881#discussion_r2144966311"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/881"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2144966311/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 20,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 4,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146446272",
+    "pull_request_review_id": 2927205211,
+    "id": 2146446272,
+    "node_id": "PRRC_kwDOCA6dWc5_8CvA",
+    "diff_hunk": "@@ -59,6 +59,7 @@ mm_wait_list_t *mm_wait_list_create()\n \n \tmm_list_init(&wait_list->sleepies);\n \tatomic_init(&wait_list->sleepies_count, 0ULL);\n+\twait_list->word = word;",
+    "path": "third_party/machinarium/sources/wait_list.c",
+    "commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "original_commit_id": "26d5a4092c426a430b5a37c0da713c682d4714da",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "'word' for 64bit type is a bit of confusing... \r\n\r\ni know it is a term from futex, and it is ok to use it here, but maybe we can choose some other name, like 'control'?",
+    "created_at": "2025-06-14T05:21:15Z",
+    "updated_at": "2025-06-14T05:21:16Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/881#discussion_r2146446272",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/881",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146446272"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/881#discussion_r2146446272"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/881"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146446272/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 62,
+    "original_line": 62,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 13,
+    "position": 13,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146448206",
+    "pull_request_review_id": 2927209707,
+    "id": 2146448206,
+    "node_id": "PRRC_kwDOCA6dWc5_8DNO",
+    "diff_hunk": "@@ -114,6 +115,31 @@ int mm_wait_list_wait(mm_wait_list_t *wait_list, uint32_t timeout_ms)\n \treturn rc;\n }\n \n+int mm_wait_list_compare_wait(mm_wait_list_t *wait_list, uint64_t expected,\n+\t\t\t      uint32_t timeout_ms)\n+{\n+\tmm_sleeplock_lock(&wait_list->lock);\n+\n+\tif (atomic_load(wait_list->word) == expected) {\n+\t\tmm_sleepy_t this;\n+\t\tinit_sleepy(&this);\n+\n+\t\tmm_list_append(&wait_list->sleepies, &this.link);\n+\t\tatomic_fetch_add(&wait_list->sleepies_count, 1);\n+\n+\t\tmm_sleeplock_unlock(&wait_list->lock);\n+\n+\t\tint rc;\n+\t\trc = wait_sleepy(wait_list, &this, timeout_ms);\n+\n+\t\treturn rc;\n+\t} else {",
+    "path": "third_party/machinarium/sources/wait_list.c",
+    "commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "original_commit_id": "26d5a4092c426a430b5a37c0da713c682d4714da",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "then statement ends with return, else can be omitted",
+    "created_at": "2025-06-14T05:26:02Z",
+    "updated_at": "2025-06-14T05:26:02Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/881#discussion_r2146448206",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/881",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146448206"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/881#discussion_r2146448206"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/881"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146448206/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 136,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 52,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146449501",
+    "pull_request_review_id": 2927212913,
+    "id": 2146449501,
+    "node_id": "PRRC_kwDOCA6dWc5_8Dhd",
+    "diff_hunk": "@@ -114,6 +115,31 @@ int mm_wait_list_wait(mm_wait_list_t *wait_list, uint32_t timeout_ms)\n \treturn rc;\n }\n \n+int mm_wait_list_compare_wait(mm_wait_list_t *wait_list, uint64_t expected,\n+\t\t\t      uint32_t timeout_ms)\n+{\n+\tmm_sleeplock_lock(&wait_list->lock);\n+\n+\tif (atomic_load(wait_list->word) == expected) {\n+\t\tmm_sleepy_t this;\n+\t\tinit_sleepy(&this);\n+\n+\t\tmm_list_append(&wait_list->sleepies, &this.link);\n+\t\tatomic_fetch_add(&wait_list->sleepies_count, 1);\n+\n+\t\tmm_sleeplock_unlock(&wait_list->lock);\n+\n+\t\tint rc;\n+\t\trc = wait_sleepy(wait_list, &this, timeout_ms);\n+\n+\t\treturn rc;\n+\t} else {",
+    "path": "third_party/machinarium/sources/wait_list.c",
+    "commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "original_commit_id": "26d5a4092c426a430b5a37c0da713c682d4714da",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "alseo you can reduce nesting level of the code if invert the condition, smth like:\r\nif (word != expected) { unlock(); return EAGAIN }\r\n",
+    "created_at": "2025-06-14T05:28:57Z",
+    "updated_at": "2025-06-14T05:31:22Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/881#discussion_r2146449501",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/881",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146449501"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/881#discussion_r2146449501"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/881"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146449501/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 136,
+    "side": "RIGHT",
+    "in_reply_to_id": 2146448206,
+    "author_association": "COLLABORATOR",
+    "original_position": 52,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146589037",
+    "pull_request_review_id": 2927559194,
+    "id": 2146589037,
+    "node_id": "PRRC_kwDOCA6dWc5_8llt",
+    "diff_hunk": "@@ -321,10 +323,34 @@ MACHINE_API const char *machine_get_backtrace_string();\n MACHINE_API int machine_get_backtrace(void **entries, int max);\n \n /* wait list */\n-MACHINE_API machine_wait_list_t *machine_wait_list_create();\n+\n+/* \n+A wait list is a structure that is similar to a futex (see futex(2) and futex(7) for details). \n+It allows a coroutine to wait until a specific condition is met.\n+Wait lists can be shared among different workers and are suitable for implementing other thread synchronization primitives.\n+\n+If compare-and-wait functionality is not needed, you can pass NULL when creating a wait list and simply use the wait(...) method. \n+However, this may result in lost wake-ups, so do it only if acceptable.\n+\n+Local progress is guaranteed (no coroutine starvation) but a FIFO ordering is not.\n+Spurious wake-ups are possible.  \n+*/\n+\n+typedef enum {\n+\tMACHINE_WAIT_LIST_SUCCESS = 0,\n+\tMACHINE_WAIT_LIST_ERR_TIMEOUT_OR_CANCEL = 1,\n+\tMACHINE_WAIT_LIST_ERR_AGAIN = 2\n+} machine_wait_list_return_code_t;",
+    "path": "third_party/machinarium/sources/machinarium.h",
+    "commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "original_commit_id": "26d5a4092c426a430b5a37c0da713c682d4714da",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "this type is unused, maybe declare anon enum ?",
+    "created_at": "2025-06-14T06:52:31Z",
+    "updated_at": "2025-06-14T06:52:31Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/881#discussion_r2146589037",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/881",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146589037"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/881#discussion_r2146589037"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/881"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146589037/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 343,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 31,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146607529",
+    "pull_request_review_id": 2927586937,
+    "id": 2146607529,
+    "node_id": "PRRC_kwDOCA6dWc5_8qGp",
+    "diff_hunk": "@@ -17,6 +17,8 @@ extern \"C\" {\n #include <openssl/sha.h>\n #include <openssl/hmac.h>\n \n+#include <stdatomic.h>",
+    "path": "third_party/machinarium/sources/machinarium.h",
+    "commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "original_commit_id": "26d5a4092c426a430b5a37c0da713c682d4714da",
+    "user": {
+      "login": "sergei-heifetz",
+      "id": 116819689,
+      "node_id": "U_kgDOBvaG6Q",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116819689?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sergei-heifetz",
+      "html_url": "https://github.com/sergei-heifetz",
+      "followers_url": "https://api.github.com/users/sergei-heifetz/followers",
+      "following_url": "https://api.github.com/users/sergei-heifetz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sergei-heifetz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sergei-heifetz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sergei-heifetz/subscriptions",
+      "organizations_url": "https://api.github.com/users/sergei-heifetz/orgs",
+      "repos_url": "https://api.github.com/users/sergei-heifetz/repos",
+      "events_url": "https://api.github.com/users/sergei-heifetz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sergei-heifetz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Done.",
+    "created_at": "2025-06-14T06:58:44Z",
+    "updated_at": "2025-06-14T06:58:45Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/881#discussion_r2146607529",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/881",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146607529"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/881#discussion_r2146607529"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/881"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146607529/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 20,
+    "side": "RIGHT",
+    "in_reply_to_id": 2144966311,
+    "author_association": "CONTRIBUTOR",
+    "original_position": 4,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146608913",
+    "pull_request_review_id": 2927588835,
+    "id": 2146608913,
+    "node_id": "PRRC_kwDOCA6dWc5_8qcR",
+    "diff_hunk": "@@ -114,6 +115,31 @@ int mm_wait_list_wait(mm_wait_list_t *wait_list, uint32_t timeout_ms)\n \treturn rc;\n }\n \n+int mm_wait_list_compare_wait(mm_wait_list_t *wait_list, uint64_t expected,\n+\t\t\t      uint32_t timeout_ms)\n+{\n+\tmm_sleeplock_lock(&wait_list->lock);\n+\n+\tif (atomic_load(wait_list->word) == expected) {\n+\t\tmm_sleepy_t this;\n+\t\tinit_sleepy(&this);\n+\n+\t\tmm_list_append(&wait_list->sleepies, &this.link);\n+\t\tatomic_fetch_add(&wait_list->sleepies_count, 1);\n+\n+\t\tmm_sleeplock_unlock(&wait_list->lock);\n+\n+\t\tint rc;\n+\t\trc = wait_sleepy(wait_list, &this, timeout_ms);\n+\n+\t\treturn rc;\n+\t} else {",
+    "path": "third_party/machinarium/sources/wait_list.c",
+    "commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "original_commit_id": "26d5a4092c426a430b5a37c0da713c682d4714da",
+    "user": {
+      "login": "sergei-heifetz",
+      "id": 116819689,
+      "node_id": "U_kgDOBvaG6Q",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116819689?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sergei-heifetz",
+      "html_url": "https://github.com/sergei-heifetz",
+      "followers_url": "https://api.github.com/users/sergei-heifetz/followers",
+      "following_url": "https://api.github.com/users/sergei-heifetz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sergei-heifetz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sergei-heifetz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sergei-heifetz/subscriptions",
+      "organizations_url": "https://api.github.com/users/sergei-heifetz/orgs",
+      "repos_url": "https://api.github.com/users/sergei-heifetz/repos",
+      "events_url": "https://api.github.com/users/sergei-heifetz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sergei-heifetz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Done.",
+    "created_at": "2025-06-14T06:59:12Z",
+    "updated_at": "2025-06-14T06:59:12Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/881#discussion_r2146608913",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/881",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146608913"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/881#discussion_r2146608913"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/881"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146608913/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 136,
+    "side": "RIGHT",
+    "in_reply_to_id": 2146448206,
+    "author_association": "CONTRIBUTOR",
+    "original_position": 52,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146667203",
+    "pull_request_review_id": 2927662584,
+    "id": 2146667203,
+    "node_id": "PRRC_kwDOCA6dWc5_84rD",
+    "diff_hunk": "@@ -321,10 +323,34 @@ MACHINE_API const char *machine_get_backtrace_string();\n MACHINE_API int machine_get_backtrace(void **entries, int max);\n \n /* wait list */\n-MACHINE_API machine_wait_list_t *machine_wait_list_create();\n+\n+/* \n+A wait list is a structure that is similar to a futex (see futex(2) and futex(7) for details). \n+It allows a coroutine to wait until a specific condition is met.\n+Wait lists can be shared among different workers and are suitable for implementing other thread synchronization primitives.\n+\n+If compare-and-wait functionality is not needed, you can pass NULL when creating a wait list and simply use the wait(...) method. \n+However, this may result in lost wake-ups, so do it only if acceptable.\n+\n+Local progress is guaranteed (no coroutine starvation) but a FIFO ordering is not.\n+Spurious wake-ups are possible.  \n+*/\n+\n+typedef enum {\n+\tMACHINE_WAIT_LIST_SUCCESS = 0,\n+\tMACHINE_WAIT_LIST_ERR_TIMEOUT_OR_CANCEL = 1,\n+\tMACHINE_WAIT_LIST_ERR_AGAIN = 2\n+} machine_wait_list_return_code_t;",
+    "path": "third_party/machinarium/sources/machinarium.h",
+    "commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "original_commit_id": "26d5a4092c426a430b5a37c0da713c682d4714da",
+    "user": {
+      "login": "sergei-heifetz",
+      "id": 116819689,
+      "node_id": "U_kgDOBvaG6Q",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116819689?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sergei-heifetz",
+      "html_url": "https://github.com/sergei-heifetz",
+      "followers_url": "https://api.github.com/users/sergei-heifetz/followers",
+      "following_url": "https://api.github.com/users/sergei-heifetz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sergei-heifetz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sergei-heifetz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sergei-heifetz/subscriptions",
+      "organizations_url": "https://api.github.com/users/sergei-heifetz/orgs",
+      "repos_url": "https://api.github.com/users/sergei-heifetz/repos",
+      "events_url": "https://api.github.com/users/sergei-heifetz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sergei-heifetz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Done.",
+    "created_at": "2025-06-14T07:25:10Z",
+    "updated_at": "2025-06-14T07:25:11Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/881#discussion_r2146667203",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/881",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146667203"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/881#discussion_r2146667203"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/881"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146667203/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 343,
+    "side": "RIGHT",
+    "in_reply_to_id": 2146589037,
+    "author_association": "CONTRIBUTOR",
+    "original_position": 31,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146952130",
+    "pull_request_review_id": 2928361781,
+    "id": 2146952130,
+    "node_id": "PRRC_kwDOCA6dWc5_9-PC",
+    "diff_hunk": "@@ -321,10 +321,37 @@ MACHINE_API const char *machine_get_backtrace_string();\n MACHINE_API int machine_get_backtrace(void **entries, int max);\n \n /* wait list */\n-MACHINE_API machine_wait_list_t *machine_wait_list_create();\n+\n+/* \n+A wait list is a structure that is similar to a futex (see futex(2) and futex(7) for details). \n+It allows a coroutine to wait until a specific condition is met.\n+Wait lists can be shared among different workers and are suitable for implementing other thread synchronization primitives.\n+\n+If compare-and-wait functionality is not needed, you can pass NULL when creating a wait list and simply use the wait(...) method. \n+However, this may result in lost wake-ups, so do it only if acceptable.\n+\n+Local progress is guaranteed (no coroutine starvation) but a FIFO ordering is not.\n+Spurious wake-ups are possible.  ",
+    "path": "third_party/machinarium/sources/machinarium.h",
+    "commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "original_commit_id": "18549441649ab9f4ade46eb992285eeb35c29e56",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "how? i thought we control the coroutine wake up",
+    "created_at": "2025-06-14T14:03:48Z",
+    "updated_at": "2025-06-14T14:03:48Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/881#discussion_r2146952130",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/881",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146952130"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/881#discussion_r2146952130"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/881"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2146952130/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 334,
+    "original_line": 334,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 15,
+    "position": 15,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151284273",
+    "pull_request_review_id": 2934082079,
+    "id": 2151284273,
+    "node_id": "PRRC_kwDOCA6dWc6AOf4x",
+    "diff_hunk": "@@ -165,12 +161,33 @@ void mm_wait_list_notify(mm_wait_list_t *wait_list)\n \n void mm_wait_list_notify_all(mm_wait_list_t *wait_list)\n {\n-\tuint64_t count = 2 * atomic_load(&wait_list->sleepies_count);\n+\tmm_sleepy_t *sleepy;\n+\n+\tmm_sleeplock_lock(&wait_list->lock);\n \n-\twhile (count > 0) {\n-\t\tmm_wait_list_notify(wait_list);\n+\tmm_list_t woken_sleepies;\n+\tmm_list_init(&woken_sleepies);\n+\n+\tuint64_t count = wait_list->sleepies_count;\n+\tfor (uint64_t i = 0; i != count; ++i) {",
+    "path": "third_party/machinarium/sources/wait_list.c",
+    "commit_id": "160d4b812e950417493a115efa40e485557e9eb2",
+    "original_commit_id": "cdd34c55a28ece251b4827fd94c7a4cefa8cb245",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "we write < in the project",
+    "created_at": "2025-06-17T04:18:21Z",
+    "updated_at": "2025-06-17T04:18:21Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/888#discussion_r2151284273",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/888",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151284273"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/888#discussion_r2151284273"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/888"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151284273/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 172,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 113,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151285950",
+    "pull_request_review_id": 2934084495,
+    "id": 2151285950,
+    "node_id": "PRRC_kwDOCA6dWc6AOgS-",
+    "diff_hunk": "@@ -58,7 +59,6 @@ mm_wait_list_t *mm_wait_list_create(atomic_uint_fast64_t *word)\n \tmm_sleeplock_init(&wait_list->lock);\n \n \tmm_list_init(&wait_list->sleepies);\n-\tatomic_init(&wait_list->sleepies_count, 0ULL);",
+    "path": "third_party/machinarium/sources/wait_list.c",
+    "commit_id": "160d4b812e950417493a115efa40e485557e9eb2",
+    "original_commit_id": "cdd34c55a28ece251b4827fd94c7a4cefa8cb245",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "wait_list->sleepies_count is no more atomic var, but shouldn't we initialize it here with 0 anyway?",
+    "created_at": "2025-06-17T04:20:23Z",
+    "updated_at": "2025-06-17T05:45:20Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/888#discussion_r2151285950",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/888",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151285950"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/888#discussion_r2151285950"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/888"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151285950/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 61,
+    "original_line": 61,
+    "side": "LEFT",
+    "author_association": "COLLABORATOR",
+    "original_position": 63,
+    "position": 64,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151287881",
+    "pull_request_review_id": 2934086977,
+    "id": 2151287881,
+    "node_id": "PRRC_kwDOCA6dWc6AOgxJ",
+    "diff_hunk": "@@ -1,58 +1,85 @@\n #include <machinarium.h>\n #include <odyssey_test.h>\n \n+#define NUM_THREADS 10\n+\n typedef struct {\n \tmachine_wait_list_t *wait_list;\n \tint num;\n } waiter_arg_t;\n \n-static inline void test_waiter(void *arg)\n+static inline void test_waiter_coroutine(void *arg)\n {\n \twaiter_arg_t *warg = arg;\n \n \tmachine_wait_list_t *wait_list = warg->wait_list;\n \n-\tint rc = machine_wait_list_wait(wait_list, 1000);\n+\tint rc = machine_wait_list_wait(wait_list, 10000);\n \ttest(rc == 0);\n \n \t/*\n \t * sleep here to parent coroutine's machine_join\n \t * catch this coro before destroying\n \t */\n-\tmachine_sleep(warg->num * 100);\n+\tmachine_sleep(warg->num * 50);\n }\n \n-static inline void test_notify_all(void *arg)\n+static inline void test_waiter_thread(void *arg)\n {\n \t(void)arg;\n \n-\tmachine_wait_list_t *wl = machine_wait_list_create(NULL);\n+\twaiter_arg_t *warg = arg;\n \n-\twaiter_arg_t arg1 = { .wait_list = wl, .num = 1 };\n-\tint waiter1 = machine_coroutine_create(test_waiter, &arg1);\n+\twaiter_arg_t arg1 = { .wait_list = warg->wait_list, .num = warg->num };\n+\tint waiter1 = machine_coroutine_create(test_waiter_coroutine, &arg1);\n \ttest(waiter1 != -1);\n \n-\twaiter_arg_t arg2 = { .wait_list = wl, .num = 2 };\n-\tint waiter2 = machine_coroutine_create(test_waiter, &arg2);\n+\twaiter_arg_t arg2 = { .wait_list = warg->wait_list,\n+\t\t\t      .num = warg->num + 1 };\n+\tint waiter2 = machine_coroutine_create(test_waiter_coroutine, &arg2);\n \ttest(waiter2 != -1);\n \n-\twaiter_arg_t arg3 = { .wait_list = wl, .num = 3 };\n-\tint waiter3 = machine_coroutine_create(test_waiter, &arg3);\n-\ttest(waiter3 != -1);\n-\n-\tmachine_sleep(100);\n-\n-\tmachine_wait_list_notify_all(wl);\n-\n \tint rc;\n \trc = machine_join(waiter1);\n \ttest(rc == 0);\n \n \trc = machine_join(waiter2);\n \ttest(rc == 0);\n+}\n \n-\trc = machine_join(waiter3);\n-\ttest(rc == 0);\n+static inline void test_notify_all(void *arg)\n+{\n+\t(void)arg;\n+\n+\tmachine_wait_list_t *wl = machine_wait_list_create(NULL);\n+\n+\tint waiters[NUM_THREADS];\n+\n+\tfor (int i = 0; i != NUM_THREADS; ++i) {",
+    "path": "test/machinarium/test_wait_list_notify_all.c",
+    "commit_id": "160d4b812e950417493a115efa40e485557e9eb2",
+    "original_commit_id": "cdd34c55a28ece251b4827fd94c7a4cefa8cb245",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "<",
+    "created_at": "2025-06-17T04:22:38Z",
+    "updated_at": "2025-06-17T04:22:39Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/888#discussion_r2151287881",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/888",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151287881"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/888#discussion_r2151287881"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/888"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151287881/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 58,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 77,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151287935",
+    "pull_request_review_id": 2934087067,
+    "id": 2151287935,
+    "node_id": "PRRC_kwDOCA6dWc6AOgx_",
+    "diff_hunk": "@@ -1,58 +1,85 @@\n #include <machinarium.h>\n #include <odyssey_test.h>\n \n+#define NUM_THREADS 10\n+\n typedef struct {\n \tmachine_wait_list_t *wait_list;\n \tint num;\n } waiter_arg_t;\n \n-static inline void test_waiter(void *arg)\n+static inline void test_waiter_coroutine(void *arg)\n {\n \twaiter_arg_t *warg = arg;\n \n \tmachine_wait_list_t *wait_list = warg->wait_list;\n \n-\tint rc = machine_wait_list_wait(wait_list, 1000);\n+\tint rc = machine_wait_list_wait(wait_list, 10000);\n \ttest(rc == 0);\n \n \t/*\n \t * sleep here to parent coroutine's machine_join\n \t * catch this coro before destroying\n \t */\n-\tmachine_sleep(warg->num * 100);\n+\tmachine_sleep(warg->num * 50);\n }\n \n-static inline void test_notify_all(void *arg)\n+static inline void test_waiter_thread(void *arg)\n {\n \t(void)arg;\n \n-\tmachine_wait_list_t *wl = machine_wait_list_create(NULL);\n+\twaiter_arg_t *warg = arg;\n \n-\twaiter_arg_t arg1 = { .wait_list = wl, .num = 1 };\n-\tint waiter1 = machine_coroutine_create(test_waiter, &arg1);\n+\twaiter_arg_t arg1 = { .wait_list = warg->wait_list, .num = warg->num };\n+\tint waiter1 = machine_coroutine_create(test_waiter_coroutine, &arg1);\n \ttest(waiter1 != -1);\n \n-\twaiter_arg_t arg2 = { .wait_list = wl, .num = 2 };\n-\tint waiter2 = machine_coroutine_create(test_waiter, &arg2);\n+\twaiter_arg_t arg2 = { .wait_list = warg->wait_list,\n+\t\t\t      .num = warg->num + 1 };\n+\tint waiter2 = machine_coroutine_create(test_waiter_coroutine, &arg2);\n \ttest(waiter2 != -1);\n \n-\twaiter_arg_t arg3 = { .wait_list = wl, .num = 3 };\n-\tint waiter3 = machine_coroutine_create(test_waiter, &arg3);\n-\ttest(waiter3 != -1);\n-\n-\tmachine_sleep(100);\n-\n-\tmachine_wait_list_notify_all(wl);\n-\n \tint rc;\n \trc = machine_join(waiter1);\n \ttest(rc == 0);\n \n \trc = machine_join(waiter2);\n \ttest(rc == 0);\n+}\n \n-\trc = machine_join(waiter3);\n-\ttest(rc == 0);\n+static inline void test_notify_all(void *arg)\n+{\n+\t(void)arg;\n+\n+\tmachine_wait_list_t *wl = machine_wait_list_create(NULL);\n+\n+\tint waiters[NUM_THREADS];\n+\n+\tfor (int i = 0; i != NUM_THREADS; ++i) {\n+\t\twaiter_arg_t *arg = malloc(sizeof(waiter_arg_t));\n+\t\targ->wait_list = wl;\n+\t\targ->num = 1 + 2 * i;\n+\t\tchar buf[256];\n+\t\tsnprintf(buf, sizeof(buf), \"%s%d\", \"test_waiter_thread_\",\n+\t\t\t i + 1);\n+\t\tint waiter = machine_create(buf, test_waiter_thread, arg);\n+\t\ttest(waiter != -1);\n+\n+\t\twaiters[i] = waiter;\n+\t}\n+\n+\tmachine_sleep(1000);\n+\n+\tmachine_wait_list_notify_all(wl);\n+\n+\tint rc;\n+\tfor (int i = 0; i != NUM_THREADS; ++i) {",
+    "path": "test/machinarium/test_wait_list_notify_all.c",
+    "commit_id": "160d4b812e950417493a115efa40e485557e9eb2",
+    "original_commit_id": "cdd34c55a28ece251b4827fd94c7a4cefa8cb245",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "<",
+    "created_at": "2025-06-17T04:22:43Z",
+    "updated_at": "2025-06-17T04:22:44Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/888#discussion_r2151287935",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/888",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151287935"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/888#discussion_r2151287935"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/888"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2151287935/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 76,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 95,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2194318504",
+    "pull_request_review_id": 3000442082,
+    "id": 2194318504,
+    "node_id": "PRRC_kwDOCA6dWc6CyqSo",
+    "diff_hunk": "@@ -249,6 +249,9 @@ int od_auth_query(od_client_t *client, char *peer)\n \tcache_value->passwd_len = password->password_len;\n \tcache_value->passwd = malloc(password->password_len);\n \tif (cache_value->passwd == NULL) {\n+\t\tod_router_close(router, auth_client);",
+    "path": "sources/auth_query.c",
+    "commit_id": "7ca524e69065c696438dc4dc31a29bd3f7386d71",
+    "original_commit_id": "7ca524e69065c696438dc4dc31a29bd3f7386d71",
+    "user": {
+      "login": "AndrewOvvv",
+      "id": 63587191,
+      "node_id": "MDQ6VXNlcjYzNTg3MTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63587191?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndrewOvvv",
+      "html_url": "https://github.com/AndrewOvvv",
+      "followers_url": "https://api.github.com/users/AndrewOvvv/followers",
+      "following_url": "https://api.github.com/users/AndrewOvvv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndrewOvvv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndrewOvvv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndrewOvvv/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndrewOvvv/orgs",
+      "repos_url": "https://api.github.com/users/AndrewOvvv/repos",
+      "events_url": "https://api.github.com/users/AndrewOvvv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndrewOvvv/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "- [ ] It seems that you can move that code before if statement, cause you dont use route after? And delete free before error label. Am i right? ",
+    "created_at": "2025-07-09T07:49:12Z",
+    "updated_at": "2025-07-09T07:50:59Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/924#discussion_r2194318504",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/924",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2194318504"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/924#discussion_r2194318504"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/924"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2194318504/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 252,
+    "original_line": 252,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 31,
+    "position": 31,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2204939766",
+    "pull_request_review_id": 3016372163,
+    "id": 2204939766,
+    "node_id": "PRRC_kwDOCA6dWc6DbLX2",
+    "diff_hunk": "@@ -14,6 +14,8 @@\n #define IOV_MAX __IOV_MAX\n #endif\n \n+#define mm_cast(type, ptr) ((type)(ptr))",
+    "path": "third_party/machinarium/sources/machinarium_private.h",
+    "commit_id": "9fb361a851d8dd2a37342bf585e280e2ba5708e8",
+    "original_commit_id": "9fb361a851d8dd2a37342bf585e280e2ba5708e8",
+    "user": {
+      "login": "AndrewOvvv",
+      "id": 63587191,
+      "node_id": "MDQ6VXNlcjYzNTg3MTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63587191?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AndrewOvvv",
+      "html_url": "https://github.com/AndrewOvvv",
+      "followers_url": "https://api.github.com/users/AndrewOvvv/followers",
+      "following_url": "https://api.github.com/users/AndrewOvvv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AndrewOvvv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AndrewOvvv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AndrewOvvv/subscriptions",
+      "organizations_url": "https://api.github.com/users/AndrewOvvv/orgs",
+      "repos_url": "https://api.github.com/users/AndrewOvvv/repos",
+      "events_url": "https://api.github.com/users/AndrewOvvv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AndrewOvvv/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "sorry, im just interested in, why you moved that macro here. You broke the code structure with that change, didn't you? (about the semantic structure of the code)",
+    "created_at": "2025-07-14T13:23:51Z",
+    "updated_at": "2025-07-14T13:52:40Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/894#discussion_r2204939766",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/894",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2204939766"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/894#discussion_r2204939766"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/894"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2204939766/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 17,
+    "original_line": 17,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 4,
+    "position": 4,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2217328625",
+    "pull_request_review_id": 3035381851,
+    "id": 2217328625,
+    "node_id": "PRRC_kwDOCA6dWc6EKb_x",
+    "diff_hunk": "@@ -0,0 +1,54 @@\n+#!/usr/bin/env bash\n+\n+set -ex\n+\n+until pg_isready -h primary -p 5432 -U postgres -d postgres; do\n+  echo \"Wait for primary...\"\n+  sleep 1\n+done\n+\n+/odyssey/build/sources/odyssey /odyssey/docker/prometheus-legacy/config.conf\n+sleep 3\n+\n+netstat -tulpan | grep \":7777\" || {\n+  echo \"Can't find prom port\"\n+  ody-stop\n+  exit 1\n+}\n+netstat -tulpan | grep \":6432\" || {\n+  echo \"Can't find odyssey port\"\n+  ody-stop\n+  exit 1\n+}\n+\n+for (( i=1; i <= 10; i++ ))\n+do \n+psql \"host=localhost port=6432 dbname=postgres user=postgres\" -A -t -c \"select $i\" || {\n+    echo \"error: failed to successfully auth\"\n+    cat /var/log/odyssey.log\n+    ody-stop\n+    exit 1\n+}\n+done\n+\n+curl  -v http://localhost:7777/metrics | grep \"TYPE\" || {",
+    "path": "docker/prometheus-legacy/entrypoint.sh",
+    "commit_id": "b03cb1b264eaa17c8f2ac29a671fe3d39aedac75",
+    "original_commit_id": "b54bfc8c61442476a524ec5db2b30b33f8b5a8c9",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "how did it check that there is odyssey metrics ? ",
+    "created_at": "2025-07-19T14:08:58Z",
+    "updated_at": "2025-07-24T09:12:08Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/944#discussion_r2217328625",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/944",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2217328625"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/944#discussion_r2217328625"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/944"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2217328625/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 34,
+    "original_line": 34,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 34,
+    "position": 34,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2217328791",
+    "pull_request_review_id": 3035381851,
+    "id": 2217328791,
+    "node_id": "PRRC_kwDOCA6dWc6EKcCX",
+    "diff_hunk": "@@ -244,6 +218,32 @@ int od_instance_main(od_instance_t *instance, int argc, char **argv)\n \t\tod_pid_init(&instance->pid);\n \t}\n \n+#ifdef PROM_FOUND",
+    "path": "sources/instance.c",
+    "commit_id": "b03cb1b264eaa17c8f2ac29a671fe3d39aedac75",
+    "original_commit_id": "b54bfc8c61442476a524ec5db2b30b33f8b5a8c9",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "why need this code move?",
+    "created_at": "2025-07-19T14:09:55Z",
+    "updated_at": "2025-07-24T09:12:08Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/944#discussion_r2217328791",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/944",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2217328791"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/944#discussion_r2217328791"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/944"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2217328791/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 221,
+    "original_line": 221,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 37,
+    "position": 37,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2251112530",
+    "pull_request_review_id": 3083644521,
+    "id": 2251112530,
+    "node_id": "PRRC_kwDOCA6dWc6GLUBS",
+    "diff_hunk": "@@ -1108,6 +1108,107 @@ static od_frontend_status_t od_frontend_remote_client(od_relay_t *relay,\n \t\tif (instance->config.log_query || route->rule->log_query)\n \t\t\tod_frontend_log_query(instance, client, data, size);\n \n+\t\t/* Ignore “DISCARD ALL” completely, but make sure",
+    "path": "sources/frontend.c",
+    "commit_id": "fbe43133fb809fc41ae76f39e93e4ec1d29974c4",
+    "original_commit_id": "14421cc42e22e6cd8a134f011bd46a86e25fe88c",
+    "user": {
+      "login": "Fenoman",
+      "id": 34582446,
+      "node_id": "MDQ6VXNlcjM0NTgyNDQ2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34582446?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Fenoman",
+      "html_url": "https://github.com/Fenoman",
+      "followers_url": "https://api.github.com/users/Fenoman/followers",
+      "following_url": "https://api.github.com/users/Fenoman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Fenoman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Fenoman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Fenoman/subscriptions",
+      "organizations_url": "https://api.github.com/users/Fenoman/orgs",
+      "repos_url": "https://api.github.com/users/Fenoman/repos",
+      "events_url": "https://api.github.com/users/Fenoman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Fenoman/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Yes, that makes sense, thank you!",
+    "created_at": "2025-08-04T10:46:24Z",
+    "updated_at": "2025-08-04T10:46:24Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/808#discussion_r2251112530",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/808",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2251112530"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/808#discussion_r2251112530"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/808"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2251112530/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 1529,
+    "side": "RIGHT",
+    "in_reply_to_id": 2081029463,
+    "author_association": "CONTRIBUTOR",
+    "original_position": 4,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2252864656",
+    "pull_request_review_id": 3086181634,
+    "id": 2252864656,
+    "node_id": "PRRC_kwDOCA6dWc6GR_yQ",
+    "diff_hunk": "@@ -1108,6 +1108,107 @@ static od_frontend_status_t od_frontend_remote_client(od_relay_t *relay,\n \t\tif (instance->config.log_query || route->rule->log_query)\n \t\t\tod_frontend_log_query(instance, client, data, size);\n \n+\t\t/* Ignore “DISCARD ALL” completely, but make sure",
+    "path": "sources/frontend.c",
+    "commit_id": "fbe43133fb809fc41ae76f39e93e4ec1d29974c4",
+    "original_commit_id": "14421cc42e22e6cd8a134f011bd46a86e25fe88c",
+    "user": {
+      "login": "Fenoman",
+      "id": 34582446,
+      "node_id": "MDQ6VXNlcjM0NTgyNDQ2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34582446?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Fenoman",
+      "html_url": "https://github.com/Fenoman",
+      "followers_url": "https://api.github.com/users/Fenoman/followers",
+      "following_url": "https://api.github.com/users/Fenoman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Fenoman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Fenoman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Fenoman/subscriptions",
+      "organizations_url": "https://api.github.com/users/Fenoman/orgs",
+      "repos_url": "https://api.github.com/users/Fenoman/repos",
+      "events_url": "https://api.github.com/users/Fenoman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Fenoman/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Done! Plz review.",
+    "created_at": "2025-08-05T00:54:15Z",
+    "updated_at": "2025-08-05T00:54:16Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/808#discussion_r2252864656",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/808",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2252864656"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/808#discussion_r2252864656"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/808"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2252864656/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 1529,
+    "side": "RIGHT",
+    "in_reply_to_id": 2081029463,
+    "author_association": "CONTRIBUTOR",
+    "original_position": 4,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2253051911",
+    "pull_request_review_id": 3086431776,
+    "id": 2253051911,
+    "node_id": "PRRC_kwDOCA6dWc6GStgH",
+    "diff_hunk": "@@ -1472,6 +1472,102 @@ od_virtual_process_query(od_client_t *client, char *query, uint32_t query_len)\n \t}\n }\n \n+static od_frontend_status_t od_handle_discard_all(od_client_t *client,\n+\t\t\t\t\t\t  od_server_t *server,\n+\t\t\t\t\t\t  od_instance_t *instance,\n+\t\t\t\t\t\t  char *data, int size)\n+{\n+\t/* 1. Very fast size guard */\n+\t/* FE Query header: 1 (type) + 4 (length) = 5 bytes */\n+\tconst uint32_t MAX_RELEVANT = 5 + 15;          /* 20 bytes total */\n+\t\n+\tif ((uint32_t)size > MAX_RELEVANT)            /* longer packets → skip */\n+\t\treturn OD_OK;\n+\t\n+\tod_debug(&instance->logger, \"ignore_discardall\",\n+\t\t client, server,\n+\t\t \"query size <= 20 bytes\");\n+\t\n+\tchar *q; \n+\tuint32_t qlen;\n+\t\n+\tif (kiwi_be_read_query(data, size, &q, &qlen) != 0 || qlen <= 10) /* min 11 chars */\n+\t\treturn OD_OK;\n+\t\n+\tod_debug(&instance->logger, \"ignore_discardall\",\n+\t\t client, server,\n+\t\t \"query = \\\"%.*s\\\" (len=%u)\", qlen, q, qlen);\n+\n+\t/* 2. Trim leading whitespace */\n+\twhile (qlen && isspace((unsigned char)*q)) {\n+\t\t++q;\n+\t\t--qlen;\n+\t}\n+\n+\t/* 3. Trim trailing whitespace, semicolon, and null terminator in one loop */\n+\twhile (qlen) {\n+\t\tunsigned char ch = (unsigned char)q[qlen - 1];\n+\t\tif (ch == '\\0' || isspace(ch)) {\n+\t\t\t--qlen;\n+\t\t}\n+\t\telse if (ch == ';') {\n+\t\t\t--qlen;\n+\t\t\t/* remove any whitespace that comes before the semicolon */\n+\t\t\twhile (qlen && isspace((unsigned char)q[qlen - 1])) {\n+\t\t\t\t--qlen;\n+\t\t\t}\n+\t\t\tbreak;\n+\t\t}\n+\t\telse {\n+\t\t\tbreak;\n+\t\t}\n+\t}\n+\n+\tod_debug(&instance->logger, \"ignore_discardall\",\n+\t\t client, server,\n+\t\t \"query after trim = \\\"%.*s\\\" (len=%u)\", qlen, q, qlen);\n+\n+\t/* 4. Compare with \"DISCARD ALL\" (11 chars) */\n+\tif (qlen != 11)     /* any other length → skip */\n+\t\treturn OD_OK;\n+\t\n+\tod_debug(&instance->logger, \"ignore_discardall\",\n+\t\t client, server,\n+\t\t \"query length is 11\");\n+\t\n+\tstatic const char pat[11] = \"DISCARD ALL\";\n+\tbool match = true;\n+\t\n+\tfor (int i = 0; i < 11; ++i)\n+\t\tif ( (q[i] | 32) != (pat[i] | 32) ) { match = false; break; }",
+    "path": "sources/frontend.c",
+    "commit_id": "fbe43133fb809fc41ae76f39e93e4ec1d29974c4",
+    "original_commit_id": "fbe43133fb809fc41ae76f39e93e4ec1d29974c4",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "why not use strncasecmp ?",
+    "created_at": "2025-08-05T04:03:00Z",
+    "updated_at": "2025-08-05T04:03:00Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/808#discussion_r2253051911",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/808",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2253051911"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/808#discussion_r2253051911"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/808"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2253051911/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 1542,
+    "original_line": 1542,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 71,
+    "position": 71,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2253739718",
+    "pull_request_review_id": 3087425056,
+    "id": 2253739718,
+    "node_id": "PRRC_kwDOCA6dWc6GVVbG",
+    "diff_hunk": "@@ -1472,6 +1472,102 @@ od_virtual_process_query(od_client_t *client, char *query, uint32_t query_len)\n \t}\n }\n \n+static od_frontend_status_t od_handle_discard_all(od_client_t *client,\n+\t\t\t\t\t\t  od_server_t *server,\n+\t\t\t\t\t\t  od_instance_t *instance,\n+\t\t\t\t\t\t  char *data, int size)\n+{\n+\t/* 1. Very fast size guard */\n+\t/* FE Query header: 1 (type) + 4 (length) = 5 bytes */\n+\tconst uint32_t MAX_RELEVANT = 5 + 15;          /* 20 bytes total */\n+\t\n+\tif ((uint32_t)size > MAX_RELEVANT)            /* longer packets → skip */\n+\t\treturn OD_OK;\n+\t\n+\tod_debug(&instance->logger, \"ignore_discardall\",\n+\t\t client, server,\n+\t\t \"query size <= 20 bytes\");\n+\t\n+\tchar *q; \n+\tuint32_t qlen;\n+\t\n+\tif (kiwi_be_read_query(data, size, &q, &qlen) != 0 || qlen <= 10) /* min 11 chars */\n+\t\treturn OD_OK;\n+\t\n+\tod_debug(&instance->logger, \"ignore_discardall\",\n+\t\t client, server,\n+\t\t \"query = \\\"%.*s\\\" (len=%u)\", qlen, q, qlen);\n+\n+\t/* 2. Trim leading whitespace */\n+\twhile (qlen && isspace((unsigned char)*q)) {\n+\t\t++q;\n+\t\t--qlen;\n+\t}\n+\n+\t/* 3. Trim trailing whitespace, semicolon, and null terminator in one loop */\n+\twhile (qlen) {\n+\t\tunsigned char ch = (unsigned char)q[qlen - 1];\n+\t\tif (ch == '\\0' || isspace(ch)) {\n+\t\t\t--qlen;\n+\t\t}\n+\t\telse if (ch == ';') {\n+\t\t\t--qlen;\n+\t\t\t/* remove any whitespace that comes before the semicolon */\n+\t\t\twhile (qlen && isspace((unsigned char)q[qlen - 1])) {\n+\t\t\t\t--qlen;\n+\t\t\t}\n+\t\t\tbreak;\n+\t\t}\n+\t\telse {\n+\t\t\tbreak;\n+\t\t}\n+\t}\n+\n+\tod_debug(&instance->logger, \"ignore_discardall\",\n+\t\t client, server,\n+\t\t \"query after trim = \\\"%.*s\\\" (len=%u)\", qlen, q, qlen);\n+\n+\t/* 4. Compare with \"DISCARD ALL\" (11 chars) */\n+\tif (qlen != 11)     /* any other length → skip */\n+\t\treturn OD_OK;\n+\t\n+\tod_debug(&instance->logger, \"ignore_discardall\",\n+\t\t client, server,\n+\t\t \"query length is 11\");\n+\t\n+\tstatic const char pat[11] = \"DISCARD ALL\";\n+\tbool match = true;\n+\t\n+\tfor (int i = 0; i < 11; ++i)\n+\t\tif ( (q[i] | 32) != (pat[i] | 32) ) { match = false; break; }",
+    "path": "sources/frontend.c",
+    "commit_id": "fbe43133fb809fc41ae76f39e93e4ec1d29974c4",
+    "original_commit_id": "fbe43133fb809fc41ae76f39e93e4ec1d29974c4",
+    "user": {
+      "login": "Fenoman",
+      "id": 34582446,
+      "node_id": "MDQ6VXNlcjM0NTgyNDQ2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34582446?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Fenoman",
+      "html_url": "https://github.com/Fenoman",
+      "followers_url": "https://api.github.com/users/Fenoman/followers",
+      "following_url": "https://api.github.com/users/Fenoman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Fenoman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Fenoman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Fenoman/subscriptions",
+      "organizations_url": "https://api.github.com/users/Fenoman/orgs",
+      "repos_url": "https://api.github.com/users/Fenoman/repos",
+      "events_url": "https://api.github.com/users/Fenoman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Fenoman/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "You are absolutely right—`strncasecmp` is an excellent and readable function. However, in this particular case, the choice to use a manual implementation for string comparison is driven, first and foremost, by considerations of **extreme performance**.\r\n\r\nThis code is located in the project's \"hot path\"—it executes for every Simple Query command that passes through the connection pool and meets the length requirement. In our specific use case, as I've mentioned before, we have quite a few microservices that explicitly and intentionally issue `DISCARD ALL` commands, and disabling this behavior is challenging. My reasoning was that even minimal overheads accumulate and can impact the overall request processing latency. A direct implementation of the comparison loop allows the compiler to apply aggressive optimizations (like loop unrolling) and generate highly efficient machine code, free from side effects and dependencies. Beyond pure performance, this approach has other significant advantages: portability (though perhaps less critical in our context), and predictability with simplicity (the implementation is not dependent on system locales and doesn't require including `<strings.h>`).",
+    "created_at": "2025-08-05T09:37:37Z",
+    "updated_at": "2025-08-05T09:37:37Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/808#discussion_r2253739718",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/808",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2253739718"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/808#discussion_r2253739718"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/808"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2253739718/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 1542,
+    "original_line": 1542,
+    "side": "RIGHT",
+    "in_reply_to_id": 2253051911,
+    "author_association": "CONTRIBUTOR",
+    "original_position": 71,
+    "position": 71,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2299901009",
+    "pull_request_review_id": 3154089951,
+    "id": 2299901009,
+    "node_id": "PRRC_kwDOCA6dWc6JFbRR",
+    "diff_hunk": "@@ -34,23 +38,32 @@ static inline void od_grac_shutdown_timeout_killer(void *arg)\n \n void od_grac_shutdown_worker(void *arg)\n {\n+\tod_grac_shutdown_worker_arg_t *warg =\n+\t\tmm_cast(od_grac_shutdown_worker_arg_t *, arg);",
+    "path": "sources/grac_shutdown_worker.c",
+    "commit_id": "bb5dec2f9d1cbdc4a4b5c60cf625e922e3655908",
+    "original_commit_id": "87b7547a6ab08233a7d70b6c43ee627c705a542a",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "do not use mm_cast here",
+    "created_at": "2025-08-26T06:18:55Z",
+    "updated_at": "2025-08-26T06:18:56Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/981#discussion_r2299901009",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/981",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2299901009"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/981#discussion_r2299901009"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/981"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2299901009/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 42,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 16,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2299914684",
+    "pull_request_review_id": 3154107575,
+    "id": 2299914684,
+    "node_id": "PRRC_kwDOCA6dWc6JFem8",
+    "diff_hunk": "@@ -92,29 +141,76 @@ void od_system_signal_handler(void *arg)\n \tsigset_t ignore_mask;\n \tsigemptyset(&ignore_mask);\n \tsigaddset(&ignore_mask, SIGPIPE);\n+\n \tint rc;\n \trc = machine_signal_init(&mask, &ignore_mask);\n \tif (rc == -1) {\n-\t\tod_error(&instance->logger, \"system\", NULL, NULL,\n-\t\t\t \"failed to init signal handler\");\n-\t\treturn;\n+\t\tod_fatal(&instance->logger, \"system\", NULL, NULL,\n+\t\t\t \"failed to init signal handler (machine_signal_init)\");\n+\t}\n+\n+\tmachine_channel_t *channel;\n+\tchannel = machine_channel_create();\n+\tif (channel == NULL) {\n+\t\tod_fatal(&instance->logger, \"system\", NULL, NULL,\n+\t\t\t \"failed to init signal handler (channel creation)\");\n+\t}\n+\n+\t/* freed in od_signal_waiter */\n+\twaiter_arg_t *waiter_arg = od_malloc(sizeof(waiter_arg_t));",
+    "path": "sources/sighandler.c",
+    "commit_id": "bb5dec2f9d1cbdc4a4b5c60cf625e922e3655908",
+    "original_commit_id": "87b7547a6ab08233a7d70b6c43ee627c705a542a",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "move args to stack here and above",
+    "created_at": "2025-08-26T06:26:26Z",
+    "updated_at": "2025-08-26T06:26:26Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/981#discussion_r2299914684",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/981",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2299914684"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/981#discussion_r2299914684"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/981"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2299914684/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 160,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 116,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2309270824",
+    "pull_request_review_id": 3167524172,
+    "id": 2309270824,
+    "node_id": "PRRC_kwDOCA6dWc6JpK0o",
+    "diff_hunk": "@@ -73,8 +73,12 @@ MACHINE_API uint64_t machine_self(void);\n \n MACHINE_API void **machine_thread_private(void);\n \n+/* blocks the current thread (not necessarily a machine) until the specified machine is finished */\n MACHINE_API int machine_wait(uint64_t machine_id);\n \n+/* blocks the current coroutine until the specified machine is finished */\n+MACHINE_API int machine_wait_fast(uint64_t machine_id);",
+    "path": "third_party/machinarium/sources/machinarium.h",
+    "commit_id": "fe6e3e400642c0c528e012fb7e96cc3980e7548a",
+    "original_commit_id": "fe6e3e400642c0c528e012fb7e96cc3980e7548a",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "rename machine_join_machine (also machine_join_coro)",
+    "created_at": "2025-08-29T06:25:28Z",
+    "updated_at": "2025-08-29T06:25:47Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/984#discussion_r2309270824",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/984",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2309270824"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/984#discussion_r2309270824"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/984"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2309270824/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 80,
+    "original_line": 80,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 8,
+    "position": 8,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2332041672",
+    "pull_request_review_id": 3199253040,
+    "id": 2332041672,
+    "node_id": "PRRC_kwDOCA6dWc6LACHI",
+    "diff_hunk": "@@ -5,6 +5,53 @@ for all Odyssey rules.\n \n ---\n \n+## Configuration Parameters Reference\n+| Parameter                                  | Type             | Default     | Reload  | Notes                                                 |\n+| ------------------------------------------ | ---------------- | ----------- | ------- | ----------------------------------------------------- |\n+| `include`                                  | string/list      | unset       | SIGHUP  | Include external config files (parsed, not in struct) |\n+| `daemonize`                                | int (bool)       | `no`        | restart | Prefer systemd over daemonize                         |\n+| `sequential_routing`                       | int (bool)       | `no`        | SIGHUP  | Match routes strictly in config order                 |\n+| `priority`                                 | int              | 0           | restart | Process priority (nice value)                         |\n+| `pid_file`                                 | char \\* (string) | unset       | restart | PID file path                                         |\n+| `unix_socket_dir`                          | char \\* (string) | unset       | restart | Enables UNIX socket comms                             |\n+| `unix_socket_mode`                         | char \\* (string) | unset       | restart | Permissions for socket files (octal string)           |\n+| `locks_dir`                                | char \\* (string) | unset       | restart | Location for lock files                               |\n+| `log_file`                                 | char \\* (string) | unset       | SIGHUP  | Additional log output file                            |\n+| `log_format`                               | char \\* (string) | unset       | SIGHUP  | Log message template                                  |\n+| `log_to_stdout`                            | int (bool)       | `yes`       | SIGHUP  | Logs to stdout                                        |\n+| `log_syslog`                               | int (bool)       | `no`        | SIGHUP  | Enable syslog output                                  |\n+| `log_debug`                                | int (bool)       | `no`        | SIGHUP  | Verbose debugging logs                                |\n+| `log_config`                               | int (bool)       | `no`        | SIGHUP  | Log config at start/reload                            |\n+| `log_session`                              | int (bool)       | `yes`       | SIGHUP  | Log client connect/disconnect                         |\n+| `log_query`                                | int (bool)       | `no`        | SIGHUP  | ⚠️ Logs client SQL queries                            |\n+| `log_stats`                                | int (bool)       | `yes`       | SIGHUP  | Log periodic route statistics                         |\n+| `promhttp_server_port`                     | int              | unset       | SIGHUP  | Enable Prometheus endpoint                            |\n+| `log_general_stats_prom`                   | int (bool)       | `no`        | SIGHUP  | Prometheus general stats                              |\n+| `log_route_stats_prom`                     | int (bool)       | `no`        | SIGHUP  | Prometheus per-route stats                            |\n+| `stats_interval`                           | int (sec)        | `3`         | SIGHUP  | Interval for stats logging                            |\n+| `workers`                                  | int              | `1`         | restart | Worker threads for clients                            |\n+| `resolvers`                                | int              | `1`         | restart | DNS resolver threads                                  |\n+| `readahead`                                | int (bytes)      | `8192`      | SIGHUP  | Per-connection read buffer                            |\n+| `cache_coroutine`                          | int              | `0`         | restart | Coroutine cache size                                  |\n+| `nodelay`                                  | int (bool)       | `yes`       | SIGHUP  | Enable TCP\\_NODELAY                                   |\n+| `keepalive`                                | int (sec)        | `15`        | SIGHUP  | TCP keepalive; 0 disables                             |\n+| `keepalive_keep_interval`                  | int (sec)        | `5`         | SIGHUP  | Interval between probes                               |\n+| `keepalive_probes`                         | int              | `3`         | SIGHUP  | Probes before killing conn                            |\n+| `keepalive_usr_timeout`                    | int (ms)         | `0`         | SIGHUP  | 0 = use system default (`TCP_USER_TIMEOUT`)           |\n+| `backend_connect_timeout_ms`               | int (ms)         | `30000`     | SIGHUP  | Backend connection timeout                            |\n+| `coroutine_stack_size`                     | int (pages)      | `4`         | restart | Coroutine stack size                                  |\n+| `client_max`                               | int              | `0`         | SIGHUP  | Max client connections (0/unset = no global limit)    |\n+| `client_max_routing`                       | int              | `0`         | SIGHUP  | 0/unset → auto (typically `64 * workers`)             |\n+| `server_login_retry`                       | int              | `1`         | SIGHUP  | Retry delay on \"Too many clients\"                     |\n+| `hba_file`                                 | char \\* (string) | unset       | SIGHUP  | Path to pg\\_hba-like rules                            |\n+| `graceful_die_on_errors`                   | int (bool)       | `no`        | runtime | Shutdown on SIGUSR2 (stop accepting new, keep old)    |\n+| `graceful_shutdown_timeout_ms`             | int (ms)         | `30000`     | runtime | Graceful shutdown timeout                             |\n+| `availability_zone`                        | char[256]        | unset       | restart | Used for host selection                               |",
+    "path": "docs/configuration/global.md",
+    "commit_id": "ad1755045978eff25c26b1d5f134dfa0a0673445",
+    "original_commit_id": "0e11c093d5bd26202dff6ce191471664fbab7b50",
+    "user": {
+      "login": "rkhapov",
+      "id": 13774099,
+      "node_id": "MDQ6VXNlcjEzNzc0MDk5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13774099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkhapov",
+      "html_url": "https://github.com/rkhapov",
+      "followers_url": "https://api.github.com/users/rkhapov/followers",
+      "following_url": "https://api.github.com/users/rkhapov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkhapov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkhapov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkhapov/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkhapov/orgs",
+      "repos_url": "https://api.github.com/users/rkhapov/repos",
+      "events_url": "https://api.github.com/users/rkhapov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkhapov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "maybe remove 'char' and keep only 'string' for string values?",
+    "created_at": "2025-09-09T05:18:57Z",
+    "updated_at": "2025-09-09T05:28:41Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/992#discussion_r2332041672",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/992",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2332041672"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/992#discussion_r2332041672"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/992"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/2332041672/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": null,
+    "original_line": 49,
+    "side": "RIGHT",
+    "author_association": "COLLABORATOR",
+    "original_position": 45,
+    "position": 1,
+    "subject_type": "line"
+  }
+]

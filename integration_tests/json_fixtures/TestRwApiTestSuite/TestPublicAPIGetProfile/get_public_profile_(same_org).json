@@ -1,0 +1,30 @@
+{
+  "Code": 200,
+  "Payload": {
+    "avatar": {
+      "url": "https://dev.null/avatars/pinpublic.bmp"
+    },
+    "bio": "Foo Bar",
+    "display_name": "Pinpublic",
+    "id": "019ac51a-4d9e-79f2-9eee-b72458cccf2a",
+    "links": [
+      {
+        "link": "https://ya.ru",
+        "type": "default"
+      }
+    ],
+    "location": {
+      "city": "Bar",
+      "country": "Foo"
+    },
+    "timezone": {
+      "iana_timezone": "Europe/Moscow"
+    },
+    "username": "pinpublic",
+    "visibility": "public",
+    "workplace": {
+      "company": "Yandex",
+      "position": "Developer"
+    }
+  }
+}

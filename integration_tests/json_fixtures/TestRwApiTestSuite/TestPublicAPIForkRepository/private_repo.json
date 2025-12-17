@@ -1,0 +1,8 @@
+{
+  "Code": 400,
+  "Payload": {
+    "error_code": "InvalidArgument",
+    "message": "Invalid argument: private effective visibility is restricted for forks (private org?)",
+    "request_id": "61230f94-0140-7bf5-7e87-d0cb36b22996"
+  }
+}

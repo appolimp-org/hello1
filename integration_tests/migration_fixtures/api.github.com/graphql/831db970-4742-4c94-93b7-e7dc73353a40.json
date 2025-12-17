@@ -1,0 +1,1026 @@
+{
+  "data": {
+    "repository": {
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 2,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 6,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 20,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 22,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 23,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 28,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 30,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 43,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 46,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 48,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 49,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 51,
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 50
+                }
+              ],
+              "pageInfo": {
+                "endCursor": "MQ",
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 53,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 54,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 55,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 56,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 57,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 60,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 61,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 62,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 63,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 64,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 66,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 68,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 69,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 70,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 71,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 72,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 73,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 74,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 78,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 79,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 81,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 83,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 86,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 87,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 88,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 89,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 90,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 91,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 92,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 94,
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 93
+                }
+              ],
+              "pageInfo": {
+                "endCursor": "MQ",
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 95,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 96,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 97,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 98,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 99,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 100,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 101,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 102,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 103,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 104,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 106,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 107,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 111,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 115,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 116,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 118,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 119,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 120,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 121,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 122,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 123,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 125,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 126,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 127,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 128,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 129,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 131,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 132,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 133,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 135,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 136,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 137,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 139,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 140,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 141,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 142,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 144,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 145,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 146,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 147,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 150,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 151,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 152,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 153,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 154,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 155,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 156,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 157,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 158,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 159,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 160,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 161,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 163,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 164,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 165,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 166,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 167,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 168,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "Y3Vyc29yOnYyOpHOGd8X2w==",
+          "hasNextPage": true
+        }
+      }
+    },
+    "rateLimit": {
+      "remaining": 4994,
+      "resetAt": "2025-10-16T17:38:01Z"
+    }
+  }
+}

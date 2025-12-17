@@ -1,0 +1,10 @@
+{
+  "id":  "67211226626654209",
+  "event_type":  "COMMENT_CREATED",
+  "created_at":  "2025-04-08T16:03:32.882919Z",
+  "details":  {
+    "comment":  {
+      "comment_id":  "67211226609876993"
+    }
+  }
+}

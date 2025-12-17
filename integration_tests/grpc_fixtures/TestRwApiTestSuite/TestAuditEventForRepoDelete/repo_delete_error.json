@@ -1,0 +1,45 @@
+{
+  "authentication":  {
+    "authenticated":  true,
+    "subject_type":  "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id":  "krosh",
+    "token_info":  {
+      "masked_iam_token":  "*** hidden ***"
+    }
+  },
+  "authorization":  {
+    "authorized":  false,
+    "permissions":  [
+      {
+        "permission":  "src.repositories.delete",
+        "resource_type":  "src.repository",
+        "resource_id":  "25",
+        "authorized":  false
+      }
+    ]
+  },
+  "event_metadata":  {
+    "event_id":  "aengvclmblet7x8da5wl",
+    "event_type":  "yandex.cloud.events.sourcecraft.DeleteRepository",
+    "created_at":  "2025-09-09T15:46:47.499825Z",
+    "tracing_context":  {
+      "trace_id":  "b555b09b1806468117ff7be99db89063",
+      "span_id":  "1707a164e56ccc51",
+      "parent_span_id":  ""
+    },
+    "organization_id":  "89521318449381377"
+  },
+  "request_metadata":  {
+    "remote_address":  "",
+    "user_agent":  "go-resty/2.16.5 (https://github.com/go-resty/resty)",
+    "request_id":  "c9bdaea3-ce3c-2fe9-fea5-c2c5d6b15833",
+    "idempotency_id":  "",
+    "remote_port":  "0"
+  },
+  "event_status":  "ERROR",
+  "error":  {
+    "code":  403,
+    "message":  "Forbidden",
+    "details":  []
+  }
+}

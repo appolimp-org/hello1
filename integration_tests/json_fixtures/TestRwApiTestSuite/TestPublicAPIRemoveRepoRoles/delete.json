@@ -1,0 +1,32 @@
+{
+    "Code": 200,
+    "Payload": {
+        "next_page_token": "",
+        "subject_roles": [
+            {
+                "role": "repo_role_unspecified",
+                "subject": {
+                    "type": "user"
+                }
+            },
+            {
+                "role": "maintainer",
+                "subject": {
+                    "type": "user"
+                }
+            },
+            {
+                "role": "viewer",
+                "subject": {
+                    "type": "user"
+                }
+            },
+            {
+                "role": "developer",
+                "subject": {
+                    "type": "user"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "Code": 400,
+  "Payload": {
+    "details": [
+      {
+        "field": "email",
+        "rule": "Email"
+      },
+      {
+        "field": "ttl_in_days",
+        "rule": "Lte"
+      }
+    ],
+    "error_code": "ValidationError",
+    "message": "Validation error: \n  email: value must be a valid email address\n  ttl_in_days: value must be less than or equal to 30",
+    "request_id": "2f08f4be-d915-fe11-930c-7f9aa26980d5"
+  }
+}

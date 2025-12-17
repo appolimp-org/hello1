@@ -1,0 +1,51 @@
+{
+  "diff":  {
+    "paths":  {
+      "target":  "newfile.txt",
+      "source":  "newfile.txt"
+    },
+    "hunks":  [
+      {
+        "from_start":  1,
+        "from_count":  3,
+        "to_start":  1,
+        "to_count":  3,
+        "patch":  " .\n-a\n-.\n\\ No newline at end of file\n+aa\n+...\n\\ No newline at end of file\n"
+      }
+    ],
+    "added":  2,
+    "removed":  2,
+    "target_cnt":  3,
+    "source_cnt":  3,
+    "result":  "SUCCESS"
+  },
+  "comments":  [
+    {
+      "comment_id":  "79662488148246529",
+      "pos":  {
+        "from":  2,
+        "to":  2,
+        "side":  "SOURCE",
+        "outdated":  false
+      }
+    },
+    {
+      "comment_id":  "79662488114692097",
+      "pos":  {
+        "from":  2,
+        "to":  2,
+        "side":  "SOURCE",
+        "outdated":  false
+      }
+    },
+    {
+      "comment_id":  "79662488064360449",
+      "pos":  {
+        "from":  2,
+        "to":  2,
+        "side":  "TARGET",
+        "outdated":  false
+      }
+    }
+  ]
+}

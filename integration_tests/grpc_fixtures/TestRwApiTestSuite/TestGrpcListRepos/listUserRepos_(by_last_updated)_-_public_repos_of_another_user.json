@@ -1,0 +1,142 @@
+{
+  "repositories": [
+    {
+      "id": "101057654645850113",
+      "uuid": "019ac89b-f7cb-77a8-99a0-feded6d67e84",
+      "name": "kop4",
+      "default_branch": "master",
+      "org_slug": "kopatych",
+      "slug": "kop4",
+      "is_empty": false,
+      "description": "kop4",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/kopatych/kop4.git",
+        "ssh": "ssh://localhost:2222/kopatych/kop4.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:36.425561Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057653823766529",
+      "uuid": "019ac89b-f5e1-7897-8d12-455d8e1f0963",
+      "name": "kop3",
+      "default_branch": "master",
+      "org_slug": "kopatych",
+      "slug": "kop3",
+      "is_empty": false,
+      "description": "kop3",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/kopatych/kop3.git",
+        "ssh": "ssh://localhost:2222/kopatych/kop3.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:36.014204Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057653085569025",
+      "uuid": "019ac89b-f42c-7294-8a48-e5db277655ac",
+      "name": "kop2",
+      "default_branch": "master",
+      "org_slug": "kopatych",
+      "slug": "kop2",
+      "is_empty": false,
+      "description": "kop2",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/kopatych/kop2.git",
+        "ssh": "ssh://localhost:2222/kopatych/kop2.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:35.505072Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057652380925953",
+      "uuid": "019ac89b-f288-7182-9d40-2c27eaa0417a",
+      "name": "kop1",
+      "default_branch": "master",
+      "org_slug": "kopatych",
+      "slug": "kop1",
+      "is_empty": false,
+      "description": "kop1",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/kopatych/kop1.git",
+        "ssh": "ssh://localhost:2222/kopatych/kop1.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:35.085436Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    }
+  ],
+  "revision": {
+    "value": "11",
+    "count": 10
+  },
+  "prev_page_token": "",
+  "next_page_token": ""
+}

@@ -1,0 +1,16 @@
+{
+  "Code": 200,
+  "Payload": {
+    "default_branch":"develop",
+    "slug":"alpha",
+    "template_type":"organizational",
+    "is_empty":false,
+    "description":"ikol",
+    "visibility":"private",
+    "links":[
+        {"link":"https://example.com","type":"default"},
+        {"link":"qwer@mail.ru","type":"email"},
+        {"link":"https://poi.us","type":"homepage"}
+    ]
+  }
+}

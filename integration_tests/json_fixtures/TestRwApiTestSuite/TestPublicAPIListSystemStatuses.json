@@ -1,0 +1,44 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "statuses": [
+      {
+        "id": "1",
+        "name": "Open",
+        "slug": "open",
+        "status_type": "initial"
+      },
+      {
+        "id": "2",
+        "name": "In progress",
+        "slug": "inProgress",
+        "status_type": "in_progress"
+      },
+      {
+        "id": "3",
+        "name": "Paused",
+        "slug": "paused",
+        "status_type": "paused"
+      },
+      {
+        "id": "4",
+        "name": "Closed",
+        "slug": "closed",
+        "status_type": "completed"
+      },
+      {
+        "id": "5",
+        "name": "Declined",
+        "slug": "declined",
+        "status_type": "cancelled"
+      },
+      {
+        "id": "6",
+        "name": "Duplicate",
+        "slug": "duplicate",
+        "status_type": "cancelled"
+      }
+    ]
+  }
+}

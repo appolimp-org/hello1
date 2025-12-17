@@ -1,0 +1,62 @@
+{
+  "tree_entries":  [
+    {
+      "target":  {
+        "path":  "range_dir",
+        "type":  "ENTRY_TYPE_DIR"
+      },
+      "source":  {
+        "path":  "range_dir",
+        "type":  "ENTRY_TYPE_DIR"
+      },
+      "status":  "CHANGE_STATUS_MODIFIED"
+    },
+    {
+      "target":  {
+        "path":  "range_dir/both_changed.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "source":  {
+        "path":  "range_dir/both_changed.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "status":  "CHANGE_STATUS_MODIFIED"
+    },
+    {
+      "source":  {
+        "path":  "range_dir/master_added.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "status":  "CHANGE_STATUS_ADDED"
+    },
+    {
+      "target":  {
+        "path":  "range_dir/master_deleted.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "status":  "CHANGE_STATUS_DELETED"
+    },
+    {
+      "target":  {
+        "path":  "range_dir/master_only.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "source":  {
+        "path":  "range_dir/master_only.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "status":  "CHANGE_STATUS_MODIFIED"
+    },
+    {
+      "target":  {
+        "path":  "range_dir/pr_changed.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "source":  {
+        "path":  "range_dir/pr_changed.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "status":  "CHANGE_STATUS_MODIFIED"
+    }
+  ]
+}

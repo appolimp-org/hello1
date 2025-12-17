@@ -1,0 +1,80 @@
+{
+  "file_diffs":  [
+    {
+      "paths":  {
+        "target":  "README",
+        "source":  "README"
+      },
+      "hunks":  [
+        {
+          "from_start":  1,
+          "from_count":  1,
+          "to_start":  0,
+          "to_count":  0,
+          "patch":  "-# README\n"
+        }
+      ],
+      "added":  0,
+      "removed":  1,
+      "target_cnt":  1,
+      "source_cnt":  0,
+      "result":  "SUCCESS"
+    },
+    {
+      "paths":  {
+        "target":  "vendor/foo.go",
+        "source":  "vendor/foo.go"
+      },
+      "hunks":  [
+        {
+          "from_start":  0,
+          "from_count":  0,
+          "to_start":  1,
+          "to_count":  7,
+          "patch":  "+package main\n+\n+import \"fmt\"\n+\n+func main() {\n+\tfmt.Println(\"Hello, playground\")\n+}\n"
+        }
+      ],
+      "added":  7,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  7,
+      "result":  "SUCCESS"
+    },
+    {
+      "paths":  {
+        "target":  "no/such/file.go",
+        "source":  "no/such/file.go"
+      },
+      "hunks":  [],
+      "added":  0,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  0,
+      "result":  "FAILURE_NOT_FOUND"
+    },
+    {
+      "paths":  {
+        "target":  "vendor",
+        "source":  "vendor"
+      },
+      "hunks":  [],
+      "added":  0,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  0,
+      "result":  "FAILURE_BAD_MODE"
+    },
+    {
+      "paths":  {
+        "target":  "binary.jpg",
+        "source":  "binary.jpg"
+      },
+      "hunks":  [],
+      "added":  0,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  0,
+      "result":  "FAILURE_BINARY"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Code": 201,
+  "Payload": {
+    "author": {
+      "id": "019929c1-6576-7dc7-9f99-6a7ba0a099a9",
+      "slug": "admin"
+    },
+    "body": "Draft comment not published yet",
+    "created_at": "2025-09-08T15:48:05.333765Z",
+    "id": "01992a03-5455-7c3c-a27b-441f90087408",
+    "is_deleted": false,
+    "is_outdated": false,
+    "is_published": false,
+    "is_resolved": false,
+    "iteration": "89387805767172097",
+    "need_resolution": false,
+    "reactions": {},
+    "type": "default",
+    "updated_at": "2025-09-08T15:48:05.333765Z"
+  }
+}

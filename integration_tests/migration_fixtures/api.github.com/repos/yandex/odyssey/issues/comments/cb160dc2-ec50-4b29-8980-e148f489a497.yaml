@@ -1,0 +1,61 @@
+status: 200 OK
+status_code: 200
+proto: HTTP/2.0
+proto_major: 2
+proto_minor: 0
+header:
+    Access-Control-Allow-Origin:
+        - '*'
+    Access-Control-Expose-Headers:
+        - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+    Cache-Control:
+        - private, max-age=60, s-maxage=60
+    Content-Security-Policy:
+        - default-src 'none'
+    Content-Type:
+        - application/json; charset=utf-8
+    Date:
+        - Thu, 16 Oct 2025 16:46:55 GMT
+    Etag:
+        - W/"a06a3dac8f8e866bec5f75d7fe5db77bb34e43f170e338a72df79740c54456d9"
+    Link:
+        - <https://api.github.com/repositories/135175513/issues/comments?page=5&per_page=100>; rel="prev", <https://api.github.com/repositories/135175513/issues/comments?page=7&per_page=100>; rel="next", <https://api.github.com/repositories/135175513/issues/comments?page=10&per_page=100>; rel="last", <https://api.github.com/repositories/135175513/issues/comments?page=1&per_page=100>; rel="first"
+    Referrer-Policy:
+        - origin-when-cross-origin, strict-origin-when-cross-origin
+    Server:
+        - github.com
+    Strict-Transport-Security:
+        - max-age=31536000; includeSubdomains; preload
+    Vary:
+        - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+    X-Accepted-Oauth-Scopes:
+        - repo
+    X-Content-Type-Options:
+        - nosniff
+    X-Frame-Options:
+        - deny
+    X-Github-Api-Version-Selected:
+        - "2022-11-28"
+    X-Github-Media-Type:
+        - github.v3; param=squirrel-girl-preview
+    X-Github-Request-Id:
+        - 668C:38B4D9:55616D0:5047D0D:68F1217F
+    X-Oauth-Scopes:
+        - project, read:org, repo, user
+    X-Ratelimit-Limit:
+        - "5000"
+    X-Ratelimit-Remaining:
+        - "4886"
+    X-Ratelimit-Reset:
+        - "1760636275"
+    X-Ratelimit-Resource:
+        - core
+    X-Ratelimit-Used:
+        - "114"
+    X-Xss-Protection:
+        - "0"
+content_length: -1
+transfer_encoding: []
+close: false
+uncompressed: true
+trailer: {}

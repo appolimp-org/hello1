@@ -1,0 +1,14 @@
+{
+  "Code": 400,
+  "Payload": {
+    "details": [
+      {
+        "field": "operation_id",
+        "rule": "ExactLengthRunes"
+      }
+    ],
+    "error_code": "ValidationError",
+    "message": "Validation error: \n  operation_id: value length must be 20 runes",
+    "request_id": "de59f762-383d-bd9f-ed33-966254a4a852"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "Code": 404,
+    "Payload": {
+        "error_code": "NotFound",
+        "message": "Not Found"
+    }
+}

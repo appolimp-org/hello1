@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "path": "foo/bar/vendor",
+      "type": "ENTRY_TYPE_DIR"
+    },
+    {
+      "path": "foo/bar/barer.txt",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "foo/bar/gog.txt",
+      "type": "ENTRY_TYPE_FILE"
+    }
+  ],
+  "next_page_token": ""
+}

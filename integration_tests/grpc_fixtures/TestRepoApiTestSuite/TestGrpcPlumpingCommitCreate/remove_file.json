@@ -1,0 +1,19 @@
+{
+  "commit":  {
+    "hash":  "9e498b9df89778fd687056d3aa7df1fbdbb43cc0",
+    "message":  "TSK-084[internal]: delete file",
+    "parent_hashes":  [
+      "36bc7e4edeaa6c65aa617ce05ad28c3c207f5116"
+    ],
+    "author":  {
+      "name":  "kopatych",
+      "email":  "kopatych@sourcecraft.dev",
+      "date":  "2025-05-27T11:21:31Z"
+    },
+    "committer":  {
+      "name":  "kopatych",
+      "email":  "kopatych@sourcecraft.dev",
+      "date":  "2025-05-27T11:21:31Z"
+    }
+  }
+}

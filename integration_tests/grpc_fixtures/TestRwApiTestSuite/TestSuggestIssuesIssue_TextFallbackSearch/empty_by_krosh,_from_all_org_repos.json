@@ -1,0 +1,73 @@
+{
+  "issues":  [
+    {
+      "id":  "79367336401960961",
+      "public_id":  "2",
+      "title":  "Венера",
+      "description":  "Важное описание",
+      "repo_id":  "8",
+      "author_id":  "2",
+      "updated_by":  "2",
+      "assignee_id":  "2"
+    },
+    {
+      "id":  "79367336720596993",
+      "public_id":  "2",
+      "title":  "Венера",
+      "description":  "Важное описание",
+      "repo_id":  "1",
+      "author_id":  "2",
+      "updated_by":  "2",
+      "assignee_id":  "2"
+    },
+    {
+      "id":  "79367336284848129",
+      "public_id":  "1",
+      "title":  "Важный заголовок",
+      "description":  "Какое-то описание",
+      "repo_id":  "8",
+      "author_id":  "6",
+      "updated_by":  "6",
+      "assignee_id":  "6"
+    },
+    {
+      "id":  "79367336519401473",
+      "public_id":  "3",
+      "title":  "Простой или сложный тикет",
+      "description":  "Так сразу и не скажешь",
+      "repo_id":  "8",
+      "author_id":  "6",
+      "updated_by":  "6",
+      "assignee_id":  "6"
+    },
+    {
+      "id":  "79367336603287553",
+      "public_id":  "1",
+      "title":  "Важный заголовок",
+      "description":  "Какое-то описание",
+      "repo_id":  "1",
+      "author_id":  "6",
+      "updated_by":  "6",
+      "assignee_id":  "6"
+    },
+    {
+      "id":  "79367336804614145",
+      "public_id":  "3",
+      "title":  "Простой или сложный тикет",
+      "description":  "Так сразу и не скажешь",
+      "repo_id":  "1",
+      "author_id":  "6",
+      "updated_by":  "6",
+      "assignee_id":  "6"
+    },
+    {
+      "id":  "79367336871723009",
+      "public_id":  "4",
+      "title":  "Task",
+      "description":  "Simple task no explanation",
+      "repo_id":  "8",
+      "author_id":  "7",
+      "updated_by":  "7"
+    }
+  ]
+}

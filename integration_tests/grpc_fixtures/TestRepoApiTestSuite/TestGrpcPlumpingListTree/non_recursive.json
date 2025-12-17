@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "path": "foo",
+      "type": "ENTRY_TYPE_DIR"
+    },
+    {
+      "path": "xxx",
+      "type": "ENTRY_TYPE_DIR"
+    },
+    {
+      "path": "file1.txt",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "file2.txt",
+      "type": "ENTRY_TYPE_FILE"
+    }
+  ],
+  "next_page_token": ""
+}

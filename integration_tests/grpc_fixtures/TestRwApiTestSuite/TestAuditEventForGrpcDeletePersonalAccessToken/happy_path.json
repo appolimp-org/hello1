@@ -1,0 +1,42 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "kopatych",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": []
+  },
+  "event_metadata": {
+    "event_id": "aeng2m1z3sh8gov3m5p1",
+    "event_type": "yandex.cloud.events.sourcecraft.DeletePersonalAccessToken",
+    "created_at": "2025-09-17T08:58:08.586727Z",
+    "organization_id": "e1cacc6f-79f7-458c-bdf0-56e67ee3c53a"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "9f0815fd-3bbb-9305-c951-3a2695c13b44",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "DONE",
+  "details": {
+    "user_id": "1",
+    "key_id": "90651137581056001",
+    "name": "kopatychpat90651137580990465",
+    "description": "testpat"
+  },
+  "request_parameters": {
+    "key_id": "90651137581056001",
+    "name": "",
+    "description": ""
+  },
+  "response": {
+    "operation_id": "aeng9ey80k47jxwu8zpv"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "authentication":  {
+    "authenticated":  true,
+    "subject_type":  "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id":  "kopatych",
+    "token_info":  {
+      "masked_iam_token":  "*** hidden ***"
+    }
+  },
+  "authorization":  {
+    "authorized":  true,
+    "permissions":  []
+  },
+  "event_metadata":  {
+    "event_id":  "aeng15n5laqkpk5g6jaq",
+    "event_type":  "yandex.cloud.events.sourcecraft.UpdatePersonalAccessToken",
+    "created_at":  "2025-09-17T08:51:37.625417Z",
+    "organization_id":  "e1cacc6f-79f7-458c-bdf0-56e67ee3c53a"
+  },
+  "request_metadata":  {
+    "remote_address":  "127.0.0.1",
+    "user_agent":  "grpc-go/1.73.0",
+    "request_id":  "81e7c17f-7009-de55-272d-5aecc9ba88e5",
+    "idempotency_id":  "",
+    "remote_port":  "0"
+  },
+  "event_status":  "DONE",
+  "details":  {
+    "user_id":  "1",
+    "key_id":  "90650481659019265",
+    "name":  "new name",
+    "description":  "testpat"
+  },
+  "request_parameters":  {
+    "key_id":  "90650481659019265",
+    "update_mask":  "name",
+    "name":  "new name",
+    "description":  ""
+  },
+  "response":  {
+    "operation_id":  "aenggriphgnqpz3c2er1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Code": 202,
+  "Payload": {
+    "created_at": "2025-12-08T15:58:06.941195Z",
+    "modified_at": "2025-12-08T15:58:06.941195Z",
+    "operation_id": "aengtgh0xibnvreb1my6",
+    "status": "scheduled",
+    "status_url": "/orgs/id:019afeaf-326f-7aed-808a-8c6a196d6c47/operations/create-invites/aengtgh0xibnvreb1my6"
+  }
+}

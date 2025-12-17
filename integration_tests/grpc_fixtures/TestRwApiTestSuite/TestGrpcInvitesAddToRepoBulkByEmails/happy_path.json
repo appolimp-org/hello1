@@ -1,0 +1,22 @@
+{
+  "added_user_ids":  [],
+  "created_invites":  [
+    {
+      "id":  "",
+      "invitee_email":  "hello1@world.com",
+      "invitee_id":  "0",
+      "status":  "PENDING",
+      "expires_at":  "1970-01-01T00:00:00Z",
+      "created_at":  "1970-01-01T00:00:00Z"
+    },
+    {
+      "id":  "",
+      "invitee_email":  "hello2@world.com",
+      "invitee_id":  "0",
+      "status":  "CREATING",
+      "expires_at":  "1970-01-01T00:00:00Z",
+      "created_at":  "1970-01-01T00:00:00Z"
+    }
+  ],
+  "errors":  []
+}

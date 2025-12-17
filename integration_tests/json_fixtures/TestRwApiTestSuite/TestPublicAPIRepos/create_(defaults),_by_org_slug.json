@@ -1,0 +1,28 @@
+{
+  "Code": 201,
+  "Payload": {
+    "clone_url": {
+      "https": "http://git@localhost:8081/yandex/my-new-repo.git",
+      "ssh": "ssh://localhost:2222/yandex/my-new-repo.git"
+    },
+    "counters": {
+      "branches": "0",
+      "forks": "0",
+      "issues": "0",
+      "pull_requests": "0",
+      "tags": "0"
+    },
+    "default_branch": "",
+    "description": "",
+    "id": "0197a2f0-6338-7e1d-9532-c7a34bad6a08",
+    "is_empty": true,
+    "links": [],
+    "name": "My new repo",
+    "organization": {
+      "id": "01978d8b-5372-7dcb-a94b-850c4712572f",
+      "slug": "yandex"
+    },
+    "slug": "my-new-repo",
+    "visibility": "private"
+  }
+}

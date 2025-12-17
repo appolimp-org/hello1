@@ -1,0 +1,73 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "trees": [
+      {
+        "name": "go",
+        "path": "go",
+        "type": "dir"
+      },
+      {
+        "name": "example.go",
+        "path": "go/example.go",
+        "type": "file"
+      },
+      {
+        "name": "json",
+        "path": "json",
+        "type": "dir"
+      },
+      {
+        "name": "long.json",
+        "path": "json/long.json",
+        "type": "file"
+      },
+      {
+        "name": "short.json",
+        "path": "json/short.json",
+        "type": "file"
+      },
+      {
+        "name": "php",
+        "path": "php",
+        "type": "dir"
+      },
+      {
+        "name": "crappy.php",
+        "path": "php/crappy.php",
+        "type": "file"
+      },
+      {
+        "name": "vendor",
+        "path": "vendor",
+        "type": "dir"
+      },
+      {
+        "name": "foo.go",
+        "path": "vendor/foo.go",
+        "type": "file"
+      },
+      {
+        "name": ".gitignore",
+        "path": ".gitignore",
+        "type": "file"
+      },
+      {
+        "name": "CHANGELOG",
+        "path": "CHANGELOG",
+        "type": "file"
+      },
+      {
+        "name": "LICENSE",
+        "path": "LICENSE",
+        "type": "file"
+      },
+      {
+        "name": "binary.jpg",
+        "path": "binary.jpg",
+        "type": "file"
+      }
+    ]
+  }
+}

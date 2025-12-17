@@ -1,0 +1,72 @@
+{
+  "file_diffs":  [
+    {
+      "paths":  {
+        "target":  "README",
+        "source":  "README"
+      },
+      "hunks":  [
+        {
+          "from_start":  0,
+          "from_count":  0,
+          "to_start":  1,
+          "to_count":  1,
+          "patch":  "+# README\n"
+        }
+      ],
+      "added":  1,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  1,
+      "result":  "SUCCESS"
+    },
+    {
+      "paths":  {
+        "target":  "vendor/foo.go",
+        "source":  "vendor/foo.go"
+      },
+      "hunks":  [],
+      "added":  0,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  0,
+      "result":  "FAILURE_NOT_FOUND"
+    },
+    {
+      "paths":  {
+        "target":  "no/such/file.go",
+        "source":  "no/such/file.go"
+      },
+      "hunks":  [],
+      "added":  0,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  0,
+      "result":  "FAILURE_NOT_FOUND"
+    },
+    {
+      "paths":  {
+        "target":  "vendor",
+        "source":  "vendor"
+      },
+      "hunks":  [],
+      "added":  0,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  0,
+      "result":  "FAILURE_NOT_FOUND"
+    },
+    {
+      "paths":  {
+        "target":  "binary.jpg",
+        "source":  "binary.jpg"
+      },
+      "hunks":  [],
+      "added":  0,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  0,
+      "result":  "FAILURE_BINARY"
+    }
+  ]
+}

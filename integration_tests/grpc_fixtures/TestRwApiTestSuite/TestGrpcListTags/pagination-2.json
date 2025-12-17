@@ -1,0 +1,33 @@
+{
+  "tags": [
+    {
+      "name": "v3-an",
+      "commit": {
+        "hash": "94d20dfa7b2ae3c998de92780be3058a68280d76",
+        "message": "final\n",
+        "parent_commits": [
+          "78350efe20fc33f940c2894e7c74e15963d7356a"
+        ],
+        "author": {
+          "name": "Author",
+          "email": "author@example.com",
+          "date": "2024-02-19T12:05:00Z"
+        },
+        "commiter": {
+          "name": "Commiter",
+          "email": "committer@example.com",
+          "date": "2024-02-19T12:05:00Z"
+        }
+      },
+      "message": "annotated tag 2\n",
+      "author": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:05:00Z"
+      },
+      "pgp_signature": ""
+    }
+  ],
+  "prev_page_token": "g6dDb2x1bW5zkoOkTmFtZaRuYW1lqURpcmVjdGlvbsKlVmFsdWWvcmVmcy90YWdzL3YzLWFug6ROYW1loV-pRGlyZWN0aW9uwqVWYWx1ZcQUXFD2cdlfOhxxWEgaH0Vq59OnF7ipRGlyZWN0aW9uw6pDbG91ZFRva2VuwA",
+  "next_page_token": ""
+}

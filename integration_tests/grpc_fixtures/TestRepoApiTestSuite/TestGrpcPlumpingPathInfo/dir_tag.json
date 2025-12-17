@@ -1,0 +1,29 @@
+{
+  "entry": {
+    "path": "file1.txt",
+    "type": "ENTRY_TYPE_FILE",
+    "name": "file1.txt",
+    "last_commit": {
+      "hash": "9ab452585ad6dae14356027d596c5a04e703decd",
+      "message": "b1\n",
+      "parent_hashes": [
+        "39427c55a3c59b91b11b5c1413033ebb85f84364"
+      ],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2024-02-19T12:01:40Z"
+      },
+      "committer": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:01:40Z"
+      }
+    },
+    "file": {
+      "size": "6",
+      "mimetype": "text/plain; charset=utf-8",
+      "is_binary": false
+    }
+  }
+}

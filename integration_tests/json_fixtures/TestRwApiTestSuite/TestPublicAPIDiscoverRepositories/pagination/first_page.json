@@ -1,0 +1,93 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "g6dDb2x1bW5zkoOkTmFtZaZyYXRpbmepRGlyZWN0aW9uw6VWYWx1ZcCDpE5hbWWhX6lEaXJlY3Rpb27CpVZhbHVlzwAAAAAAAAADqURpcmVjdGlvbsKqQ2xvdWRUb2tlbsA",
+    "repositories": [
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/alpha.git",
+          "ssh": "ssh://localhost:2222/yandex/alpha.git"
+        },
+        "counters": {
+          "branches": "3",
+          "forks": "1",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "master",
+        "description": "description is alpha",
+        "id": "019ac899-b13e-7ef4-be12-3630949c1b43",
+        "is_empty": false,
+        "language": {
+          "color": "#4F5D95",
+          "name": "PHP"
+        },
+        "last_updated": "2025-11-28T03:55:07.406695Z",
+        "links": [],
+        "name": "alpha",
+        "organization": {
+          "id": "019ac899-b0cb-71dc-92f2-21428e449b2c",
+          "slug": "yandex"
+        },
+        "slug": "alpha",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/history.git",
+          "ssh": "ssh://localhost:2222/yandex/history.git"
+        },
+        "counters": {
+          "branches": "2",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "master",
+        "description": "description is history",
+        "id": "019ac899-b355-735b-82a0-5069525525f9",
+        "is_empty": false,
+        "last_updated": "2025-11-28T03:55:07.790414Z",
+        "links": [],
+        "name": "history",
+        "organization": {
+          "id": "019ac899-b0cb-71dc-92f2-21428e449b2c",
+          "slug": "yandex"
+        },
+        "slug": "history",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/mergehistory.git",
+          "ssh": "ssh://localhost:2222/yandex/mergehistory.git"
+        },
+        "counters": {
+          "branches": "2",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "main",
+        "description": "description is mergehistory",
+        "id": "019ac899-b4cd-7c96-b3f4-7882bc026c75",
+        "is_empty": false,
+        "last_updated": "2025-11-28T03:55:08.118582Z",
+        "links": [],
+        "name": "mergehistory",
+        "organization": {
+          "id": "019ac899-b0cb-71dc-92f2-21428e449b2c",
+          "slug": "yandex"
+        },
+        "slug": "mergehistory",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      }
+    ]
+  }
+}

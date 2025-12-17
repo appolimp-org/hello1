@@ -1,0 +1,38 @@
+{
+  "Code": 201,
+  "Payload": {
+    "clone_url": {
+      "https": "http://git@localhost:8081/sme/alpha.git",
+      "ssh": "ssh://localhost:2222/sme/alpha.git"
+    },
+    "counters": {
+      "branches": "1",
+      "forks": "0",
+      "issues": "0",
+      "pull_requests": "0",
+      "tags": "0"
+    },
+    "default_branch": "master",
+    "description": "description is alpha",
+    "id": "019a3ecc-864a-71c9-a967-acca78a97a1c",
+    "is_empty": false,
+    "language": {
+      "color": "#4F5D95",
+      "name": "PHP"
+    },
+    "last_updated": "2025-11-01T09:43:02.538137Z",
+    "links": [],
+    "name": "",
+    "organization": {
+      "id": "019a3eb8-c453-7249-b5fe-5b986a1f6944",
+      "slug": "sme"
+    },
+    "parent": {
+      "id": "019a3eb8-c466-7d71-8986-9655ab39a3cf",
+      "slug": "alpha"
+    },
+    "slug": "alpha",
+    "template_type": "not_a_template",
+    "visibility": "public"
+  }
+}

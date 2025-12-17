@@ -1,0 +1,61 @@
+{
+  "code_review":  {
+    "check":  {
+      "status":  "IN_PROGRESS",
+      "name":  "code review",
+      "disabled":  false,
+      "progress":  {
+        "percent":  0
+      },
+      "display_message":  {
+        "message_id":  "MsgCodeReviewInProgress",
+        "fallback":  "needs 1 more total ship(s) and 0 more completed rule(s)",
+        "args":  [
+          {
+            "@type":  "type.googleapis.com/google.protobuf.Int64Value",
+            "value":  "1"
+          },
+          {
+            "@type":  "type.googleapis.com/google.protobuf.Int64Value",
+            "value":  "0"
+          }
+        ]
+      }
+    },
+    "total_ships":  0,
+    "need_ships":  1,
+    "rules":  []
+  },
+  "conflicts":  {
+    "check":  {
+      "status":  "IN_PROGRESS",
+      "name":  "merge conflicts",
+      "disabled":  false
+    },
+    "conflicts":  [],
+    "error":  ""
+  },
+  "ci_workflows":  [
+    {
+      "flux_id":  "",
+      "workflow_id":  "",
+      "check":  {
+        "status":  "EXCEPTION",
+        "created_at":  "0001-01-01T00:00:00Z",
+        "name":  "CI",
+        "disabled":  false,
+        "display_message":  {
+          "message_id":  "MsgBackendException",
+          "fallback":  "failed to get merge check due to ci backend exception",
+          "args":  [
+            {
+              "@type":  "type.googleapis.com/google.protobuf.StringValue",
+              "value":  "ci"
+            }
+          ]
+        }
+      },
+      "tasks":  []
+    }
+  ]
+}

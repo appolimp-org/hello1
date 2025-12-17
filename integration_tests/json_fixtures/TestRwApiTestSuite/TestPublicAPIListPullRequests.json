@@ -1,0 +1,77 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "pull_requests": [
+      {
+        "author": {
+          "id": "01990fd6-36c6-73d8-966a-edf96d6fa468",
+          "slug": "barash"
+        },
+        "created_at": "2025-09-03T14:13:10.751296Z",
+        "description": "",
+        "id": "01990fec-a3df-7480-9b5f-f7a93951e452",
+        "repository": {
+          "id": "01990fd6-42be-7e1d-9200-9078d31b0aca",
+          "slug": "alpha"
+        },
+        "slug": "1",
+        "source_branch": "branch",
+        "status": "open",
+        "target_branch": "master",
+        "title": "1 - alpha",
+        "updated_at": "2025-09-03T14:13:10.916676Z",
+        "updated_by": {
+          "id": "01990fd6-36c6-73d8-966a-edf96d6fa468",
+          "slug": "barash"
+        }
+      },
+      {
+        "author": {
+          "id": "01990fd6-36c6-73d8-966a-edf96d6fa468",
+          "slug": "barash"
+        },
+        "created_at": "2025-09-03T14:13:11.082667Z",
+        "description": "",
+        "id": "01990fec-a52a-7a2d-aace-331a7bdc6013",
+        "repository": {
+          "id": "01990fd6-42be-7e1d-9200-9078d31b0aca",
+          "slug": "alpha"
+        },
+        "slug": "2",
+        "source_branch": "branch",
+        "status": "open",
+        "target_branch": "master",
+        "title": "2 - alpha",
+        "updated_at": "2025-09-03T14:13:11.170065Z",
+        "updated_by": {
+          "id": "01990fd6-36c6-73d8-966a-edf96d6fa468",
+          "slug": "barash"
+        }
+      },
+      {
+        "author": {
+          "id": "01990fd6-30ce-738e-94ef-f30b54b7e2da",
+          "slug": "krosh"
+        },
+        "created_at": "2025-09-03T14:13:11.355705Z",
+        "description": "",
+        "id": "01990fec-a63b-7ac1-bbbf-7660b3a827cb",
+        "repository": {
+          "id": "01990fd6-42be-7e1d-9200-9078d31b0aca",
+          "slug": "alpha"
+        },
+        "slug": "3",
+        "source_branch": "branch",
+        "status": "open",
+        "target_branch": "master",
+        "title": "3 - alpha",
+        "updated_at": "2025-09-03T14:13:11.445932Z",
+        "updated_by": {
+          "id": "01990fd6-30ce-738e-94ef-f30b54b7e2da",
+          "slug": "krosh"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "Code": 400,
+    "Payload": {
+        "error_code": "RepositoryIsEmpty"
+    }
+}

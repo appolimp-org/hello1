@@ -1,0 +1,19 @@
+{
+  "Code": 200,
+  "Payload": {
+    "attachments": [],
+    "author": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    },
+    "body": "NEW",
+    "created_at": "2025-05-27T13:26:27.884028Z",
+    "id": "019711ec-4b2c-7046-bd27-e13df772f264",
+    "reactions": {},
+    "updated_at": "2025-05-27T13:26:27.915126Z",
+    "updated_by": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    }
+  }
+}

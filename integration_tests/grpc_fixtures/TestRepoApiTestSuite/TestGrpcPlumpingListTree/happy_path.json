@@ -1,0 +1,57 @@
+{
+  "entries": [
+    {
+      "path": "go",
+      "type": "ENTRY_TYPE_DIR"
+    },
+    {
+      "path": "go/example.go",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "json",
+      "type": "ENTRY_TYPE_DIR"
+    },
+    {
+      "path": "json/long.json",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "json/short.json",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "php",
+      "type": "ENTRY_TYPE_DIR"
+    },
+    {
+      "path": "php/crappy.php",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "vendor",
+      "type": "ENTRY_TYPE_DIR"
+    },
+    {
+      "path": "vendor/foo.go",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": ".gitignore",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "CHANGELOG",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "LICENSE",
+      "type": "ENTRY_TYPE_FILE"
+    },
+    {
+      "path": "binary.jpg",
+      "type": "ENTRY_TYPE_FILE"
+    }
+  ],
+  "next_page_token": ""
+}

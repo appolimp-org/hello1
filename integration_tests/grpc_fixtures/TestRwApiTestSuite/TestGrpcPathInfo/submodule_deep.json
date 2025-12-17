@@ -1,0 +1,53 @@
+{
+  "dir_entry": {
+    "type": "DE_DIR",
+    "name": "deep",
+    "path": "deep",
+    "last_commit": {
+      "hash": "3ec72e534babbf9141c5f2bd2390546138be61d8",
+      "message": "Deep submodule\n",
+      "parent_commits": [
+        "b2fd7551d02b14f8509594ba2fc3f0544957b075"
+      ],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2024-02-19T12:05:00Z"
+      },
+      "commiter": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:05:00Z"
+      }
+    },
+    "children": [
+      {
+        "type": "DE_SUBMODULE",
+        "name": "submodule_deep",
+        "path": "deep/submodule_deep",
+        "last_commit": {
+          "hash": "3ec72e534babbf9141c5f2bd2390546138be61d8",
+          "message": "Deep submodule\n",
+          "parent_commits": [
+            "b2fd7551d02b14f8509594ba2fc3f0544957b075"
+          ],
+          "author": {
+            "name": "Author",
+            "email": "author@example.com",
+            "date": "2024-02-19T12:05:00Z"
+          },
+          "commiter": {
+            "name": "Commiter",
+            "email": "committer@example.com",
+            "date": "2024-02-19T12:05:00Z"
+          }
+        },
+        "children": [],
+        "submodule_metadata": {
+          "url": "https://github.com/yandex/odyssey",
+          "hash": "136dcca1a4fa8f92094b86132133272bbc444b2d"
+        }
+      }
+    ]
+  }
+}

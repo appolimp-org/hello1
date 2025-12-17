@@ -1,0 +1,14 @@
+{
+  "id": "71511653396578305",
+  "name": "Milestone",
+  "slug": "updated-slug",
+  "description": "Description",
+  "status": "STATUS_OPEN",
+  "author_id": "7",
+  "updated_by": "7",
+  "created_at": "2025-05-08T08:04:26.986649Z",
+  "updated_at": "2025-05-08T08:04:26.993342Z",
+  "revision": {
+    "value": "2"
+  }
+}

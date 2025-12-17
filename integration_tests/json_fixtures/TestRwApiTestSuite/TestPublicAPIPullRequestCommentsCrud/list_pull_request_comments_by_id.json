@@ -1,0 +1,26 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "pull_request_comments": [
+      {
+        "author": {
+          "id": "019929c1-5ec5-786c-848c-b3ef3d96c70f",
+          "slug": "krosh"
+        },
+        "body": "Comment for ID-based operations",
+        "created_at": "2025-09-08T15:48:04.874494Z",
+        "id": "01992a03-528a-7812-bcce-0ba399665f60",
+        "is_deleted": false,
+        "is_outdated": false,
+        "is_published": true,
+        "is_resolved": false,
+        "iteration": "89387806052384769",
+        "need_resolution": false,
+        "reactions": {},
+        "type": "default",
+        "updated_at": "2025-09-08T15:48:04.874494Z"
+      }
+    ]
+  }
+}

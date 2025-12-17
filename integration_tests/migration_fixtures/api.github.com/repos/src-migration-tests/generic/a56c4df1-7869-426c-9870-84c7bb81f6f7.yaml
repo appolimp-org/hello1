@@ -1,0 +1,61 @@
+status: 200 OK
+status_code: 200
+proto: HTTP/2.0
+proto_major: 2
+proto_minor: 0
+header:
+    Access-Control-Allow-Origin:
+        - '*'
+    Access-Control-Expose-Headers:
+        - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+    Cache-Control:
+        - private, max-age=60, s-maxage=60
+    Content-Security-Policy:
+        - default-src 'none'
+    Content-Type:
+        - application/json; charset=utf-8
+    Date:
+        - Thu, 16 Oct 2025 16:40:40 GMT
+    Etag:
+        - W/"e264e17815efd0f1396996744c145ebff6fa2c7fbd18e9cd00d4ad1275e183d6"
+    Last-Modified:
+        - Thu, 24 Jul 2025 20:56:09 GMT
+    Referrer-Policy:
+        - origin-when-cross-origin, strict-origin-when-cross-origin
+    Server:
+        - github.com
+    Strict-Transport-Security:
+        - max-age=31536000; includeSubdomains; preload
+    Vary:
+        - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+    X-Accepted-Oauth-Scopes:
+        - repo
+    X-Content-Type-Options:
+        - nosniff
+    X-Frame-Options:
+        - deny
+    X-Github-Api-Version-Selected:
+        - "2022-11-28"
+    X-Github-Media-Type:
+        - github.v3; param=scarlet-witch-preview; format=json, github.mercy-preview; param=baptiste-preview.nebula-preview; format=json
+    X-Github-Request-Id:
+        - 58E4:3A0BE9:534B839:4E5AE1A:68F12007
+    X-Oauth-Scopes:
+        - project, read:org, repo, user
+    X-Ratelimit-Limit:
+        - "5000"
+    X-Ratelimit-Remaining:
+        - "4979"
+    X-Ratelimit-Reset:
+        - "1760636275"
+    X-Ratelimit-Resource:
+        - core
+    X-Ratelimit-Used:
+        - "21"
+    X-Xss-Protection:
+        - "0"
+content_length: -1
+transfer_encoding: []
+close: false
+uncompressed: true
+trailer: {}

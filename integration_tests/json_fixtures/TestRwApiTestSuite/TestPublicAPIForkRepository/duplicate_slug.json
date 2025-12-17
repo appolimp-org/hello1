@@ -1,0 +1,8 @@
+{
+  "Code": 400,
+  "Payload": {
+    "error_code": "SlugIsNotAvailable",
+    "message": "slug \"alpha\" is not available, please pick another one",
+    "request_id": "90f082a4-1d99-f5ef-d646-ec1af22fac72"
+  }
+}

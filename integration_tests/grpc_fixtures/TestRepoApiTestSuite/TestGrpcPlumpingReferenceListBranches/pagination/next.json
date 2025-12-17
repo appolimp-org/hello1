@@ -1,0 +1,29 @@
+{
+  "branches":  [
+    {
+      "reference":  {
+        "name":  "refs/heads/cBranch",
+        "commit":  {
+          "hash":  "e81acf7455a1d2925dc9bec6857a54854dd5c49d",
+          "message":  "cBranch\n",
+          "parent_hashes":  [
+            "8bbd66694d34c3d512e97322df58c9114bfc18dd"
+          ],
+          "author":  {
+            "name":  "Author",
+            "email":  "author@example.com",
+            "date":  "2024-02-19T12:03:20Z"
+          },
+          "committer":  {
+            "name":  "Commiter",
+            "email":  "committer@example.com",
+            "date":  "2024-02-19T12:03:20Z"
+          }
+        }
+      },
+      "is_default":  false
+    }
+  ],
+  "next_page_token":  "g6dDb2x1bW5zkoOkTmFtZaRuYW1lqURpcmVjdGlvbsKlVmFsdWWycmVmcy9oZWFkcy9jQnJhbmNog6ROYW1loV-pRGlyZWN0aW9uwqVWYWx1ZcQU6BrPdFWh0pJdyb7GhXpUhU3VxJ2pRGlyZWN0aW9uwqpDbG91ZFRva2VuwA",
+  "prev_page_token":  "g6dDb2x1bW5zkoOkTmFtZaRuYW1lqURpcmVjdGlvbsKlVmFsdWWycmVmcy9oZWFkcy9jQnJhbmNog6ROYW1loV-pRGlyZWN0aW9uwqVWYWx1ZcQU6BrPdFWh0pJdyb7GhXpUhU3VxJ2pRGlyZWN0aW9uw6pDbG91ZFRva2VuwA"
+}

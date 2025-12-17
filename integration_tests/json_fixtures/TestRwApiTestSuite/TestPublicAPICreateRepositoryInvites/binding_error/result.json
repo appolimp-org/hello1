@@ -1,0 +1,40 @@
+{
+  "Code": 200,
+  "Payload": {
+    "created_at": "2025-12-09T12:09:22.147334Z",
+    "modified_at": "2025-12-09T12:09:22.228156Z",
+    "operation_id": "aeng6rl0ee8e0i0l777v",
+    "response": {
+      "added_users": [],
+      "errors": [
+        {
+          "error_code": "UnknownInviteError",
+          "invitee": {
+            "email": "",
+            "slug": "pikachu"
+          },
+          "message": "IAM rejected creation of the invite"
+        },
+        {
+          "error_code": "UnknownAccessBindingsError",
+          "invitee": {
+            "email": "",
+            "slug": "barash"
+          },
+          "message": "Couldn't add an invitee to the repo because of an unexpected cloud error: forbidden subject"
+        },
+        {
+          "error_code": "UnknownAccessBindingsError",
+          "invitee": {
+            "email": "",
+            "slug": "kopatych"
+          },
+          "message": "Couldn't add an invitee to the repo because of an unexpected cloud error: forbidden subject"
+        }
+      ],
+      "invites": []
+    },
+    "status": "success",
+    "status_url": "/repos/by-id/019b0304-23fa-7d38-9a0b-ff86e3c9ef2f/operations/create-invites/aeng6rl0ee8e0i0l777v"
+  }
+}

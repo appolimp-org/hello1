@@ -1,0 +1,49 @@
+{
+  "branches":  [
+    {
+      "name":  "br2",
+      "commit":  {
+        "hash":  "aac4b596ae64f12e39b05bb8fd56ce62e7b4bfa8",
+        "message":  "second\n",
+        "parent_commits":  [
+          "d7d379bd75e17e3c9c402382023bdc2b65e5c188"
+        ],
+        "author":  {
+          "name":  "Your Name",
+          "email":  "you@example.com",
+          "date":  "2025-05-06T06:30:36Z"
+        },
+        "commiter":  {
+          "name":  "Your Name",
+          "email":  "you@example.com",
+          "date":  "2025-05-06T06:30:36Z"
+        }
+      },
+      "is_default":  false,
+      "is_mirrored":  false
+    },
+    {
+      "name":  "main",
+      "commit":  {
+        "hash":  "d7d379bd75e17e3c9c402382023bdc2b65e5c188",
+        "message":  "initial\n",
+        "parent_commits":  [],
+        "author":  {
+          "name":  "Your Name",
+          "email":  "you@example.com",
+          "date":  "2025-05-06T06:30:36Z"
+        },
+        "commiter":  {
+          "name":  "Your Name",
+          "email":  "you@example.com",
+          "date":  "2025-05-06T06:30:36Z"
+        }
+      },
+      "is_default":  true,
+      "is_mirrored":  false
+    }
+  ],
+  "prev_page_token":  "",
+  "next_page_token":  "",
+  "revision":  "4"
+}

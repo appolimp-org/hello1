@@ -1,0 +1,274 @@
+{
+  "repositories": [
+    {
+      "id": "101057665853030401",
+      "uuid": "019ac89c-11e6-7071-83f1-023ed289ee79",
+      "name": "org1migrating2",
+      "default_branch": "master",
+      "org_slug": "corpa",
+      "slug": "org1migrating2",
+      "is_empty": false,
+      "description": "org1migrating2",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpa/org1migrating2.git",
+        "ssh": "ssh://localhost:2222/corpa/org1migrating2.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:43.145481Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057665114832897",
+      "uuid": "019ac89c-1026-79cb-b0d3-8614feea2bce",
+      "name": "org1migrating1",
+      "default_branch": "master",
+      "org_slug": "corpa",
+      "slug": "org1migrating1",
+      "is_empty": false,
+      "description": "org1migrating1",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpa/org1migrating1.git",
+        "ssh": "ssh://localhost:2222/corpa/org1migrating1.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:42.689179Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057664376635393",
+      "uuid": "019ac89c-0e6f-77d0-a9ab-771f1c6d0888",
+      "name": "z",
+      "default_branch": "master",
+      "org_slug": "corpa",
+      "slug": "z",
+      "is_empty": false,
+      "description": "z",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpa/z.git",
+        "ssh": "ssh://localhost:2222/corpa/z.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:42.244076Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057663571329025",
+      "uuid": "019ac89c-0c93-75e7-9fae-6534b63c65c8",
+      "name": "y",
+      "default_branch": "master",
+      "org_slug": "corpa",
+      "slug": "y",
+      "is_empty": false,
+      "description": "y",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpa/y.git",
+        "ssh": "ssh://localhost:2222/corpa/y.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:41.786310Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057662715691009",
+      "uuid": "019ac89c-0a99-7ba4-9b39-1fa714426258",
+      "name": "x",
+      "default_branch": "master",
+      "org_slug": "corpa",
+      "slug": "x",
+      "is_empty": false,
+      "description": "x",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpa/x.git",
+        "ssh": "ssh://localhost:2222/corpa/x.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:41.307414Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057661893607425",
+      "uuid": "019ac89c-08ae-7791-891f-114883638f29",
+      "name": "c",
+      "default_branch": "master",
+      "org_slug": "corpa",
+      "slug": "c",
+      "is_empty": false,
+      "description": "c",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpa/c.git",
+        "ssh": "ssh://localhost:2222/corpa/c.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:40.800026Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057660970860545",
+      "uuid": "019ac89c-0682-7dc7-9d0c-8631180aa54a",
+      "name": "b",
+      "default_branch": "master",
+      "org_slug": "corpa",
+      "slug": "b",
+      "is_empty": false,
+      "description": "b",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpa/b.git",
+        "ssh": "ssh://localhost:2222/corpa/b.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:40.291521Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057660148776961",
+      "uuid": "019ac89c-049a-7897-ad4d-e77b1792eced",
+      "name": "a",
+      "default_branch": "master",
+      "org_slug": "corpa",
+      "slug": "a",
+      "is_empty": false,
+      "description": "a",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/corpa/a.git",
+        "ssh": "ssh://localhost:2222/corpa/a.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:39.756121Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    }
+  ],
+  "revision": {
+    "value": "9",
+    "count": 8
+  },
+  "prev_page_token": "",
+  "next_page_token": ""
+}

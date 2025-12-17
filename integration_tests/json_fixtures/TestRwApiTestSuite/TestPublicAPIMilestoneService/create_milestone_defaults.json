@@ -1,0 +1,20 @@
+{
+  "Code": 201,
+  "Payload": {
+    "author": {
+      "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+      "slug": "admin"
+    },
+    "created_at": "2025-05-27T13:34:53.421480Z",
+    "description": "",
+    "id": "019711f4-01ed-7724-9bbf-da470c98b8f8",
+    "name": "New Milestone",
+    "slug": "new-milestone",
+    "status": "open",
+    "updated_at": "2025-05-27T13:34:53.421480Z",
+    "updated_by": {
+      "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+      "slug": "admin"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "eyJjb21taXRfaGFzaCI6IjZlY2YwZWYyYzJkZmZiNzk2MDMzZTVhMDIyMTlhZjg2ZWM2NTg0ZTUiLCJuYW1lX2ZpbHRlciI6IiIsImNhc2VfaW5zZW5zaXRpdmUiOmZhbHNlLCJwYXRoIjoiIiwibGltaXRfbWF0Y2hlcyI6NSwicmVjdXJzaXZlIjp0cnVlLCJzdGFydF9mcm9tIjp7InBhdGgiOiJwaHAiLCJtb2RlIjoxNjM4NH19",
+    "trees": [
+      {
+        "name": "go",
+        "path": "go",
+        "type": "dir"
+      },
+      {
+        "name": "example.go",
+        "path": "go/example.go",
+        "type": "file"
+      },
+      {
+        "name": "json",
+        "path": "json",
+        "type": "dir"
+      },
+      {
+        "name": "long.json",
+        "path": "json/long.json",
+        "type": "file"
+      },
+      {
+        "name": "short.json",
+        "path": "json/short.json",
+        "type": "file"
+      }
+    ]
+  }
+}

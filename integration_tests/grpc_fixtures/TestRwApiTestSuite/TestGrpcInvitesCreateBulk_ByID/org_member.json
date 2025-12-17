@@ -1,0 +1,15 @@
+{
+  "created_invites": [],
+  "errors": [
+    {
+      "invitee_email": "",
+      "invitee_id": "1",
+      "invitee_username": "",
+      "error": {
+        "message_id": "InviteeHasAlreadyJoined",
+        "fallback": "Invited user is already a member",
+        "args": []
+      }
+    }
+  ]
+}

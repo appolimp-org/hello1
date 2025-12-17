@@ -1,0 +1,36 @@
+{
+  "issues":  [
+    {
+      "id":  "70372819296321537",
+      "public_id":  "2",
+      "title":  "Second issue",
+      "description":  "",
+      "repo_id":  "70372819111837697",
+      "status_id":  "1",
+      "priority":  "PRIORITY_CRITICAL",
+      "author_id":  "1",
+      "updated_by":  "1",
+      "created_at":  "2025-04-30T11:31:08.963558Z",
+      "updated_at":  "2025-04-30T11:31:08.963558Z",
+      "subscriber_ids":  [],
+      "mention_ids":  [],
+      "attachments_ids":  [],
+      "labels":  [],
+      "reactions":  {
+        "1":  {
+          "count":  0,
+          "self_react":  false
+        }
+      },
+      "comments_count":  1,
+      "linked_prs":  [],
+      "visibility":  "VISIBILITY_PRIVATE"
+    }
+  ],
+  "revision":  {
+    "value":  "5",
+    "count":  3
+  },
+  "prev_page_token":  "g6dDb2x1bW5zkYOkTmFtZaFfqURpcmVjdGlvbsKlVmFsdWXPAPoDtNAAAAGpRGlyZWN0aW9uw6pDbG91ZFRva2VuwA",
+  "next_page_token":  "g6dDb2x1bW5zkYOkTmFtZaFfqURpcmVjdGlvbsKlVmFsdWXPAPoDtNAAAAGpRGlyZWN0aW9uwqpDbG91ZFRva2VuwA"
+}

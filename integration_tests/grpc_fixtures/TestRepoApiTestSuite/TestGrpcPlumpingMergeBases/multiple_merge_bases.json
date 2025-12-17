@@ -1,0 +1,19 @@
+{
+  "merge_bases":  [
+    {
+      "commit":  "623ed46eb58e200936fca11aaa0e1574b8b09a86",
+      "ahead":  2,
+      "behind":  1
+    },
+    {
+      "commit":  "cf94fe9efa9f38b4d1d6415e4daf6384ea453bd9",
+      "ahead":  2,
+      "behind":  2
+    },
+    {
+      "commit":  "32bebe5052e8832b533da76792625c33b22f80c1",
+      "ahead":  1,
+      "behind":  2
+    }
+  ]
+}

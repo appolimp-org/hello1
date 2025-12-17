@@ -1,0 +1,61 @@
+status: 200 OK
+status_code: 200
+proto: HTTP/2.0
+proto_major: 2
+proto_minor: 0
+header:
+    Access-Control-Allow-Origin:
+        - '*'
+    Access-Control-Expose-Headers:
+        - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+    Cache-Control:
+        - private, max-age=60, s-maxage=60
+    Content-Security-Policy:
+        - default-src 'none'
+    Content-Type:
+        - application/json; charset=utf-8
+    Date:
+        - Thu, 16 Oct 2025 16:45:55 GMT
+    Etag:
+        - W/"863da70dcc4fda1f0f0dbd003ebf2a90068122e12b1b2c80cc410d86b4d56d6b"
+    Link:
+        - <https://api.github.com/repositories/135175513/issues?after=Y3Vyc29yOnYyOpLPAAABeSKv28jOM__oXg%3D%3D&page=8&per_page=100&state=all>; rel="next", <https://api.github.com/repositories/135175513/issues?page=6&per_page=100&state=all&before=Y3Vyc29yOnYyOpLPAAABfqbQ4PDOQqeMBQ%3D%3D>; rel="prev"
+    Referrer-Policy:
+        - origin-when-cross-origin, strict-origin-when-cross-origin
+    Server:
+        - github.com
+    Strict-Transport-Security:
+        - max-age=31536000; includeSubdomains; preload
+    Vary:
+        - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+    X-Accepted-Oauth-Scopes:
+        - repo
+    X-Content-Type-Options:
+        - nosniff
+    X-Frame-Options:
+        - deny
+    X-Github-Api-Version-Selected:
+        - "2022-11-28"
+    X-Github-Media-Type:
+        - github.v3; param=squirrel-girl-preview
+    X-Github-Request-Id:
+        - 668C:38B4D9:554EA3D:5036A40:68F12142
+    X-Oauth-Scopes:
+        - project, read:org, repo, user
+    X-Ratelimit-Limit:
+        - "5000"
+    X-Ratelimit-Remaining:
+        - "4914"
+    X-Ratelimit-Reset:
+        - "1760636275"
+    X-Ratelimit-Resource:
+        - core
+    X-Ratelimit-Used:
+        - "86"
+    X-Xss-Protection:
+        - "0"
+content_length: -1
+transfer_encoding: []
+close: false
+uncompressed: true
+trailer: {}

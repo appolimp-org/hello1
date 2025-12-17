@@ -1,0 +1,123 @@
+{
+  "file_diffs": [
+    {
+      "diff_path": {
+        "source_path": "file1.txt",
+        "target_path": "file1_moved.txt"
+      },
+      "diff": {
+        "chunks": [],
+        "target_lines_count": 10,
+        "source_lines_count": 10,
+        "added_lines_count": 0,
+        "removed_lines_count": 0
+      }
+    },
+    {
+      "diff_path": {
+        "source_path": "file1.txt",
+        "target_path": "file3.txt"
+      },
+      "diff": {
+        "chunks": [
+          {
+            "region": {
+              "old_begin": 1,
+              "old_lines_count": 2,
+              "new_begin": 1,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": "Line 6."
+              },
+              {
+                "type": "REMOVE",
+                "content": "Line 7."
+              },
+              {
+                "type": "ADD",
+                "content": "Line 1."
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 3,
+              "old_lines_count": 0,
+              "new_begin": 3,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "ADD",
+                "content": "Line 3."
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 4,
+              "old_lines_count": 0,
+              "new_begin": 5,
+              "new_lines_count": 5
+            },
+            "lines": [
+              {
+                "type": "ADD",
+                "content": "Line 5."
+              },
+              {
+                "type": "ADD",
+                "content": "Line 6."
+              },
+              {
+                "type": "ADD",
+                "content": "Line 7."
+              },
+              {
+                "type": "ADD",
+                "content": "Line 8."
+              },
+              {
+                "type": "ADD",
+                "content": "Line 9."
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 6,
+              "old_lines_count": 4,
+              "new_begin": 10,
+              "new_lines_count": 0
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": "Line 11."
+              },
+              {
+                "type": "REMOVE",
+                "content": "Line 12."
+              },
+              {
+                "type": "REMOVE",
+                "content": "Line 14."
+              },
+              {
+                "type": "REMOVE",
+                "content": "Line 15."
+              }
+            ]
+          }
+        ],
+        "target_lines_count": 9,
+        "source_lines_count": 10,
+        "added_lines_count": 7,
+        "removed_lines_count": 6
+      }
+    }
+  ]
+}

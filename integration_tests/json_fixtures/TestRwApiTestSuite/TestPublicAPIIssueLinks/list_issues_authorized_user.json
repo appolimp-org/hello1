@@ -1,0 +1,36 @@
+{
+  "Code": 200,
+  "Payload": {
+    "links": [
+      {
+        "author": {
+          "id": "7"
+        },
+        "created_at": "2025-05-12T11:18:05.432167Z",
+        "link_type": "parent",
+        "target": {
+          "id": "72110966455795713"
+        },
+        "updated_at": "2025-05-12T11:18:05.432167Z",
+        "updated_by": {
+          "id": "7"
+        }
+      },
+      {
+        "author": {
+          "id": "7"
+        },
+        "created_at": "2025-05-12T11:18:05.433453Z",
+        "link_type": "parent",
+        "target": {
+          "id": "72110966472900609"
+        },
+        "updated_at": "2025-05-12T11:18:05.433453Z",
+        "updated_by": {
+          "id": "7"
+        }
+      }
+    ],
+    "next_page_token": ""
+  }
+}

@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/yandex/odyssey/pulls/comments?page=5&per_page=100
+        headers:
+            Accept:
+                - application/vnd.github.squirrel-girl-preview, application/vnd.github.comfort-fade-preview+json
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:47:26.371707+03:00
+      response_uuid: 0770be11-a806-4f9d-9033-60741be812c3

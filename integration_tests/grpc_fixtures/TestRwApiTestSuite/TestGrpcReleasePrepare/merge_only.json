@@ -1,0 +1,11 @@
+{
+  "release": {
+    "version": "0.0.1",
+    "tag": "tag-frontend-0.0.1",
+    "changelog": " - Merge branch 'master' of github.com:tyba/git-fixture [1669dc] @Máximo Cuadros Ortiz\n - Initial commit [b02951] @Máximo Cuadros",
+    "description": "",
+    "hash": "6ecf0ef2c2dffb796033e5a02219af86ec6584e5",
+    "reuse_existing_tag": false
+  },
+  "previous_version": ""
+}

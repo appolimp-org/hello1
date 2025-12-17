@@ -1,0 +1,8 @@
+{
+  "Code": 404,
+  "Payload": {
+    "error_code": "RepositoryNotFound",
+    "message": "repository#0197a2f0-6078-70da-ae43-db5710618bba does not exist",
+    "request_id": "6d30b680-b66f-98d4-6d78-fe42b146aefd"
+  }
+}

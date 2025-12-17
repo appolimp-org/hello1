@@ -1,0 +1,26 @@
+{
+  "Code": 200,
+  "Payload": {
+    "author": {
+      "id": "019909e7-b885-78c2-b59d-11ea79894576",
+      "slug": "krosh"
+    },
+    "created_at": "2025-09-02T10:10:22.391813Z",
+    "description": "",
+    "id": "019909e7-fc37-7c67-9580-fc2f7f914a78",
+    "repository": {
+      "id": "019909e7-d81c-7330-8866-6bb3b53e7206",
+      "slug": "prvalidation"
+    },
+    "slug": "1",
+    "source_branch": "branch",
+    "status": "open",
+    "target_branch": "master",
+    "title": "Public API PR",
+    "updated_at": "2025-09-02T10:10:22.498448Z",
+    "updated_by": {
+      "id": "019909e7-b885-78c2-b59d-11ea79894576",
+      "slug": "krosh"
+    }
+  }
+}

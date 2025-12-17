@@ -1,0 +1,61 @@
+status: 200 OK
+status_code: 200
+proto: HTTP/2.0
+proto_major: 2
+proto_minor: 0
+header:
+    Access-Control-Allow-Origin:
+        - '*'
+    Access-Control-Expose-Headers:
+        - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+    Cache-Control:
+        - private, max-age=60, s-maxage=60
+    Content-Security-Policy:
+        - default-src 'none'
+    Content-Type:
+        - application/json; charset=utf-8
+    Date:
+        - Thu, 16 Oct 2025 16:40:36 GMT
+    Etag:
+        - W/"cddcd644136f6f223767e5d87699e59b64de6aaf5c9ce568a2fcc254ebbcc457"
+    Link:
+        - <https://api.github.com/repositories/968690466/pulls?per_page=1&page=2>; rel="next", <https://api.github.com/repositories/968690466/pulls?per_page=1&page=3>; rel="last"
+    Referrer-Policy:
+        - origin-when-cross-origin, strict-origin-when-cross-origin
+    Server:
+        - github.com
+    Strict-Transport-Security:
+        - max-age=31536000; includeSubdomains; preload
+    Vary:
+        - Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With
+    X-Accepted-Oauth-Scopes:
+        - ""
+    X-Content-Type-Options:
+        - nosniff
+    X-Frame-Options:
+        - deny
+    X-Github-Api-Version-Selected:
+        - "2022-11-28"
+    X-Github-Media-Type:
+        - github.v3; format=json
+    X-Github-Request-Id:
+        - 58E4:3A0BE9:534A518:4E59CD5:68F12004
+    X-Oauth-Scopes:
+        - project, read:org, repo, user
+    X-Ratelimit-Limit:
+        - "5000"
+    X-Ratelimit-Remaining:
+        - "4983"
+    X-Ratelimit-Reset:
+        - "1760636275"
+    X-Ratelimit-Resource:
+        - core
+    X-Ratelimit-Used:
+        - "17"
+    X-Xss-Protection:
+        - "0"
+content_length: -1
+transfer_encoding: []
+close: false
+uncompressed: true
+trailer: {}

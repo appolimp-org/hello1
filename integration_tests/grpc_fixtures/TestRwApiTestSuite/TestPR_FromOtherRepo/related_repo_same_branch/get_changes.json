@@ -1,0 +1,20 @@
+{
+  "tree_diffs": [
+    {
+      "paths": {
+        "target": "CHANGELOG",
+        "source": "CHANGELOG"
+      },
+      "type": "FILE",
+      "status": "MODIFIED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "otherfile.txt"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    }
+  ]
+}

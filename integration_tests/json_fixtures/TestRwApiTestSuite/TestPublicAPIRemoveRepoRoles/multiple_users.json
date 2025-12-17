@@ -1,0 +1,15 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "subject_roles": [
+      {
+        "role": "repo_role_unspecified",
+        "subject": {
+          "id": "019a27a2-ae1a-734f-a56a-c55fe18a8448",
+          "type": "user"
+        }
+      }
+    ]
+  }
+}

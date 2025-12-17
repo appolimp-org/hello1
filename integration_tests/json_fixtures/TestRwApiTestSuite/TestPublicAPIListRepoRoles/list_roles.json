@@ -1,0 +1,43 @@
+{
+    "Code": 200,
+    "Payload": {
+        "next_page_token": "",
+        "subject_roles": [
+            {
+                "role": "repo_role_unspecified",
+                "subject": {
+                    "id": "admin",
+                    "type": "user"
+                }
+            },
+            {
+                "role": "admin",
+                "subject": {
+                    "id": "kopatych",
+                    "type": "user"
+                }
+            },
+            {
+                "role": "admin",
+                "subject": {
+                    "id": "barash",
+                    "type": "user"
+                }
+            },
+            {
+                "role": "admin",
+                "subject": {
+                    "id": "krosh",
+                    "type": "user"
+                }
+            },
+            {
+                "role": "developer",
+                "subject": {
+                    "id": "kopatych",
+                    "type": "user"
+                }
+            }
+        ]
+    }
+}

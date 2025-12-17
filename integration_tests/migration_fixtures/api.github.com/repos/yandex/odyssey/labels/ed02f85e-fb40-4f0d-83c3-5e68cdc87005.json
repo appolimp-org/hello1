@@ -1,0 +1,137 @@
+[
+  {
+    "id": 4359492472,
+    "node_id": "LA_kwDOCA6dWc8AAAABA9iTeA",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/aarch64",
+    "name": "aarch64",
+    "color": "76A4F8",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 947179636,
+    "node_id": "MDU6TGFiZWw5NDcxNzk2MzY=",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/bug",
+    "name": "bug",
+    "color": "d73a4a",
+    "default": true,
+    "description": "Something isn't working"
+  },
+  {
+    "id": 4250557362,
+    "node_id": "LA_kwDOCA6dWc79Wluy",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/community",
+    "name": "community",
+    "color": "D58EB2",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 6682054819,
+    "node_id": "LA_kwDOCA6dWc8AAAABjkgQow",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/dependencies",
+    "name": "dependencies",
+    "color": "0366d6",
+    "default": false,
+    "description": "Pull requests that update a dependency file"
+  },
+  {
+    "id": 947179638,
+    "node_id": "MDU6TGFiZWw5NDcxNzk2Mzg=",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/duplicate",
+    "name": "duplicate",
+    "color": "cfd3d7",
+    "default": true,
+    "description": "This issue or pull request already exists"
+  },
+  {
+    "id": 947179640,
+    "node_id": "MDU6TGFiZWw5NDcxNzk2NDA=",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/enhancement",
+    "name": "enhancement",
+    "color": "a2eeef",
+    "default": true,
+    "description": "New feature or request"
+  },
+  {
+    "id": 7888743175,
+    "node_id": "LA_kwDOCA6dWc8AAAAB1jSrBw",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/github_actions",
+    "name": "github_actions",
+    "color": "000000",
+    "default": false,
+    "description": "Pull requests that update GitHub Actions code"
+  },
+  {
+    "id": 7888743510,
+    "node_id": "LA_kwDOCA6dWc8AAAAB1jSsVg",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/go",
+    "name": "go",
+    "color": "16e2e2",
+    "default": false,
+    "description": "Pull requests that update Go code"
+  },
+  {
+    "id": 947179644,
+    "node_id": "MDU6TGFiZWw5NDcxNzk2NDQ=",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/good%20first%20issue",
+    "name": "good first issue",
+    "color": "7057ff",
+    "default": true,
+    "description": "Good for newcomers"
+  },
+  {
+    "id": 4294634898,
+    "node_id": "LA_kwDOCA6dWc7_-u2S",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/HBA",
+    "name": "HBA",
+    "color": "42D958",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 947179642,
+    "node_id": "MDU6TGFiZWw5NDcxNzk2NDI=",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/help%20wanted",
+    "name": "help wanted",
+    "color": "008672",
+    "default": true,
+    "description": "Extra attention is needed"
+  },
+  {
+    "id": 947179647,
+    "node_id": "MDU6TGFiZWw5NDcxNzk2NDc=",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/invalid",
+    "name": "invalid",
+    "color": "e4e669",
+    "default": true,
+    "description": "This doesn't seem right"
+  },
+  {
+    "id": 4258393542,
+    "node_id": "LA_kwDOCA6dWc790e3G",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/ldap",
+    "name": "ldap",
+    "color": "97881C",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 947179650,
+    "node_id": "MDU6TGFiZWw5NDcxNzk2NTA=",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/question",
+    "name": "question",
+    "color": "d876e3",
+    "default": true,
+    "description": "Further information is requested"
+  },
+  {
+    "id": 947179653,
+    "node_id": "MDU6TGFiZWw5NDcxNzk2NTM=",
+    "url": "https://api.github.com/repos/yandex/odyssey/labels/wontfix",
+    "name": "wontfix",
+    "color": "ffffff",
+    "default": true,
+    "description": "This will not be worked on"
+  }
+]

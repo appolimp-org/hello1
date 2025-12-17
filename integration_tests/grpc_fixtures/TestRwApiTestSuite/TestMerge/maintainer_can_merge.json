@@ -1,0 +1,18 @@
+{
+  "hash":  "c4e6f7b02c85feb80ce2700918afb9c17d66aa73",
+  "message":  "TASK-1 add README.md (!1)\n\nsome description\nmultiline\n",
+  "parent_commits":  [
+    "6ecf0ef2c2dffb796033e5a02219af86ec6584e5",
+    "c2940125e09f57567acd219ab6c6ff76a6cab71b"
+  ],
+  "author":  {
+    "name":  "kopatych",
+    "email":  "kopatych@sourcecraft.dev",
+    "date":  "2025-02-04T15:43:24Z"
+  },
+  "commiter":  {
+    "name":  "kopatych",
+    "email":  "kopatych@sourcecraft.dev",
+    "date":  "2025-02-04T15:43:24Z"
+  }
+}

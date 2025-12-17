@@ -1,0 +1,23 @@
+{
+  "created_invites": [],
+  "errors": [
+    {
+      "invitee_email": "hello1@world.com",
+      "invitee_id": "0",
+      "error": {
+        "message_id": "InviteAlreadyCreated",
+        "fallback": "Invite to this user already exists",
+        "args": []
+      }
+    },
+    {
+      "invitee_email": "hello2@world.com",
+      "invitee_id": "0",
+      "error": {
+        "message_id": "InviteAlreadyCreated",
+        "fallback": "Invite to this user already exists",
+        "args": []
+      }
+    }
+  ]
+}

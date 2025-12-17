@@ -1,0 +1,126 @@
+{
+  "entry": {
+    "path": "foo",
+    "type": "ENTRY_TYPE_DIR",
+    "name": "foo",
+    "last_commit": {
+      "hash": "69d304abf6969f362f89287a24f419fa9a1d6c7d",
+      "message": "base\n",
+      "parent_hashes": [],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2005-04-01T11:14:15Z"
+      },
+      "committer": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2005-04-01T11:14:15Z"
+      }
+    },
+    "directory": {
+      "children": [
+        {
+          "path": "foo/.arcignore",
+          "type": "ENTRY_TYPE_FILE",
+          "name": ".arcignore",
+          "last_commit": {
+            "hash": "69d304abf6969f362f89287a24f419fa9a1d6c7d",
+            "message": "base\n",
+            "parent_hashes": [],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2005-04-01T11:14:15Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2005-04-01T11:14:15Z"
+            }
+          },
+          "file": {
+            "size": "1",
+            "mimetype": "text/plain",
+            "is_binary": false
+          }
+        },
+        {
+          "path": "foo/.gitignore",
+          "type": "ENTRY_TYPE_FILE",
+          "name": ".gitignore",
+          "last_commit": {
+            "hash": "69d304abf6969f362f89287a24f419fa9a1d6c7d",
+            "message": "base\n",
+            "parent_hashes": [],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2005-04-01T11:14:15Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2005-04-01T11:14:15Z"
+            }
+          },
+          "file": {
+            "size": "1",
+            "mimetype": "text/plain",
+            "is_binary": false
+          }
+        },
+        {
+          "path": "foo/v1-copy.txt",
+          "type": "ENTRY_TYPE_FILE",
+          "name": "v1-copy.txt",
+          "last_commit": {
+            "hash": "69d304abf6969f362f89287a24f419fa9a1d6c7d",
+            "message": "base\n",
+            "parent_hashes": [],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2005-04-01T11:14:15Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2005-04-01T11:14:15Z"
+            }
+          },
+          "file": {
+            "size": "3",
+            "mimetype": "text/plain; charset=utf-8",
+            "is_binary": false
+          }
+        },
+        {
+          "path": "foo/v1.txt",
+          "type": "ENTRY_TYPE_FILE",
+          "name": "v1.txt",
+          "last_commit": {
+            "hash": "69d304abf6969f362f89287a24f419fa9a1d6c7d",
+            "message": "base\n",
+            "parent_hashes": [],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2005-04-01T11:14:15Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2005-04-01T11:14:15Z"
+            }
+          },
+          "file": {
+            "size": "3",
+            "mimetype": "text/plain; charset=utf-8",
+            "is_binary": false
+          }
+        }
+      ]
+    }
+  }
+}

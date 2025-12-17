@@ -1,0 +1,12 @@
+{
+  "merge":  false,
+  "change_status":  false,
+  "edit":  false,
+  "modify_reviewers":  false,
+  "leave_review_decision":  true,
+  "comment":  true,
+  "publish_all_comments":  true,
+  "edit_own_comment":  true,
+  "edit_any_comment":  false,
+  "neuro_review":  false
+}

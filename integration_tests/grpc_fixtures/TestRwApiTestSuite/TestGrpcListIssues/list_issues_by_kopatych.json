@@ -1,0 +1,74 @@
+{
+  "issues":  [
+    {
+      "id":  "70372819162300417",
+      "public_id":  "1",
+      "title":  "First issue",
+      "description":  "",
+      "repo_id":  "70372819111837697",
+      "status_id":  "1",
+      "priority":  "PRIORITY_NORMAL",
+      "author_id":  "7",
+      "updated_by":  "7",
+      "created_at":  "2025-04-30T11:31:08.888169Z",
+      "updated_at":  "2025-04-30T11:31:08.888169Z",
+      "subscriber_ids":  [],
+      "mention_ids":  [],
+      "attachments_ids":  [],
+      "labels":  [
+        {
+          "id":  "70372819128614913",
+          "name":  "Existing Label",
+          "slug":  "existing-label",
+          "color":  "FF0000",
+          "author_id":  "7",
+          "updated_by":  "7",
+          "created_at":  "2025-04-30T11:31:08.862361Z",
+          "updated_at":  "2025-04-30T11:31:08.862361Z"
+        }
+      ],
+      "reactions":  {
+        "1":  {
+          "count":  0,
+          "self_react":  false
+        }
+      },
+      "comments_count":  0,
+      "linked_prs":  [],
+      "visibility":  "VISIBILITY_PUBLIC"
+    },
+    {
+      "id":  "70372819296321537",
+      "public_id":  "2",
+      "title":  "Second issue",
+      "description":  "",
+      "repo_id":  "70372819111837697",
+      "status_id":  "1",
+      "priority":  "PRIORITY_CRITICAL",
+      "author_id":  "1",
+      "updated_by":  "1",
+      "created_at":  "2025-04-30T11:31:08.963558Z",
+      "updated_at":  "2025-04-30T11:31:08.963558Z",
+      "subscriber_ids":  [],
+      "mention_ids":  [],
+      "attachments_ids":  [],
+      "labels":  [],
+      "reactions":  {
+        "1":  {
+          "count":  0,
+          "self_react":  false
+        }
+      },
+      "comments_count":  1,
+      "linked_prs":  [],
+      "visibility":  "VISIBILITY_PRIVATE"
+    }
+  ],
+  "revision":  {
+    "value":  "5",
+    "count":  3
+  },
+  "prev_page_token":  "",
+  "next_page_token":  "",
+  "total":  2
+}

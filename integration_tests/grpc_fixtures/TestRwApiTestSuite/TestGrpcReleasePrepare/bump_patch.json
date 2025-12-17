@@ -1,0 +1,11 @@
+{
+  "release": {
+    "version": "0.0.2",
+    "tag": "tag-backend-0.0.2",
+    "changelog": " - binary file [35e851] @Máximo Cuadros Ortiz",
+    "description": "",
+    "hash": "35e85108805c84807bc66a02d91535e1e24b38b9",
+    "reuse_existing_tag": false
+  },
+  "previous_version": "0.0.1"
+}

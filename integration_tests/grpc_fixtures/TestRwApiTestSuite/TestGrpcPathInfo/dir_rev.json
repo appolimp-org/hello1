@@ -1,0 +1,106 @@
+{
+  "dir_entry": {
+    "type": "DE_DIR",
+    "name": "",
+    "path": "/",
+    "last_commit": {
+      "hash": "35e85108805c84807bc66a02d91535e1e24b38b9",
+      "message": "binary file\n",
+      "parent_commits": [
+        "b029517f6300c2da0f4b651b8642506cd6aaf45d"
+      ],
+      "author": {
+        "name": "Máximo Cuadros Ortiz",
+        "email": "mcuadros@gmail.com",
+        "date": "2015-03-31T11:46:24Z"
+      },
+      "commiter": {
+        "name": "Máximo Cuadros Ortiz",
+        "email": "mcuadros@gmail.com",
+        "date": "2015-03-31T11:46:24Z"
+      }
+    },
+    "children": [
+      {
+        "type": "DE_FILE",
+        "name": ".gitignore",
+        "path": ".gitignore",
+        "last_commit": {
+          "hash": "b029517f6300c2da0f4b651b8642506cd6aaf45d",
+          "message": "Initial commit\n",
+          "parent_commits": [],
+          "author": {
+            "name": "Máximo Cuadros",
+            "email": "mcuadros@gmail.com",
+            "date": "2015-03-31T11:42:21Z"
+          },
+          "commiter": {
+            "name": "Máximo Cuadros",
+            "email": "mcuadros@gmail.com",
+            "date": "2015-03-31T11:42:21Z"
+          }
+        },
+        "children": [],
+        "file_metadata": {
+          "size": "189",
+          "mimetype": "text/plain",
+          "is_binary": false
+        }
+      },
+      {
+        "type": "DE_FILE",
+        "name": "binary.jpg",
+        "path": "binary.jpg",
+        "last_commit": {
+          "hash": "35e85108805c84807bc66a02d91535e1e24b38b9",
+          "message": "binary file\n",
+          "parent_commits": [
+            "b029517f6300c2da0f4b651b8642506cd6aaf45d"
+          ],
+          "author": {
+            "name": "Máximo Cuadros Ortiz",
+            "email": "mcuadros@gmail.com",
+            "date": "2015-03-31T11:46:24Z"
+          },
+          "commiter": {
+            "name": "Máximo Cuadros Ortiz",
+            "email": "mcuadros@gmail.com",
+            "date": "2015-03-31T11:46:24Z"
+          }
+        },
+        "children": [],
+        "file_metadata": {
+          "size": "76110",
+          "mimetype": "image/jpeg",
+          "is_binary": true
+        }
+      },
+      {
+        "type": "DE_FILE",
+        "name": "LICENSE",
+        "path": "LICENSE",
+        "last_commit": {
+          "hash": "b029517f6300c2da0f4b651b8642506cd6aaf45d",
+          "message": "Initial commit\n",
+          "parent_commits": [],
+          "author": {
+            "name": "Máximo Cuadros",
+            "email": "mcuadros@gmail.com",
+            "date": "2015-03-31T11:42:21Z"
+          },
+          "commiter": {
+            "name": "Máximo Cuadros",
+            "email": "mcuadros@gmail.com",
+            "date": "2015-03-31T11:42:21Z"
+          }
+        },
+        "children": [],
+        "file_metadata": {
+          "size": "1072",
+          "mimetype": "text/plain",
+          "is_binary": false
+        }
+      }
+    ]
+  }
+}

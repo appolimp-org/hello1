@@ -1,0 +1,45 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "pull_request_comments": [
+      {
+        "author": {
+          "id": "019929c1-5d48-70ea-8478-f4d48af48a18",
+          "slug": "kopatych"
+        },
+        "body": "Reply to root comment",
+        "created_at": "2025-09-08T16:04:35.098329Z",
+        "id": "01992a12-6e9a-7528-9dcd-558202b88e1c",
+        "is_deleted": false,
+        "is_outdated": false,
+        "is_published": true,
+        "is_resolved": false,
+        "iteration": "89389467852472321",
+        "need_resolution": false,
+        "parent_id": "01992a12-6e79-72f5-a4c8-5500e1bb9d10",
+        "reactions": {},
+        "type": "default",
+        "updated_at": "2025-09-08T16:04:35.098329Z"
+      },
+      {
+        "author": {
+          "id": "019929c1-5ec5-786c-848c-b3ef3d96c70f",
+          "slug": "krosh"
+        },
+        "body": "Root comment for testing",
+        "created_at": "2025-09-08T16:04:35.065188Z",
+        "id": "01992a12-6e79-72f5-a4c8-5500e1bb9d10",
+        "is_deleted": false,
+        "is_outdated": false,
+        "is_published": true,
+        "is_resolved": false,
+        "iteration": "89389467852472321",
+        "need_resolution": false,
+        "reactions": {},
+        "type": "default",
+        "updated_at": "2025-09-08T16:04:35.065188Z"
+      }
+    ]
+  }
+}

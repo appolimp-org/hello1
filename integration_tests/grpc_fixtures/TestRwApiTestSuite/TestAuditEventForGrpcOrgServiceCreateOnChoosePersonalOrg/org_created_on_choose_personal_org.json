@@ -1,0 +1,50 @@
+{
+  "authentication":  {
+    "authenticated":  true,
+    "subject_type":  "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id":  "new_user124_me_service_test_sign_up",
+    "token_info":  {
+      "masked_iam_token":  "*** hidden ***"
+    }
+  },
+  "authorization":  {
+    "authorized":  true,
+    "permissions":  []
+  },
+  "event_metadata":  {
+    "event_id":  "aengqbbxvsrp8vl8vbkq",
+    "event_type":  "yandex.cloud.events.sourcecraft.OnboardOrganization",
+    "created_at":  "2025-09-16T11:46:35.616366Z",
+    "tracing_context":  {
+      "trace_id":  "e8e4c4738ab9f7a8eb3b975a5f8889f7",
+      "span_id":  "",
+      "parent_span_id":  ""
+    },
+    "organization_id":  "b6dfa762-bb16-4daa-b90a-3416588c879c"
+  },
+  "request_metadata":  {
+    "remote_address":  "127.0.0.1",
+    "user_agent":  "grpc-go/1.73.0",
+    "request_id":  "d6ad4b89-fba8-dd7d-f00f-613f0dcb4ffd",
+    "idempotency_id":  "",
+    "remote_port":  "0"
+  },
+  "event_status":  "DONE",
+  "details":  {
+    "organization_id":  "b6dfa762-bb16-4daa-b90a-3416588c879c",
+    "organization_slug":  "new-user124-me-service-test-sign-up",
+    "organization_name":  "new-user124-me-service-test-sign-up Personal Organization (SourceCraft)",
+    "organization_description":  "Created by SourceCraft",
+    "organization_visibility":  "PUBLIC",
+    "generative_background_seed":  ""
+  },
+  "request_parameters":  {
+    "organization_slug":  "new-user124-me-service-test-sign-up",
+    "organization_name":  "new-user124-me-service-test-sign-up Personal Organization (SourceCraft)",
+    "organization_description":  "Created by SourceCraft",
+    "organization_visibility":  "PUBLIC"
+  },
+  "response":  {
+    "operation_id":  "aenghczqtijs91rx9g85"
+  }
+}

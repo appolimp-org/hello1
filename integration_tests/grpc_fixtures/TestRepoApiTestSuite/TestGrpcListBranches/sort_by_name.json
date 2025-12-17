@@ -1,0 +1,93 @@
+{
+  "branches":  [
+    {
+      "name":  "aBranch",
+      "commit":  {
+        "hash":  "9eeff2834fe0ad574b54e1e10e5e9e027a0617ec",
+        "message":  "aBranch\n",
+        "parent_commits":  [
+          "8bbd66694d34c3d512e97322df58c9114bfc18dd"
+        ],
+        "author":  {
+          "name":  "Author",
+          "email":  "author@example.com",
+          "date":  "2024-02-19T12:01:40Z"
+        },
+        "commiter":  {
+          "name":  "Commiter",
+          "email":  "committer@example.com",
+          "date":  "2024-02-19T12:01:40Z"
+        }
+      },
+      "is_default":  false,
+      "is_mirrored":  false
+    },
+    {
+      "name":  "bran",
+      "commit":  {
+        "hash":  "753c334a03fd322c4cabcce33c40ee709c47d47b",
+        "message":  "bBranch\n",
+        "parent_commits":  [
+          "8bbd66694d34c3d512e97322df58c9114bfc18dd"
+        ],
+        "author":  {
+          "name":  "Author",
+          "email":  "author@example.com",
+          "date":  "2024-02-19T12:05:00Z"
+        },
+        "commiter":  {
+          "name":  "Commiter",
+          "email":  "committer@example.com",
+          "date":  "2024-02-19T12:05:00Z"
+        }
+      },
+      "is_default":  false,
+      "is_mirrored":  false
+    },
+    {
+      "name":  "cBranch",
+      "commit":  {
+        "hash":  "e81acf7455a1d2925dc9bec6857a54854dd5c49d",
+        "message":  "cBranch\n",
+        "parent_commits":  [
+          "8bbd66694d34c3d512e97322df58c9114bfc18dd"
+        ],
+        "author":  {
+          "name":  "Author",
+          "email":  "author@example.com",
+          "date":  "2024-02-19T12:03:20Z"
+        },
+        "commiter":  {
+          "name":  "Commiter",
+          "email":  "committer@example.com",
+          "date":  "2024-02-19T12:03:20Z"
+        }
+      },
+      "is_default":  false,
+      "is_mirrored":  false
+    },
+    {
+      "name":  "main",
+      "commit":  {
+        "hash":  "8bbd66694d34c3d512e97322df58c9114bfc18dd",
+        "message":  "base\n",
+        "parent_commits":  [],
+        "author":  {
+          "name":  "Author",
+          "email":  "author@example.com",
+          "date":  "2024-02-19T12:00:00Z"
+        },
+        "commiter":  {
+          "name":  "Commiter",
+          "email":  "committer@example.com",
+          "date":  "2024-02-19T12:00:00Z"
+        }
+      },
+      "is_default":  true,
+      "is_mirrored":  false
+    }
+  ],
+  "prev_page_token":  "",
+  "next_page_token":  "",
+  "revision":  "1"
+}

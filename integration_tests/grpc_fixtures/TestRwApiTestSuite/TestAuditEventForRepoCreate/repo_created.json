@@ -1,0 +1,52 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "admin",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": []
+  },
+  "event_metadata": {
+    "event_id": "aengnag8oomw3i8nzxe1",
+    "event_type": "yandex.cloud.events.sourcecraft.CreateRepository",
+    "created_at": "2025-09-12T15:18:19.153111Z",
+    "tracing_context":  {
+      "trace_id":  "87cbe1c414e1e67c009c416941ab1aae",
+      "span_id":  "63a9e38f62aa3d59",
+      "parent_span_id":  ""
+    },
+    "organization_id": "89963354856095745"
+  },
+  "request_metadata": {
+    "remote_address": "",
+    "user_agent": "go-resty/2.16.5 (https://github.com/go-resty/resty)",
+    "request_id": "3d056407-53a3-8666-a89c-82e4240f21f3",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "DONE",
+  "details": {
+    "organization_id": "1",
+    "repository_id": "89964631669342571",
+    "repository_slug": "foo",
+    "repository_description": "Foo description",
+    "repository_default_branch": "",
+    "repository_visibility": "PUBLIC",
+    "template_type": "NOT_A_TEMPLATE"
+  },
+  "request_parameters": {
+    "organization_id": "1",
+    "repository_slug": "foo",
+    "repository_description": "Foo description",
+    "repository_default_branch": "",
+    "repository_visibility": "PUBLIC"
+  },
+  "response": {
+    "operation_id": "empty"
+  }
+}

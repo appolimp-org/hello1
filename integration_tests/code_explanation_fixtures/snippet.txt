@@ -1,0 +1,33 @@
+struct Transform {
+  vec3 pos;
+  vec3 rotation;
+  mat4 transformMat;
+  bool isDirty = true;
+
+  void UpdateTransform();
+  void IsDirty();
+  void MarkDirty();
+  ...
+};
+
+struct Asset {
+  std::string assetId;
+};
+
+struct Mesh : public Asset {
+  std::vector<Vertex> vertices;
+  std::vector<uint32_t> indices;
+  // какие-нибудь меш методы
+};
+
+class Object {
+  virtual ~Object() = default;
+  Transform transform;
+  std::string objectId;
+};
+
+class RenderObject : public Object {
+
+};
+
+class RenderObjectWithPhys : public RenderObject {...}; // или виртуальное наследование?

@@ -1,0 +1,241 @@
+{
+  "repositories": [
+    {
+      "id": "101057650619318273",
+      "uuid": "019ac89b-ee68-722e-87d9-fbfdef2fe6c5",
+      "name": "kroshmigrating1",
+      "default_branch": "master",
+      "org_slug": "krosh",
+      "slug": "kroshmigrating1",
+      "is_empty": false,
+      "description": "kroshmigrating1",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/krosh/kroshmigrating1.git",
+        "ssh": "ssh://localhost:2222/krosh/kroshmigrating1.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:34.152849Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057651592396801",
+      "uuid": "019ac89b-f0ac-784d-a3f2-7886d302879c",
+      "name": "kroshmigrating2",
+      "default_branch": "master",
+      "org_slug": "krosh",
+      "slug": "kroshmigrating2",
+      "is_empty": false,
+      "description": "kroshmigrating2",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/krosh/kroshmigrating2.git",
+        "ssh": "ssh://localhost:2222/krosh/kroshmigrating2.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:34.655975Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057646374682625",
+      "uuid": "019ac89b-e48b-7704-badd-c9522fa852c7",
+      "name": "kroshprivate1",
+      "default_branch": "master",
+      "org_slug": "krosh",
+      "slug": "kroshprivate1",
+      "is_empty": false,
+      "description": "kroshprivate1",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/krosh/kroshprivate1.git",
+        "ssh": "ssh://localhost:2222/krosh/kroshprivate1.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:31.711722Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057647515533313",
+      "uuid": "019ac89b-e72c-7616-bf12-f85d1045ef5d",
+      "name": "kroshprivate2",
+      "default_branch": "master",
+      "org_slug": "krosh",
+      "slug": "kroshprivate2",
+      "is_empty": false,
+      "description": "kroshprivate2",
+      "visibility": "RESOURCE_PRIVATE",
+      "effective_visibility": "RESOURCE_PRIVATE",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/krosh/kroshprivate2.git",
+        "ssh": "ssh://localhost:2222/krosh/kroshprivate2.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:32.234250Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057648354394113",
+      "uuid": "019ac89b-e920-7d07-90c6-54de01b729da",
+      "name": "kroshpub1",
+      "default_branch": "master",
+      "org_slug": "krosh",
+      "slug": "kroshpub1",
+      "is_empty": false,
+      "description": "kroshpub1",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/krosh/kroshpub1.git",
+        "ssh": "ssh://localhost:2222/krosh/kroshpub1.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:32.676725Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057649159700481",
+      "uuid": "019ac89b-eb09-78c6-acc8-3d68856de927",
+      "name": "kroshpub2",
+      "default_branch": "master",
+      "org_slug": "krosh",
+      "slug": "kroshpub2",
+      "is_empty": false,
+      "description": "kroshpub2",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/krosh/kroshpub2.git",
+        "ssh": "ssh://localhost:2222/krosh/kroshpub2.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:33.178543Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "101057649897897985",
+      "uuid": "019ac89b-ecb9-7eb5-a783-248ae823a4cc",
+      "name": "kroshpub3",
+      "default_branch": "master",
+      "org_slug": "krosh",
+      "slug": "kroshpub3",
+      "is_empty": false,
+      "description": "kroshpub3",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url": {
+        "https": "http://git@localhost:8081/krosh/kroshpub3.git",
+        "ssh": "ssh://localhost:2222/krosh/kroshpub3.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-11-28T03:57:33.611638Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    }
+  ],
+  "revision": {
+    "value": "8",
+    "count": 7
+  },
+  "prev_page_token": "",
+  "next_page_token": ""
+}

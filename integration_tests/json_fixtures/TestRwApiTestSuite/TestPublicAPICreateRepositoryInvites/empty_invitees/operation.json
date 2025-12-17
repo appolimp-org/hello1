@@ -1,0 +1,14 @@
+{
+  "Code": 400,
+  "Payload": {
+    "details": [
+      {
+        "field": "invitees",
+        "rule": "Repeated.RangeLength"
+      }
+    ],
+    "error_code": "ValidationError",
+    "message": "Validation error: \n  invitees: value must contain between 1 and 100 items, inclusive",
+    "request_id": "d9a1b45d-00bd-da7b-6791-aa0cb0c66dab"
+  }
+}

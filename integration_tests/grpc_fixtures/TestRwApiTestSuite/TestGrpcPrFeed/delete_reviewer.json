@@ -1,0 +1,16 @@
+{
+  "id":  "67214567993769985",
+  "event_type":  "REVIEW_ASSIGNMENT",
+  "created_at":  "2025-04-08T16:36:44.497382Z",
+  "details":  {
+    "review_assignment":  {
+      "reviewer_deltas":  [
+        {
+          "action":  "REMOVE",
+          "user_id":  "2"
+        }
+      ],
+      "user_id":  "6"
+    }
+  }
+}

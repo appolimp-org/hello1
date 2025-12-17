@@ -1,0 +1,105 @@
+records:
+    - request:
+        method: POST
+        url: https://api.github.com/graphql
+        headers:
+            Authorization:
+                - <HIDDEN>
+            Content-Type:
+                - application/json
+        body:
+            kind: graphql
+            body_text: '{"query":"\nquery ListLinkedIssues ($repoOwner: String!, $repoName: String!, $prPageSize: Int!, $prPageToken: String, $pageSize: Int!) {\n\trepository(owner: $repoOwner, name: $repoName) {\n\t\tpullRequests(first: $prPageSize, after: $prPageToken) {\n\t\t\tnodes {\n\t\t\t\tnumber\n\t\t\t\tclosingIssuesReferences(first: $pageSize) {\n\t\t\t\t\tnodes {\n\t\t\t\t\t\tnumber\n\t\t\t\t\t}\n\t\t\t\t\tpageInfo {\n\t\t\t\t\t\t... Cursor\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tpageInfo {\n\t\t\t\t... Cursor\n\t\t\t}\n\t\t}\n\t}\n\t... RateLimit\n}\nfragment Cursor on PageInfo {\n\tendCursor\n\thasNextPage\n}\nfragment RateLimit on Query {\n\trateLimit {\n\t\tremaining\n\t\tresetAt\n\t}\n}\n","variables":{"repoOwner":"yandex","repoName":"odyssey","prPageSize":100,"prPageToken":null,"pageSize":100},"operationName":"ListLinkedIssues"}'
+        recorded_at: 2025-10-16T19:46:01.093814+03:00
+      response_uuid: 831db970-4742-4c94-93b7-e7dc73353a40
+    - request:
+        method: POST
+        url: https://api.github.com/graphql
+        headers:
+            Authorization:
+                - <HIDDEN>
+            Content-Type:
+                - application/json
+        body:
+            kind: graphql
+            body_text: '{"query":"\nquery ListLinkedIssues ($repoOwner: String!, $repoName: String!, $prPageSize: Int!, $prPageToken: String, $pageSize: Int!) {\n\trepository(owner: $repoOwner, name: $repoName) {\n\t\tpullRequests(first: $prPageSize, after: $prPageToken) {\n\t\t\tnodes {\n\t\t\t\tnumber\n\t\t\t\tclosingIssuesReferences(first: $pageSize) {\n\t\t\t\t\tnodes {\n\t\t\t\t\t\tnumber\n\t\t\t\t\t}\n\t\t\t\t\tpageInfo {\n\t\t\t\t\t\t... Cursor\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tpageInfo {\n\t\t\t\t... Cursor\n\t\t\t}\n\t\t}\n\t}\n\t... RateLimit\n}\nfragment Cursor on PageInfo {\n\tendCursor\n\thasNextPage\n}\nfragment RateLimit on Query {\n\trateLimit {\n\t\tremaining\n\t\tresetAt\n\t}\n}\n","variables":{"repoOwner":"yandex","repoName":"odyssey","prPageSize":100,"prPageToken":"Y3Vyc29yOnYyOpHOGd8X2w==","pageSize":100},"operationName":"ListLinkedIssues"}'
+        recorded_at: 2025-10-16T19:46:01.63636+03:00
+      response_uuid: d291b66e-8605-475a-b59e-c5bbb59ef9e0
+    - request:
+        method: POST
+        url: https://api.github.com/graphql
+        headers:
+            Authorization:
+                - <HIDDEN>
+            Content-Type:
+                - application/json
+        body:
+            kind: graphql
+            body_text: '{"query":"\nquery ListLinkedIssues ($repoOwner: String!, $repoName: String!, $prPageSize: Int!, $prPageToken: String, $pageSize: Int!) {\n\trepository(owner: $repoOwner, name: $repoName) {\n\t\tpullRequests(first: $prPageSize, after: $prPageToken) {\n\t\t\tnodes {\n\t\t\t\tnumber\n\t\t\t\tclosingIssuesReferences(first: $pageSize) {\n\t\t\t\t\tnodes {\n\t\t\t\t\t\tnumber\n\t\t\t\t\t}\n\t\t\t\t\tpageInfo {\n\t\t\t\t\t\t... Cursor\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tpageInfo {\n\t\t\t\t... Cursor\n\t\t\t}\n\t\t}\n\t}\n\t... RateLimit\n}\nfragment Cursor on PageInfo {\n\tendCursor\n\thasNextPage\n}\nfragment RateLimit on Query {\n\trateLimit {\n\t\tremaining\n\t\tresetAt\n\t}\n}\n","variables":{"repoOwner":"yandex","repoName":"odyssey","prPageSize":100,"prPageToken":"Y3Vyc29yOnYyOpHOItzfQw==","pageSize":100},"operationName":"ListLinkedIssues"}'
+        recorded_at: 2025-10-16T19:46:02.323474+03:00
+      response_uuid: 0e6c9801-48ff-4657-b75b-c096f1cd5cf9
+    - request:
+        method: POST
+        url: https://api.github.com/graphql
+        headers:
+            Authorization:
+                - <HIDDEN>
+            Content-Type:
+                - application/json
+        body:
+            kind: graphql
+            body_text: '{"query":"\nquery ListLinkedIssues ($repoOwner: String!, $repoName: String!, $prPageSize: Int!, $prPageToken: String, $pageSize: Int!) {\n\trepository(owner: $repoOwner, name: $repoName) {\n\t\tpullRequests(first: $prPageSize, after: $prPageToken) {\n\t\t\tnodes {\n\t\t\t\tnumber\n\t\t\t\tclosingIssuesReferences(first: $pageSize) {\n\t\t\t\t\tnodes {\n\t\t\t\t\t\tnumber\n\t\t\t\t\t}\n\t\t\t\t\tpageInfo {\n\t\t\t\t\t\t... Cursor\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tpageInfo {\n\t\t\t\t... Cursor\n\t\t\t}\n\t\t}\n\t}\n\t... RateLimit\n}\nfragment Cursor on PageInfo {\n\tendCursor\n\thasNextPage\n}\nfragment RateLimit on Query {\n\trateLimit {\n\t\tremaining\n\t\tresetAt\n\t}\n}\n","variables":{"repoOwner":"yandex","repoName":"odyssey","prPageSize":100,"prPageToken":"Y3Vyc29yOnYyOpHONpQ_dA==","pageSize":100},"operationName":"ListLinkedIssues"}'
+        recorded_at: 2025-10-16T19:46:02.835755+03:00
+      response_uuid: e808e884-5f05-4a3b-b3dc-906dab15e327
+    - request:
+        method: POST
+        url: https://api.github.com/graphql
+        headers:
+            Authorization:
+                - <HIDDEN>
+            Content-Type:
+                - application/json
+        body:
+            kind: graphql
+            body_text: '{"query":"\nquery ListLinkedIssues ($repoOwner: String!, $repoName: String!, $prPageSize: Int!, $prPageToken: String, $pageSize: Int!) {\n\trepository(owner: $repoOwner, name: $repoName) {\n\t\tpullRequests(first: $prPageSize, after: $prPageToken) {\n\t\t\tnodes {\n\t\t\t\tnumber\n\t\t\t\tclosingIssuesReferences(first: $pageSize) {\n\t\t\t\t\tnodes {\n\t\t\t\t\t\tnumber\n\t\t\t\t\t}\n\t\t\t\t\tpageInfo {\n\t\t\t\t\t\t... Cursor\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tpageInfo {\n\t\t\t\t... Cursor\n\t\t\t}\n\t\t}\n\t}\n\t... RateLimit\n}\nfragment Cursor on PageInfo {\n\tendCursor\n\thasNextPage\n}\nfragment RateLimit on Query {\n\trateLimit {\n\t\tremaining\n\t\tresetAt\n\t}\n}\n","variables":{"repoOwner":"yandex","repoName":"odyssey","prPageSize":100,"prPageToken":"Y3Vyc29yOnYyOpHOZv4Aog==","pageSize":100},"operationName":"ListLinkedIssues"}'
+        recorded_at: 2025-10-16T19:46:03.29483+03:00
+      response_uuid: 4f501458-865a-4fcd-9ec3-09f79d6c9530
+    - request:
+        method: POST
+        url: https://api.github.com/graphql
+        headers:
+            Authorization:
+                - <HIDDEN>
+            Content-Type:
+                - application/json
+        body:
+            kind: graphql
+            body_text: '{"query":"\nquery ListLinkedIssues ($repoOwner: String!, $repoName: String!, $prPageSize: Int!, $prPageToken: String, $pageSize: Int!) {\n\trepository(owner: $repoOwner, name: $repoName) {\n\t\tpullRequests(first: $prPageSize, after: $prPageToken) {\n\t\t\tnodes {\n\t\t\t\tnumber\n\t\t\t\tclosingIssuesReferences(first: $pageSize) {\n\t\t\t\t\tnodes {\n\t\t\t\t\t\tnumber\n\t\t\t\t\t}\n\t\t\t\t\tpageInfo {\n\t\t\t\t\t\t... Cursor\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tpageInfo {\n\t\t\t\t... Cursor\n\t\t\t}\n\t\t}\n\t}\n\t... RateLimit\n}\nfragment Cursor on PageInfo {\n\tendCursor\n\thasNextPage\n}\nfragment RateLimit on Query {\n\trateLimit {\n\t\tremaining\n\t\tresetAt\n\t}\n}\n","variables":{"repoOwner":"yandex","repoName":"odyssey","prPageSize":100,"prPageToken":"Y3Vyc29yOnYyOpHOeqM99w==","pageSize":100},"operationName":"ListLinkedIssues"}'
+        recorded_at: 2025-10-16T19:46:03.963497+03:00
+      response_uuid: 70248150-cf36-44e9-8b87-08b48c259a0c
+    - request:
+        method: POST
+        url: https://api.github.com/graphql
+        headers:
+            Authorization:
+                - <HIDDEN>
+            Content-Type:
+                - application/json
+        body:
+            kind: graphql
+            body_text: '{"query":"\nquery ListLinkedIssues ($repoOwner: String!, $repoName: String!, $prPageSize: Int!, $prPageToken: String, $pageSize: Int!) {\n\trepository(owner: $repoOwner, name: $repoName) {\n\t\tpullRequests(first: $prPageSize, after: $prPageToken) {\n\t\t\tnodes {\n\t\t\t\tnumber\n\t\t\t\tclosingIssuesReferences(first: $pageSize) {\n\t\t\t\t\tnodes {\n\t\t\t\t\t\tnumber\n\t\t\t\t\t}\n\t\t\t\t\tpageInfo {\n\t\t\t\t\t\t... Cursor\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tpageInfo {\n\t\t\t\t... Cursor\n\t\t\t}\n\t\t}\n\t}\n\t... RateLimit\n}\nfragment Cursor on PageInfo {\n\tendCursor\n\thasNextPage\n}\nfragment RateLimit on Query {\n\trateLimit {\n\t\tremaining\n\t\tresetAt\n\t}\n}\n","variables":{"repoOwner":"yandex","repoName":"odyssey","prPageSize":100,"prPageToken":"Y3Vyc29yOnYyOpHOlJ6IBQ==","pageSize":100},"operationName":"ListLinkedIssues"}'
+        recorded_at: 2025-10-16T19:46:04.552562+03:00
+      response_uuid: eb37e3cc-7450-4e19-a692-c8fac7f6f9c7
+    - request:
+        method: POST
+        url: https://api.github.com/graphql
+        headers:
+            Authorization:
+                - <HIDDEN>
+            Content-Type:
+                - application/json
+        body:
+            kind: graphql
+            body_text: '{"query":"\nquery ListLinkedIssues ($repoOwner: String!, $repoName: String!, $prPageSize: Int!, $prPageToken: String, $pageSize: Int!) {\n\trepository(owner: $repoOwner, name: $repoName) {\n\t\tpullRequests(first: $prPageSize, after: $prPageToken) {\n\t\t\tnodes {\n\t\t\t\tnumber\n\t\t\t\tclosingIssuesReferences(first: $pageSize) {\n\t\t\t\t\tnodes {\n\t\t\t\t\t\tnumber\n\t\t\t\t\t}\n\t\t\t\t\tpageInfo {\n\t\t\t\t\t\t... Cursor\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tpageInfo {\n\t\t\t\t... Cursor\n\t\t\t}\n\t\t}\n\t}\n\t... RateLimit\n}\nfragment Cursor on PageInfo {\n\tendCursor\n\thasNextPage\n}\nfragment RateLimit on Query {\n\trateLimit {\n\t\tremaining\n\t\tresetAt\n\t}\n}\n","variables":{"repoOwner":"yandex","repoName":"odyssey","prPageSize":100,"prPageToken":"Y3Vyc29yOnYyOpHOnGmjFQ==","pageSize":100},"operationName":"ListLinkedIssues"}'
+        recorded_at: 2025-10-16T19:46:05.396921+03:00
+      response_uuid: 9538ed9d-323e-4ffd-a072-5c661ad34f57

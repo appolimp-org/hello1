@@ -1,0 +1,10 @@
+{
+  "id":  "69357206616735745",
+  "event_type":  "REVIEW_DECISION",
+  "created_at":  "2025-04-23T11:21:56.638028Z",
+  "details":  {
+    "review_decision":  {
+      "user_id":  "6"
+    }
+  }
+}

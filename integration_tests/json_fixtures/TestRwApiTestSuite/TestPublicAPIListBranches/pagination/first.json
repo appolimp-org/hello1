@@ -1,0 +1,74 @@
+{
+  "Code": 200,
+  "Payload": {
+    "branches": [
+      {
+        "commit": {
+          "author": {
+            "date": "2024-02-19T12:01:40Z",
+            "email": "author@example.com",
+            "name": "Author"
+          },
+          "committer": {
+            "date": "2024-02-19T12:01:40Z",
+            "email": "committer@example.com",
+            "name": "Commiter"
+          },
+          "hash": "9eeff2834fe0ad574b54e1e10e5e9e027a0617ec",
+          "merge_tag": "",
+          "message": "aBranch\n",
+          "parent_hashes": [
+            "8bbd66694d34c3d512e97322df58c9114bfc18dd"
+          ],
+          "tree_hash": "0000000000000000000000000000000000000000"
+        },
+        "name": "aBranch"
+      },
+      {
+        "commit": {
+          "author": {
+            "date": "2024-02-19T12:05:00Z",
+            "email": "author@example.com",
+            "name": "Author"
+          },
+          "committer": {
+            "date": "2024-02-19T12:05:00Z",
+            "email": "committer@example.com",
+            "name": "Commiter"
+          },
+          "hash": "753c334a03fd322c4cabcce33c40ee709c47d47b",
+          "merge_tag": "",
+          "message": "bBranch\n",
+          "parent_hashes": [
+            "8bbd66694d34c3d512e97322df58c9114bfc18dd"
+          ],
+          "tree_hash": "0000000000000000000000000000000000000000"
+        },
+        "name": "bran"
+      },
+      {
+        "commit": {
+          "author": {
+            "date": "2024-02-19T12:03:20Z",
+            "email": "author@example.com",
+            "name": "Author"
+          },
+          "committer": {
+            "date": "2024-02-19T12:03:20Z",
+            "email": "committer@example.com",
+            "name": "Commiter"
+          },
+          "hash": "e81acf7455a1d2925dc9bec6857a54854dd5c49d",
+          "merge_tag": "",
+          "message": "cBranch\n",
+          "parent_hashes": [
+            "8bbd66694d34c3d512e97322df58c9114bfc18dd"
+          ],
+          "tree_hash": "0000000000000000000000000000000000000000"
+        },
+        "name": "cBranch"
+      }
+    ],
+    "next_page_token": "g6dDb2x1bW5zkoOkTmFtZaRuYW1lqURpcmVjdGlvbsKlVmFsdWWycmVmcy9oZWFkcy9jQnJhbmNog6ROYW1loV-pRGlyZWN0aW9uwqVWYWx1ZcQU6BrPdFWh0pJdyb7GhXpUhU3VxJ2pRGlyZWN0aW9uwqpDbG91ZFRva2VuwA"
+  }
+}

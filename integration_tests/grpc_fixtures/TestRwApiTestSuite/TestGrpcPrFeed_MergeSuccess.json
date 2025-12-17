@@ -1,0 +1,11 @@
+{
+  "id":  "67215657992781825",
+  "event_type":  "PR_MERGE_SUCCESS",
+  "created_at":  "2025-04-08T16:47:34.186931Z",
+  "details":  {
+    "merge_success":  {
+      "merge_commit_hash":  "ab9f45d58b41daa7b3d8f463a951c8eafc44d9a1",
+      "user_id":  "6"
+    }
+  }
+}

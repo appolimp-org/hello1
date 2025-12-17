@@ -1,0 +1,133 @@
+{
+  "Code": 200,
+  "Payload": {
+    "issues": [
+      {
+        "assignee": {
+          "id": "0198b19b-a3dc-7612-8958-24e8eec9551d",
+          "slug": "krosh"
+        },
+        "author": {
+          "id": "0198b19b-aa3a-7858-addd-9e18e037fad4",
+          "slug": "admin"
+        },
+        "created_at": "2025-08-18T22:25:45.915892Z",
+        "deadline": "2024-01-01T00:00:00Z",
+        "description": "Issue description",
+        "id": "0198bf49-ddba-70f7-9325-9109cc2a57f0",
+        "labels": [
+          {
+            "color": "grey",
+            "id": "0198bf49-ddb1-7d7b-a137-b3cfcf4a27db",
+            "name": "Task",
+            "slug": "task"
+          },
+          {
+            "color": "red",
+            "id": "0198bf49-ddb6-7992-858d-01f13d4b4e49",
+            "name": "Bug",
+            "slug": "bug"
+          }
+        ],
+        "linked_prs": [],
+        "milestone": {
+          "id": "0198bf49-ddab-7d91-b3c4-81b150f7c9ef",
+          "slug": "milestone2"
+        },
+        "priority": "critical",
+        "slug": "1",
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "slug": "open",
+          "status_type": "initial"
+        },
+        "title": "%issue1",
+        "updated_at": "2025-08-18T22:25:45.915892Z",
+        "updated_by": {
+          "id": "0198b19b-aa3a-7858-addd-9e18e037fad4",
+          "slug": "admin"
+        },
+        "visibility": "public"
+      },
+      {
+        "assignee": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "author": {
+          "id": "0198b19b-a3dc-7612-8958-24e8eec9551d",
+          "slug": "krosh"
+        },
+        "completed_at": "2025-08-18T22:25:45.959058Z",
+        "created_at": "2025-08-18T22:25:45.959550Z",
+        "description": "Issue description",
+        "id": "0198bf49-dde7-7817-8504-483d36cba78a",
+        "labels": [
+          {
+            "color": "red",
+            "id": "0198bf49-ddb6-7992-858d-01f13d4b4e49",
+            "name": "Bug",
+            "slug": "bug"
+          }
+        ],
+        "linked_prs": [],
+        "priority": "minor",
+        "slug": "2",
+        "status": {
+          "id": "4",
+          "name": "Closed",
+          "slug": "closed",
+          "status_type": "completed"
+        },
+        "title": "closed minor issue 2",
+        "updated_at": "2025-08-18T22:25:45.959550Z",
+        "updated_by": {
+          "id": "0198b19b-a3dc-7612-8958-24e8eec9551d",
+          "slug": "krosh"
+        },
+        "visibility": "private"
+      },
+      {
+        "author": {
+          "id": "0198b19b-a523-7d60-9478-8f7326a306f9",
+          "slug": "slowpoke"
+        },
+        "completed_at": "2025-08-18T22:25:46.028877Z",
+        "created_at": "2025-08-18T22:25:46.030193Z",
+        "deadline": "2024-01-01T18:00:00Z",
+        "description": "Issue description",
+        "id": "0198bf49-de2e-72a4-8645-d3edcb034c56",
+        "labels": [
+          {
+            "color": "grey",
+            "id": "0198bf49-ddb1-7d7b-a137-b3cfcf4a27db",
+            "name": "Task",
+            "slug": "task"
+          }
+        ],
+        "linked_prs": [],
+        "milestone": {
+          "id": "0198bf49-dda5-7cf2-934d-eae1cb9172ad",
+          "slug": "milestone1"
+        },
+        "priority": "critical",
+        "slug": "4",
+        "status": {
+          "id": "4",
+          "name": "Closed",
+          "slug": "closed",
+          "status_type": "completed"
+        },
+        "title": "cloSED critical issue 4",
+        "updated_at": "2025-08-18T22:25:46.030193Z",
+        "updated_by": {
+          "id": "0198b19b-a523-7d60-9478-8f7326a306f9",
+          "slug": "slowpoke"
+        },
+        "visibility": "private"
+      }
+    ],
+    "next_page_token": ""
+  }
+}

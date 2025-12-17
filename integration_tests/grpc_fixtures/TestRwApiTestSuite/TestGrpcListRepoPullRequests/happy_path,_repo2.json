@@ -1,0 +1,87 @@
+{
+  "pull_requests":  [
+    {
+      "id":  "72264046539243521",
+      "title":  "4 - big diff",
+      "author_id":  "2",
+      "repo_id":  "15",
+      "pr_status":  "OPEN",
+      "created_at":  "2025-05-13T12:38:48.244506Z",
+      "updated_at":  "2025-05-13T12:38:48.273300Z",
+      "reviewers":  [
+        {
+          "user_id":  "8",
+          "created_at":  "2025-05-13T12:38:48.264695Z",
+          "updated_at":  "2025-05-13T12:38:48.264695Z"
+        },
+        {
+          "user_id":  "3",
+          "created_at":  "2025-05-13T12:38:48.264695Z",
+          "updated_at":  "2025-05-13T12:38:48.264695Z"
+        }
+      ],
+      "reviewers_revision":  {
+        "value":  "2",
+        "count":  2
+      },
+      "comments_count":  0,
+      "ships_count":  0,
+      "blocks_count":  0,
+      "pr_revision":  {
+        "value":  "1",
+        "count":  0
+      },
+      "public_id":  "1",
+      "linked_issues":  [],
+      "fork_repo_id":  "15",
+      "fork_repo_full_slug":  "yandex/bigdiff"
+    },
+    {
+      "id":  "72264046606352385",
+      "title":  "5 - big diff",
+      "author_id":  "5",
+      "repo_id":  "15",
+      "pr_status":  "OPEN",
+      "created_at":  "2025-05-13T12:38:48.284147Z",
+      "updated_at":  "2025-05-13T12:38:48.309644Z",
+      "reviewers":  [
+        {
+          "user_id":  "6",
+          "created_at":  "2025-05-13T12:38:48.304500Z",
+          "updated_at":  "2025-05-13T12:38:48.304500Z"
+        },
+        {
+          "user_id":  "8",
+          "created_at":  "2025-05-13T12:38:48.304500Z",
+          "updated_at":  "2025-05-13T12:38:48.304500Z"
+        },
+        {
+          "user_id":  "3",
+          "created_at":  "2025-05-13T12:38:48.304500Z",
+          "updated_at":  "2025-05-13T12:38:48.304500Z"
+        }
+      ],
+      "reviewers_revision":  {
+        "value":  "2",
+        "count":  3
+      },
+      "comments_count":  0,
+      "ships_count":  0,
+      "blocks_count":  0,
+      "pr_revision":  {
+        "value":  "1",
+        "count":  0
+      },
+      "public_id":  "2",
+      "linked_issues":  [],
+      "fork_repo_id":  "15",
+      "fork_repo_full_slug":  "yandex/bigdiff"
+    }
+  ],
+  "revision":  {
+    "value":  "2",
+    "count":  2
+  },
+  "prev_page_token":  "",
+  "next_page_token":  ""
+}

@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/src-migration-tests/lfs-missing/issues?per_page=100&state=all
+        headers:
+            Accept:
+                - application/vnd.github.squirrel-girl-preview
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:41:56.018583+03:00
+      response_uuid: 28a1b145-6d11-4661-b039-7442cd8310fd

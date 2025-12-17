@@ -1,0 +1,55 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "admin",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": [
+      {
+        "permission": "src.repositories.delete",
+        "resource_type": "src.repository",
+        "resource_id": "1",
+        "authorized": true
+      }
+    ]
+  },
+  "event_metadata": {
+    "event_id": "aengp47juubk2tw3usud",
+    "event_type": "yandex.cloud.events.sourcecraft.DeleteRepository",
+    "created_at": "2025-09-12T15:17:22.312912Z",
+    "tracing_context": {
+      "trace_id": "57d17a03628a35eac9c2cf04ef2a2640",
+      "span_id": "23c1a3c811eae40e",
+      "parent_span_id": ""
+    },
+    "organization_id": "89963354856095745"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "4f0a4dc1-4ba2-e123-aa00-844f1ecb38b0",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "DONE",
+  "details": {
+    "organization_id": "1",
+    "repository_id": "1",
+    "repository_slug": "alpha",
+    "repository_description": "description is alpha",
+    "repository_default_branch": "master",
+    "repository_visibility": "PUBLIC",
+    "template_type": "NOT_A_TEMPLATE"
+  },
+  "request_parameters": {
+    "repository_id": "1"
+  },
+  "response": {
+    "operation_id": "empty"
+  }
+}

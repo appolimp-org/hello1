@@ -1,0 +1,15 @@
+{
+  "Code": 200,
+  "Payload": {
+    "reactions": {
+      "goose": {
+        "count": 1,
+        "self_react": true
+      },
+      "robot": {
+        "count": 1,
+        "self_react": true
+      }
+    }
+  }
+}

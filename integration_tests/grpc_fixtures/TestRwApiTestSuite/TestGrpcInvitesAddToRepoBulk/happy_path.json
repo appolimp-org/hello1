@@ -1,0 +1,14 @@
+{
+  "added_user_ids":  [],
+  "created_invites":  [
+    {
+      "id":  "",
+      "invitee_email":  "",
+      "invitee_id":  "6",
+      "status":  "PENDING",
+      "expires_at":  "1970-01-01T00:00:00Z",
+      "created_at":  "1970-01-01T00:00:00Z"
+    }
+  ],
+  "errors":  []
+}

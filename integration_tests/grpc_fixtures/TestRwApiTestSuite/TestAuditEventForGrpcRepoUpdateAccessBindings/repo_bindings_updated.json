@@ -1,0 +1,74 @@
+{
+  "authentication":  {
+    "authenticated":  true,
+    "subject_type":  "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id":  "admin",
+    "token_info":  {
+      "masked_iam_token":  "*** hidden ***"
+    }
+  },
+  "authorization":  {
+    "authorized":  true,
+    "permissions":  [
+      {
+        "permission":  "src.repositories.updateAccessBindings",
+        "resource_type":  "src.repository",
+        "resource_id":  "1",
+        "authorized":  true
+      }
+    ]
+  },
+  "event_metadata":  {
+    "event_id":  "aengvu6f3vzkiuvlxyzh",
+    "event_type":  "yandex.cloud.events.sourcecraft.UpdateRepositoryAccessBindings",
+    "created_at":  "2025-09-10T08:50:12.625274Z",
+    "tracing_context": {
+      "trace_id": "72d714f5092533fecfa4fb26226332e9",
+      "span_id": "54c186d8b4af9d7e",
+      "parent_span_id": ""
+    },
+    "organization_id":  "89521318449381377"
+  },
+  "request_metadata":  {
+    "remote_address":  "127.0.0.1",
+    "user_agent":  "grpc-go/1.73.0",
+    "request_id":  "1945048a-361e-2308-549c-96ef90229a2e",
+    "idempotency_id":  "",
+    "remote_port":  "0"
+  },
+  "event_status":  "DONE",
+  "details":  {
+    "repository_id":  "1",
+    "repository_slug":  "alpha",
+    "access_binding_deltas":  [
+      {
+        "action":  "ADD",
+        "access_binding":  {
+          "role_id":  "src.admin",
+          "subject":  {
+            "id":  "krosh",
+            "type":  "user"
+          }
+        }
+      }
+    ]
+  },
+  "request_parameters":  {
+    "repository_id":  "1",
+    "access_binding_deltas":  [
+      {
+        "action":  "ADD",
+        "access_binding":  {
+          "role_id":  "src.admin",
+          "subject":  {
+            "id":  "krosh",
+            "type":  "user"
+          }
+        }
+      }
+    ]
+  },
+  "response":  {
+    "operation_id":  "aengnbpji4vai7z99ws0"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "branches": [
+    {
+      "name": "br1",
+      "commit": {
+        "hash": "a4ec984b7ccd040dbb9c2e6d77a52c68f6897757",
+        "message": "initial\n",
+        "parent_commits": [],
+        "author": {
+          "name": "Your Name",
+          "email": "you@example.com",
+          "date": "2025-05-06T06:32:13Z"
+        },
+        "commiter": {
+          "name": "Your Name",
+          "email": "you@example.com",
+          "date": "2025-05-06T06:32:13Z"
+        }
+      },
+      "is_default": false,
+      "is_mirrored": false
+    },
+    {
+      "name": "br2",
+      "commit": {
+        "hash": "a4ec984b7ccd040dbb9c2e6d77a52c68f6897757",
+        "message": "initial\n",
+        "parent_commits": [],
+        "author": {
+          "name": "Your Name",
+          "email": "you@example.com",
+          "date": "2025-05-06T06:32:13Z"
+        },
+        "commiter": {
+          "name": "Your Name",
+          "email": "you@example.com",
+          "date": "2025-05-06T06:32:13Z"
+        }
+      },
+      "is_default": false,
+      "is_mirrored": false
+    },
+    {
+      "name": "main",
+      "commit": {
+        "hash": "a4ec984b7ccd040dbb9c2e6d77a52c68f6897757",
+        "message": "initial\n",
+        "parent_commits": [],
+        "author": {
+          "name": "Your Name",
+          "email": "you@example.com",
+          "date": "2025-05-06T06:32:13Z"
+        },
+        "commiter": {
+          "name": "Your Name",
+          "email": "you@example.com",
+          "date": "2025-05-06T06:32:13Z"
+        }
+      },
+      "is_default": true,
+      "is_mirrored": false
+    }
+  ],
+  "prev_page_token": "",
+  "next_page_token": "",
+  "revision": "4"
+}

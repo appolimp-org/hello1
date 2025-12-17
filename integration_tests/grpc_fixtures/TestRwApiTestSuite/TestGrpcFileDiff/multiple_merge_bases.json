@@ -1,0 +1,24 @@
+{
+  "file_diffs":  [
+    {
+      "paths":  {
+        "target":  "a1",
+        "source":  "a1"
+      },
+      "hunks":  [
+        {
+          "from_start":  1,
+          "from_count":  1,
+          "to_start":  1,
+          "to_count":  1,
+          "patch":  "-C\n+G\n"
+        }
+      ],
+      "added":  1,
+      "removed":  1,
+      "target_cnt":  1,
+      "source_cnt":  1,
+      "result":  "SUCCESS"
+    }
+  ]
+}

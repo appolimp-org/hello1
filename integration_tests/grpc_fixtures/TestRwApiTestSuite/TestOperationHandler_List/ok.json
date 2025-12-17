@@ -1,0 +1,89 @@
+{
+  "operations": [
+    {
+      "id": "aeng1cbcqf3ed60402s5",
+      "description": "create_personal_org",
+      "created_at": "2025-04-01T10:04:10.193422Z",
+      "created_by": "5",
+      "modified_at": "2025-04-01T10:04:10.279505Z",
+      "done": true,
+      "metadata": {
+        "@type": "type.googleapis.com/yandex.cloud.priv.gitcore.v1.OperationMetadata",
+        "object": {
+          "type": "ORGANIZATION",
+          "id": "66160364496149655"
+        },
+        "status": "SUCCESS"
+      },
+      "response": {
+        "@type": "type.googleapis.com/yandex.cloud.priv.gitcore.v1.OrgIdentity",
+        "id": "2e667fb9-0685-4e31-83ec-9519ffe4cfce",
+        "src": "ORG_IAM"
+      }
+    },
+    {
+      "id": "aengv1esjw9bhe1ks2te",
+      "description": "stub",
+      "created_at": "2025-04-01T10:18:42.990208Z",
+      "created_by": "5",
+      "modified_at": "2025-04-01T10:18:42.990208Z",
+      "done": false,
+      "metadata": {
+        "@type": "type.googleapis.com/yandex.cloud.priv.gitcore.v1.OperationMetadata",
+        "object": {
+          "type": "REPOSITORY",
+          "id": "1"
+        },
+        "status": "IN_PROGRESS"
+      }
+    },
+    {
+      "id": "aengv1esjw9bhe1ks2td",
+      "description": "stub",
+      "created_at": "2025-04-01T10:18:42.988697Z",
+      "created_by": "5",
+      "modified_at": "2025-04-01T10:18:42.988697Z",
+      "done": true,
+      "metadata": {
+        "@type": "type.googleapis.com/yandex.cloud.priv.gitcore.v1.OperationMetadata",
+        "object": {
+          "type": "REPOSITORY",
+          "id": "1"
+        },
+        "status": "SUCCESS"
+      },
+      "response": {
+        "@type": "type.googleapis.com/yandex.cloud.priv.gitcore.v1.StubOperationResponse",
+        "message": "wow"
+      }
+    },
+    {
+      "id": "aengv1esjw9bhe1ks2tc",
+      "description": "stub",
+      "created_at": "2025-04-01T10:18:42.985718Z",
+      "created_by": "5",
+      "modified_at": "2025-04-01T10:18:42.985718Z",
+      "done": true,
+      "metadata": {
+        "@type": "type.googleapis.com/yandex.cloud.priv.gitcore.v1.OperationMetadata",
+        "object": {
+          "type": "REPOSITORY",
+          "id": "1"
+        },
+        "status": "CANCELED"
+      },
+      "error": {
+        "code": 1,
+        "message": "canceled",
+        "details": [
+          {
+            "@type": "type.googleapis.com/common.DisplayMessage",
+            "message_id": "TestOpCanceled",
+            "fallback": "canceled",
+            "args": []
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "pull_requests": [
+    {
+      "id": "72283713915912193",
+      "title": "1",
+      "author_id": "6",
+      "repo_id": "1",
+      "pr_status": "OPEN",
+      "created_at": "2025-05-13T15:54:10.911005Z",
+      "updated_at": "2025-05-13T15:54:10.947025Z",
+      "reviewers": [
+        {
+          "user_id": "2",
+          "created_at": "2025-05-13T15:54:10.956312Z",
+          "updated_at": "2025-05-13T15:54:10.956312Z"
+        },
+        {
+          "user_id": "5",
+          "created_at": "2025-05-13T15:54:10.956312Z",
+          "updated_at": "2025-05-13T15:54:10.956312Z"
+        }
+      ],
+      "reviewers_revision": {
+        "value": "2",
+        "count": 2
+      },
+      "comments_count": 0,
+      "ships_count": 0,
+      "blocks_count": 0,
+      "pr_revision": {
+        "value": "1",
+        "count": 0
+      },
+      "public_id": "1",
+      "linked_issues": [],
+      "fork_repo_id": "1",
+      "fork_repo_full_slug": "yandex/alpha"
+    },
+    {
+      "id": "72283714083618817",
+      "title": "2",
+      "author_id": "6",
+      "repo_id": "1",
+      "pr_status": "OPEN",
+      "created_at": "2025-05-13T15:54:11.014355Z",
+      "updated_at": "2025-05-13T15:54:11.047134Z",
+      "reviewers": [
+        {
+          "user_id": "8",
+          "created_at": "2025-05-13T15:54:11.033785Z",
+          "updated_at": "2025-05-13T15:54:11.033785Z"
+        },
+        {
+          "user_id": "3",
+          "created_at": "2025-05-13T15:54:11.033785Z",
+          "updated_at": "2025-05-13T15:54:11.033785Z"
+        }
+      ],
+      "reviewers_revision": {
+        "value": "2",
+        "count": 2
+      },
+      "comments_count": 0,
+      "ships_count": 0,
+      "blocks_count": 0,
+      "pr_revision": {
+        "value": "1",
+        "count": 0
+      },
+      "public_id": "2",
+      "linked_issues": [],
+      "fork_repo_id": "1",
+      "fork_repo_full_slug": "yandex/alpha"
+    }
+  ],
+  "revision": {
+    "value": "3",
+    "count": 2
+  },
+  "prev_page_token": "",
+  "next_page_token": ""
+}

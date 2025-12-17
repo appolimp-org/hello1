@@ -1,0 +1,41 @@
+{
+  "id": "100095362877882369",
+  "uuid": "019aa66b-f9a8-7f2a-8dcb-774d260edf1f",
+  "title": "TASK-1 add README.md",
+  "author_id": "1",
+  "updated_by_id": "1",
+  "description": "",
+  "repo_id": "1",
+  "iteration": "100095362877947905",
+  "merge_info": {
+    "target_commit_hash": "0000000000000000000000000000000000000000",
+    "merge_commit_hash": "0000000000000000000000000000000000000000",
+    "merge_parameters": {
+      "rebase": false,
+      "squash": false,
+      "delete_branch": false
+    }
+  },
+  "source_branch": "branch",
+  "target_branch": "master",
+  "pr_status": "DRAFT",
+  "created_at": "2025-11-21T12:38:05.480994Z",
+  "updated_at": "2025-11-21T12:38:05.480994Z",
+  "settings": {
+    "auto_publish": false
+  },
+  "reviewers": [],
+  "reviewers_revision": {
+    "value": "1",
+    "count": 0
+  },
+  "pr_revision": {
+    "value": "1",
+    "count": 0
+  },
+  "public_id": "1",
+  "linked_issues": [],
+  "fork_repo_id": "1",
+  "fork_repo_full_slug": "yandex/alpha",
+  "neuro_describe_info": {}
+}

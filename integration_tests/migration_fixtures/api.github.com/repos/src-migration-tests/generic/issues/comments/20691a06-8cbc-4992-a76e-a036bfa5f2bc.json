@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/issues/comments/2815615788",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#issuecomment-2815615788",
+    "issue_url": "https://api.github.com/repos/src-migration-tests/generic/issues/1",
+    "id": 2815615788,
+    "node_id": "IC_kwDOOb0LIs6n0uMs",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2025-04-18T15:08:45Z",
+    "updated_at": "2025-04-18T15:08:45Z",
+    "body": "Iteration 1: comment 1",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/issues/comments/2815615788/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

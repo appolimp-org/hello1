@@ -1,0 +1,23 @@
+{
+  "achievement": {
+    "id": "100100",
+    "slug": "first-achievement",
+    "category": "CATEGORY_CODE",
+    "title": {
+      "ru": "Первый достижение",
+      "en": "First achievement"
+    },
+    "description": {
+      "ru": "Какое-то описание",
+      "en": "Some description"
+    },
+    "picture_url": "first-achievement.png",
+    "max_level": "1",
+    "properties": {
+      "type": "STATIC",
+      "images": [
+        "first-achievement.png"
+      ]
+    }
+  }
+}

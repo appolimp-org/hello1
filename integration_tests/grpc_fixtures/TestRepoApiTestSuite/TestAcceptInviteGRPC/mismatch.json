@@ -1,0 +1,28 @@
+{
+  "id": "aeng9ywgakecviwzvhic",
+  "description": "accept_invite",
+  "created_at": "2025-12-15T09:54:27.887110Z",
+  "created_by": "7",
+  "modified_at": "2025-12-15T09:54:28.006736Z",
+  "done": true,
+  "metadata": {
+    "@type": "type.googleapis.com/yandex.cloud.priv.gitcore.v1.OperationMetadata",
+    "object": {
+      "type": "OBJECT_UNSPECIFIED",
+      "id": "7"
+    },
+    "status": "FAILED"
+  },
+  "error": {
+    "code": 7,
+    "message": "Invite is issued to another user",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.DisplayMessage",
+        "message_id": "InviteeMismatch",
+        "fallback": "Invite is issued to another user",
+        "args": []
+      }
+    ]
+  }
+}

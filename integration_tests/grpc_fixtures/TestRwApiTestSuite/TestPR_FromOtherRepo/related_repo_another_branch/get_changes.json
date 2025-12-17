@@ -1,0 +1,36 @@
+{
+  "tree_diffs": [
+    {
+      "paths": {
+        "target": "CHANGELOG",
+        "source": "CHANGELOG"
+      },
+      "type": "FILE",
+      "status": "MODIFIED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "otherfile.txt"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "vendor"
+      },
+      "type": "DIR",
+      "status": "ADDED"
+    },
+    {
+      "paths": {
+        "target": "",
+        "source": "vendor/foo.go"
+      },
+      "type": "FILE",
+      "status": "ADDED"
+    }
+  ]
+}

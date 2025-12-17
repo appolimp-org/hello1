@@ -1,0 +1,22 @@
+{
+  "commit": {
+    "hash": "1669dce138d9b841a518c64b10914d88f5e488ea",
+    "message": "Merge branch 'master' of github.com:tyba/git-fixture\n",
+    "parent_hashes": [
+      "35e85108805c84807bc66a02d91535e1e24b38b9",
+      "a5b8b09e2f8fcb0bb99d3ccb0958157b40890d69"
+    ],
+    "author": {
+      "name": "Máximo Cuadros Ortiz",
+      "email": "mcuadros@gmail.com",
+      "date": "2015-03-31T11:48:14Z"
+    },
+    "committer": {
+      "name": "Máximo Cuadros Ortiz",
+      "email": "mcuadros@gmail.com",
+      "date": "2015-03-31T11:48:14Z"
+    }
+  },
+  "revision_type": "REVISION_COMMIT",
+  "references": []
+}

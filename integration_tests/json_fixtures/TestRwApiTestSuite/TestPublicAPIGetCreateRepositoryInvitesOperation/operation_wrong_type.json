@@ -1,0 +1,8 @@
+{
+  "Code": 404,
+  "Payload": {
+    "error_code": "EntityNotFound",
+    "message": "entity operation#operation_wrong_type does not exist",
+    "request_id": "97f0afe7-acc5-3f5d-8094-f21f7e637140"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Code": 200,
+  "Payload": {
+    "clone_url": {
+      "https": "http://git@localhost:8081/yandex/first-repo.git",
+      "ssh": "ssh://localhost:2222/yandex/first-repo.git"
+    },
+    "counters": {
+      "branches": "2",
+      "forks": "1",
+      "issues": "1",
+      "pull_requests": "1",
+      "tags": "1"
+    },
+    "default_branch": "main",
+    "description": "First repo description",
+    "id": "0197a2f0-5fa6-7363-bb74-2145deade564",
+    "is_empty": false,
+    "last_updated": "2025-06-24T17:15:52.465542Z",
+    "links": [
+      {
+        "link": "https://first.link",
+        "type": "default"
+      }
+    ],
+    "name": "First repo",
+    "organization": {
+      "id": "01978d8b-5372-7dcb-a94b-850c4712572f",
+      "slug": "yandex"
+    },
+    "slug": "first-repo",
+    "visibility": "public"
+  }
+}

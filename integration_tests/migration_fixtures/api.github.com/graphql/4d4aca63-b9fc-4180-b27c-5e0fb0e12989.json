@@ -1,0 +1,56 @@
+{
+  "data": {
+    "repository": {
+      "pullRequests": {
+        "nodes": [
+          {
+            "number": 2,
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 1
+                }
+              ],
+              "pageInfo": {
+                "endCursor": "MQ",
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 5,
+            "closingIssuesReferences": {
+              "nodes": [],
+              "pageInfo": {
+                "endCursor": null,
+                "hasNextPage": false
+              }
+            }
+          },
+          {
+            "number": 7,
+            "closingIssuesReferences": {
+              "nodes": [
+                {
+                  "number": 6
+                }
+              ],
+              "pageInfo": {
+                "endCursor": "MQ",
+                "hasNextPage": false
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "endCursor": "Y3Vyc29yOnYyOpHOktoffQ==",
+          "hasNextPage": false
+        }
+      }
+    },
+    "rateLimit": {
+      "remaining": 4997,
+      "resetAt": "2025-10-16T17:38:01Z"
+    }
+  }
+}

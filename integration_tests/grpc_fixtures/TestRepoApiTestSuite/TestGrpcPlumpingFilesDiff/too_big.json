@@ -1,0 +1,1825 @@
+{
+  "file_diffs": [
+    {
+      "diff_path": {
+        "source_path": "toobig",
+        "target_path": "toobig"
+      },
+      "error": "ERROR_TYPE_LIMIT_EXCEEDED"
+    },
+    {
+      "diff_path": {
+        "source_path": "okay",
+        "target_path": "okay"
+      },
+      "diff": {
+        "chunks": [
+          {
+            "region": {
+              "old_begin": 2,
+              "old_lines_count": 1,
+              "new_begin": 2,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 1-aaaa-1"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 1-bbbb-1"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 4,
+              "old_lines_count": 1,
+              "new_begin": 4,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 2-aaaa-2"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 2-bbbb-2"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 6,
+              "old_lines_count": 1,
+              "new_begin": 6,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 3-aaaa-3"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 3-bbbb-3"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 8,
+              "old_lines_count": 1,
+              "new_begin": 8,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 4-aaaa-4"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 4-bbbb-4"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 10,
+              "old_lines_count": 1,
+              "new_begin": 10,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 5-aaaa-5"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 5-bbbb-5"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 12,
+              "old_lines_count": 1,
+              "new_begin": 12,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 6-aaaa-6"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 6-bbbb-6"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 14,
+              "old_lines_count": 1,
+              "new_begin": 14,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 7-aaaa-7"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 7-bbbb-7"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 16,
+              "old_lines_count": 1,
+              "new_begin": 16,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 8-aaaa-8"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 8-bbbb-8"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 18,
+              "old_lines_count": 1,
+              "new_begin": 18,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 9-aaaa-9"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 9-bbbb-9"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 20,
+              "old_lines_count": 1,
+              "new_begin": 20,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 10-aaaa-10"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 10-bbbb-10"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 22,
+              "old_lines_count": 1,
+              "new_begin": 22,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 11-aaaa-11"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 11-bbbb-11"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 24,
+              "old_lines_count": 1,
+              "new_begin": 24,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 12-aaaa-12"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 12-bbbb-12"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 26,
+              "old_lines_count": 1,
+              "new_begin": 26,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 13-aaaa-13"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 13-bbbb-13"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 28,
+              "old_lines_count": 1,
+              "new_begin": 28,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 14-aaaa-14"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 14-bbbb-14"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 30,
+              "old_lines_count": 1,
+              "new_begin": 30,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 15-aaaa-15"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 15-bbbb-15"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 32,
+              "old_lines_count": 1,
+              "new_begin": 32,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 16-aaaa-16"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 16-bbbb-16"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 34,
+              "old_lines_count": 1,
+              "new_begin": 34,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 17-aaaa-17"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 17-bbbb-17"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 36,
+              "old_lines_count": 1,
+              "new_begin": 36,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 18-aaaa-18"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 18-bbbb-18"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 38,
+              "old_lines_count": 1,
+              "new_begin": 38,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 19-aaaa-19"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 19-bbbb-19"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 40,
+              "old_lines_count": 1,
+              "new_begin": 40,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 20-aaaa-20"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 20-bbbb-20"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 42,
+              "old_lines_count": 1,
+              "new_begin": 42,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 21-aaaa-21"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 21-bbbb-21"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 44,
+              "old_lines_count": 1,
+              "new_begin": 44,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 22-aaaa-22"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 22-bbbb-22"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 46,
+              "old_lines_count": 1,
+              "new_begin": 46,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 23-aaaa-23"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 23-bbbb-23"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 48,
+              "old_lines_count": 1,
+              "new_begin": 48,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 24-aaaa-24"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 24-bbbb-24"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 50,
+              "old_lines_count": 1,
+              "new_begin": 50,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 25-aaaa-25"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 25-bbbb-25"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 52,
+              "old_lines_count": 1,
+              "new_begin": 52,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 26-aaaa-26"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 26-bbbb-26"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 54,
+              "old_lines_count": 1,
+              "new_begin": 54,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 27-aaaa-27"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 27-bbbb-27"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 56,
+              "old_lines_count": 1,
+              "new_begin": 56,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 28-aaaa-28"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 28-bbbb-28"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 58,
+              "old_lines_count": 1,
+              "new_begin": 58,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 29-aaaa-29"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 29-bbbb-29"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 60,
+              "old_lines_count": 1,
+              "new_begin": 60,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 30-aaaa-30"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 30-bbbb-30"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 62,
+              "old_lines_count": 1,
+              "new_begin": 62,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 31-aaaa-31"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 31-bbbb-31"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 64,
+              "old_lines_count": 1,
+              "new_begin": 64,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 32-aaaa-32"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 32-bbbb-32"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 66,
+              "old_lines_count": 1,
+              "new_begin": 66,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 33-aaaa-33"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 33-bbbb-33"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 68,
+              "old_lines_count": 1,
+              "new_begin": 68,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 34-aaaa-34"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 34-bbbb-34"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 70,
+              "old_lines_count": 1,
+              "new_begin": 70,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 35-aaaa-35"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 35-bbbb-35"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 72,
+              "old_lines_count": 1,
+              "new_begin": 72,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 36-aaaa-36"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 36-bbbb-36"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 74,
+              "old_lines_count": 1,
+              "new_begin": 74,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 37-aaaa-37"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 37-bbbb-37"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 76,
+              "old_lines_count": 1,
+              "new_begin": 76,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 38-aaaa-38"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 38-bbbb-38"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 78,
+              "old_lines_count": 1,
+              "new_begin": 78,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 39-aaaa-39"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 39-bbbb-39"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 80,
+              "old_lines_count": 1,
+              "new_begin": 80,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 40-aaaa-40"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 40-bbbb-40"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 82,
+              "old_lines_count": 1,
+              "new_begin": 82,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 41-aaaa-41"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 41-bbbb-41"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 84,
+              "old_lines_count": 1,
+              "new_begin": 84,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 42-aaaa-42"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 42-bbbb-42"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 86,
+              "old_lines_count": 1,
+              "new_begin": 86,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 43-aaaa-43"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 43-bbbb-43"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 88,
+              "old_lines_count": 1,
+              "new_begin": 88,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 44-aaaa-44"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 44-bbbb-44"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 90,
+              "old_lines_count": 1,
+              "new_begin": 90,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 45-aaaa-45"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 45-bbbb-45"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 92,
+              "old_lines_count": 1,
+              "new_begin": 92,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 46-aaaa-46"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 46-bbbb-46"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 94,
+              "old_lines_count": 1,
+              "new_begin": 94,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 47-aaaa-47"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 47-bbbb-47"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 96,
+              "old_lines_count": 1,
+              "new_begin": 96,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 48-aaaa-48"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 48-bbbb-48"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 98,
+              "old_lines_count": 1,
+              "new_begin": 98,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 49-aaaa-49"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 49-bbbb-49"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 100,
+              "old_lines_count": 1,
+              "new_begin": 100,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 50-aaaa-50"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 50-bbbb-50"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 102,
+              "old_lines_count": 1,
+              "new_begin": 102,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 51-aaaa-51"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 51-bbbb-51"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 104,
+              "old_lines_count": 1,
+              "new_begin": 104,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 52-aaaa-52"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 52-bbbb-52"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 106,
+              "old_lines_count": 1,
+              "new_begin": 106,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 53-aaaa-53"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 53-bbbb-53"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 108,
+              "old_lines_count": 1,
+              "new_begin": 108,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 54-aaaa-54"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 54-bbbb-54"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 110,
+              "old_lines_count": 1,
+              "new_begin": 110,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 55-aaaa-55"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 55-bbbb-55"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 112,
+              "old_lines_count": 1,
+              "new_begin": 112,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 56-aaaa-56"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 56-bbbb-56"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 114,
+              "old_lines_count": 1,
+              "new_begin": 114,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 57-aaaa-57"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 57-bbbb-57"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 116,
+              "old_lines_count": 1,
+              "new_begin": 116,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 58-aaaa-58"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 58-bbbb-58"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 118,
+              "old_lines_count": 1,
+              "new_begin": 118,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 59-aaaa-59"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 59-bbbb-59"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 120,
+              "old_lines_count": 1,
+              "new_begin": 120,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 60-aaaa-60"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 60-bbbb-60"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 122,
+              "old_lines_count": 1,
+              "new_begin": 122,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 61-aaaa-61"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 61-bbbb-61"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 124,
+              "old_lines_count": 1,
+              "new_begin": 124,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 62-aaaa-62"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 62-bbbb-62"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 126,
+              "old_lines_count": 1,
+              "new_begin": 126,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 63-aaaa-63"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 63-bbbb-63"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 128,
+              "old_lines_count": 1,
+              "new_begin": 128,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 64-aaaa-64"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 64-bbbb-64"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 130,
+              "old_lines_count": 1,
+              "new_begin": 130,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 65-aaaa-65"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 65-bbbb-65"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 132,
+              "old_lines_count": 1,
+              "new_begin": 132,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 66-aaaa-66"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 66-bbbb-66"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 134,
+              "old_lines_count": 1,
+              "new_begin": 134,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 67-aaaa-67"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 67-bbbb-67"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 136,
+              "old_lines_count": 1,
+              "new_begin": 136,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 68-aaaa-68"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 68-bbbb-68"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 138,
+              "old_lines_count": 1,
+              "new_begin": 138,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 69-aaaa-69"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 69-bbbb-69"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 140,
+              "old_lines_count": 1,
+              "new_begin": 140,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 70-aaaa-70"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 70-bbbb-70"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 142,
+              "old_lines_count": 1,
+              "new_begin": 142,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 71-aaaa-71"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 71-bbbb-71"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 144,
+              "old_lines_count": 1,
+              "new_begin": 144,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 72-aaaa-72"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 72-bbbb-72"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 146,
+              "old_lines_count": 1,
+              "new_begin": 146,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 73-aaaa-73"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 73-bbbb-73"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 148,
+              "old_lines_count": 1,
+              "new_begin": 148,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 74-aaaa-74"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 74-bbbb-74"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 150,
+              "old_lines_count": 1,
+              "new_begin": 150,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 75-aaaa-75"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 75-bbbb-75"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 152,
+              "old_lines_count": 1,
+              "new_begin": 152,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 76-aaaa-76"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 76-bbbb-76"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 154,
+              "old_lines_count": 1,
+              "new_begin": 154,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 77-aaaa-77"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 77-bbbb-77"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 156,
+              "old_lines_count": 1,
+              "new_begin": 156,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 78-aaaa-78"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 78-bbbb-78"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 158,
+              "old_lines_count": 1,
+              "new_begin": 158,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 79-aaaa-79"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 79-bbbb-79"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 160,
+              "old_lines_count": 1,
+              "new_begin": 160,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 80-aaaa-80"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 80-bbbb-80"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 162,
+              "old_lines_count": 1,
+              "new_begin": 162,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 81-aaaa-81"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 81-bbbb-81"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 164,
+              "old_lines_count": 1,
+              "new_begin": 164,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 82-aaaa-82"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 82-bbbb-82"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 166,
+              "old_lines_count": 1,
+              "new_begin": 166,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 83-aaaa-83"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 83-bbbb-83"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 168,
+              "old_lines_count": 1,
+              "new_begin": 168,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 84-aaaa-84"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 84-bbbb-84"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 170,
+              "old_lines_count": 1,
+              "new_begin": 170,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 85-aaaa-85"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 85-bbbb-85"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 172,
+              "old_lines_count": 1,
+              "new_begin": 172,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 86-aaaa-86"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 86-bbbb-86"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 174,
+              "old_lines_count": 1,
+              "new_begin": 174,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 87-aaaa-87"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 87-bbbb-87"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 176,
+              "old_lines_count": 1,
+              "new_begin": 176,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 88-aaaa-88"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 88-bbbb-88"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 178,
+              "old_lines_count": 1,
+              "new_begin": 178,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 89-aaaa-89"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 89-bbbb-89"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 180,
+              "old_lines_count": 1,
+              "new_begin": 180,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 90-aaaa-90"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 90-bbbb-90"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 182,
+              "old_lines_count": 1,
+              "new_begin": 182,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 91-aaaa-91"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 91-bbbb-91"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 184,
+              "old_lines_count": 1,
+              "new_begin": 184,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 92-aaaa-92"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 92-bbbb-92"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 186,
+              "old_lines_count": 1,
+              "new_begin": 186,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 93-aaaa-93"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 93-bbbb-93"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 188,
+              "old_lines_count": 1,
+              "new_begin": 188,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 94-aaaa-94"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 94-bbbb-94"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 190,
+              "old_lines_count": 1,
+              "new_begin": 190,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 95-aaaa-95"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 95-bbbb-95"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 192,
+              "old_lines_count": 1,
+              "new_begin": 192,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 96-aaaa-96"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 96-bbbb-96"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 194,
+              "old_lines_count": 1,
+              "new_begin": 194,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 97-aaaa-97"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 97-bbbb-97"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 196,
+              "old_lines_count": 1,
+              "new_begin": 196,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 98-aaaa-98"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 98-bbbb-98"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 198,
+              "old_lines_count": 1,
+              "new_begin": 198,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 99-aaaa-99"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 99-bbbb-99"
+              }
+            ]
+          },
+          {
+            "region": {
+              "old_begin": 200,
+              "old_lines_count": 1,
+              "new_begin": 200,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": " checksum: 100-aaaa-100"
+              },
+              {
+                "type": "ADD",
+                "content": " checksum: 100-bbbb-100"
+              }
+            ]
+          }
+        ],
+        "target_lines_count": 200,
+        "source_lines_count": 200,
+        "added_lines_count": 100,
+        "removed_lines_count": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "repositories": [
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/krosh/krosh-public-2.git",
+          "ssh": "ssh://localhost:2222/krosh/krosh-public-2.git"
+        },
+        "counters": {
+          "branches": "1",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "master",
+        "description": "krosh-public-2",
+        "id": "019a39ee-52bf-7d8c-b236-5946b566b361",
+        "is_empty": false,
+        "last_updated": "2025-10-31T11:01:51.641105Z",
+        "links": [],
+        "name": "krosh-public-2",
+        "organization": {
+          "id": "019a34b8-6745-7395-a7a5-91aa3324c471",
+          "slug": "krosh"
+        },
+        "slug": "krosh-public-2",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/krosh/krosh-public-3.git",
+          "ssh": "ssh://localhost:2222/krosh/krosh-public-3.git"
+        },
+        "counters": {
+          "branches": "1",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "master",
+        "description": "krosh-public-3",
+        "id": "019a39ee-53b6-74ba-94cd-1260cd723a65",
+        "is_empty": false,
+        "last_updated": "2025-10-31T11:01:51.901114Z",
+        "links": [],
+        "name": "krosh-public-3",
+        "organization": {
+          "id": "019a34b8-6745-7395-a7a5-91aa3324c471",
+          "slug": "krosh"
+        },
+        "slug": "krosh-public-3",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      }
+    ]
+  }
+}

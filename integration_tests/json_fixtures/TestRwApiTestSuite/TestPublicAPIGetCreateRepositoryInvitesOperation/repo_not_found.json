@@ -1,0 +1,8 @@
+{
+  "Code": 404,
+  "Payload": {
+    "error_code": "NotFound",
+    "message": "Not Found",
+    "request_id": "423f2af3-cb41-052d-183e-e41838c13465"
+  }
+}

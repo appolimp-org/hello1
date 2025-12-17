@@ -1,0 +1,41 @@
+{
+  "Code": 200,
+  "Payload": {
+    "created_at": "2025-12-08T16:04:38.722531Z",
+    "modified_at": "2025-12-08T16:04:38.722531Z",
+    "operation_id": "partial_success_____",
+    "response": {
+      "errors": [
+        {
+          "error_code": "InviteAlreadyCreated",
+          "invitee": {
+            "email": "invalid@example.com",
+            "slug": ""
+          },
+          "message": "Invite to this user already exists"
+        },
+        {
+          "error_code": "InviteAlreadyCreated",
+          "invitee": {
+            "email": "",
+            "slug": ""
+          },
+          "message": "Invite to this user already exists"
+        }
+      ],
+      "invites": [
+        {
+          "email": "valid@example.com",
+          "id": "invite-valid",
+          "status": "pending"
+        },
+        {
+          "id": "invite-valid-2",
+          "status": "pending"
+        }
+      ]
+    },
+    "status": "success",
+    "status_url": "/orgs/id:019afeb1-e542-79c7-bc29-a05c2cfad234/operations/create-invites/partial_success_____"
+  }
+}

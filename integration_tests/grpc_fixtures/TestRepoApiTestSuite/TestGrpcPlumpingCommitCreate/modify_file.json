@@ -1,0 +1,19 @@
+{
+  "commit":  {
+    "hash":  "57d5716e684caa2f327e36c5d11044656b0f10ad",
+    "message":  "TSK-084[internal]: rename file",
+    "parent_hashes":  [
+      "36bc7e4edeaa6c65aa617ce05ad28c3c207f5116"
+    ],
+    "author":  {
+      "name":  "kopatych",
+      "email":  "kopatych@sourcecraft.dev",
+      "date":  "2025-05-27T11:21:32Z"
+    },
+    "committer":  {
+      "name":  "kopatych",
+      "email":  "kopatych@sourcecraft.dev",
+      "date":  "2025-05-27T11:21:32Z"
+    }
+  }
+}

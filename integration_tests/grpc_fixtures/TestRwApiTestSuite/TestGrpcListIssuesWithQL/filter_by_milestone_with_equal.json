@@ -1,0 +1,112 @@
+{
+  "issues":  [
+    {
+      "id":  "85466082957197570",
+      "public_id":  "3",
+      "title":  "%Issue3",
+      "description":  "Issue description",
+      "repo_id":  "85466082772648194",
+      "status_id":  "1",
+      "priority":  "PRIORITY_NORMAL",
+      "author_id":  "5",
+      "updated_by":  "5",
+      "created_at":  "2025-08-12T14:29:15.156203Z",
+      "updated_at":  "2025-08-12T14:29:15.156203Z",
+      "assignee_id":  "3",
+      "subscriber_ids":  [],
+      "mention_ids":  [],
+      "attachments_ids":  [],
+      "milestone":  {
+        "id":  "85466082789359874",
+        "name":  "Milestone1",
+        "slug":  "milestone1",
+        "description":  "",
+        "status":  "STATUS_OPEN",
+        "author_id":  "7",
+        "updated_by":  "7",
+        "created_at":  "2025-08-12T14:29:15.054277Z",
+        "updated_at":  "2025-08-12T14:29:15.054277Z"
+      },
+      "labels":  [
+        {
+          "id":  "85466082806202626",
+          "name":  "Task",
+          "slug":  "task",
+          "color":  "grey",
+          "author_id":  "7",
+          "updated_by":  "7",
+          "created_at":  "2025-08-12T14:29:15.065388Z",
+          "updated_at":  "2025-08-12T14:29:15.065388Z"
+        }
+      ],
+      "reactions":  {
+        "1":  {
+          "count":  0,
+          "self_react":  false
+        }
+      },
+      "comments_count":  0,
+      "linked_prs":  [],
+      "visibility":  "VISIBILITY_PUBLIC",
+      "effective_visibility":  "VISIBILITY_UNSPECIFIED"
+    },
+    {
+      "id":  "85466083024306434",
+      "public_id":  "4",
+      "title":  "cloSED critical issue 4",
+      "description":  "Issue description",
+      "repo_id":  "85466082772648194",
+      "status_id":  "4",
+      "priority":  "PRIORITY_CRITICAL",
+      "author_id":  "3",
+      "updated_by":  "3",
+      "created_at":  "2025-08-12T14:29:15.191330Z",
+      "updated_at":  "2025-08-12T14:29:15.191330Z",
+      "deadline":  "2024-01-01T18:00:00Z",
+      "completed_at":  "2025-08-12T14:29:15.190326Z",
+      "subscriber_ids":  [],
+      "mention_ids":  [],
+      "attachments_ids":  [],
+      "milestone":  {
+        "id":  "85466082789359874",
+        "name":  "Milestone1",
+        "slug":  "milestone1",
+        "description":  "",
+        "status":  "STATUS_OPEN",
+        "author_id":  "7",
+        "updated_by":  "7",
+        "created_at":  "2025-08-12T14:29:15.054277Z",
+        "updated_at":  "2025-08-12T14:29:15.054277Z"
+      },
+      "labels":  [
+        {
+          "id":  "85466082806202626",
+          "name":  "Task",
+          "slug":  "task",
+          "color":  "grey",
+          "author_id":  "7",
+          "updated_by":  "7",
+          "created_at":  "2025-08-12T14:29:15.065388Z",
+          "updated_at":  "2025-08-12T14:29:15.065388Z"
+        }
+      ],
+      "reactions":  {
+        "1":  {
+          "count":  0,
+          "self_react":  false
+        }
+      },
+      "comments_count":  0,
+      "linked_prs":  [],
+      "visibility":  "VISIBILITY_PRIVATE",
+      "effective_visibility":  "VISIBILITY_UNSPECIFIED"
+    }
+  ],
+  "revision":  {
+    "value":  "5",
+    "count":  5
+  },
+  "prev_page_token":  "",
+  "next_page_token":  "",
+  "total":  2
+}

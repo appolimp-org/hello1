@@ -1,0 +1,108 @@
+{
+  "repositories":  [
+    {
+      "id":  "92850043127595009",
+      "uuid":  "0199a504-2d0e-7488-9a1a-caaa4529b96c",
+      "name":  "repo1",
+      "default_branch":  "main",
+      "org_slug":  "corpa",
+      "slug":  "repo1",
+      "is_empty":  false,
+      "description":  "",
+      "visibility":  "RESOURCE_PUBLIC",
+      "effective_visibility":  "RESOURCE_PUBLIC",
+      "template_type":  "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url":  {
+        "https":  "http://git@localhost:8081/corpa/repo1.git",
+        "ssh":  "ssh://localhost:2222/corpa/repo1.git"
+      },
+      "revision":  "1",
+      "links":  [],
+      "migration_id":  "",
+      "stars":  "0",
+      "forks":  "0",
+      "pull_requests":  "0",
+      "issues":  "0",
+      "tags":  "0",
+      "branches":  "1",
+      "last_updated":  "2025-10-02T13:02:18.585374Z",
+      "broken_fork_chain":  false,
+      "rating":  {
+        "percentile":  100,
+        "reactions":  {},
+        "value":  0
+      }
+    },
+    {
+      "id":  "92850043513470977",
+      "uuid":  "0199a504-2df6-791f-bf39-b22e8090771d",
+      "name":  "repo2",
+      "default_branch":  "main",
+      "org_slug":  "corpa",
+      "slug":  "repo2",
+      "is_empty":  false,
+      "description":  "",
+      "visibility":  "RESOURCE_PUBLIC",
+      "effective_visibility":  "RESOURCE_PUBLIC",
+      "template_type":  "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url":  {
+        "https":  "http://git@localhost:8081/corpa/repo2.git",
+        "ssh":  "ssh://localhost:2222/corpa/repo2.git"
+      },
+      "revision":  "1",
+      "links":  [],
+      "migration_id":  "",
+      "stars":  "0",
+      "forks":  "0",
+      "pull_requests":  "0",
+      "issues":  "0",
+      "tags":  "0",
+      "branches":  "1",
+      "last_updated":  "2025-10-02T13:02:18.772904Z",
+      "broken_fork_chain":  false,
+      "rating":  {
+        "percentile":  100,
+        "reactions":  {},
+        "value":  0
+      }
+    },
+    {
+      "id":  "92850043815460865",
+      "uuid":  "0199a504-2ea7-7d71-ad10-f6cd528e1d79",
+      "name":  "repo3",
+      "default_branch":  "main",
+      "org_slug":  "corpa",
+      "slug":  "repo3",
+      "is_empty":  false,
+      "description":  "",
+      "visibility":  "RESOURCE_PUBLIC",
+      "effective_visibility":  "RESOURCE_PUBLIC",
+      "template_type":  "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url":  {
+        "https":  "http://git@localhost:8081/corpa/repo3.git",
+        "ssh":  "ssh://localhost:2222/corpa/repo3.git"
+      },
+      "revision":  "1",
+      "links":  [],
+      "migration_id":  "",
+      "stars":  "0",
+      "forks":  "0",
+      "pull_requests":  "0",
+      "issues":  "0",
+      "tags":  "0",
+      "branches":  "1",
+      "last_updated":  "2025-10-02T13:02:18.862334Z",
+      "broken_fork_chain":  false,
+      "rating":  {
+        "percentile":  100,
+        "reactions":  {},
+        "value":  0
+      }
+    }
+  ],
+  "revision":  {
+    "value":  ""
+  },
+  "prev_page_token":  "",
+  "next_page_token":  ""
+}

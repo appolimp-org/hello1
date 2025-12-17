@@ -1,0 +1,48 @@
+{
+  "attachments":  [
+    {
+      "id":  "55033177839763457",
+      "name":  "cat.jpeg",
+      "s3_key":  "issueAttachment_55033177839763457",
+      "mime_type":  "image/jpeg",
+      "file_type":  "FILE_TYPE_IMAGE",
+      "entity_type":  "ENTITY_TYPE_ISSUE",
+      "entity_id":  "55033177789497345",
+      "url":  "http://localhost:9000/attachments-storage-idxb9d371cf800de920/issueAttachment_55033177839763457?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minioadmin%2F20250114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250114T154530Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=dac1ae156a8835287efc70744fab97a620fd430e02053ac8e4aa7ad5e5891573",
+      "size":  "4919"
+    },
+    {
+      "id":  "55033177873317889",
+      "name":  "rabbit.jpg",
+      "s3_key":  "issueAttachment_55033177873317889",
+      "mime_type":  "image/jpeg",
+      "file_type":  "FILE_TYPE_IMAGE",
+      "entity_type":  "ENTITY_TYPE_ISSUE",
+      "entity_id":  "55033177789497345",
+      "url":  "http://localhost:9000/attachments-storage-idxb9d371cf800de920/issueAttachment_55033177873317889?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minioadmin%2F20250114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250114T154530Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a9a706c99bae6aa689f443966b4a35864c928ee58a756f393cd6f770ffcbc12b",
+      "size":  "277680"
+    },
+    {
+      "id":  "55033177890095105",
+      "name":  "document.pdf",
+      "s3_key":  "issueAttachment_55033177890095105",
+      "mime_type":  "application/pdf",
+      "file_type":  "FILE_TYPE_DOCUMENT",
+      "entity_type":  "ENTITY_TYPE_ISSUE",
+      "entity_id":  "55033177789497345",
+      "url":  "http://localhost:9000/attachments-storage-idxb9d371cf800de920/issueAttachment_55033177890095105?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minioadmin%2F20250114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250114T154530Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=891f6f585f795b975aaa995aed7b24ba0c1287c64694ff707d5de6ee08c9c417",
+      "size":  "6022"
+    },
+    {
+      "id":  "55033177906872321",
+      "name":  "document.docx",
+      "s3_key":  "issueAttachment_55033177906872321",
+      "mime_type":  "application/zip",
+      "file_type":  "FILE_TYPE_CONTAINER",
+      "entity_type":  "ENTITY_TYPE_ISSUE",
+      "entity_id":  "55033177789497345",
+      "url":  "http://localhost:9000/attachments-storage-idxb9d371cf800de920/issueAttachment_55033177906872321?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minioadmin%2F20250114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250114T154530Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=d2322bb68dee06536141637c36743ad755782682c0658121ea73c145d4a4a6ae",
+      "size":  "6422"
+    }
+  ]
+}

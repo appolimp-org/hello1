@@ -1,0 +1,14 @@
+{
+  "Code": 200,
+  "Payload": {
+    "avatar": {
+      "url": "https://dev.null/avatars/kopatych.bmp"
+    },
+    "bio": "",
+    "display_name": "Kopatych",
+    "id": "019ac51a-429a-73ff-928a-2742925ed63a",
+    "links": [],
+    "username": "kopatych",
+    "visibility": "private"
+  }
+}

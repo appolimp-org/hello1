@@ -1,0 +1,18 @@
+{
+  "unlockers":  [
+    {
+      "user_id":  "3",
+      "level":  2
+    },
+    {
+      "user_id":  "2",
+      "level":  1
+    }
+  ],
+  "prev_page_token":  "",
+  "next_page_token":  "",
+  "revision":  {
+    "value":  "2",
+    "count":  2
+  }
+}

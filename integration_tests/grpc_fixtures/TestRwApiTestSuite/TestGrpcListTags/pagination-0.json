@@ -1,0 +1,24 @@
+{
+  "tags": [
+    {
+      "name": "v1.0",
+      "commit": {
+        "hash": "39427c55a3c59b91b11b5c1413033ebb85f84364",
+        "message": "v1\n",
+        "parent_commits": [],
+        "author": {
+          "name": "Author",
+          "email": "author@example.com",
+          "date": "2024-02-19T12:00:00Z"
+        },
+        "commiter": {
+          "name": "Commiter",
+          "email": "committer@example.com",
+          "date": "2024-02-19T12:00:00Z"
+        }
+      }
+    }
+  ],
+  "prev_page_token": "",
+  "next_page_token": "g6dDb2x1bW5zkoOkTmFtZaRuYW1lqURpcmVjdGlvbsKlVmFsdWWucmVmcy90YWdzL3YxLjCDpE5hbWWhX6lEaXJlY3Rpb27CpVZhbHVlxBQ5QnxVo8WbkbEbXBQTAz67hfhDZKlEaXJlY3Rpb27CqkNsb3VkVG9rZW7A"
+}

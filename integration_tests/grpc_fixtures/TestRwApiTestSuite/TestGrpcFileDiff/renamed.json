@@ -1,0 +1,57 @@
+{
+  "file_diffs":  [
+    {
+      "paths":  {
+        "target":  "file1_moved.txt",
+        "source":  "file1.txt"
+      },
+      "hunks":  [],
+      "added":  0,
+      "removed":  0,
+      "target_cnt":  10,
+      "source_cnt":  10,
+      "result":  "SUCCESS"
+    },
+    {
+      "paths":  {
+        "target":  "file3.txt",
+        "source":  "file1.txt"
+      },
+      "hunks":  [
+        {
+          "from_start":  1,
+          "from_count":  2,
+          "to_start":  1,
+          "to_count":  1,
+          "patch":  "-Line 6.\n-Line 7.\n+Line 1.\n"
+        },
+        {
+          "from_start":  3,
+          "from_count":  0,
+          "to_start":  3,
+          "to_count":  1,
+          "patch":  "+Line 3.\n"
+        },
+        {
+          "from_start":  4,
+          "from_count":  0,
+          "to_start":  5,
+          "to_count":  5,
+          "patch":  "+Line 5.\n+Line 6.\n+Line 7.\n+Line 8.\n+Line 9.\n"
+        },
+        {
+          "from_start":  6,
+          "from_count":  4,
+          "to_start":  10,
+          "to_count":  0,
+          "patch":  "-Line 11.\n-Line 12.\n-Line 14.\n-Line 15.\n"
+        }
+      ],
+      "added":  7,
+      "removed":  6,
+      "target_cnt":  9,
+      "source_cnt":  10,
+      "result":  "SUCCESS"
+    }
+  ]
+}

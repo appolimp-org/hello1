@@ -1,0 +1,56 @@
+{
+  "file_diffs": [
+    {
+      "diff_path": {
+        "source_path": "vendor/foo.go",
+        "target_path": ""
+      },
+      "diff": {
+        "chunks": [
+          {
+            "region": {
+              "old_begin": 0,
+              "old_lines_count": 0,
+              "new_begin": 1,
+              "new_lines_count": 7
+            },
+            "lines": [
+              {
+                "type": "ADD",
+                "content": "package main"
+              },
+              {
+                "type": "ADD",
+                "content": ""
+              },
+              {
+                "type": "ADD",
+                "content": "import \"fmt\""
+              },
+              {
+                "type": "ADD",
+                "content": ""
+              },
+              {
+                "type": "ADD",
+                "content": "func main() {"
+              },
+              {
+                "type": "ADD",
+                "content": "\tfmt.Println(\"Hello, playground\")"
+              },
+              {
+                "type": "ADD",
+                "content": "}"
+              }
+            ]
+          }
+        ],
+        "target_lines_count": 0,
+        "source_lines_count": 7,
+        "added_lines_count": 7,
+        "removed_lines_count": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "Code": 200,
+  "Payload": {
+    "default_branch":"develop",
+    "slug":"alpha",
+    "template_type":"not_a_template",
+    "is_empty":false,
+    "description":"prokol",
+    "visibility":"internal",
+    "links":[
+        {"link":"https://example.org","type":"default"}
+    ]
+  }
+}

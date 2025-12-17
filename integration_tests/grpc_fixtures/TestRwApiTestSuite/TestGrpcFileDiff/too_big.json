@@ -1,0 +1,729 @@
+{
+  "file_diffs":  [
+    {
+      "paths":  {
+        "target":  "toobig",
+        "source":  "toobig"
+      },
+      "hunks":  [],
+      "added":  0,
+      "removed":  0,
+      "target_cnt":  0,
+      "source_cnt":  0,
+      "result":  "FAILURE_LIMIT_REACHED"
+    },
+    {
+      "paths":  {
+        "target":  "okay",
+        "source":  "okay"
+      },
+      "hunks":  [
+        {
+          "from_start":  2,
+          "from_count":  1,
+          "to_start":  2,
+          "to_count":  1,
+          "patch":  "- checksum: 1-aaaa-1\n+ checksum: 1-bbbb-1\n"
+        },
+        {
+          "from_start":  4,
+          "from_count":  1,
+          "to_start":  4,
+          "to_count":  1,
+          "patch":  "- checksum: 2-aaaa-2\n+ checksum: 2-bbbb-2\n"
+        },
+        {
+          "from_start":  6,
+          "from_count":  1,
+          "to_start":  6,
+          "to_count":  1,
+          "patch":  "- checksum: 3-aaaa-3\n+ checksum: 3-bbbb-3\n"
+        },
+        {
+          "from_start":  8,
+          "from_count":  1,
+          "to_start":  8,
+          "to_count":  1,
+          "patch":  "- checksum: 4-aaaa-4\n+ checksum: 4-bbbb-4\n"
+        },
+        {
+          "from_start":  10,
+          "from_count":  1,
+          "to_start":  10,
+          "to_count":  1,
+          "patch":  "- checksum: 5-aaaa-5\n+ checksum: 5-bbbb-5\n"
+        },
+        {
+          "from_start":  12,
+          "from_count":  1,
+          "to_start":  12,
+          "to_count":  1,
+          "patch":  "- checksum: 6-aaaa-6\n+ checksum: 6-bbbb-6\n"
+        },
+        {
+          "from_start":  14,
+          "from_count":  1,
+          "to_start":  14,
+          "to_count":  1,
+          "patch":  "- checksum: 7-aaaa-7\n+ checksum: 7-bbbb-7\n"
+        },
+        {
+          "from_start":  16,
+          "from_count":  1,
+          "to_start":  16,
+          "to_count":  1,
+          "patch":  "- checksum: 8-aaaa-8\n+ checksum: 8-bbbb-8\n"
+        },
+        {
+          "from_start":  18,
+          "from_count":  1,
+          "to_start":  18,
+          "to_count":  1,
+          "patch":  "- checksum: 9-aaaa-9\n+ checksum: 9-bbbb-9\n"
+        },
+        {
+          "from_start":  20,
+          "from_count":  1,
+          "to_start":  20,
+          "to_count":  1,
+          "patch":  "- checksum: 10-aaaa-10\n+ checksum: 10-bbbb-10\n"
+        },
+        {
+          "from_start":  22,
+          "from_count":  1,
+          "to_start":  22,
+          "to_count":  1,
+          "patch":  "- checksum: 11-aaaa-11\n+ checksum: 11-bbbb-11\n"
+        },
+        {
+          "from_start":  24,
+          "from_count":  1,
+          "to_start":  24,
+          "to_count":  1,
+          "patch":  "- checksum: 12-aaaa-12\n+ checksum: 12-bbbb-12\n"
+        },
+        {
+          "from_start":  26,
+          "from_count":  1,
+          "to_start":  26,
+          "to_count":  1,
+          "patch":  "- checksum: 13-aaaa-13\n+ checksum: 13-bbbb-13\n"
+        },
+        {
+          "from_start":  28,
+          "from_count":  1,
+          "to_start":  28,
+          "to_count":  1,
+          "patch":  "- checksum: 14-aaaa-14\n+ checksum: 14-bbbb-14\n"
+        },
+        {
+          "from_start":  30,
+          "from_count":  1,
+          "to_start":  30,
+          "to_count":  1,
+          "patch":  "- checksum: 15-aaaa-15\n+ checksum: 15-bbbb-15\n"
+        },
+        {
+          "from_start":  32,
+          "from_count":  1,
+          "to_start":  32,
+          "to_count":  1,
+          "patch":  "- checksum: 16-aaaa-16\n+ checksum: 16-bbbb-16\n"
+        },
+        {
+          "from_start":  34,
+          "from_count":  1,
+          "to_start":  34,
+          "to_count":  1,
+          "patch":  "- checksum: 17-aaaa-17\n+ checksum: 17-bbbb-17\n"
+        },
+        {
+          "from_start":  36,
+          "from_count":  1,
+          "to_start":  36,
+          "to_count":  1,
+          "patch":  "- checksum: 18-aaaa-18\n+ checksum: 18-bbbb-18\n"
+        },
+        {
+          "from_start":  38,
+          "from_count":  1,
+          "to_start":  38,
+          "to_count":  1,
+          "patch":  "- checksum: 19-aaaa-19\n+ checksum: 19-bbbb-19\n"
+        },
+        {
+          "from_start":  40,
+          "from_count":  1,
+          "to_start":  40,
+          "to_count":  1,
+          "patch":  "- checksum: 20-aaaa-20\n+ checksum: 20-bbbb-20\n"
+        },
+        {
+          "from_start":  42,
+          "from_count":  1,
+          "to_start":  42,
+          "to_count":  1,
+          "patch":  "- checksum: 21-aaaa-21\n+ checksum: 21-bbbb-21\n"
+        },
+        {
+          "from_start":  44,
+          "from_count":  1,
+          "to_start":  44,
+          "to_count":  1,
+          "patch":  "- checksum: 22-aaaa-22\n+ checksum: 22-bbbb-22\n"
+        },
+        {
+          "from_start":  46,
+          "from_count":  1,
+          "to_start":  46,
+          "to_count":  1,
+          "patch":  "- checksum: 23-aaaa-23\n+ checksum: 23-bbbb-23\n"
+        },
+        {
+          "from_start":  48,
+          "from_count":  1,
+          "to_start":  48,
+          "to_count":  1,
+          "patch":  "- checksum: 24-aaaa-24\n+ checksum: 24-bbbb-24\n"
+        },
+        {
+          "from_start":  50,
+          "from_count":  1,
+          "to_start":  50,
+          "to_count":  1,
+          "patch":  "- checksum: 25-aaaa-25\n+ checksum: 25-bbbb-25\n"
+        },
+        {
+          "from_start":  52,
+          "from_count":  1,
+          "to_start":  52,
+          "to_count":  1,
+          "patch":  "- checksum: 26-aaaa-26\n+ checksum: 26-bbbb-26\n"
+        },
+        {
+          "from_start":  54,
+          "from_count":  1,
+          "to_start":  54,
+          "to_count":  1,
+          "patch":  "- checksum: 27-aaaa-27\n+ checksum: 27-bbbb-27\n"
+        },
+        {
+          "from_start":  56,
+          "from_count":  1,
+          "to_start":  56,
+          "to_count":  1,
+          "patch":  "- checksum: 28-aaaa-28\n+ checksum: 28-bbbb-28\n"
+        },
+        {
+          "from_start":  58,
+          "from_count":  1,
+          "to_start":  58,
+          "to_count":  1,
+          "patch":  "- checksum: 29-aaaa-29\n+ checksum: 29-bbbb-29\n"
+        },
+        {
+          "from_start":  60,
+          "from_count":  1,
+          "to_start":  60,
+          "to_count":  1,
+          "patch":  "- checksum: 30-aaaa-30\n+ checksum: 30-bbbb-30\n"
+        },
+        {
+          "from_start":  62,
+          "from_count":  1,
+          "to_start":  62,
+          "to_count":  1,
+          "patch":  "- checksum: 31-aaaa-31\n+ checksum: 31-bbbb-31\n"
+        },
+        {
+          "from_start":  64,
+          "from_count":  1,
+          "to_start":  64,
+          "to_count":  1,
+          "patch":  "- checksum: 32-aaaa-32\n+ checksum: 32-bbbb-32\n"
+        },
+        {
+          "from_start":  66,
+          "from_count":  1,
+          "to_start":  66,
+          "to_count":  1,
+          "patch":  "- checksum: 33-aaaa-33\n+ checksum: 33-bbbb-33\n"
+        },
+        {
+          "from_start":  68,
+          "from_count":  1,
+          "to_start":  68,
+          "to_count":  1,
+          "patch":  "- checksum: 34-aaaa-34\n+ checksum: 34-bbbb-34\n"
+        },
+        {
+          "from_start":  70,
+          "from_count":  1,
+          "to_start":  70,
+          "to_count":  1,
+          "patch":  "- checksum: 35-aaaa-35\n+ checksum: 35-bbbb-35\n"
+        },
+        {
+          "from_start":  72,
+          "from_count":  1,
+          "to_start":  72,
+          "to_count":  1,
+          "patch":  "- checksum: 36-aaaa-36\n+ checksum: 36-bbbb-36\n"
+        },
+        {
+          "from_start":  74,
+          "from_count":  1,
+          "to_start":  74,
+          "to_count":  1,
+          "patch":  "- checksum: 37-aaaa-37\n+ checksum: 37-bbbb-37\n"
+        },
+        {
+          "from_start":  76,
+          "from_count":  1,
+          "to_start":  76,
+          "to_count":  1,
+          "patch":  "- checksum: 38-aaaa-38\n+ checksum: 38-bbbb-38\n"
+        },
+        {
+          "from_start":  78,
+          "from_count":  1,
+          "to_start":  78,
+          "to_count":  1,
+          "patch":  "- checksum: 39-aaaa-39\n+ checksum: 39-bbbb-39\n"
+        },
+        {
+          "from_start":  80,
+          "from_count":  1,
+          "to_start":  80,
+          "to_count":  1,
+          "patch":  "- checksum: 40-aaaa-40\n+ checksum: 40-bbbb-40\n"
+        },
+        {
+          "from_start":  82,
+          "from_count":  1,
+          "to_start":  82,
+          "to_count":  1,
+          "patch":  "- checksum: 41-aaaa-41\n+ checksum: 41-bbbb-41\n"
+        },
+        {
+          "from_start":  84,
+          "from_count":  1,
+          "to_start":  84,
+          "to_count":  1,
+          "patch":  "- checksum: 42-aaaa-42\n+ checksum: 42-bbbb-42\n"
+        },
+        {
+          "from_start":  86,
+          "from_count":  1,
+          "to_start":  86,
+          "to_count":  1,
+          "patch":  "- checksum: 43-aaaa-43\n+ checksum: 43-bbbb-43\n"
+        },
+        {
+          "from_start":  88,
+          "from_count":  1,
+          "to_start":  88,
+          "to_count":  1,
+          "patch":  "- checksum: 44-aaaa-44\n+ checksum: 44-bbbb-44\n"
+        },
+        {
+          "from_start":  90,
+          "from_count":  1,
+          "to_start":  90,
+          "to_count":  1,
+          "patch":  "- checksum: 45-aaaa-45\n+ checksum: 45-bbbb-45\n"
+        },
+        {
+          "from_start":  92,
+          "from_count":  1,
+          "to_start":  92,
+          "to_count":  1,
+          "patch":  "- checksum: 46-aaaa-46\n+ checksum: 46-bbbb-46\n"
+        },
+        {
+          "from_start":  94,
+          "from_count":  1,
+          "to_start":  94,
+          "to_count":  1,
+          "patch":  "- checksum: 47-aaaa-47\n+ checksum: 47-bbbb-47\n"
+        },
+        {
+          "from_start":  96,
+          "from_count":  1,
+          "to_start":  96,
+          "to_count":  1,
+          "patch":  "- checksum: 48-aaaa-48\n+ checksum: 48-bbbb-48\n"
+        },
+        {
+          "from_start":  98,
+          "from_count":  1,
+          "to_start":  98,
+          "to_count":  1,
+          "patch":  "- checksum: 49-aaaa-49\n+ checksum: 49-bbbb-49\n"
+        },
+        {
+          "from_start":  100,
+          "from_count":  1,
+          "to_start":  100,
+          "to_count":  1,
+          "patch":  "- checksum: 50-aaaa-50\n+ checksum: 50-bbbb-50\n"
+        },
+        {
+          "from_start":  102,
+          "from_count":  1,
+          "to_start":  102,
+          "to_count":  1,
+          "patch":  "- checksum: 51-aaaa-51\n+ checksum: 51-bbbb-51\n"
+        },
+        {
+          "from_start":  104,
+          "from_count":  1,
+          "to_start":  104,
+          "to_count":  1,
+          "patch":  "- checksum: 52-aaaa-52\n+ checksum: 52-bbbb-52\n"
+        },
+        {
+          "from_start":  106,
+          "from_count":  1,
+          "to_start":  106,
+          "to_count":  1,
+          "patch":  "- checksum: 53-aaaa-53\n+ checksum: 53-bbbb-53\n"
+        },
+        {
+          "from_start":  108,
+          "from_count":  1,
+          "to_start":  108,
+          "to_count":  1,
+          "patch":  "- checksum: 54-aaaa-54\n+ checksum: 54-bbbb-54\n"
+        },
+        {
+          "from_start":  110,
+          "from_count":  1,
+          "to_start":  110,
+          "to_count":  1,
+          "patch":  "- checksum: 55-aaaa-55\n+ checksum: 55-bbbb-55\n"
+        },
+        {
+          "from_start":  112,
+          "from_count":  1,
+          "to_start":  112,
+          "to_count":  1,
+          "patch":  "- checksum: 56-aaaa-56\n+ checksum: 56-bbbb-56\n"
+        },
+        {
+          "from_start":  114,
+          "from_count":  1,
+          "to_start":  114,
+          "to_count":  1,
+          "patch":  "- checksum: 57-aaaa-57\n+ checksum: 57-bbbb-57\n"
+        },
+        {
+          "from_start":  116,
+          "from_count":  1,
+          "to_start":  116,
+          "to_count":  1,
+          "patch":  "- checksum: 58-aaaa-58\n+ checksum: 58-bbbb-58\n"
+        },
+        {
+          "from_start":  118,
+          "from_count":  1,
+          "to_start":  118,
+          "to_count":  1,
+          "patch":  "- checksum: 59-aaaa-59\n+ checksum: 59-bbbb-59\n"
+        },
+        {
+          "from_start":  120,
+          "from_count":  1,
+          "to_start":  120,
+          "to_count":  1,
+          "patch":  "- checksum: 60-aaaa-60\n+ checksum: 60-bbbb-60\n"
+        },
+        {
+          "from_start":  122,
+          "from_count":  1,
+          "to_start":  122,
+          "to_count":  1,
+          "patch":  "- checksum: 61-aaaa-61\n+ checksum: 61-bbbb-61\n"
+        },
+        {
+          "from_start":  124,
+          "from_count":  1,
+          "to_start":  124,
+          "to_count":  1,
+          "patch":  "- checksum: 62-aaaa-62\n+ checksum: 62-bbbb-62\n"
+        },
+        {
+          "from_start":  126,
+          "from_count":  1,
+          "to_start":  126,
+          "to_count":  1,
+          "patch":  "- checksum: 63-aaaa-63\n+ checksum: 63-bbbb-63\n"
+        },
+        {
+          "from_start":  128,
+          "from_count":  1,
+          "to_start":  128,
+          "to_count":  1,
+          "patch":  "- checksum: 64-aaaa-64\n+ checksum: 64-bbbb-64\n"
+        },
+        {
+          "from_start":  130,
+          "from_count":  1,
+          "to_start":  130,
+          "to_count":  1,
+          "patch":  "- checksum: 65-aaaa-65\n+ checksum: 65-bbbb-65\n"
+        },
+        {
+          "from_start":  132,
+          "from_count":  1,
+          "to_start":  132,
+          "to_count":  1,
+          "patch":  "- checksum: 66-aaaa-66\n+ checksum: 66-bbbb-66\n"
+        },
+        {
+          "from_start":  134,
+          "from_count":  1,
+          "to_start":  134,
+          "to_count":  1,
+          "patch":  "- checksum: 67-aaaa-67\n+ checksum: 67-bbbb-67\n"
+        },
+        {
+          "from_start":  136,
+          "from_count":  1,
+          "to_start":  136,
+          "to_count":  1,
+          "patch":  "- checksum: 68-aaaa-68\n+ checksum: 68-bbbb-68\n"
+        },
+        {
+          "from_start":  138,
+          "from_count":  1,
+          "to_start":  138,
+          "to_count":  1,
+          "patch":  "- checksum: 69-aaaa-69\n+ checksum: 69-bbbb-69\n"
+        },
+        {
+          "from_start":  140,
+          "from_count":  1,
+          "to_start":  140,
+          "to_count":  1,
+          "patch":  "- checksum: 70-aaaa-70\n+ checksum: 70-bbbb-70\n"
+        },
+        {
+          "from_start":  142,
+          "from_count":  1,
+          "to_start":  142,
+          "to_count":  1,
+          "patch":  "- checksum: 71-aaaa-71\n+ checksum: 71-bbbb-71\n"
+        },
+        {
+          "from_start":  144,
+          "from_count":  1,
+          "to_start":  144,
+          "to_count":  1,
+          "patch":  "- checksum: 72-aaaa-72\n+ checksum: 72-bbbb-72\n"
+        },
+        {
+          "from_start":  146,
+          "from_count":  1,
+          "to_start":  146,
+          "to_count":  1,
+          "patch":  "- checksum: 73-aaaa-73\n+ checksum: 73-bbbb-73\n"
+        },
+        {
+          "from_start":  148,
+          "from_count":  1,
+          "to_start":  148,
+          "to_count":  1,
+          "patch":  "- checksum: 74-aaaa-74\n+ checksum: 74-bbbb-74\n"
+        },
+        {
+          "from_start":  150,
+          "from_count":  1,
+          "to_start":  150,
+          "to_count":  1,
+          "patch":  "- checksum: 75-aaaa-75\n+ checksum: 75-bbbb-75\n"
+        },
+        {
+          "from_start":  152,
+          "from_count":  1,
+          "to_start":  152,
+          "to_count":  1,
+          "patch":  "- checksum: 76-aaaa-76\n+ checksum: 76-bbbb-76\n"
+        },
+        {
+          "from_start":  154,
+          "from_count":  1,
+          "to_start":  154,
+          "to_count":  1,
+          "patch":  "- checksum: 77-aaaa-77\n+ checksum: 77-bbbb-77\n"
+        },
+        {
+          "from_start":  156,
+          "from_count":  1,
+          "to_start":  156,
+          "to_count":  1,
+          "patch":  "- checksum: 78-aaaa-78\n+ checksum: 78-bbbb-78\n"
+        },
+        {
+          "from_start":  158,
+          "from_count":  1,
+          "to_start":  158,
+          "to_count":  1,
+          "patch":  "- checksum: 79-aaaa-79\n+ checksum: 79-bbbb-79\n"
+        },
+        {
+          "from_start":  160,
+          "from_count":  1,
+          "to_start":  160,
+          "to_count":  1,
+          "patch":  "- checksum: 80-aaaa-80\n+ checksum: 80-bbbb-80\n"
+        },
+        {
+          "from_start":  162,
+          "from_count":  1,
+          "to_start":  162,
+          "to_count":  1,
+          "patch":  "- checksum: 81-aaaa-81\n+ checksum: 81-bbbb-81\n"
+        },
+        {
+          "from_start":  164,
+          "from_count":  1,
+          "to_start":  164,
+          "to_count":  1,
+          "patch":  "- checksum: 82-aaaa-82\n+ checksum: 82-bbbb-82\n"
+        },
+        {
+          "from_start":  166,
+          "from_count":  1,
+          "to_start":  166,
+          "to_count":  1,
+          "patch":  "- checksum: 83-aaaa-83\n+ checksum: 83-bbbb-83\n"
+        },
+        {
+          "from_start":  168,
+          "from_count":  1,
+          "to_start":  168,
+          "to_count":  1,
+          "patch":  "- checksum: 84-aaaa-84\n+ checksum: 84-bbbb-84\n"
+        },
+        {
+          "from_start":  170,
+          "from_count":  1,
+          "to_start":  170,
+          "to_count":  1,
+          "patch":  "- checksum: 85-aaaa-85\n+ checksum: 85-bbbb-85\n"
+        },
+        {
+          "from_start":  172,
+          "from_count":  1,
+          "to_start":  172,
+          "to_count":  1,
+          "patch":  "- checksum: 86-aaaa-86\n+ checksum: 86-bbbb-86\n"
+        },
+        {
+          "from_start":  174,
+          "from_count":  1,
+          "to_start":  174,
+          "to_count":  1,
+          "patch":  "- checksum: 87-aaaa-87\n+ checksum: 87-bbbb-87\n"
+        },
+        {
+          "from_start":  176,
+          "from_count":  1,
+          "to_start":  176,
+          "to_count":  1,
+          "patch":  "- checksum: 88-aaaa-88\n+ checksum: 88-bbbb-88\n"
+        },
+        {
+          "from_start":  178,
+          "from_count":  1,
+          "to_start":  178,
+          "to_count":  1,
+          "patch":  "- checksum: 89-aaaa-89\n+ checksum: 89-bbbb-89\n"
+        },
+        {
+          "from_start":  180,
+          "from_count":  1,
+          "to_start":  180,
+          "to_count":  1,
+          "patch":  "- checksum: 90-aaaa-90\n+ checksum: 90-bbbb-90\n"
+        },
+        {
+          "from_start":  182,
+          "from_count":  1,
+          "to_start":  182,
+          "to_count":  1,
+          "patch":  "- checksum: 91-aaaa-91\n+ checksum: 91-bbbb-91\n"
+        },
+        {
+          "from_start":  184,
+          "from_count":  1,
+          "to_start":  184,
+          "to_count":  1,
+          "patch":  "- checksum: 92-aaaa-92\n+ checksum: 92-bbbb-92\n"
+        },
+        {
+          "from_start":  186,
+          "from_count":  1,
+          "to_start":  186,
+          "to_count":  1,
+          "patch":  "- checksum: 93-aaaa-93\n+ checksum: 93-bbbb-93\n"
+        },
+        {
+          "from_start":  188,
+          "from_count":  1,
+          "to_start":  188,
+          "to_count":  1,
+          "patch":  "- checksum: 94-aaaa-94\n+ checksum: 94-bbbb-94\n"
+        },
+        {
+          "from_start":  190,
+          "from_count":  1,
+          "to_start":  190,
+          "to_count":  1,
+          "patch":  "- checksum: 95-aaaa-95\n+ checksum: 95-bbbb-95\n"
+        },
+        {
+          "from_start":  192,
+          "from_count":  1,
+          "to_start":  192,
+          "to_count":  1,
+          "patch":  "- checksum: 96-aaaa-96\n+ checksum: 96-bbbb-96\n"
+        },
+        {
+          "from_start":  194,
+          "from_count":  1,
+          "to_start":  194,
+          "to_count":  1,
+          "patch":  "- checksum: 97-aaaa-97\n+ checksum: 97-bbbb-97\n"
+        },
+        {
+          "from_start":  196,
+          "from_count":  1,
+          "to_start":  196,
+          "to_count":  1,
+          "patch":  "- checksum: 98-aaaa-98\n+ checksum: 98-bbbb-98\n"
+        },
+        {
+          "from_start":  198,
+          "from_count":  1,
+          "to_start":  198,
+          "to_count":  1,
+          "patch":  "- checksum: 99-aaaa-99\n+ checksum: 99-bbbb-99\n"
+        },
+        {
+          "from_start":  200,
+          "from_count":  1,
+          "to_start":  200,
+          "to_count":  1,
+          "patch":  "- checksum: 100-aaaa-100\n+ checksum: 100-bbbb-100\n"
+        }
+      ],
+      "added":  100,
+      "removed":  100,
+      "target_cnt":  200,
+      "source_cnt":  200,
+      "result":  "SUCCESS"
+    }
+  ]
+}

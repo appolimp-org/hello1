@@ -1,0 +1,213 @@
+{
+  "repositories":  [
+    {
+      "id":  "20",
+      "uuid":  "019ac9a6-5a97-76e5-9bb4-76b4d0965ee5",
+      "name":  "utf",
+      "default_branch":  "main",
+      "org_slug":  "yandex",
+      "slug":  "utf",
+      "is_empty":  false,
+      "description":  "description is utf",
+      "visibility":  "RESOURCE_PUBLIC",
+      "effective_visibility":  "RESOURCE_PUBLIC",
+      "template_type":  "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url":  {
+        "https":  "http://git@localhost:8081/yandex/utf.git",
+        "ssh":  "ssh://localhost:2222/yandex/utf.git"
+      },
+      "revision":  "0",
+      "links":  [],
+      "migration_id":  "",
+      "stars":  "0",
+      "forks":  "0",
+      "pull_requests":  "0",
+      "issues":  "0",
+      "tags":  "0",
+      "branches":  "2",
+      "last_updated":  "2025-11-28T08:48:34.193626Z",
+      "broken_fork_chain":  false,
+      "rating":  {
+        "percentile":  100,
+        "reactions":  {},
+        "value":  0
+      }
+    },
+    {
+      "id":  "21",
+      "uuid":  "019ac9a6-5bd0-769f-a637-c86a7b9bbca1",
+      "name":  "gitlog-dir",
+      "default_branch":  "main",
+      "org_slug":  "yandex",
+      "slug":  "gitlog-dir",
+      "is_empty":  false,
+      "description":  "description is gitlog-dir",
+      "visibility":  "RESOURCE_PUBLIC",
+      "effective_visibility":  "RESOURCE_PUBLIC",
+      "template_type":  "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url":  {
+        "https":  "http://git@localhost:8081/yandex/gitlog-dir.git",
+        "ssh":  "ssh://localhost:2222/yandex/gitlog-dir.git"
+      },
+      "revision":  "0",
+      "links":  [],
+      "migration_id":  "",
+      "stars":  "0",
+      "forks":  "0",
+      "pull_requests":  "0",
+      "issues":  "0",
+      "tags":  "0",
+      "branches":  "2",
+      "last_updated":  "2025-11-28T08:48:34.516555Z",
+      "broken_fork_chain":  false,
+      "rating":  {
+        "percentile":  100,
+        "reactions":  {},
+        "value":  0
+      }
+    },
+    {
+      "id":  "23",
+      "uuid":  "019ac9a6-5e4e-7bdf-97fc-6c38482454b3",
+      "name":  "gitflow",
+      "default_branch":  "master",
+      "org_slug":  "yandex",
+      "slug":  "gitflow",
+      "is_empty":  false,
+      "description":  "description is gitflow",
+      "visibility":  "RESOURCE_PUBLIC",
+      "effective_visibility":  "RESOURCE_PUBLIC",
+      "template_type":  "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url":  {
+        "https":  "http://git@localhost:8081/yandex/gitflow.git",
+        "ssh":  "ssh://localhost:2222/yandex/gitflow.git"
+      },
+      "revision":  "0",
+      "links":  [],
+      "migration_id":  "",
+      "stars":  "0",
+      "forks":  "0",
+      "pull_requests":  "0",
+      "issues":  "0",
+      "tags":  "2",
+      "branches":  "3",
+      "last_updated":  "2025-11-28T08:48:35.189727Z",
+      "broken_fork_chain":  false,
+      "rating":  {
+        "percentile":  100,
+        "reactions":  {},
+        "value":  0
+      }
+    },
+    {
+      "id":  "24",
+      "uuid":  "019ac9a6-5fb0-7a7b-bb8e-a5088b6b1273",
+      "name":  "github-migrated",
+      "default_branch":  "master",
+      "org_slug":  "yandex",
+      "slug":  "github-migrated",
+      "is_empty":  false,
+      "description":  "description is github-migrated",
+      "visibility":  "RESOURCE_PUBLIC",
+      "effective_visibility":  "RESOURCE_PUBLIC",
+      "template_type":  "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url":  {
+        "https":  "http://git@localhost:8081/yandex/github-migrated.git",
+        "ssh":  "ssh://localhost:2222/yandex/github-migrated.git"
+      },
+      "revision":  "0",
+      "links":  [],
+      "migration_id":  "",
+      "stars":  "0",
+      "forks":  "0",
+      "pull_requests":  "0",
+      "issues":  "0",
+      "tags":  "0",
+      "branches":  "3",
+      "last_updated":  "2025-11-28T08:48:35.511517Z",
+      "broken_fork_chain":  false,
+      "rating":  {
+        "percentile":  100,
+        "reactions":  {},
+        "value":  0
+      }
+    },
+    {
+      "id":  "26",
+      "uuid":  "019ac9a6-62a0-7728-866c-98de1586818b",
+      "name":  "alpha-repo-fork",
+      "default_branch":  "master",
+      "org_slug":  "yandex",
+      "slug":  "alpha-repo-fork",
+      "is_empty":  false,
+      "description":  "description of alpha-repo-fork",
+      "visibility":  "RESOURCE_PUBLIC",
+      "effective_visibility":  "RESOURCE_PUBLIC",
+      "template_type":  "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url":  {
+        "https":  "http://git@localhost:8081/yandex/alpha-repo-fork.git",
+        "ssh":  "ssh://localhost:2222/yandex/alpha-repo-fork.git"
+      },
+      "revision":  "1",
+      "links":  [],
+      "migration_id":  "",
+      "stars":  "0",
+      "forks":  "0",
+      "pull_requests":  "0",
+      "issues":  "0",
+      "tags":  "0",
+      "branches":  "3",
+      "last_updated":  "2025-11-28T08:48:36.141668Z",
+      "language":  {
+        "name":  "PHP",
+        "color":  "#4F5D95"
+      },
+      "fork_origin_id":  "1",
+      "fork_origin_full_slug":  "yandex/alpha",
+      "broken_fork_chain":  false,
+      "rating":  {
+        "percentile":  100,
+        "reactions":  {},
+        "value":  0
+      }
+    },
+    {
+      "id":  "27",
+      "uuid":  "019ac9a6-7112-723a-877f-eb31722dc37f",
+      "name":  "aaa-public",
+      "default_branch":  "master",
+      "org_slug":  "aaa",
+      "slug":  "aaa-public",
+      "is_empty":  false,
+      "description":  "description is aaa-public",
+      "visibility":  "RESOURCE_PUBLIC",
+      "effective_visibility":  "RESOURCE_PUBLIC",
+      "template_type":  "TEMPLATE_NOT_A_TEMPLATE",
+      "clone_url":  {
+        "https":  "http://git@localhost:8081/aaa/aaa-public.git",
+        "ssh":  "ssh://localhost:2222/aaa/aaa-public.git"
+      },
+      "revision":  "0",
+      "links":  [],
+      "migration_id":  "",
+      "stars":  "0",
+      "forks":  "0",
+      "pull_requests":  "0",
+      "issues":  "0",
+      "tags":  "0",
+      "branches":  "3",
+      "last_updated":  "2025-11-28T08:48:40.007288Z",
+      "broken_fork_chain":  false,
+      "rating":  {
+        "percentile":  100,
+        "reactions":  {},
+        "value":  0
+      }
+    }
+  ],
+  "revision":  {
+    "value":  ""
+  },
+  "prev_page_token":  "g6dDb2x1bW5zkoOkTmFtZaZyYXRpbmepRGlyZWN0aW9uw6VWYWx1ZcCDpE5hbWWhX6lEaXJlY3Rpb27CpVZhbHVlzwAAAAAAAAAUqURpcmVjdGlvbsOqQ2xvdWRUb2tlbsA",
+  "next_page_token":  ""
+}

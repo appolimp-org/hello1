@@ -1,0 +1,8 @@
+{
+  "Code": 403,
+  "Payload": {
+    "error_code": "PermissionDenied",
+    "message": "Permission denied",
+    "request_id": "f6552141-4f4e-5d63-a2ef-bd1f5930198e"
+  }
+}

@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/yandex/odyssey/issues/comments?page=7&per_page=100
+        headers:
+            Accept:
+                - application/vnd.github.squirrel-girl-preview
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:46:56.598471+03:00
+      response_uuid: 024432a7-a23f-40eb-911d-2fa3274b3e5a

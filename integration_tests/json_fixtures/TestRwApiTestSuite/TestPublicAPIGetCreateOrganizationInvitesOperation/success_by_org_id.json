@@ -1,0 +1,24 @@
+{
+  "Code": 200,
+  "Payload": {
+    "created_at": "2025-12-08T16:04:38.716388Z",
+    "modified_at": "2025-12-08T16:04:38.716388Z",
+    "operation_id": "success_by_org_id___",
+    "response": {
+      "errors": [],
+      "invites": [
+        {
+          "email": "byid@example.com",
+          "id": "invite-byid",
+          "status": "pending"
+        },
+        {
+          "id": "invite-byid-2",
+          "status": "pending"
+        }
+      ]
+    },
+    "status": "success",
+    "status_url": "/orgs/id:019afeb1-e542-79c7-bc29-a05c2cfad234/operations/create-invites/success_by_org_id___"
+  }
+}

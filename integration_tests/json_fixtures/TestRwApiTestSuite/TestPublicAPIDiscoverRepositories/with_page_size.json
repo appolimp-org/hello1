@@ -1,0 +1,66 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "g6dDb2x1bW5zkoOkTmFtZaZyYXRpbmepRGlyZWN0aW9uw6VWYWx1ZcCDpE5hbWWhX6lEaXJlY3Rpb27CpVZhbHVlzwAAAAAAAAACqURpcmVjdGlvbsKqQ2xvdWRUb2tlbsA",
+    "repositories": [
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/alpha.git",
+          "ssh": "ssh://localhost:2222/yandex/alpha.git"
+        },
+        "counters": {
+          "branches": "3",
+          "forks": "1",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "master",
+        "description": "description is alpha",
+        "id": "019a3575-0dd8-7530-a269-33912ece9bcd",
+        "is_empty": false,
+        "language": {
+          "color": "#4F5D95",
+          "name": "PHP"
+        },
+        "last_updated": "2025-10-30T14:10:55.599593Z",
+        "links": [],
+        "name": "alpha",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "alpha",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/history.git",
+          "ssh": "ssh://localhost:2222/yandex/history.git"
+        },
+        "counters": {
+          "branches": "2",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "master",
+        "description": "description is history",
+        "id": "019a3575-1008-78a2-800f-d1ee372c26d6",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:55.743421Z",
+        "links": [],
+        "name": "history",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "history",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+records:
+    - request:
+        method: POST
+        url: https://api.github.com/graphql
+        headers:
+            Authorization:
+                - <HIDDEN>
+            Content-Type:
+                - application/json
+        body:
+            kind: graphql
+            body_text: '{"query":"\nquery ListLinkedIssues ($repoOwner: String!, $repoName: String!, $prPageSize: Int!, $prPageToken: String, $pageSize: Int!) {\n\trepository(owner: $repoOwner, name: $repoName) {\n\t\tpullRequests(first: $prPageSize, after: $prPageToken) {\n\t\t\tnodes {\n\t\t\t\tnumber\n\t\t\t\tclosingIssuesReferences(first: $pageSize) {\n\t\t\t\t\tnodes {\n\t\t\t\t\t\tnumber\n\t\t\t\t\t}\n\t\t\t\t\tpageInfo {\n\t\t\t\t\t\t... Cursor\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\tpageInfo {\n\t\t\t\t... Cursor\n\t\t\t}\n\t\t}\n\t}\n\t... RateLimit\n}\nfragment Cursor on PageInfo {\n\tendCursor\n\thasNextPage\n}\nfragment RateLimit on Query {\n\trateLimit {\n\t\tremaining\n\t\tresetAt\n\t}\n}\n","variables":{"repoOwner":"vi34","repoName":"Proxy-Server","prPageSize":100,"prPageToken":null,"pageSize":100},"operationName":"ListLinkedIssues"}'
+        recorded_at: 2025-10-16T19:42:23.696191+03:00
+      response_uuid: 1243ac05-cb4a-4b7d-a4d3-21194b04bb1b

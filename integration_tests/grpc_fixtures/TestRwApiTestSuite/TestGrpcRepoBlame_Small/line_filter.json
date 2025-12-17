@@ -1,0 +1,31 @@
+{
+  "ranges": [
+    {
+      "old_begin": 5,
+      "old_lines_count": 2,
+      "new_begin": 5,
+      "new_lines_count": 2,
+      "commit_hash": "256b095a4cee4a9e19da2e736586d92f6c6224b1",
+      "reblame_path": "file3.txt"
+    }
+  ],
+  "commits": [
+    {
+      "hash": "256b095a4cee4a9e19da2e736586d92f6c6224b1",
+      "message": "3 commit\n",
+      "parent_commits": [
+        "efc7d51346c9dc1dfcc2c8881b2e4ed8fea53d9e"
+      ],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2024-02-19T12:03:20Z"
+      },
+      "commiter": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:03:20Z"
+      }
+    }
+  ]
+}

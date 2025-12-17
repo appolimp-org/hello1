@@ -1,0 +1,19 @@
+{
+  "id": "95008735885263214",
+  "user_identity": {
+    "id": "123",
+    "src": "IDP_MIGRATION"
+  },
+  "uuid": "0199f1b5-5f4c-7a6f-8798-ec1a67c182e9",
+  "display_name": "123",
+  "username": "123@github",
+  "bio": "",
+  "links": [],
+  "visibility": "PROFILE_PUBLIC",
+  "avatar": {
+    "url": ""
+  },
+  "generative_background_seed": "",
+  "locale": "en",
+  "revision": "0"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "92844601269813249",
+  "uuid": "0199a4d2-aec3-755f-8cf7-7f4089b94ddc",
+  "name": "",
+  "default_branch": "master",
+  "org_slug": "yango",
+  "slug": "slug92844601253036033",
+  "is_empty": false,
+  "description": "",
+  "visibility": "RESOURCE_PUBLIC",
+  "effective_visibility": "RESOURCE_PUBLIC",
+  "template_type": "TEMPLATE_NOT_A_TEMPLATE",
+  "clone_url": {
+    "https": "http://git@localhost:8081/yango/slug92844601253036033.git",
+    "ssh": "ssh://localhost:2222/yango/slug92844601253036033.git"
+  },
+  "revision": "1",
+  "links": [
+    {
+      "link": "https://ya.ru",
+      "type": "DEFAULT"
+    }
+  ],
+  "migration_id": "",
+  "stars": "0",
+  "forks": "0",
+  "pull_requests": "0",
+  "issues": "0",
+  "tags": "0",
+  "branches": "1",
+  "last_updated": "2025-10-02T12:08:14.839210Z",
+  "fork_origin_id": "92844600917491713",
+  "fork_origin_full_slug": "yango/origin-for-fork-testrwapitestsuite-testgrpccreaterepofork",
+  "broken_fork_chain": false,
+  "rating": {
+    "percentile": 100,
+    "reactions": {},
+    "value": 0
+  }
+}

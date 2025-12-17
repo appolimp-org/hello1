@@ -1,0 +1,8 @@
+{
+  "Code": 404,
+  "Payload": {
+    "error_code": "GitObjectNotFound",
+    "message": "object b22468daa4b098d406afc1a25e8438136eb7358e does not exist",
+    "request_id": "05040616-46c8-c149-e52f-36408473f4e3"
+  }
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 8477983662,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VPDrg",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/bug",
+    "name": "bug",
+    "color": "d73a4a",
+    "default": true,
+    "description": "Something isn't working"
+  },
+  {
+    "id": 8478258979,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-Vf3Iw",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/custom-label-black",
+    "name": "custom-label-black",
+    "color": "000000",
+    "default": false,
+    "description": "Black label"
+  },
+  {
+    "id": 8478259982,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-Vf7Dg",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/custom-label-magenta-no-desc",
+    "name": "custom-label-magenta-no-desc",
+    "color": "D360A6",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 8477983668,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VPDtA",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/documentation",
+    "name": "documentation",
+    "color": "0075ca",
+    "default": true,
+    "description": "Improvements or additions to documentation"
+  },
+  {
+    "id": 8477983673,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VPDuQ",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/duplicate",
+    "name": "duplicate",
+    "color": "cfd3d7",
+    "default": true,
+    "description": "This issue or pull request already exists"
+  },
+  {
+    "id": 8477983677,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VPDvQ",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/enhancement",
+    "name": "enhancement",
+    "color": "a2eeef",
+    "default": true,
+    "description": "New feature or request"
+  },
+  {
+    "id": 8477983681,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VPDwQ",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/good%20first%20issue",
+    "name": "good first issue",
+    "color": "7057ff",
+    "default": true,
+    "description": "Good for newcomers"
+  },
+  {
+    "id": 8477983685,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VPDxQ",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/help%20wanted",
+    "name": "help wanted",
+    "color": "008672",
+    "default": true,
+    "description": "Extra attention is needed"
+  },
+  {
+    "id": 8477983689,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VPDyQ",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/invalid",
+    "name": "invalid",
+    "color": "e4e669",
+    "default": true,
+    "description": "This doesn't seem right"
+  },
+  {
+    "id": 8478261999,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VgC7w",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/Label%20With%20Spaces%20And%20$pecial%20Ch@racters",
+    "name": "Label With Spaces And $pecial Ch@racters",
+    "color": "6B4419",
+    "default": false,
+    "description": ""
+  },
+  {
+    "id": 8478267421,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VgYHQ",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/maximum-length-label-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "name": "maximum-length-label-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "color": "21B7DE",
+    "default": false,
+    "description": "Longest label ever"
+  },
+  {
+    "id": 8477983692,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VPDzA",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/question",
+    "name": "question",
+    "color": "d876e3",
+    "default": true,
+    "description": "Further information is requested"
+  },
+  {
+    "id": 8477983695,
+    "node_id": "LA_kwDOOb0LIs8AAAAB-VPDzw",
+    "url": "https://api.github.com/repos/src-migration-tests/generic/labels/wontfix",
+    "name": "wontfix",
+    "color": "ffffff",
+    "default": true,
+    "description": "This will not be worked on"
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "Code": 200,
+  "Payload": {
+    "issue_comments": [
+      {
+        "attachments": [],
+        "author": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        },
+        "body": "Some comment 4",
+        "created_at": "2025-05-27T13:26:27.676481Z",
+        "id": "019711ec-4a5c-772b-b1a2-659bceac4db5",
+        "reactions": {},
+        "updated_at": "2025-05-27T13:26:27.676481Z",
+        "updated_by": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        }
+      },
+      {
+        "attachments": [],
+        "author": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        },
+        "body": "Some comment that has reactions",
+        "created_at": "2025-05-27T13:26:27.616806Z",
+        "id": "019711ec-4a20-7c0d-94ff-54287343736b",
+        "reactions": {
+          "goose": {
+            "count": 1,
+            "self_react": false
+          },
+          "like": {
+            "count": 1,
+            "self_react": true
+          }
+        },
+        "updated_at": "2025-05-27T13:26:27.616806Z",
+        "updated_by": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        }
+      },
+      {
+        "attachments": [],
+        "author": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        },
+        "body": "Some comment 2 ",
+        "created_at": "2025-05-27T13:26:27.651292Z",
+        "id": "019711ec-4a43-7432-bb53-87106216837a",
+        "reactions": {},
+        "updated_at": "2025-05-27T13:26:27.651292Z",
+        "updated_by": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        }
+      },
+      {
+        "attachments": [],
+        "author": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        },
+        "body": "Some comment 3 ",
+        "created_at": "2025-05-27T13:26:27.665184Z",
+        "id": "019711ec-4a51-729f-b176-2f3f8ed1caf1",
+        "reactions": {},
+        "updated_at": "2025-05-27T13:26:27.665184Z",
+        "updated_by": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        }
+      },
+      {
+        "attachments": [],
+        "author": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        },
+        "body": "Branch 1",
+        "created_at": "2025-05-27T13:26:27.688638Z",
+        "id": "019711ec-4a68-7971-9068-18c2570635bc",
+        "parent": {
+          "id": "019711ec-4a5c-772b-b1a2-659bceac4db5"
+        },
+        "reactions": {},
+        "updated_at": "2025-05-27T13:26:27.688638Z",
+        "updated_by": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        }
+      },
+      {
+        "attachments": [],
+        "author": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        },
+        "body": "Branch 2",
+        "created_at": "2025-05-27T13:26:27.699930Z",
+        "id": "019711ec-4a73-7e0d-902e-2dcc8ad60cfa",
+        "parent": {
+          "id": "019711ec-4a5c-772b-b1a2-659bceac4db5"
+        },
+        "reactions": {},
+        "updated_at": "2025-05-27T13:26:27.699930Z",
+        "updated_by": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        }
+      },
+      {
+        "attachments": [],
+        "author": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        },
+        "body": "Branch 3",
+        "created_at": "2025-05-27T13:26:27.710340Z",
+        "id": "019711ec-4a7e-74e2-9da0-d52631898290",
+        "parent": {
+          "id": "019711ec-4a5c-772b-b1a2-659bceac4db5"
+        },
+        "reactions": {},
+        "updated_at": "2025-05-27T13:26:27.710340Z",
+        "updated_by": {
+          "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+          "slug": "krosh"
+        }
+      }
+    ],
+    "next_page_token": ""
+  }
+}

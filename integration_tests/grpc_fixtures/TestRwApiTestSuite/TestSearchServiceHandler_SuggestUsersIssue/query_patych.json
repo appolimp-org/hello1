@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "user_identity": {
+        "id": "kopatych",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-ee43-7547-8316-e7a0ae6bbd56",
+      "display_name": "Kopatych",
+      "username": "kopatych",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PRIVATE",
+      "avatar": {
+        "url": "https://dev.null/avatars/kopatych.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "",
+      "revision": "",
+      "personal_org_id": "95006048628244846",
+      "onboarded_at": "2025-10-17T10:00:17.738758Z"
+    }
+  ]
+}

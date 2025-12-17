@@ -1,0 +1,95 @@
+{
+  "Code": 200,
+  "Payload": {
+    "issues": [
+      {
+        "assignee": {
+          "id": "0198b19b-a3dc-7612-8958-24e8eec9551d",
+          "slug": "krosh"
+        },
+        "author": {
+          "id": "0198b19b-aa3a-7858-addd-9e18e037fad4",
+          "slug": "admin"
+        },
+        "created_at": "2025-08-18T21:54:22.915580Z",
+        "deadline": "2024-01-01T00:00:00Z",
+        "description": "Issue description",
+        "id": "0198bf2d-2242-7679-8ff1-18fe7f2d2127",
+        "labels": [
+          {
+            "color": "grey",
+            "id": "0198bf2d-223b-700d-bb57-512718e94b82",
+            "name": "Task",
+            "slug": "task"
+          },
+          {
+            "color": "red",
+            "id": "0198bf2d-223f-72e0-8d2d-221ff1e67982",
+            "name": "Bug",
+            "slug": "bug"
+          }
+        ],
+        "linked_prs": [],
+        "milestone": {
+          "id": "0198bf2d-2235-7d26-bf18-5100012fd847",
+          "slug": "milestone2"
+        },
+        "priority": "critical",
+        "slug": "1",
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "slug": "open",
+          "status_type": "initial"
+        },
+        "title": "%issue1",
+        "updated_at": "2025-08-18T21:54:22.915580Z",
+        "updated_by": {
+          "id": "0198b19b-aa3a-7858-addd-9e18e037fad4",
+          "slug": "admin"
+        },
+        "visibility": "public"
+      },
+      {
+        "author": {
+          "id": "0198b19b-a523-7d60-9478-8f7326a306f9",
+          "slug": "slowpoke"
+        },
+        "completed_at": "2025-08-18T21:54:23.020427Z",
+        "created_at": "2025-08-18T21:54:23.021076Z",
+        "deadline": "2024-01-01T18:00:00Z",
+        "description": "Issue description",
+        "id": "0198bf2d-22ad-70ec-964a-9ce6d16444d7",
+        "labels": [
+          {
+            "color": "grey",
+            "id": "0198bf2d-223b-700d-bb57-512718e94b82",
+            "name": "Task",
+            "slug": "task"
+          }
+        ],
+        "linked_prs": [],
+        "milestone": {
+          "id": "0198bf2d-2230-7507-9171-ae16eaf7a99b",
+          "slug": "milestone1"
+        },
+        "priority": "critical",
+        "slug": "4",
+        "status": {
+          "id": "4",
+          "name": "Closed",
+          "slug": "closed",
+          "status_type": "completed"
+        },
+        "title": "cloSED critical issue 4",
+        "updated_at": "2025-08-18T21:54:23.021076Z",
+        "updated_by": {
+          "id": "0198b19b-a523-7d60-9478-8f7326a306f9",
+          "slug": "slowpoke"
+        },
+        "visibility": "private"
+      }
+    ],
+    "next_page_token": ""
+  }
+}

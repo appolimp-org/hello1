@@ -1,0 +1,59 @@
+{
+  "id":  "101059654909427713",
+  "repo_id":  "1",
+  "version":  "",
+  "tag":  "v1.1.1",
+  "hash":  "be7010bfba9f1f94b7b733e847975c591afba00f",
+  "create_tag_from":  "master",
+  "title":  "New title",
+  "changelog":  "",
+  "description":  "New release notes",
+  "release_notes":  "New release notes",
+  "release_status":  "STATUS_PUBLISHED",
+  "created_at":  "2025-11-28T07:17:28.180911Z",
+  "updated_at":  "2025-11-28T04:17:28.397386Z",
+  "released_at":  "2025-11-28T07:17:28.180911Z",
+  "assets":  [
+    {
+      "id":  "101059654909493249",
+      "name":  "Default link",
+      "link":  "https://example.com/1"
+    },
+    {
+      "id":  "101059654909624321",
+      "name":  "Default attachment",
+      "attachment":  {
+        "id":  "101059654590660609",
+        "name":  "document.pdf",
+        "mime_type":  "application/pdf",
+        "file_type":  "FILE_TYPE_DOCUMENT",
+        "entity_type":  "ENTITY_TYPE_RELEASE",
+        "entity_id":  "101059654909427713",
+        "size":  "6022",
+        "sha256":  "b55afd89ea9eaf684f7d67ecf84fb3af9eaeb5f7f9e313ae14ec9d6712840254"
+      }
+    },
+    {
+      "id":  "101059655026868225",
+      "name":  "Added link",
+      "link":  "https://example.com/3"
+    },
+    {
+      "id":  "101059655026933761",
+      "name":  "Added attachment",
+      "attachment":  {
+        "id":  "101059654959759361",
+        "name":  "cat.jpeg",
+        "mime_type":  "image/jpeg",
+        "file_type":  "FILE_TYPE_IMAGE",
+        "entity_type":  "ENTITY_TYPE_RELEASE",
+        "entity_id":  "101059654909427713",
+        "size":  "4919",
+        "sha256":  "a150b3165787cab5bf267d54702e4d950ac27dff6589ba7798eb1417f9a5492f"
+      }
+    }
+  ],
+  "is_latest":  true,
+  "is_pre_release":  false,
+  "created_by":  "7"
+}

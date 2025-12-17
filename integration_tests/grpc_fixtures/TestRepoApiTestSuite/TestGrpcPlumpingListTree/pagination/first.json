@@ -1,0 +1,13 @@
+{
+  "entries":  [
+    {
+      "path":  "go/example.go",
+      "type":  "ENTRY_TYPE_FILE"
+    },
+    {
+      "path":  "php/crappy.php",
+      "type":  "ENTRY_TYPE_FILE"
+    }
+  ],
+  "next_page_token":  "eyJjb21taXRfaGFzaCI6IjZlY2YwZWYyYzJkZmZiNzk2MDMzZTVhMDIyMTlhZjg2ZWM2NTg0ZTUiLCJuYW1lX2ZpbHRlciI6ImEiLCJjYXNlX2luc2Vuc2l0aXZlIjpmYWxzZSwicGF0aCI6IiIsImxpbWl0X21hdGNoZXMiOjIsInJlY3Vyc2l2ZSI6dHJ1ZSwic3RhcnRfZnJvbSI6eyJwYXRoIjoiYmluYXJ5LmpwZyIsIm1vZGUiOjMzMTg4fX0="
+}

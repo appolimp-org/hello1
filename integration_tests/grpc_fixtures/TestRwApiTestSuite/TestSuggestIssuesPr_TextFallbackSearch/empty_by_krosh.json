@@ -1,0 +1,34 @@
+{
+  "issues": [
+    {
+      "id": "63317434911752193",
+      "public_id": "2",
+      "title": "Венера",
+      "description": "Важное описание",
+      "repo_id": "8",
+      "author_id": "2",
+      "updated_by": "2",
+      "assignee_id": "2"
+    },
+    {
+      "id": "63317434861486081",
+      "public_id": "1",
+      "title": "Важный заголовок",
+      "description": "Какое-то описание",
+      "repo_id": "8",
+      "author_id": "6",
+      "updated_by": "6",
+      "assignee_id": "6"
+    },
+    {
+      "id": "63317434945306625",
+      "public_id": "3",
+      "title": "Простой или сложный тикет",
+      "description": "Так сразу и не скажешь",
+      "repo_id": "8",
+      "author_id": "6",
+      "updated_by": "6",
+      "assignee_id": "6"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Code": 200,
+  "Payload": {
+    "author": {
+      "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+      "slug": "admin"
+    },
+    "color": "0000FF",
+    "created_at": "2025-05-27T13:32:05.568360Z",
+    "id": "019711f1-7240-73fb-8542-91ced608fbe7",
+    "name": "Updated Name 2",
+    "slug": "bug",
+    "updated_at": "2025-05-27T13:32:05.740989Z",
+    "updated_by": {
+      "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+      "slug": "admin"
+    }
+  }
+}

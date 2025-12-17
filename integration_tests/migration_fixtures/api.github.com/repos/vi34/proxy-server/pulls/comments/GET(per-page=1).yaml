@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/vi34/Proxy-Server/pulls/comments?per_page=1
+        headers:
+            Accept:
+                - application/vnd.github.squirrel-girl-preview, application/vnd.github.comfort-fade-preview+json
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:42:19.44519+03:00
+      response_uuid: 11f99257-6ea7-4b96-a88b-6cc470e93038

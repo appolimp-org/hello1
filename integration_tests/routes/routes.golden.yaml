@@ -1,0 +1,2762 @@
+services:
+- name: HTTP
+  methods:
+  - name: /
+    permissions: []
+    has_auth_unit_test: false
+  - name: /:org/:repo
+    permissions: []
+    has_auth_unit_test: false
+  - name: /:org/:repo/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /:org/:repo/git-receive-pack
+    permissions:
+    - src.repositories.delete
+    - src.repositories.get
+    - src.repositories.getPRs
+    - src.repositories.listSecrets
+    - src.repositories.modifyProtectedRefsPRs
+    - src.repositories.modifyRegularRefsPRs
+    - src.repositories.useBypass
+    has_auth_unit_test: true
+  - name: /:org/:repo/git-upload-pack
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /:org/:repo/info/lfs
+    permissions: []
+    has_auth_unit_test: false
+  - name: /:org/:repo/info/lfs/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /:org/:repo/info/lfs/locks
+    permissions:
+    - src.repositories.createLFSObjectLock
+    - src.repositories.listLFSLocks
+    has_auth_unit_test: true
+  - name: /:org/:repo/info/lfs/locks/:id/unlock
+    permissions:
+    - src.repositories.deleteLFSObjectLock
+    has_auth_unit_test: true
+  - name: /:org/:repo/info/lfs/locks/verify
+    permissions:
+    - src.repositories.listLFSLocks
+    has_auth_unit_test: true
+  - name: /:org/:repo/info/lfs/objects/batch
+    permissions:
+    - src.repositories.createLFSObjectLock
+    - src.repositories.get
+    - src.repositories.listLFSLocks
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: /:org/:repo/info/refs
+    permissions:
+    - src.repositories.get
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: /:repo_id
+    permissions: []
+    has_auth_unit_test: false
+  - name: /:repo_id/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /:repo_id/git-receive-pack
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.modifyRegularRefsPRs
+    - src.repositories.useBypass
+    has_auth_unit_test: true
+  - name: /:repo_id/git-upload-pack
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /:repo_id/info/refs
+    permissions:
+    - src.repositories.get
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: /api/v1
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/attachments
+    permissions:
+    - src.me.upload
+    has_auth_unit_test: true
+  - name: /api/v1/attachments/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/attachments/:id
+    permissions:
+    - src.repositories.getReleases
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: /api/v1/attachments/releaseAssetUpload
+    permissions:
+    - src.me.upload
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+  - name: /api/v1/attachments/targetedUpload
+    permissions:
+    - src.me.upload
+    - src.repositories.updateComments
+    - src.repositories.updateIssues
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+  - name: /api/v1/me
+    permissions:
+    - src.me.getProfile
+    - src.me.setProfile
+    has_auth_unit_test: true
+  - name: /api/v1/me/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/me/flags
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/me/pullrequests
+    permissions:
+    - src.me.listPRs
+    - src.repositories.listPRs
+    has_auth_unit_test: true
+  - name: /api/v1/me/settings
+    permissions:
+    - src.me.getSettings
+    has_auth_unit_test: true
+  - name: /api/v1/me/settings/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/me/settings/set
+    permissions:
+    - src.me.setSettings
+    has_auth_unit_test: true
+  - name: /api/v1/me/settings/unset
+    permissions:
+    - src.me.unsetSettings
+    has_auth_unit_test: true
+  - name: /api/v1/me/slug
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/me/uploads
+    permissions:
+    - src.me.upload
+    has_auth_unit_test: true
+  - name: /api/v1/me/uploads/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/orgs
+    permissions:
+    - src.me.createOrg
+    has_auth_unit_test: true
+  - name: /api/v1/orgs/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/orgs/:org/repos
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/orgs/:org/repos/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/orgs/:org/users
+    permissions:
+    - organization-manager.organizations.membership
+    - organization-manager.users.create
+    has_auth_unit_test: true
+  - name: /api/v1/orgs/:org/users/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/orgs/:org/users/removeByIdentity
+    permissions:
+    - organization-manager.users.delete
+    has_auth_unit_test: true
+  - name: /api/v1/orgs/import
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/repos
+    permissions:
+    - src.repositories.create
+    has_auth_unit_test: true
+  - name: /api/v1/repos/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/repos/:org/:repo
+    permissions:
+    - src.repositories.delete
+    - src.repositories.get
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/blame
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/branches
+    permissions:
+    - src.repositories.get
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/commit
+    permissions:
+    - src.repositories.get
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/commits
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/fileContent
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/fileDiff
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/listTree
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pathInfo
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests
+    permissions:
+    - src.repositories.createPRs
+    - src.repositories.listPRs
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id
+    permissions:
+    - src.repositories.get
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/abort
+    permissions:
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/decision
+    permissions:
+    - src.repositories.setPRDecision
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/discard
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/iterations
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/markdraft
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/merge
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.mergePRs
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/mergechecks
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/permissions
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/publish
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/:pr_id/reopen
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/pullrequests/validate
+    permissions:
+    - src.repositories.validatePR
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/raw
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/resolveRevision
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/tags
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/repos/:org/:repo/treeDiff
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /api/v1/users
+    permissions:
+    - src.me.filterUsers
+    has_auth_unit_test: true
+  - name: /api/v1/users/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /api/v1/users/:username/pullrequests
+    permissions:
+    - src.me.listPRs
+    - src.repositories.listPRs
+    has_auth_unit_test: true
+  - name: /api/v1/users/:username/repos
+    permissions:
+    - src.me.listRepos
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: /docs*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /healthz
+    permissions: []
+    has_auth_unit_test: false
+  - name: /oidc
+    permissions: []
+    has_auth_unit_test: false
+  - name: /oidc/*
+    permissions: []
+    has_auth_unit_test: false
+  - name: /oidc/.well-known/jwks
+    permissions: []
+    has_auth_unit_test: false
+  - name: /oidc/.well-known/openid-configuration
+    permissions: []
+    has_auth_unit_test: false
+  - name: /rate-check
+    permissions: []
+    has_auth_unit_test: false
+- name: yandex.cloud.priv.billing.integration.v2.ServiceInstanceService
+  methods:
+  - name: AuthorizeBinding
+    permissions:
+    - src.organizations.billingBind
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.organizations.billingDelete
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.organizations.billingGet
+    has_auth_unit_test: true
+  - name: SetStatus
+    permissions:
+    - src.organizations.billingSetStatus
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.plumbing.v1.CommitService
+  methods:
+  - name: Blame
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: Create
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetBulk
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: MergeBases
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: MergeBasesBulk
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: false
+- name: yandex.cloud.priv.gitcore.plumbing.v1.ContentService
+  methods:
+  - name: ListTree
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: PathInfo
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.plumbing.v1.DiffService
+  methods:
+  - name: CommentRegion
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: FilesDiff
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: MergeRevisions
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: RangeTreeDiff
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: TreeDiff
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.plumbing.v1.ReferenceService
+  methods:
+  - name: ListBranches
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListTags
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: Resolve
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.repositories.get
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.plumbing.v1.RepositoryService
+  methods:
+  - name: DuplicateRepository
+    permissions:
+    - src.repositories.get
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.AISkillService
+  methods:
+  - name: ListSkills
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: RenderInstructions
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.AccessBindingsService
+  methods:
+  - name: ListAccessBindings
+    permissions:
+    - organization-manager.organizations.listAccessBindings
+    - src.projects.listAccessBindings
+    - src.repositories.listAccessBindings
+    has_auth_unit_test: true
+  - name: SetAccessBindings
+    permissions:
+    - organization-manager.organizations.updateAccessBindings
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: UpdateAccessBindings
+    permissions:
+    - organization-manager.organizations.updateAccessBindings
+    - src.projects.updateAccessBindings
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.AccessService
+  methods:
+  - name: Authenticate
+    permissions: []
+    has_auth_unit_test: true
+  - name: Authorize
+    permissions:
+    - organization-manager.users.delete
+    - src.repositories.update
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.AchievementService
+  methods:
+  - name: GetAchievement
+    permissions:
+    - src.me.listAchievements
+    has_auth_unit_test: true
+  - name: ListAchievementUnlockers
+    permissions:
+    - src.me.listAchievements
+    has_auth_unit_test: true
+  - name: ListPublicAchievements
+    permissions:
+    - src.me.listAchievements
+    has_auth_unit_test: true
+  - name: ListUnlockedAchievements
+    permissions:
+    - src.me.getProfile
+    has_auth_unit_test: true
+  - name: LockAchievement
+    permissions: []
+    has_auth_unit_test: true
+  - name: UnlockAchievement
+    permissions: []
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.ArtifactsRegistryService
+  methods:
+  - name: AuthorizeProxyCall
+    permissions:
+    - src.repositories.getArtifactsRegistry
+    - src.repository.get
+    - src.viewer
+    has_auth_unit_test: true
+  - name: AuthorizeProxyCallByPackage
+    permissions:
+    - src.repositories.pullFromArtifactsRegistry
+    - src.repositories.pushToArtifactsRegistry
+    has_auth_unit_test: true
+  - name: ForgetArtifactRegistry
+    permissions:
+    - src.repositories.addArtifactsRegistry
+    - src.repositories.deleteArtifactsRegistry
+    has_auth_unit_test: true
+  - name: GetArtifactRegistry
+    permissions:
+    - src.repositories.getArtifactsRegistry
+    has_auth_unit_test: true
+  - name: GetArtifactRegistryByOrgSlugAndRegistry
+    permissions:
+    - src.repositories.getArtifactsRegistry
+    has_auth_unit_test: true
+  - name: GetBulkCloudRegistries
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetPackage
+    permissions:
+    - src.repositories.pullFromArtifactsRegistry
+    - src.repositories.pushToArtifactsRegistry
+    has_auth_unit_test: true
+  - name: ListArtifactRegistries
+    permissions:
+    - src.repositories.getArtifactsRegistry
+    - src.repositories.pullFromArtifactsRegistry
+    has_auth_unit_test: true
+  - name: ListCloudRegistries
+    permissions:
+    - src.repositories.getArtifactsRegistry
+    has_auth_unit_test: true
+  - name: ListPackageVersions
+    permissions:
+    - src.repositories.pullFromArtifactsRegistry
+    - src.repositories.pushToArtifactsRegistry
+    has_auth_unit_test: true
+  - name: ListPackages
+    permissions:
+    - src.repositories.pullFromArtifactsRegistry
+    - src.repositories.pushToArtifactsRegistry
+    has_auth_unit_test: true
+  - name: SetupCloudRegistry
+    permissions:
+    - src.repositories.addArtifactsRegistry
+    has_auth_unit_test: true
+  - name: UpdatePackage
+    permissions:
+    - src.repositories.pushToArtifactsRegistry
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.AssociatedRegistryService
+  methods:
+  - name: AssociateRegistry
+    permissions:
+    - src.projects.addArtifactsRegistry
+    - src.repositories.addArtifactsRegistry
+    has_auth_unit_test: true
+  - name: ForgetAssociatedRegistry
+    permissions:
+    - src.projects.deleteArtifactsRegistry
+    - src.repositories.deleteArtifactsRegistry
+    has_auth_unit_test: true
+  - name: GetAssociatedRegistryInfo
+    permissions:
+    - src.projects.getArtifactsRegistry
+    - src.repositories.getArtifactsRegistry
+    has_auth_unit_test: true
+  - name: ListAssociatedRegistries
+    permissions:
+    - src.projects.getArtifactsRegistry
+    - src.repositories.getArtifactsRegistry
+    has_auth_unit_test: true
+  - name: ListAssociatedRegistriesByArtifactRegistry
+    permissions:
+    - src.repositories.getArtifactsRegistry
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.BranchPolicyService
+  methods:
+  - name: Get
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetBypass
+    permissions:
+    - src.repositories.getBypassStatus
+    has_auth_unit_test: true
+  - name: SetBypass
+    permissions:
+    - src.repositories.setBypassStatus
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.CIService
+  methods:
+  - name: RestartAllWorkflows
+    permissions:
+    - src.repositories.get
+    - src.repositories.runCIWorkflow
+    has_auth_unit_test: true
+  - name: RestartWorkflow
+    permissions:
+    - src.repositories.runCIWorkflow
+    has_auth_unit_test: true
+  - name: RunPRWorkflows
+    permissions:
+    - src.repositories.get
+    - src.repositories.runCIWorkflow
+    has_auth_unit_test: true
+  - name: RunWorkflows
+    permissions:
+    - src.repositories.runCIWorkflow
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.FeaturesService
+  methods:
+  - name: Get
+    permissions:
+    - src.me.getFeatures
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.FilterStateService
+  methods:
+  - name: Get
+    permissions:
+    - src.me.getFilterState
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.me.updateFilterState
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.GenericReleaseService
+  methods:
+  - name: Create
+    permissions:
+    - src.repositories.createReleases
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.repositories.deleteReleases
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: Discard
+    permissions:
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: GetByTag
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: GetChanges
+    permissions:
+    - src.repositories.createReleases
+    has_auth_unit_test: true
+  - name: GetLatest
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: MarkAsLatest
+    permissions: []
+    has_auth_unit_test: false
+  - name: Update
+    permissions:
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.GitignorePresetsService
+  methods:
+  - name: Create
+    permissions:
+    - src.me.createGitignore
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.me.listGitignore
+    has_auth_unit_test: true
+  - name: Suggest
+    permissions:
+    - src.me.listGitignore
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.GreeterService
+  methods:
+  - name: Hello
+    permissions: []
+    has_auth_unit_test: false
+- name: yandex.cloud.priv.gitcore.v1.InviteService
+  methods:
+  - name: Accept
+    permissions:
+    - src.me.acceptInvite
+    has_auth_unit_test: true
+  - name: AddToRepo
+    permissions:
+    - organization-manager.organizations.createInvitation
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: AddToRepoBulk
+    permissions:
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: AddToRepoBulkByEmails
+    permissions:
+    - organization-manager.organizations.createInvitation
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: Cancel
+    permissions:
+    - organization-manager.organizations.deleteInvitation
+    has_auth_unit_test: true
+  - name: Create
+    permissions:
+    - organization-manager.organizations.createInvitation
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: CreateBulk
+    permissions:
+    - organization-manager.organizations.createInvitation
+    has_auth_unit_test: true
+  - name: CreateBulkByEmails
+    permissions:
+    - organization-manager.organizations.createInvitation
+    has_auth_unit_test: true
+  - name: CreateBulkByIDs
+    permissions:
+    - organization-manager.organizations.createInvitation
+    has_auth_unit_test: true
+  - name: CreateBulkToRepo
+    permissions:
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: GetInviteByCode
+    permissions:
+    - src.me.getInvite
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - organization-manager.organizations.listInvitations
+    has_auth_unit_test: true
+  - name: ListMyIncomingInvitations
+    permissions:
+    - src.me.listInvites
+    has_auth_unit_test: true
+  - name: Reject
+    permissions:
+    - src.me.rejectInvite
+    has_auth_unit_test: true
+  - name: Resend
+    permissions:
+    - organization-manager.organizations.resendInvitation
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.IssueCommentService
+  methods:
+  - name: Create
+    permissions:
+    - src.repositories.commentIssues
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: GetBulk
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListReactedUsers
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: UpdateAttachments
+    permissions:
+    - src.repositories.updateComments
+    has_auth_unit_test: true
+  - name: UpdateReactions
+    permissions:
+    - src.repositories.reactOnIssues
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.IssueLinkService
+  methods:
+  - name: Create
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.IssueService
+  methods:
+  - name: Create
+    permissions:
+    - src.me.getProfile
+    - src.repositories.changeVisibilityForIssues
+    - src.repositories.commentIssues
+    - src.repositories.createIssues
+    - src.repositories.getLabels
+    - src.repositories.getMilestones
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.changeVisibilityForIssues
+    - src.repositories.commentIssues
+    - src.repositories.getLabels
+    - src.repositories.getMilestones
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: GetBulk
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.getMilestones
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: ListAttachments
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListBoardIssues
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.getMilestones
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: ListFeed
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListReactedUsers
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListUserIssues
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.getMilestones
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.me.getProfile
+    - src.repositories.changeVisibilityForIssues
+    - src.repositories.commentIssues
+    - src.repositories.getLabels
+    - src.repositories.getMilestones
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: UpdateAttachments
+    permissions:
+    - src.repositories.changeVisibilityForIssues
+    - src.repositories.commentIssues
+    - src.repositories.getLabels
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: UpdateLabels
+    permissions:
+    - src.repositories.changeVisibilityForIssues
+    - src.repositories.commentIssues
+    - src.repositories.getLabels
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: UpdateLinkedPullRequests
+    permissions:
+    - src.repositories.changeVisibilityForIssues
+    - src.repositories.commentIssues
+    - src.repositories.getLabels
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    - src.repositories.updatePRs
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: UpdateReactions
+    permissions:
+    - src.repositories.changeVisibilityForIssues
+    - src.repositories.commentIssues
+    - src.repositories.getLabels
+    - src.repositories.getPRs
+    - src.repositories.reactOnIssues
+    - src.repositories.updateIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: UpdateVisibility
+    permissions:
+    - src.repositories.changeVisibilityForIssues
+    - src.repositories.commentIssues
+    - src.repositories.getLabels
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.IssueStatusService
+  methods:
+  - name: Get
+    permissions:
+    - src.me.getIssueStatus
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.me.getIssueStatus
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.LabelService
+  methods:
+  - name: Create
+    permissions:
+    - src.repositories.createLabels
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.repositories.deleteLabels
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.getLabels
+    has_auth_unit_test: true
+  - name: GetBulk
+    permissions:
+    - src.repositories.getLabels
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.listLabels
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.repositories.updateLabels
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.LicensePresetsService
+  methods:
+  - name: Create
+    permissions:
+    - src.me.createLicense
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.me.listLicense
+    has_auth_unit_test: true
+  - name: Suggest
+    permissions:
+    - src.me.listLicense
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.MeService
+  methods:
+  - name: CanUseAI
+    permissions:
+    - src.me.listOrgs
+    has_auth_unit_test: true
+  - name: ChoosePersonalOrg
+    permissions:
+    - src.me.choosePersonalOrg
+    has_auth_unit_test: true
+  - name: ClearStatus
+    permissions: []
+    has_auth_unit_test: false
+  - name: CreatePAT
+    permissions:
+    - src.me.createPAT
+    has_auth_unit_test: true
+  - name: CreatePublicSshKey
+    permissions:
+    - src.me.createPublicKey
+    has_auth_unit_test: true
+  - name: DeletePAT
+    permissions:
+    - src.me.deletePAT
+    has_auth_unit_test: true
+  - name: DeletePublicSshKey
+    permissions:
+    - src.me.deletePublicKey
+    has_auth_unit_test: true
+  - name: GetMyCodeAssistSettings
+    permissions:
+    - src.me.getCodeAssistSettings
+    has_auth_unit_test: true
+  - name: GetPersonalOrgCandidates
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetProfile
+    permissions:
+    - src.me.getProfile
+    has_auth_unit_test: true
+  - name: GetSettings
+    permissions:
+    - src.me.getSettings
+    has_auth_unit_test: true
+  - name: ListOrgs
+    permissions:
+    - src.me.listOrgs
+    has_auth_unit_test: true
+  - name: ListPATs
+    permissions:
+    - src.me.listPAT
+    has_auth_unit_test: true
+  - name: ListPublicSshKeys
+    permissions:
+    - src.me.listPublicKey
+    has_auth_unit_test: true
+  - name: SetFlag
+    permissions:
+    - src.me.setSettings
+    has_auth_unit_test: true
+  - name: SetStatus
+    permissions: []
+    has_auth_unit_test: false
+  - name: UpdateImage
+    permissions:
+    - src.me.setSettings
+    has_auth_unit_test: true
+  - name: UpdateImageAttachment
+    permissions:
+    - src.me.setSettings
+    has_auth_unit_test: true
+  - name: UpdateMyCodeAssistSettings
+    permissions:
+    - src.me.getCodeAssistSettings
+    has_auth_unit_test: true
+  - name: UpdatePAT
+    permissions:
+    - src.me.updatePAT
+    has_auth_unit_test: true
+  - name: UpdateProfile
+    permissions:
+    - src.me.setSettings
+    has_auth_unit_test: true
+  - name: UpdateSettings
+    permissions:
+    - src.me.setSettings
+    has_auth_unit_test: true
+  - name: UpdateUsername
+    permissions:
+    - src.me.setSettings
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.MigrationService
+  methods:
+  - name: Dismiss
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetProviderFeatures
+    permissions:
+    - src.me.getExternalMigration
+    has_auth_unit_test: true
+  - name: GetSettings
+    permissions: []
+    has_auth_unit_test: false
+  - name: Migrate
+    permissions:
+    - src.repositories.create
+    has_auth_unit_test: true
+  - name: Restart
+    permissions: []
+    has_auth_unit_test: false
+  - name: RestartMirroring
+    permissions: []
+    has_auth_unit_test: false
+  - name: UpdateSettings
+    permissions: []
+    has_auth_unit_test: false
+  - name: Validate
+    permissions:
+    - src.repositories.create
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.MilestoneService
+  methods:
+  - name: Create
+    permissions:
+    - src.repositories.createMilestones
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.repositories.deleteMilestones
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.getMilestones
+    has_auth_unit_test: true
+  - name: GetBulk
+    permissions:
+    - src.repositories.getMilestones
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.listMilestones
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.repositories.updateMilestones
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.OperationService
+  methods:
+  - name: Cancel
+    permissions:
+    - src.repositories.cancelOperation
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.me.getProfile
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetAddToRepo
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetAddToRepoBulk
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetCancelInvite
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetCreateInvite
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetCreateInvitesBulk
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetCreatePersonalOrganization
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetMerge
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetMigration
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetResendInvite
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetValidateMigration
+    permissions: []
+    has_auth_unit_test: false
+  - name: List
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.OrgService
+  methods:
+  - name: CreateOrg
+    permissions:
+    - src.me.createOrg
+    has_auth_unit_test: true
+  - name: GetAvailableActions
+    permissions:
+    - organization-manager.groups.create
+    - organization-manager.groups.delete
+    - organization-manager.groups.get
+    - organization-manager.groups.listMembers
+    - organization-manager.groups.manageUserAccountMembers
+    - organization-manager.groups.update
+    - organization-manager.organizations.createInvitation
+    - organization-manager.organizations.listAccessBindings
+    - organization-manager.organizations.membership
+    - organization-manager.organizations.update
+    - organization-manager.organizations.updateAccessBindings
+    - organization-manager.users.delete
+    - src.me.createOrg
+    - src.organizations.getSourcecraftTariff
+    - src.organizations.setSourcecraftTariff
+    - src.projects.create
+    - src.projects.delete
+    - src.projects.get
+    - src.projects.update
+    - src.repositories.addArtifactsRegistry
+    - src.repositories.create
+    - src.repositories.delete
+    - src.repositories.deleteArtifactsRegistry
+    - src.repositories.getArtifactsRegistry
+    - src.repositories.pullFromArtifactsRegistry
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: GetProfile
+    permissions:
+    - src.me.listOrgs
+    has_auth_unit_test: true
+  - name: GetTariffs
+    permissions:
+    - src.organizations.getSourcecraftTariff
+    has_auth_unit_test: true
+  - name: ListUsers
+    permissions:
+    - organization-manager.organizations.membership
+    has_auth_unit_test: true
+  - name: RemoveUser
+    permissions:
+    - organization-manager.users.delete
+    has_auth_unit_test: true
+  - name: SetTariffs
+    permissions:
+    - src.organizations.setSourcecraftTariff
+    has_auth_unit_test: true
+  - name: UpdateImage
+    permissions:
+    - organization-manager.organizations.update
+    has_auth_unit_test: true
+  - name: UpdateImageAttachment
+    permissions:
+    - organization-manager.organizations.update
+    has_auth_unit_test: true
+  - name: UpdateProfile
+    permissions:
+    - organization-manager.organizations.update
+    has_auth_unit_test: true
+  - name: UpdateSlug
+    permissions:
+    - organization-manager.organizations.update
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.PRCommentService
+  methods:
+  - name: Create
+    permissions:
+    - src.repositories.createComments
+    has_auth_unit_test: true
+  - name: CreateBulk
+    permissions:
+    - src.repositories.createComments
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.repositories.deleteComments
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: GetBulk
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: ListReactedUsers
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: PublishDrafts
+    permissions:
+    - src.repositories.createComments
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.repositories.resolveComments
+    - src.repositories.updateComments
+    has_auth_unit_test: true
+  - name: UpdateReactions
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.PRReviewersService
+  methods:
+  - name: AutoAssign
+    permissions:
+    - src.repositories.assignPRReviewer
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.listPRReviewer
+    has_auth_unit_test: true
+  - name: Set
+    permissions:
+    - src.repositories.assignPRReviewer
+    has_auth_unit_test: true
+  - name: SetDecision
+    permissions:
+    - src.repositories.setPRDecision
+    has_auth_unit_test: true
+  - name: Suggest
+    permissions:
+    - src.repositories.assignPRReviewer
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.repositories.assignPRReviewer
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.PRService
+  methods:
+  - name: Abort
+    permissions:
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: Create
+    permissions:
+    - src.repositories.createPRs
+    - src.repositories.get
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: Discard
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: Draft
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.get
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: GetAvailableActions
+    permissions:
+    - src.repositories.createComments
+    - src.repositories.createPRs
+    - src.repositories.get
+    - src.repositories.mergePRs
+    - src.repositories.modifyProtectedRefsPRs
+    - src.repositories.modifyRegularRefsPRs
+    - src.repositories.update
+    - src.repositories.updateComments
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: GetBulk
+    permissions:
+    - src.repositories.get
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: GetChanges
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: GetFileChanges
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: GetStats
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: ListFeed
+    permissions:
+    - src.repositories.getPRFeeds
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: ListIterations
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: ListMergeChecks
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: ListRepoPullRequests
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListUserPullRequests
+    permissions:
+    - src.me.listPRs
+    - src.repositories.listPRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: Merge
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.mergePRs
+    - src.repositories.modifyProtectedRefsPRs
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: NeuroDescribe
+    permissions:
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: NeuroReview
+    permissions:
+    - src.repositories.createComments
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: Publish
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: Reopen
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: SwapPRUUIDToPrivateID
+    permissions:
+    - src.repositories.get
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: UpdateLinkedIssues
+    permissions:
+    - src.repositories.updateIssues
+    - src.repositories.updatePRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: UpdateMergeCheck
+    permissions: []
+    has_auth_unit_test: false
+  - name: Validate
+    permissions:
+    - src.repositories.createPRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.PagesService
+  methods:
+  - name: GetInfo
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: Resolve
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.RatingService
+  methods:
+  - name: GetMyRepoReaction
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListMyReactions
+    permissions:
+    - src.me.getProfile
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: RateRepo
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.ReleaseService
+  methods:
+  - name: Create
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: CreateComponent
+    permissions:
+    - src.repositories.createSecrets
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetByVersion
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetComponent
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetPreviousRelease
+    permissions: []
+    has_auth_unit_test: false
+  - name: ListByComponent
+    permissions:
+    - src.repositories.listMilestones
+    has_auth_unit_test: true
+  - name: ListByRepo
+    permissions:
+    - src.repositories.listMilestones
+    has_auth_unit_test: true
+  - name: ListComponentsByRepo
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: Prepare
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.RepoService
+  methods:
+  - name: Blame
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: Commit
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: CommitResolvedConflicts
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: Create
+    permissions:
+    - src.projects.create
+    - src.repositories.create
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: CreateBranch
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: Delete
+    permissions:
+    - src.repositories.delete
+    has_auth_unit_test: true
+  - name: DeleteBranch
+    permissions:
+    - src.repositories.modifyProtectedRefsPRs
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: DiscoverAllRepositories
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: EvaluatePathFilters
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: FileDiff
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: Fork
+    permissions:
+    - src.repositories.create
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ForkChainInfo
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: Get
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetAvailableActions
+    permissions:
+    - src.repositories.addArtifactsRegistry
+    - src.repositories.create
+    - src.repositories.createIssues
+    - src.repositories.createLabels
+    - src.repositories.createMilestones
+    - src.repositories.createPRs
+    - src.repositories.createReleases
+    - src.repositories.createSecrets
+    - src.repositories.delete
+    - src.repositories.deleteArtifactsRegistry
+    - src.repositories.deleteLabels
+    - src.repositories.deleteMilestones
+    - src.repositories.deleteReleases
+    - src.repositories.deleteSecrets
+    - src.repositories.get
+    - src.repositories.getArtifactsRegistry
+    - src.repositories.getBypassStatus
+    - src.repositories.getCIArtifacts
+    - src.repositories.getCIWorkflowContent
+    - src.repositories.getLabels
+    - src.repositories.getMilestones
+    - src.repositories.getPRs
+    - src.repositories.getReleases
+    - src.repositories.getSecrets
+    - src.repositories.getWebhooks
+    - src.repositories.getWebhooksDeliveries
+    - src.repositories.listAccessBindings
+    - src.repositories.listCIFlux
+    - src.repositories.listContributors
+    - src.repositories.listLabels
+    - src.repositories.listMilestones
+    - src.repositories.listPRs
+    - src.repositories.listSecrets
+    - src.repositories.modifyProtectedRefsPRs
+    - src.repositories.modifyRegularRefsPRs
+    - src.repositories.runCIWorkflow
+    - src.repositories.setBypassStatus
+    - src.repositories.update
+    - src.repositories.updateAccessBindings
+    - src.repositories.updateIssues
+    - src.repositories.updateLabels
+    - src.repositories.updateMilestones
+    - src.repositories.updateReleases
+    - src.repositories.updateSecrets
+    - src.repositories.updateWebhooks
+    - src.repositories.useBypass
+    - src.repositories.useWebhooks
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: GetBulk
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetCIYamlPath
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetCommitsByHashBulk
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetContributionSuggests
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetInstructionToSyncBranch
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetMergeConflict
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: GetRepoStatistics
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetTextFileContent
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: LFSInfo
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListBranches
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListCommits
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListContributors
+    permissions:
+    - src.repositories.get
+    - src.repositories.listContributors
+    has_auth_unit_test: true
+  - name: ListForks
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListMyRepositories
+    permissions:
+    - src.repositories.get
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: ListOrgRepositories
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListOrgRepositoriesBySlug
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListSrcYamlTemplates
+    permissions:
+    - src.me.listGitignore
+    has_auth_unit_test: true
+  - name: ListTags
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListTemplates
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListTree
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListUserRepositories
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: MergeRevisions
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: NormalizeSlug
+    permissions:
+    - organization-manager.organizations.membership
+    - src.repositories.create
+    has_auth_unit_test: true
+  - name: PathInfo
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ResolveConflicts
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: ResolveRevision
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: RollbackResolvedConflicts
+    permissions:
+    - src.repositories.modifyRegularRefsPRs
+    has_auth_unit_test: true
+  - name: SuggestPullRequest
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: SuggestSrcYamlTemplate
+    permissions: []
+    has_auth_unit_test: false
+  - name: SuggestTemplate
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: SyncBranch
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: TransferRepository
+    permissions: []
+    has_auth_unit_test: false
+  - name: TreeDiff
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: Update
+    permissions:
+    - organization-manager.organizations.update
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: UpdateImage
+    permissions:
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: UpdateImageAttachment
+    permissions:
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: UpdateSlug
+    permissions:
+    - src.repositories.update
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.SearchService
+  methods:
+  - name: SuggestIssuesIssue
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: SuggestIssuesPr
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: SuggestPrsIssue
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: SuggestRepositoriesOrg
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: SuggestUsers
+    permissions:
+    - src.me.filterUsers
+    has_auth_unit_test: true
+  - name: SuggestUsersIssue
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: SuggestUsersOrg
+    permissions:
+    - organization-manager.organizations.membership
+    has_auth_unit_test: true
+  - name: SuggestUsersPR
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: SuggestUsersRepo
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.ServiceConnectionService
+  methods:
+  - name: CreateServiceConnection
+    permissions:
+    - src.repositories.createServiceConnection
+    has_auth_unit_test: true
+  - name: DeleteServiceConnection
+    permissions:
+    - src.repositories.deleteServiceConnection
+    has_auth_unit_test: true
+  - name: GetGrantStatus
+    permissions:
+    - src.repositories.createServiceConnection
+    has_auth_unit_test: true
+  - name: GetServiceConnection
+    permissions:
+    - src.repositories.getServiceConnection
+    has_auth_unit_test: true
+  - name: GetServiceConnectionByCloudOrg
+    permissions:
+    - src.repositories.getServiceConnection
+    has_auth_unit_test: true
+  - name: ListFolderServiceAccounts
+    permissions:
+    - src.repositories.createServiceConnection
+    has_auth_unit_test: true
+  - name: ListOrganizationFolders
+    permissions:
+    - src.repositories.createServiceConnection
+    has_auth_unit_test: true
+  - name: ListRepositoryServiceConnections
+    permissions:
+    - src.repositories.getServiceConnection
+    has_auth_unit_test: true
+  - name: ListServiceConnections
+    permissions:
+    - src.repositories.getServiceConnection
+    has_auth_unit_test: true
+  - name: UpdateServiceConnection
+    permissions:
+    - src.repositories.createServiceConnection
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.SlugService
+  methods:
+  - name: ResolveSlug
+    permissions:
+    - src.me.resolveSlug
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.SubscriptionService
+  methods:
+  - name: Get
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: UpdateSubscriptionType
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.TeamService
+  methods:
+  - name: AddMembers
+    permissions:
+    - organization-manager.groups.manageUserAccountMembers
+    has_auth_unit_test: true
+  - name: Create
+    permissions:
+    - organization-manager.groups.create
+    has_auth_unit_test: true
+  - name: DeleteByIdentity
+    permissions:
+    - organization-manager.groups.delete
+    has_auth_unit_test: true
+  - name: GetByIdentity
+    permissions:
+    - organization-manager.groups.get
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - organization-manager.groups.get
+    has_auth_unit_test: true
+  - name: ListMembers
+    permissions:
+    - organization-manager.groups.listMembers
+    has_auth_unit_test: true
+  - name: RemoveMembers
+    permissions:
+    - organization-manager.groups.manageUserAccountMembers
+    has_auth_unit_test: true
+  - name: UpdateByIdentity
+    permissions:
+    - organization-manager.groups.update
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.UserService
+  methods:
+  - name: GetProfile
+    permissions:
+    - src.me.getProfile
+    has_auth_unit_test: true
+  - name: GetProfiles
+    permissions:
+    - src.me.getProfile
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.WebSocketService
+  methods:
+  - name: GenerateAuthToken
+    permissions:
+    - src.repositories.get
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.gitcore.v1.WebhookService
+  methods:
+  - name: Enable
+    permissions:
+    - src.repositories.update
+    - src.repositories.updateWebhooks
+    has_auth_unit_test: true
+  - name: GetBySlug
+    permissions:
+    - src.repositories.getWebhooks
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: GetDeliveries
+    permissions:
+    - src.repositories.getWebhooksDeliveries
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.getWebhooks
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: Ping
+    permissions:
+    - src.repositories.update
+    - src.repositories.useWebhooks
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.saas.v1.InstanceService
+  methods:
+  - name: Delete
+    permissions:
+    - src.projects.forceDelete
+    - src.repositories.forceDelete
+    has_auth_unit_test: true
+- name: yandex.cloud.priv.src.v1.QuotaLimitService
+  methods:
+  - name: BatchUpdate
+    permissions: []
+    has_auth_unit_test: false
+  - name: Get
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetDefault
+    permissions: []
+    has_auth_unit_test: false
+  - name: Update
+    permissions: []
+    has_auth_unit_test: false
+- name: yandex.cloud.public.sourcecraft.v1.AttachmentService
+  methods:
+  - name: DeleteIssueAttachment
+    permissions:
+    - src.repositories.updateComments
+    has_auth_unit_test: true
+  - name: DeleteIssueAttachmentByID
+    permissions: []
+    has_auth_unit_test: false
+  - name: DeleteIssueCommentAttachment
+    permissions:
+    - src.repositories.updateComments
+    has_auth_unit_test: true
+  - name: GetIssueAttachment
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: GetIssueAttachmentByID
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetIssueCommentAttachment
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: ListIssueAttachments
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: ListIssueAttachmentsByID
+    permissions: []
+    has_auth_unit_test: false
+  - name: ListIssueCommentAttachments
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: RemoveIssueAttachment
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: RemoveIssueCommentAttachment
+    permissions:
+    - src.repositories.updateComments
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.CIService
+  methods:
+  - name: GetCubeArtifacts
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetCubeLogs
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetRun
+    permissions: []
+    has_auth_unit_test: false
+  - name: GetWorkflow
+    permissions: []
+    has_auth_unit_test: false
+  - name: ListRuns
+    permissions: []
+    has_auth_unit_test: false
+  - name: ListRunsByID
+    permissions: []
+    has_auth_unit_test: false
+  - name: RunWorkflows
+    permissions: []
+    has_auth_unit_test: false
+  - name: RunWorkflowsByID
+    permissions: []
+    has_auth_unit_test: false
+- name: yandex.cloud.public.sourcecraft.v1.CodeExplanationService
+  methods:
+  - name: DropCache
+    permissions: []
+    has_auth_unit_test: false
+  - name: Get
+    permissions:
+    - src.me.codeExplanation
+    has_auth_unit_test: true
+  - name: RestoreConversation
+    permissions:
+    - src.me.restoreConversation
+    has_auth_unit_test: true
+  - name: ScheduleCodeExplanation
+    permissions:
+    - src.me.codeExplanation
+    has_auth_unit_test: true
+  - name: StoreConversation
+    permissions:
+    - src.me.codeExplanation
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.InviteService
+  methods:
+  - name: CreateOrganizationInvites
+    permissions:
+    - organization-manager.organizations.createInvitation
+    has_auth_unit_test: true
+  - name: CreateOrganizationInvitesByID
+    permissions:
+    - organization-manager.organizations.createInvitation
+    has_auth_unit_test: true
+  - name: CreateRepositoryInvites
+    permissions:
+    - organization-manager.organizations.createInvitation
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: CreateRepositoryInvitesByID
+    permissions:
+    - organization-manager.organizations.createInvitation
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: ListOrganizationInvites
+    permissions:
+    - organization-manager.organizations.listInvitations
+    has_auth_unit_test: true
+  - name: ListOrganizationInvitesByID
+    permissions:
+    - organization-manager.organizations.listInvitations
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.IssueCommentService
+  methods:
+  - name: AddReaction
+    permissions:
+    - src.repositories.reactOnIssues
+    has_auth_unit_test: true
+  - name: CreateIssueComment
+    permissions:
+    - src.repositories.commentIssues
+    has_auth_unit_test: true
+  - name: CreateIssueCommentByID
+    permissions:
+    - src.repositories.commentIssues
+    has_auth_unit_test: true
+  - name: DeleteIssueComment
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: GetIssueComment
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListIssueComments
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListIssueCommentsByID
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: RemoveReaction
+    permissions:
+    - src.repositories.reactOnIssues
+    has_auth_unit_test: true
+  - name: UpdateIssueComment
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.IssueLinkService
+  methods:
+  - name: CreateIssueLink
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: CreateIssueLinkByID
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: DeleteIssueLink
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: ListIssueLinks
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListIssueLinksByID
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.IssueService
+  methods:
+  - name: AddLabels
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: AddLabelsByID
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: AddLinkedPRs
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: AddLinkedPRsByID
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: CreateIssue
+    permissions:
+    - src.repositories.createIssues
+    - src.repositories.getLabels
+    - src.repositories.getMilestones
+    - src.repositories.listPRs
+    has_auth_unit_test: true
+  - name: CreateIssueByID
+    permissions:
+    - src.repositories.createIssues
+    has_auth_unit_test: true
+  - name: DeleteIssue
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: DeleteIssueByID
+    permissions:
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: GetIssue
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: GetIssueByID
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: GetLabels
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: GetLabelsByID
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: GetLinkedPRs
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: GetLinkedPRsByID
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListIssuesAssignedToAuthenticatedUser
+    permissions:
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ListRepositoryIssues
+    permissions:
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: ListRepositoryIssuesByID
+    permissions:
+    - src.repositories.viewIssues
+    - src.repositories.viewPrivateIssues
+    has_auth_unit_test: true
+  - name: RemoveLabels
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: RemoveLabelsByID
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: RemoveLinkedPRs
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: RemoveLinkedPRsByID
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updateIssues
+    has_auth_unit_test: true
+  - name: ReplaceLabels
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: ReplaceLabelsByID
+    permissions:
+    - src.repositories.getLabels
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: UpdateIssue
+    permissions:
+    - src.me.getProfile
+    - src.repositories.getMilestones
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+  - name: UpdateIssueByID
+    permissions:
+    - src.me.getProfile
+    - src.repositories.updateIssues
+    - src.repositories.viewIssues
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.IssueStatusService
+  methods:
+  - name: ListIssueStatus
+    permissions:
+    - src.me.getIssueStatus
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.LabelService
+  methods:
+  - name: CreateLabel
+    permissions:
+    - src.repositories.createLabels
+    has_auth_unit_test: true
+  - name: CreateLabelByID
+    permissions: []
+    has_auth_unit_test: false
+  - name: DeleteLabel
+    permissions:
+    - src.repositories.deleteLabels
+    has_auth_unit_test: true
+  - name: DeleteLabelByID
+    permissions:
+    - src.repositories.deleteLabels
+    has_auth_unit_test: true
+  - name: GetLabel
+    permissions:
+    - src.repositories.getLabels
+    has_auth_unit_test: true
+  - name: GetLabelByID
+    permissions:
+    - src.repositories.getLabels
+    has_auth_unit_test: true
+  - name: ListLabelsForRepository
+    permissions:
+    - src.repositories.listLabels
+    has_auth_unit_test: true
+  - name: ListLabelsForRepositoryByID
+    permissions:
+    - src.repositories.listLabels
+    has_auth_unit_test: true
+  - name: UpdateLabel
+    permissions:
+    - src.repositories.updateLabels
+    has_auth_unit_test: true
+  - name: UpdateLabelByID
+    permissions:
+    - src.repositories.updateLabels
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.MilestoneService
+  methods:
+  - name: CreateMilestone
+    permissions:
+    - src.repositories.createMilestones
+    has_auth_unit_test: true
+  - name: CreateMilestoneByID
+    permissions: []
+    has_auth_unit_test: false
+  - name: DeleteMilestone
+    permissions:
+    - src.repositories.deleteMilestones
+    has_auth_unit_test: true
+  - name: DeleteMilestoneByID
+    permissions:
+    - src.repositories.deleteMilestones
+    has_auth_unit_test: true
+  - name: GetMilestone
+    permissions:
+    - src.repositories.getMilestones
+    has_auth_unit_test: true
+  - name: GetMilestoneByID
+    permissions:
+    - src.repositories.getMilestones
+    has_auth_unit_test: true
+  - name: ListMilestonesForRepository
+    permissions:
+    - src.repositories.listMilestones
+    has_auth_unit_test: true
+  - name: ListMilestonesForRepositoryByID
+    permissions:
+    - src.repositories.listMilestones
+    has_auth_unit_test: true
+  - name: UpdateMilestone
+    permissions:
+    - src.repositories.updateMilestones
+    has_auth_unit_test: true
+  - name: UpdateMilestoneByID
+    permissions:
+    - src.repositories.updateMilestones
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.OperationService
+  methods:
+  - name: GetOrganizationInvitesOperation
+    permissions:
+    - organization-manager.organizations.createInvitation
+    has_auth_unit_test: true
+  - name: GetOrganizationInvitesOperationByID
+    permissions:
+    - organization-manager.organizations.createInvitation
+    has_auth_unit_test: true
+  - name: GetRepositoryInvitesOperation
+    permissions:
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: GetRepositoryInvitesOperationByID
+    permissions:
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.PullRequestCommentService
+  methods:
+  - name: CreatePullRequestComment
+    permissions:
+    - src.repositories.createComments
+    has_auth_unit_test: true
+  - name: CreatePullRequestCommentByID
+    permissions:
+    - src.repositories.createComments
+    has_auth_unit_test: true
+  - name: GetPullRequestComment
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: ListPullRequestComments
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+  - name: ListPullRequestCommentsByID
+    permissions:
+    - src.repositories.getComments
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.PullRequestReviewersService
+  methods:
+  - name: AutoAssign
+    permissions:
+    - src.repositories.assignPRReviewer
+    has_auth_unit_test: true
+  - name: AutoAssignByID
+    permissions:
+    - src.repositories.assignPRReviewer
+    has_auth_unit_test: true
+  - name: ListReviewers
+    permissions:
+    - src.repositories.listPRReviewer
+    has_auth_unit_test: true
+  - name: ListReviewersByID
+    permissions:
+    - src.repositories.listPRReviewer
+    has_auth_unit_test: true
+  - name: SetDecision
+    permissions:
+    - src.repositories.setPRDecision
+    has_auth_unit_test: true
+  - name: SetDecisionByID
+    permissions:
+    - src.repositories.setPRDecision
+    has_auth_unit_test: true
+  - name: UpdateReviewers
+    permissions:
+    - src.repositories.assignPRReviewer
+    has_auth_unit_test: true
+  - name: UpdateReviewersByID
+    permissions:
+    - src.repositories.assignPRReviewer
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.PullRequestService
+  methods:
+  - name: CreatePullRequest
+    permissions:
+    - src.repositories.createPRs
+    has_auth_unit_test: true
+  - name: CreatePullRequestByID
+    permissions:
+    - src.repositories.createPRs
+    has_auth_unit_test: true
+  - name: DiscardPullRequest
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: DiscardPullRequestByID
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: DraftPullRequest
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: DraftPullRequestByID
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: GetPullRequest
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: GetPullRequestByID
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: ListRepositoryPullRequests
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: ListRepositoryPullRequestsByID
+    permissions:
+    - src.repositories.getPRs
+    has_auth_unit_test: true
+  - name: ListUserPullRequests
+    permissions:
+    - src.me.getProfile
+    - src.repositories.listPRs
+    has_auth_unit_test: true
+  - name: ListUserPullRequestsByID
+    permissions:
+    - src.me.getProfile
+    - src.repositories.listPRs
+    has_auth_unit_test: true
+  - name: PublishPullRequest
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: PublishPullRequestByID
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: ReopenPullRequest
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: ReopenPullRequestByID
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: UpdatePullRequest
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+  - name: UpdatePullRequestByID
+    permissions:
+    - src.repositories.getPRs
+    - src.repositories.updatePRs
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.ReleaseService
+  methods:
+  - name: Create
+    permissions:
+    - src.repositories.createReleases
+    has_auth_unit_test: true
+  - name: CreateByID
+    permissions:
+    - src.repositories.createReleases
+    has_auth_unit_test: true
+  - name: DeleteByID
+    permissions: []
+    has_auth_unit_test: false
+  - name: DeleteByTag
+    permissions: []
+    has_auth_unit_test: false
+  - name: DiscardByID
+    permissions:
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+  - name: DiscardByTag
+    permissions:
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+  - name: GetByID
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: GetByTag
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: GetLatest
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: GetLatestByID
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: List
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: ListByID
+    permissions:
+    - src.repositories.getReleases
+    has_auth_unit_test: true
+  - name: PublishByID
+    permissions:
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+  - name: PublishByTag
+    permissions:
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+  - name: UpdateByID
+    permissions:
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+  - name: UpdateByTag
+    permissions:
+    - src.repositories.updateReleases
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.RepositoryService
+  methods:
+  - name: AddRepoRoles
+    permissions:
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: AddRepoRolesByID
+    permissions:
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: CreateRepository
+    permissions:
+    - src.repositories.create
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: CreateRepositoryByID
+    permissions:
+    - src.repositories.create
+    has_auth_unit_test: true
+  - name: DeleteRepository
+    permissions:
+    - src.repositories.delete
+    has_auth_unit_test: true
+  - name: DeleteRepositoryByID
+    permissions:
+    - src.repositories.delete
+    has_auth_unit_test: true
+  - name: DiscoverRepositories
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ForkRepository
+    permissions:
+    - src.repositories.create
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ForkRepositoryByID
+    permissions:
+    - src.repositories.create
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetRepository
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: GetRepositoryByID
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListBranches
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListBranchesByID
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListOrganizationRepositories
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListOrganizationRepositoriesByID
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: false
+  - name: ListRepoRoles
+    permissions:
+    - src.repositories.listAccessBindings
+    has_auth_unit_test: true
+  - name: ListRepoRolesByID
+    permissions:
+    - src.repositories.listAccessBindings
+    has_auth_unit_test: true
+  - name: ListTags
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListTagsByID
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListTree
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: ListTreeByID
+    permissions:
+    - src.repositories.get
+    has_auth_unit_test: true
+  - name: RemoveRepoRoles
+    permissions:
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: RemoveRepoRolesByID
+    permissions:
+    - src.repositories.updateAccessBindings
+    has_auth_unit_test: true
+  - name: RunWorkflow
+    permissions:
+    - src.repositories.create
+    - src.repositories.runCIWorkflow
+    has_auth_unit_test: true
+  - name: RunWorkflowByID
+    permissions:
+    - src.repositories.runCIWorkflow
+    has_auth_unit_test: true
+  - name: UpdateRepository
+    permissions:
+    - organization-manager.organizations.update
+    - src.repositories.update
+    has_auth_unit_test: true
+  - name: UpdateRepositoryByID
+    permissions:
+    - src.repositories.update
+    has_auth_unit_test: true
+- name: yandex.cloud.public.sourcecraft.v1.UserService
+  methods:
+  - name: GetProfile
+    permissions:
+    - src.me.getProfile
+    has_auth_unit_test: true
+  - name: GetProfileByID
+    permissions:
+    - src.me.getProfile
+    has_auth_unit_test: true

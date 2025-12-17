@@ -1,0 +1,25 @@
+{
+  "Code": 201,
+  "Payload": {
+    "author": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    },
+    "created_at": "2025-05-27T13:30:02.795060Z",
+    "id": "019711ef-92ab-70b3-889f-df3f1419c5ea",
+    "link_type": "related_to",
+    "source": {
+      "id": "019711ef-9105-75ff-ad9a-dc4cd6b3ac62",
+      "slug": "4"
+    },
+    "target": {
+      "id": "019711ef-9160-7465-bcbc-0bdb30bdbd40",
+      "slug": "6"
+    },
+    "updated_at": "2025-05-27T13:30:02.795060Z",
+    "updated_by": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    }
+  }
+}

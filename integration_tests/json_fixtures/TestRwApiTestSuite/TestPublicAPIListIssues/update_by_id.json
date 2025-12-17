@@ -1,0 +1,33 @@
+{
+  "Code": 200,
+  "Payload": {
+    "assignee": {
+      "id": "019711be-89dd-7a54-8f93-0a3a9db4bc4f",
+      "slug": "krosh"
+    },
+    "author": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    },
+    "created_at": "2025-05-27T13:34:22.599917Z",
+    "description": "NEW2",
+    "id": "019711f3-8987-7d88-967f-533d7c64f4bc",
+    "labels": [],
+    "linked_prs": [],
+    "priority": "critical",
+    "slug": "8",
+    "status": {
+      "id": "4",
+      "name": "Closed",
+      "slug": "closed",
+      "status_type": "completed"
+    },
+    "title": "NEW2",
+    "updated_at": "2025-05-27T13:34:22.698029Z",
+    "updated_by": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    },
+    "visibility": "private"
+  }
+}

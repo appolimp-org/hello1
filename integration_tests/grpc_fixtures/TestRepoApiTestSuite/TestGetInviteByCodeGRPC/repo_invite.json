@@ -1,0 +1,9 @@
+{
+  "id": "invite-repo-id",
+  "inviter_slug": "pikachu",
+  "org_slug": "yandex42",
+  "repo_slug": "alpha",
+  "status": "PENDING",
+  "expires_at": "1970-01-01T00:00:00Z",
+  "created_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/src-migration-tests/removed-prs/pulls?per_page=100&state=all
+        headers:
+            Accept:
+                - application/vnd.github.v3+json
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:41:15.496339+03:00
+      response_uuid: 5ec937f2-62c5-4caf-be10-e8cde064ef91

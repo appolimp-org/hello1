@@ -1,0 +1,40 @@
+{
+  "issues":  [
+    {
+      "id":  "84431484609495041",
+      "public_id":  "5",
+      "title":  "issue5",
+      "description":  "Issue description",
+      "repo_id":  "84431484257239041",
+      "status_id":  "2",
+      "priority":  "PRIORITY_TRIVIAL",
+      "author_id":  "5",
+      "updated_by":  "5",
+      "created_at":  "2025-08-05T11:11:26.485484Z",
+      "updated_at":  "2025-08-05T11:11:26.485484Z",
+      "started_at":  "2025-08-05T11:11:26.484512Z",
+      "assignee_id":  "5",
+      "subscriber_ids":  [],
+      "mention_ids":  [],
+      "attachments_ids":  [],
+      "labels":  [],
+      "reactions":  {
+        "1":  {
+          "count":  0,
+          "self_react":  false
+        }
+      },
+      "comments_count":  0,
+      "linked_prs":  [],
+      "visibility":  "VISIBILITY_PUBLIC",
+      "effective_visibility":  "VISIBILITY_UNSPECIFIED"
+    }
+  ],
+  "revision":  {
+    "value":  "5",
+    "count":  5
+  },
+  "prev_page_token":  "",
+  "next_page_token":  "",
+  "total":  1
+}

@@ -1,0 +1,41 @@
+{
+  "id": "100095795361021953",
+  "uuid": "019aa66f-e8a2-7d0f-8349-4af42caad190",
+  "title": "Test title",
+  "author_id": "7",
+  "updated_by_id": "7",
+  "description": "",
+  "repo_id": "1",
+  "iteration": "100095795361087489",
+  "merge_info": {
+    "target_commit_hash": "0000000000000000000000000000000000000000",
+    "merge_commit_hash": "0000000000000000000000000000000000000000",
+    "merge_parameters": {
+      "rebase": false,
+      "squash": false,
+      "delete_branch": false
+    }
+  },
+  "source_branch": "master",
+  "target_branch": "master",
+  "pr_status": "DRAFT",
+  "created_at": "2025-11-21T12:42:23.266856Z",
+  "updated_at": "2025-11-21T12:42:23.320321Z",
+  "settings": {
+    "auto_publish": false
+  },
+  "reviewers": [],
+  "reviewers_revision": {
+    "value": "1",
+    "count": 0
+  },
+  "pr_revision": {
+    "value": "1",
+    "count": 0
+  },
+  "public_id": "1",
+  "linked_issues": [],
+  "fork_repo_id": "100095794136219649",
+  "fork_repo_full_slug": "yandex/alpha-fork-for-pr-test",
+  "neuro_describe_info": {}
+}

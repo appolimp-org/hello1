@@ -1,0 +1,37 @@
+{
+  "status": "STATUS_SUCCESS",
+  "steps": [
+    {
+      "step": "STEP_CODE",
+      "status": "STATUS_SUCCESS",
+      "total": 1,
+      "processed": 1,
+      "errors": []
+    },
+    {
+      "step": "STEP_ISSUES",
+      "status": "STATUS_SUCCESS",
+      "total": 4,
+      "processed": 4,
+      "errors": []
+    },
+    {
+      "step": "STEP_PR_MIGRATION",
+      "status": "STATUS_SUCCESS",
+      "total": 8,
+      "processed": 8,
+      "errors": []
+    },
+    {
+      "step": "STEP_COMMENTS",
+      "status": "STATUS_SUCCESS",
+      "total": -1,
+      "processed": 22,
+      "errors": []
+    }
+  ],
+  "repo_id": "94901388462522369",
+  "started_at": "2025-10-16T16:40:35.550856Z",
+  "finished_at": "2025-10-16T16:40:45.647257Z",
+  "validation_id": "aengpdl5cazs82poji0a"
+}

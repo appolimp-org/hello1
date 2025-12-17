@@ -1,0 +1,44 @@
+{
+  "Code": 200,
+  "Payload": {
+    "links": [
+      {
+        "author": {
+          "id": "7"
+        },
+        "created_at": "2025-05-13T08:12:37.056743Z",
+        "id": "72237251328868353",
+        "link_type": "parent_of",
+        "source": {
+          "id": "1001"
+        },
+        "target": {
+          "id": "1002"
+        },
+        "updated_at": "2025-05-13T08:12:37.056743Z",
+        "updated_by": {
+          "id": "7"
+        }
+      },
+      {
+        "author": {
+          "id": "7"
+        },
+        "created_at": "2025-05-13T08:12:37.057832Z",
+        "id": "72237251328933889",
+        "link_type": "parent_of",
+        "source": {
+          "id": "1001"
+        },
+        "target": {
+          "id": "1003"
+        },
+        "updated_at": "2025-05-13T08:12:37.057832Z",
+        "updated_by": {
+          "id": "7"
+        }
+      }
+    ],
+    "next_page_token": ""
+  }
+}

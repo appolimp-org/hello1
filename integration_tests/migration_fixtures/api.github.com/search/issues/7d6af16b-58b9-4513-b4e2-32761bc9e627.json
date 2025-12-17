@@ -1,0 +1,81 @@
+{
+  "total_count": 4,
+  "incomplete_results": false,
+  "items": [
+    {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/issues/8",
+      "repository_url": "https://api.github.com/repos/src-migration-tests/generic",
+      "labels_url": "https://api.github.com/repos/src-migration-tests/generic/issues/8/labels{/name}",
+      "comments_url": "https://api.github.com/repos/src-migration-tests/generic/issues/8/comments",
+      "events_url": "https://api.github.com/repos/src-migration-tests/generic/issues/8/events",
+      "html_url": "https://github.com/src-migration-tests/generic/issues/8",
+      "id": 3005267867,
+      "node_id": "I_kwDOOb0LIs6zIL-b",
+      "number": 8,
+      "title": "Permanently open sub-issue with reactions",
+      "user": {
+        "login": "doreshnikov",
+        "id": 17601920,
+        "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/doreshnikov",
+        "html_url": "https://github.com/doreshnikov",
+        "followers_url": "https://api.github.com/users/doreshnikov/followers",
+        "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+        "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+        "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+        "repos_url": "https://api.github.com/users/doreshnikov/repos",
+        "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "labels": [],
+      "state": "open",
+      "locked": false,
+      "assignee": null,
+      "assignees": [],
+      "milestone": null,
+      "comments": 1,
+      "created_at": "2025-04-18T16:12:23Z",
+      "updated_at": "2025-04-18T16:12:42Z",
+      "closed_at": null,
+      "author_association": "MEMBER",
+      "type": null,
+      "active_lock_reason": null,
+      "sub_issues_summary": {
+        "total": 0,
+        "completed": 0,
+        "percent_completed": 0
+      },
+      "parent_issue_url": "https://api.github.com/repos/src-migration-tests/generic/issues/4",
+      "issue_dependencies_summary": {
+        "blocked_by": 0,
+        "total_blocked_by": 0,
+        "blocking": 0,
+        "total_blocking": 0
+      },
+      "body": null,
+      "reactions": {
+        "url": "https://api.github.com/repos/src-migration-tests/generic/issues/8/reactions",
+        "total_count": 3,
+        "+1": 1,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 1,
+        "confused": 0,
+        "heart": 1,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "timeline_url": "https://api.github.com/repos/src-migration-tests/generic/issues/8/timeline",
+      "performed_via_github_app": null,
+      "state_reason": null,
+      "score": 1.0
+    }
+  ]
+}

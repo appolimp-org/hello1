@@ -1,0 +1,1065 @@
+{
+  "ranges":  [
+    {
+      "old_begin":  1,
+      "old_lines_count":  3,
+      "new_begin":  1,
+      "new_lines_count":  3,
+      "commit_hash":  "f0300934847de1726cab36617d0fc481bc31fec6",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  2,
+      "old_lines_count":  1,
+      "new_begin":  4,
+      "new_lines_count":  1,
+      "commit_hash":  "ddc1d0a06b8911b177ef55482871c6cc68156222",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  3,
+      "old_lines_count":  1,
+      "new_begin":  5,
+      "new_lines_count":  1,
+      "commit_hash":  "b57bc4ddd7bd65cea1961cc4ae128c7aa1a145d4",
+      "reblame_path":  "src/CMakeLists.txt"
+    },
+    {
+      "old_begin":  7,
+      "old_lines_count":  1,
+      "new_begin":  6,
+      "new_lines_count":  1,
+      "commit_hash":  "9e096b96b2bfca4b303e193459c0ed28bd117638",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  5,
+      "old_lines_count":  1,
+      "new_begin":  7,
+      "new_lines_count":  1,
+      "commit_hash":  "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  6,
+      "old_lines_count":  1,
+      "new_begin":  8,
+      "new_lines_count":  1,
+      "commit_hash":  "7e217b3b5aefd1d88bf9135e25d44b5191bf614f",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  9,
+      "old_lines_count":  1,
+      "new_begin":  9,
+      "new_lines_count":  1,
+      "commit_hash":  "a9a6c0704433c6dc47b23b1801eca5433d828e6d",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  8,
+      "old_lines_count":  1,
+      "new_begin":  10,
+      "new_lines_count":  1,
+      "commit_hash":  "2e03af9c88d45c8849ddb0929bbd48b8051417ad",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  7,
+      "old_lines_count":  1,
+      "new_begin":  11,
+      "new_lines_count":  1,
+      "commit_hash":  "bb826db7e895f06c54251ccad28394e5ca07291a",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  8,
+      "old_lines_count":  1,
+      "new_begin":  12,
+      "new_lines_count":  1,
+      "commit_hash":  "4df9f8e760ef6435ba495c79016a4af0e37ed764",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  11,
+      "old_lines_count":  1,
+      "new_begin":  13,
+      "new_lines_count":  1,
+      "commit_hash":  "6c0a1f09f82e38e10830d0728d76761290c69d42",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  18,
+      "old_lines_count":  1,
+      "new_begin":  14,
+      "new_lines_count":  1,
+      "commit_hash":  "9e096b96b2bfca4b303e193459c0ed28bd117638",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  16,
+      "old_lines_count":  1,
+      "new_begin":  15,
+      "new_lines_count":  1,
+      "commit_hash":  "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  14,
+      "old_lines_count":  1,
+      "new_begin":  16,
+      "new_lines_count":  1,
+      "commit_hash":  "2e03af9c88d45c8849ddb0929bbd48b8051417ad",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  18,
+      "old_lines_count":  1,
+      "new_begin":  17,
+      "new_lines_count":  1,
+      "commit_hash":  "d48cd092a03b360d85b79b273d94cbb924326b82",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  18,
+      "old_lines_count":  1,
+      "new_begin":  18,
+      "new_lines_count":  1,
+      "commit_hash":  "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  16,
+      "old_lines_count":  1,
+      "new_begin":  19,
+      "new_lines_count":  1,
+      "commit_hash":  "1d5d1b5c21683f15e2c4cd2f606e219c3c221c2c",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  24,
+      "old_lines_count":  1,
+      "new_begin":  20,
+      "new_lines_count":  1,
+      "commit_hash":  "fdd39f76e66e9503082313acf124d21b658b6fd2",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  20,
+      "old_lines_count":  1,
+      "new_begin":  21,
+      "new_lines_count":  1,
+      "commit_hash":  "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  25,
+      "old_lines_count":  1,
+      "new_begin":  22,
+      "new_lines_count":  1,
+      "commit_hash":  "9e096b96b2bfca4b303e193459c0ed28bd117638",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  20,
+      "old_lines_count":  1,
+      "new_begin":  23,
+      "new_lines_count":  1,
+      "commit_hash":  "2e03af9c88d45c8849ddb0929bbd48b8051417ad",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  23,
+      "old_lines_count":  1,
+      "new_begin":  24,
+      "new_lines_count":  1,
+      "commit_hash":  "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  22,
+      "old_lines_count":  1,
+      "new_begin":  25,
+      "new_lines_count":  1,
+      "commit_hash":  "2e03af9c88d45c8849ddb0929bbd48b8051417ad",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  25,
+      "old_lines_count":  1,
+      "new_begin":  26,
+      "new_lines_count":  1,
+      "commit_hash":  "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  27,
+      "old_lines_count":  1,
+      "new_begin":  27,
+      "new_lines_count":  1,
+      "commit_hash":  "9d0de5d4e5ef1c3489570497c847845a95be7dc9",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  24,
+      "old_lines_count":  1,
+      "new_begin":  28,
+      "new_lines_count":  1,
+      "commit_hash":  "2e03af9c88d45c8849ddb0929bbd48b8051417ad",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  27,
+      "old_lines_count":  1,
+      "new_begin":  29,
+      "new_lines_count":  1,
+      "commit_hash":  "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  26,
+      "old_lines_count":  1,
+      "new_begin":  30,
+      "new_lines_count":  1,
+      "commit_hash":  "41a5449969423437da3dd9daaada33bea81e9d89",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  28,
+      "old_lines_count":  1,
+      "new_begin":  31,
+      "new_lines_count":  1,
+      "commit_hash":  "60d7229cdcbdf50968d1c3e5e83d0c8c047add5e",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  28,
+      "old_lines_count":  1,
+      "new_begin":  32,
+      "new_lines_count":  1,
+      "commit_hash":  "b51317b2547f61b4c5b4f6a6bf0502beb6807ed4",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  29,
+      "old_lines_count":  2,
+      "new_begin":  33,
+      "new_lines_count":  2,
+      "commit_hash":  "66c1c63751a9c73c368832efc0cbda50bbfea25a",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  34,
+      "old_lines_count":  4,
+      "new_begin":  35,
+      "new_lines_count":  4,
+      "commit_hash":  "f0300934847de1726cab36617d0fc481bc31fec6",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  38,
+      "old_lines_count":  1,
+      "new_begin":  39,
+      "new_lines_count":  1,
+      "commit_hash":  "52b0abb647b4c11a240f3484c749dbbfaf81e77d",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  39,
+      "old_lines_count":  1,
+      "new_begin":  40,
+      "new_lines_count":  1,
+      "commit_hash":  "f0300934847de1726cab36617d0fc481bc31fec6",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  39,
+      "old_lines_count":  1,
+      "new_begin":  41,
+      "new_lines_count":  1,
+      "commit_hash":  "222da0c70ac71798346919997da32bcb77aa15cb",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  40,
+      "old_lines_count":  2,
+      "new_begin":  42,
+      "new_lines_count":  2,
+      "commit_hash":  "b546551bb863c42c4d873b0b9841796ee8299ff8",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  42,
+      "old_lines_count":  1,
+      "new_begin":  44,
+      "new_lines_count":  1,
+      "commit_hash":  "2019c6419e247877615cae680df59bb519cc0a8e",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  43,
+      "old_lines_count":  1,
+      "new_begin":  45,
+      "new_lines_count":  1,
+      "commit_hash":  "4630c5d72fc086c68dba6d2ff71480259e00ee97",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  45,
+      "old_lines_count":  2,
+      "new_begin":  46,
+      "new_lines_count":  2,
+      "commit_hash":  "ba6513323fcea9af44955a7d2635dd8821150ec6",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  47,
+      "old_lines_count":  2,
+      "new_begin":  48,
+      "new_lines_count":  2,
+      "commit_hash":  "fade74703a16758e8330ccc26f6c90787f1f3e9e",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  49,
+      "old_lines_count":  1,
+      "new_begin":  50,
+      "new_lines_count":  1,
+      "commit_hash":  "f9a1ec21bc908ce4814b3ca2cfc7f1028204e466",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  50,
+      "old_lines_count":  1,
+      "new_begin":  51,
+      "new_lines_count":  1,
+      "commit_hash":  "f60df91a5405cb25e77f794175e1a6f3c939ddc9",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  50,
+      "old_lines_count":  2,
+      "new_begin":  52,
+      "new_lines_count":  2,
+      "commit_hash":  "f9a1ec21bc908ce4814b3ca2cfc7f1028204e466",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  52,
+      "old_lines_count":  2,
+      "new_begin":  54,
+      "new_lines_count":  2,
+      "commit_hash":  "0e44d132901716db19a47e88903de243df098424",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  28,
+      "old_lines_count":  1,
+      "new_begin":  56,
+      "new_lines_count":  1,
+      "commit_hash":  "b57bc4ddd7bd65cea1961cc4ae128c7aa1a145d4",
+      "reblame_path":  "src/CMakeLists.txt"
+    },
+    {
+      "old_begin":  28,
+      "old_lines_count":  1,
+      "new_begin":  57,
+      "new_lines_count":  1,
+      "commit_hash":  "c6542d7003e98780297750a952ff97ab3a08d67f",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  45,
+      "old_lines_count":  1,
+      "new_begin":  58,
+      "new_lines_count":  1,
+      "commit_hash":  "74623edfb5b29bb8ec5b073b1b2e85ad4a669730",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  30,
+      "old_lines_count":  2,
+      "new_begin":  59,
+      "new_lines_count":  2,
+      "commit_hash":  "c6542d7003e98780297750a952ff97ab3a08d67f",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  46,
+      "old_lines_count":  1,
+      "new_begin":  61,
+      "new_lines_count":  1,
+      "commit_hash":  "b071fd1633cad9df06605aad63505b9aff9ca0f8",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  49,
+      "old_lines_count":  5,
+      "new_begin":  62,
+      "new_lines_count":  5,
+      "commit_hash":  "74623edfb5b29bb8ec5b073b1b2e85ad4a669730",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  47,
+      "old_lines_count":  2,
+      "new_begin":  67,
+      "new_lines_count":  2,
+      "commit_hash":  "7135f2f0c822f8bdfb70b8b875a02a3ac2b0e421",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  57,
+      "old_lines_count":  4,
+      "new_begin":  69,
+      "new_lines_count":  4,
+      "commit_hash":  "02f31442656413c98389cff3cf1b186624e5ba0d",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  33,
+      "old_lines_count":  1,
+      "new_begin":  73,
+      "new_lines_count":  1,
+      "commit_hash":  "9e096b96b2bfca4b303e193459c0ed28bd117638",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  34,
+      "old_lines_count":  1,
+      "new_begin":  74,
+      "new_lines_count":  1,
+      "commit_hash":  "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  34,
+      "old_lines_count":  1,
+      "new_begin":  75,
+      "new_lines_count":  1,
+      "commit_hash":  "9e096b96b2bfca4b303e193459c0ed28bd117638",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  36,
+      "old_lines_count":  1,
+      "new_begin":  76,
+      "new_lines_count":  1,
+      "commit_hash":  "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "reblame_path":  "sources/CMakeLists.txt"
+    },
+    {
+      "old_begin":  33,
+      "old_lines_count":  11,
+      "new_begin":  77,
+      "new_lines_count":  10,
+      "commit_hash":  "b57bc4ddd7bd65cea1961cc4ae128c7aa1a145d4",
+      "reblame_path":  "src/CMakeLists.txt"
+    },
+    {
+      "old_begin":  64,
+      "old_lines_count":  4,
+      "new_begin":  87,
+      "new_lines_count":  4,
+      "commit_hash":  "e97f7e1f1c19ff1f06a807da5b64d247abc20359",
+      "reblame_path":  "sources/CMakeLists.txt"
+    }
+  ],
+  "commits": [
+    {
+      "hash": "f0300934847de1726cab36617d0fc481bc31fec6",
+      "message": "use SO_REUSEPORT to graceful shutdown\n",
+      "parent_commits": [
+        "8ebd626a9dfaedfa5c85fc984fc28ee879c9af9c"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2020-07-26T07:58:15Z"
+      },
+      "commiter": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2020-08-10T08:39:09Z"
+      }
+    },
+    {
+      "hash": "ddc1d0a06b8911b177ef55482871c6cc68156222",
+      "message": "Debian package infrastructure\n\nPackage includes configuration files for odissey itself,\nlogrotate, init script. All of them generated by CMake\nfrom templates placed in etc/ directory and added to\ninstall section of Makefile which will be called by\ndebuild or another deb package building utilities.\n",
+      "parent_commits": [
+        "f1a9a203dd78a9ce22130668598fd0a2eefe88a9"
+      ],
+      "author": {
+        "name": "Dmitriy Sarafannikov",
+        "email": "dsarafan@yandex-team.ru",
+        "date": "2017-08-17T13:25:50Z"
+      },
+      "commiter": {
+        "name": "Dmitriy Sarafannikov",
+        "email": "dsarafan@yandex-team.ru",
+        "date": "2017-08-21T12:18:28Z"
+      }
+    },
+    {
+      "hash": "b57bc4ddd7bd65cea1961cc4ae128c7aa1a145d4",
+      "message": "odissey: add periodic task, stats and expire\n",
+      "parent_commits": [
+        "7cc03473ea312cb5a97587e98acd8b472eb7d686"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2017-05-31T11:38:06Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2017-05-31T11:38:06Z"
+      }
+    },
+    {
+      "hash": "9e096b96b2bfca4b303e193459c0ed28bd117638",
+      "message": "odissey: rework file naming and include path\n",
+      "parent_commits": [
+        "87bd137618d543a56b0ee801b427efc5aac1c682"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2017-07-05T12:15:17Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2017-07-05T12:15:17Z"
+      }
+    },
+    {
+      "hash": "da7e6ea7a5522a24f781cbbec7de1b65667ce8fc",
+      "message": "odyssey: major io rework and refactoring\n\nThis patch moves Odyssey from stream based write caching\nto message driven. All write operations are delayed\nand happen on a group of messages.\n\nThis removes necessity to do IO and wait for write completion during calls\nfrom SSL_write() context. Write timings should behave more predictable now and\nnumber of used syscalls should be also decreased.\n\nThis patch also simplifies caching management. All clients are simply\nreusing cached messages without prolonged contention.\n\nSeveral configuration options are no longer used:\npipeline, cache, cache_chunk\n",
+      "parent_commits": [
+        "389b71bbdb564e8af6118dc151613aa37d2b80f8"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-08-28T14:43:46Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-08-28T14:43:46Z"
+      }
+    },
+    {
+      "hash": "7e217b3b5aefd1d88bf9135e25d44b5191bf614f",
+      "message": "odissey: major logging rework (introduce log format)\n",
+      "parent_commits": [
+        "0b6cc63f2835a7586af48d53f29887d74e4bfcc9"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2017-09-21T13:44:19Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2017-09-21T13:44:19Z"
+      }
+    },
+    {
+      "hash": "a9a6c0704433c6dc47b23b1801eca5433d828e6d",
+      "message": "Refactor rule pool, add internal pooling feature\n",
+      "parent_commits": [
+        "71d5b14a9f04935157709f134c678c8a5a4ad132"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-12-05T20:50:59Z"
+      },
+      "commiter": {
+        "name": "reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-12-06T08:28:02Z"
+      }
+    },
+    {
+      "hash": "2e03af9c88d45c8849ddb0929bbd48b8051417ad",
+      "message": "odyssey: major router and shared logic rework\n\nGoal is to improve overall performance during massive peaks\nof connecting clients.\n\nThis patch makes router a shared structure, instead of\nbeing run in separate system worker thread/coroutine.\n\nNow router and each route object is protected by\nseparate mutex. Worker threads directly access router object\nwithout calls to separate thread.\n",
+      "parent_commits": [
+        "7807fd91f2a8d4eb7c978d4208986f89553c60aa"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-12-06T14:23:15Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-12-06T14:23:15Z"
+      }
+    },
+    {
+      "hash": "bb826db7e895f06c54251ccad28394e5ca07291a",
+      "message": "odissey: major scheme rework, rename it to config\n",
+      "parent_commits": [
+        "a096d258b7f975db61a66063a62601d0eae829ee"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-06T15:23:52Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-06T15:23:52Z"
+      }
+    },
+    {
+      "hash": "4df9f8e760ef6435ba495c79016a4af0e37ed764",
+      "message": "odissey: move config to config_reader\n",
+      "parent_commits": [
+        "99fca366ef139b841de48e52632b9ff45d10024e"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-05T14:24:30Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-05T14:24:30Z"
+      }
+    },
+    {
+      "hash": "6c0a1f09f82e38e10830d0728d76761290c69d42",
+      "message": "odyssey: major rework of io architecture\n\nThis patch intend is to improve overall io performance, reduce\ncpu and system usage.\n\nMachinarium:\n\nIO read/write logic is highly simplified and now based on conditions\ninstead of previously made internal readahead buffer and msg\nqueues. This allows to give user more control over io operations and\navoid doing undesired readahead copying.\n\nAbove that, TLS implementation reworked to use async logic instead of\nseparate BIO layer.\n\nDirect pooling functions removed.\n\nNew objects machine_cond_t and machine_iov_t objects.\n\nOdyssey:\n\nIntroduced readahead, io and relay objects.\n\nRelay allows to connect two io handles for direct data retransmission\nwithout double copying.\n\nRemoved configuration options no longer needed:\npacket_read_size, packet_write_queue\n",
+      "parent_commits": [
+        "8c9933452ec013ddc575934d35993001d0e46ccc"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2019-01-23T15:43:52Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2019-01-23T15:43:52Z"
+      }
+    },
+    {
+      "hash": "d48cd092a03b360d85b79b273d94cbb924326b82",
+      "message": "odissey: relay and relay_pool is worker and worker_pool now\n",
+      "parent_commits": [
+        "c90932b3d5b08b91dab83b8eca98f054ccc8b2c6"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-02T10:00:52Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2018-03-02T10:00:52Z"
+      }
+    },
+    {
+      "hash": "1d5d1b5c21683f15e2c4cd2f606e219c3c221c2c",
+      "message": "treat buffer respecting size (1) (#160)\n\n",
+      "parent_commits": [
+        "ea79d800d282ec0c048dffacb61df2ae3ae145ef"
+      ],
+      "author": {
+        "name": "lowgear",
+        "email": "lowgear1000@gmail.com",
+        "date": "2020-06-09T06:51:13Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-06-09T06:51:13Z"
+      }
+    },
+    {
+      "hash": "fdd39f76e66e9503082313acf124d21b658b6fd2",
+      "message": "odissey: move auth_query impl into separate file\n",
+      "parent_commits": [
+        "897c1c929cc4d1b9e2f28cfe49ae8bf7e870a7d0"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2017-09-29T10:57:53Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2017-09-29T10:57:53Z"
+      }
+    },
+    {
+      "hash": "9d0de5d4e5ef1c3489570497c847845a95be7dc9",
+      "message": "Request additional sync point on discard.  (#584)\n\n* Drop bin, add gitignore\r\n\r\n* Request additional sync point on discard.\r\n\r\n* Update sources/reset.c\r\n\r\nCo-authored-by: Yury Frolov <57130330+EinKrebs@users.noreply.github.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Yury Frolov <57130330+EinKrebs@users.noreply.github.com>",
+      "parent_commits": [
+        "2848982b3024e92a6c5f0e05ef0a8df2ca8db94e"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "reshke@double.cloud",
+        "date": "2024-03-04T08:39:59Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-03-04T08:39:59Z"
+      }
+    },
+    {
+      "hash": "41a5449969423437da3dd9daaada33bea81e9d89",
+      "message": "odyssey modules (#156)\n\n",
+      "parent_commits": [
+        "1d5d1b5c21683f15e2c4cd2f606e219c3c221c2c"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2020-06-09T09:19:11Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-06-09T09:19:11Z"
+      }
+    },
+    {
+      "hash": "60d7229cdcbdf50968d1c3e5e83d0c8c047add5e",
+      "message": "Enhance settings for replication support (#107)\n\n",
+      "parent_commits": [
+        "f74abbf6cad22239ea0fb255662f2215f5b35181"
+      ],
+      "author": {
+        "name": "efimkin",
+        "email": "35534183+efimkin@users.noreply.github.com",
+        "date": "2020-01-27T13:01:53Z"
+      },
+      "commiter": {
+        "name": "Andrey Borodin",
+        "email": "amborodin@acm.org",
+        "date": "2020-01-27T13:01:53Z"
+      }
+    },
+    {
+      "hash": "b51317b2547f61b4c5b4f6a6bf0502beb6807ed4",
+      "message": "t-digest for latencies (#147)\n\n",
+      "parent_commits": [
+        "fb6a1e6b1a704f189db31f799edfc9b1a0bc85cf"
+      ],
+      "author": {
+        "name": "Georgy Rylov",
+        "email": "g0dj4n@gmail.com",
+        "date": "2020-05-28T06:12:10Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-05-28T06:12:10Z"
+      }
+    },
+    {
+      "hash": "66c1c63751a9c73c368832efc0cbda50bbfea25a",
+      "message": "odyssey erros stats (#187)\n\n",
+      "parent_commits": [
+        "ebfa6e6a4f4059a792e172c8fe42e4090dd61c4c"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2020-07-08T06:26:17Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-07-08T06:26:17Z"
+      }
+    },
+    {
+      "hash": "52b0abb647b4c11a240f3484c749dbbfaf81e77d",
+      "message": "fix infinte loop + add signals tests\n",
+      "parent_commits": [
+        "f0300934847de1726cab36617d0fc481bc31fec6"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2020-08-08T16:00:31Z"
+      },
+      "commiter": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2020-08-10T08:39:09Z"
+      }
+    },
+    {
+      "hash": "222da0c70ac71798346919997da32bcb77aa15cb",
+      "message": "Implement libpq compression (#230)\n\n* Add zlib and zstd to cmake\r\n\r\n* Add zpq_stream to machinarium\r\n\r\n--\r\nzpq_stream is used for streaming compression/decompression of Postgres protocol\r\n\r\n* Add zpq_stream-related functions to machinarium\r\n\r\n* Add compression set/free/read/write logic to machinarium\r\n\r\n* Add startup packet compression var to kiwi\r\n\r\n* Add compression_ack backend message support for kiwi\r\n\r\n* Add compression setup logic for main odyssey project\r\n\r\n* apply fmt\r\n\r\n* fix format #2\r\n\r\nCo-authored-by: root <root@ubuntu-build-machine.ru-central1.internal>",
+      "parent_commits": [
+        "b5aa221f8c6bd6a93723f6c3dd31444f362f4c4b"
+      ],
+      "author": {
+        "name": "Daniil Zakhlystov",
+        "email": "47750602+usernamedt@users.noreply.github.com",
+        "date": "2020-11-23T08:22:17Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-11-23T08:22:17Z"
+      }
+    },
+    {
+      "hash": "b546551bb863c42c4d873b0b9841796ee8299ff8",
+      "message": "do not hold repilation connections while online restart + drop conn rate logic (#266)\n\n* do not hold repilation connections while online restart\r\n\r\n* drop connection wtih rate (no more that 1 per sec)\r\n\r\n* fix review\r\n\r\n* eject info per-server\r\n\r\n* use per thread global state to smoothly eject old connection\r\n\r\nCo-authored-by: reshke <Kirill Reshke>",
+      "parent_commits": [
+        "9bed642b30ed1028061467484c1a88d85998999d"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-01-23T13:49:54Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-01-23T13:49:54Z"
+      }
+    },
+    {
+      "hash": "2019c6419e247877615cae680df59bb519cc0a8e",
+      "message": "odyssey configuration from CLI\n",
+      "parent_commits": [
+        "1d478f7d14291b39d9df2186b75b804645dc9435"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-05-06T19:58:11Z"
+      },
+      "commiter": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-05-14T10:36:29Z"
+      }
+    },
+    {
+      "hash": "4630c5d72fc086c68dba6d2ff71480259e00ee97",
+      "message": "Refactor tls options\n",
+      "parent_commits": [
+        "f925c80586a9b2cbf2f14ebc879c14b3f1fa87af"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-11-29T13:38:41Z"
+      },
+      "commiter": {
+        "name": "reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-11-29T13:39:33Z"
+      }
+    },
+    {
+      "hash": "ba6513323fcea9af44955a7d2635dd8821150ec6",
+      "message": "Add storage watchdog with standby lag polling support (#380)\n\n* Move auth query server querying logic to separate file\r\n\r\n* Refactor query code to support not only \"auth_query\" like queries\r\n\r\n* Move storage logic to separate file & add storage watchdog\r\n\r\n* Force several settings on starts\r\n\r\n* Fix simple query parsing\r\n\r\n* Fixed bugs\r\n\r\n* Fix config reload\r\n\r\n* Add tests\r\n\r\n* Move cathcup logic to separate func\r\n\r\n* Fix tests[2]\r\n\r\nCo-authored-by: Andrey Borodin <amborodin@acm.org>",
+      "parent_commits": [
+        "4be82c95d824c9f3034eb21e35ddaf55dbac3731"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-12-08T10:54:43Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-12-08T10:54:43Z"
+      }
+    },
+    {
+      "hash": "fade74703a16758e8330ccc26f6c90787f1f3e9e",
+      "message": "Reserve prep stmt (#397)\n\n* Add typedef to enum declaration\r\n\r\n* preserve prepared statement basics\r\n\r\n* murmur hash impl\r\n\r\n* Hash set and hash map\r\n\r\n* Hash set and hash map\r\n\r\n* Allow relay to rewrite packets\r\n\r\n* Fixes\r\n\r\n* tmp\r\n\r\n* Fmt\r\n\r\n* Rebase fixes\r\n\r\n* Min working version\r\n\r\n* Fix heap buffer overflow\r\n\r\n* Add show server_prep_smtms command to console db\r\n\r\n* Store prep stmts by body hash\r\n\r\n* Fix deadlock in console show prep stmts\r\n\r\n* Better discard\r\n\r\n* CLeanup code\r\n\r\n* Support for multiple override msgs\r\n\r\n* Remove rewrite logic\r\n\r\n* Config validation\r\n\r\n* Fixes\r\n\r\n* Fmt\r\n\r\n* Deploy rewrited msgs only on sync state\r\n\r\n* Fix memoty issues allocaltion\r\n\r\n* Smart discard\r\n\r\n* Fix asan\r\n\r\n* Handle fronent close prepered statement msg\r\n\r\n* Fix memory leak\r\n\r\n* Fixes\r\n\r\n* Tests\r\n\r\n* Fix tests\r\n\r\n* fix tests\r\n\r\n* remove bin\r\n\r\n* fix clang compiler warns\r\n\r\n* Reduse matrix to 1 case, because it doesnt change anything, as tests runs inside docker",
+      "parent_commits": [
+        "4bb40a60887ea070db79d6716f17dac80a0e6f72"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2022-01-18T09:08:15Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-01-18T09:08:15Z"
+      }
+    },
+    {
+      "hash": "f9a1ec21bc908ce4814b3ca2cfc7f1028204e466",
+      "message": "Add HBA config file support, add hba reload logic. (#442)\n\nAdd HBA config file support, add hba reload logic.\r\n\r\nCurrently supported:\r\n\r\n    local/host/hostssl/hostnossl\r\n    IPv4/IPv6 address ranges\r\n    rules reload on receiving SIGHUP\r\n    simple tests\r\n\r\nWhat to improve:\r\n\r\n    default db/user\r\n    @<file> support in db/user fields\r\n    ? set auth method for each hba rule\r\n    ? replace rw_lock with coroutine synchronization\r\n    ? make parser kind of configurable\r\n\r\n\r\nAuthored-by: Alexander Belev <belyov97@gmail.com>\r\nCo-authored-by: Dmitry Vasiliev <dmitrivasilyev@ozon.ru>",
+      "parent_commits": [
+        "7a769c50dda1bda0de3254df3b2d12eaefbe6708"
+      ],
+      "author": {
+        "name": "vadv",
+        "email": "vadv.mkn@gmail.com",
+        "date": "2022-07-04T10:01:34Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-07-04T10:01:34Z"
+      }
+    },
+    {
+      "hash": "f60df91a5405cb25e77f794175e1a6f3c939ddc9",
+      "message": "Add addr pool in rule (#550)\n\n",
+      "parent_commits": [
+        "7c6b8f42c72a6bca7aa3da9ce20e960e95632fa0"
+      ],
+      "author": {
+        "name": "NikitaUnisikhin",
+        "email": "92248695+NikitaUnisikhin@users.noreply.github.com",
+        "date": "2024-02-14T11:57:20Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-02-14T11:57:20Z"
+      }
+    },
+    {
+      "hash": "0e44d132901716db19a47e88903de243df098424",
+      "message": "mdb iamproxy auth support (#561)\n\n",
+      "parent_commits": [
+        "ccd4dbf6e3da08e5d69e15c90b2c0dbf48d340b4"
+      ],
+      "author": {
+        "name": "Ovchinnikov Andrew",
+        "email": "63587191+AndrewOvvv@users.noreply.github.com",
+        "date": "2024-02-05T10:25:50Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-02-05T10:25:50Z"
+      }
+    },
+    {
+      "hash": "c6542d7003e98780297750a952ff97ab3a08d67f",
+      "message": "odyssey: post merge fixes\n",
+      "parent_commits": [
+        "d84da24dc701d4e535f4082ba0f9dd4d07953a85"
+      ],
+      "author": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2019-09-27T13:47:45Z"
+      },
+      "commiter": {
+        "name": "Dmitry Simonenko",
+        "email": "pmwkaa@gmail.com",
+        "date": "2019-09-27T13:47:45Z"
+      }
+    },
+    {
+      "hash": "74623edfb5b29bb8ec5b073b1b2e85ad4a669730",
+      "message": "LDAP auth in od\n",
+      "parent_commits": [
+        "de71caf4abc9dd7c42281c6bad38eb84c635b8dc"
+      ],
+      "author": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-04-21T13:11:18Z"
+      },
+      "commiter": {
+        "name": "reshke",
+        "email": "Kirill Reshke",
+        "date": "2021-04-28T12:54:56Z"
+      }
+    },
+    {
+      "hash": "b071fd1633cad9df06605aad63505b9aff9ca0f8",
+      "message": "do not find openssl package when it explicitly provided, also make use scram optional (#257)\n\nCo-authored-by: reshke <Kirill Reshke>",
+      "parent_commits": [
+        "2d5af34b013a025572911631446c8105a3a76368"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2021-01-11T09:13:02Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-01-11T09:13:02Z"
+      }
+    },
+    {
+      "hash": "7135f2f0c822f8bdfb70b8b875a02a3ac2b0e421",
+      "message": "fix CI (#213)\n\nCo-authored-by: reshke <Kirill Reshke>",
+      "parent_commits": [
+        "bce63dc7f8ee589af9983a4e130b0a7877e6b65b"
+      ],
+      "author": {
+        "name": "kirill reshke",
+        "email": "reshkekirill@gmail.com",
+        "date": "2020-10-16T16:30:45Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-10-16T16:30:45Z"
+      }
+    },
+    {
+      "hash": "02f31442656413c98389cff3cf1b186624e5ba0d",
+      "message": "Enabled writing stats in Prometheus format. (#346)\n\n* Early implementation\r\n\r\n* Added description for gauges\r\n\r\n* Added prometheus lib finding to Cmake\r\n\r\n* Fixed FindProm comments\r\n\r\n* Small changes\r\n\r\n* free to prom_free\r\n\r\n* Moved metrics to separate file\r\n\r\n* Refactored & added new methods to prom_metrics\r\n\r\n* Refactored cron.c to use prom_metrics.h\r\n\r\n* Refactored CMake & odyssey.h\r\n\r\n* Added new metrics\r\n\r\n* Small refactoring\r\n\r\n* Small method renaming\r\n\r\n* Small fix in init\r\n\r\n* Added methods for use in od_cron_stats_cb\r\n\r\n* Small fixes\r\n\r\n* Refactored metrics to use separate collectors\r\n\r\n* Small fix\r\n\r\n* Passing metrics to od_cron_stat_cb now.\r\n\r\n* Removed unused imports\r\n\r\n* Removed old od_log calls\r\n\r\n* Removed TODO\r\n\r\n* Revert \"Removed old od_log calls\"\r\n\r\nThis reverts commit 60000c8321e313e39bf5c63cf4715adc51401b89.\r\n\r\n* Uncommented od_log calls\r\n\r\n* Added processed clients field to metrics\r\n\r\n* Refactored metrics init\r\n\r\n* Fixed write_stat\r\n\r\n* Added method for worker stats\r\n\r\n* Added method for worker stat to metrics header file\r\n\r\n* Refactored worker stat method\r\n\r\n* Reverted changes in odyssey.h\r\n\r\n* Added writing metrics to od_worker\r\n\r\n* Added new method to logger\r\n\r\nMethod provides writing big strings to log without formatting.\r\n\r\n* Fixed prometheus log writing\r\n\r\n* More fixes\r\n\r\n* Fixed log writing\r\n\r\n* Fixed log calls\r\n\r\n* Added TODO\r\n\r\n* Added assertion whether prom.h found\r\n\r\n* Fixed no format logger method\r\n\r\nNow logs follow log format\r\n\r\n* Fixed logger\r\n\r\n* Added log_stats_prom option to config\r\n\r\n* Renamed od_logger_write_no_fmt to od_logger_write_plain\r\n\r\n* Formatted\r\n\r\n* More ifdefs\r\n\r\n* Added memory deallocating in od_cron_stop\r\n\r\n* Updated configuration.md\r\n\r\n* Removed outdated TODO\r\n\r\n* Changed label\r\n\r\n* Formatted",
+      "parent_commits": [
+        "5d129fa7836300490f12f4170bf3159566eec2fd"
+      ],
+      "author": {
+        "name": "Yury Frolov",
+        "email": "57130330+EinKrebs@users.noreply.github.com",
+        "date": "2021-08-17T12:07:16Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2021-08-17T12:07:16Z"
+      }
+    },
+    {
+      "hash": "e97f7e1f1c19ff1f06a807da5b64d247abc20359",
+      "message": "Add compression toggle to config, cmake && Add dependencies to BuildDebian (#234)\n\n* Add compression option to config\r\n\r\n* Add BUILD_COMPRESSION option to cmake\r\n\r\n* Escape identifiers\r\n\r\n* Add preprocessing directives for OD_BUILD_COMPRESSION\r\n\r\n* Add dependencies for BuildDebian\r\n\r\n* apply fmt\r\n\r\nCo-authored-by: root <root@ubuntu-build-machine.ru-central1.internal>",
+      "parent_commits": [
+        "68c1b70025a2bc740b616cda856690a4542d4417"
+      ],
+      "author": {
+        "name": "Daniil Zakhlystov",
+        "email": "47750602+usernamedt@users.noreply.github.com",
+        "date": "2020-11-23T11:55:42Z"
+      },
+      "commiter": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-11-23T11:55:42Z"
+      }
+    }
+  ]
+}

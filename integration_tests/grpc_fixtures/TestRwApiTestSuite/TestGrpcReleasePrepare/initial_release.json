@@ -1,0 +1,11 @@
+{
+  "release": {
+    "version": "0.0.1",
+    "tag": "tag-frontend-0.0.1",
+    "changelog": " - Initial commit [b02951] @Máximo Cuadros",
+    "description": "",
+    "hash": "b029517f6300c2da0f4b651b8642506cd6aaf45d",
+    "reuse_existing_tag": false
+  },
+  "previous_version": ""
+}

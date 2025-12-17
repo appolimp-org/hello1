@@ -1,0 +1,40 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "barash",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": false,
+    "permissions": [
+      {
+        "permission": "src.repositories.deleteArtifactsRegistry",
+        "resource_type": "organization-manager.organization",
+        "resource_id": "yc.organization-manager.yandex",
+        "authorized": false
+      }
+    ]
+  },
+  "event_metadata": {
+    "event_id": "aeng9eka3csl96i36n8f",
+    "event_type": "yandex.cloud.events.sourcecraft.OffboardCloudRegistry",
+    "created_at": "2025-09-09T11:35:49.033652Z",
+    "organization_id": "yc.organization-manager.yandex"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "6b41e21d-1b46-47b5-13ff-11ad0eb4451c",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "ERROR",
+  "error": {
+    "code": 7,
+    "message": "permission denied",
+    "details": []
+  }
+}

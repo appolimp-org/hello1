@@ -1,0 +1,42 @@
+{
+  "Code": 201,
+  "Payload": {
+    "author": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    },
+    "created_at": "2025-05-27T13:34:22.053675Z",
+    "description": "This is my issue",
+    "id": "019711f3-8765-79b0-8a32-289aff0e73a6",
+    "labels": [
+      {
+        "color": "red",
+        "id": "019711f3-820e-76b6-a0b2-c5b22cedaedb",
+        "name": "Bug",
+        "slug": "bug"
+      },
+      {
+        "color": "green",
+        "id": "019711f3-8221-7dcf-8e11-693a78c5f21d",
+        "name": "Feature",
+        "slug": "feature"
+      }
+    ],
+    "linked_prs": [],
+    "priority": "blocker",
+    "slug": "6",
+    "status": {
+      "id": "2",
+      "name": "In progress",
+      "slug": "inProgress",
+      "status_type": "in_progress"
+    },
+    "title": "My new issue",
+    "updated_at": "2025-05-27T13:34:22.053675Z",
+    "updated_by": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    },
+    "visibility": "private"
+  }
+}

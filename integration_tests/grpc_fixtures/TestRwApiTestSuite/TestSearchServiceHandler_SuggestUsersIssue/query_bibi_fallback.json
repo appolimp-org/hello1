@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "10",
+      "user_identity": {
+        "id": "bibipublic",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-fb65-797d-bc0c-08bad55f0829",
+      "display_name": "Bibipublic",
+      "username": "bibipublic",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/bibipublic.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "personal_org_id": "95006054265389422",
+      "onboarded_at": "2025-10-17T10:00:21.103293Z"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "tree_entries":  [
+    {
+      "target":  {
+        "path":  "range_dir",
+        "type":  "ENTRY_TYPE_DIR"
+      },
+      "source":  {
+        "path":  "range_dir",
+        "type":  "ENTRY_TYPE_DIR"
+      },
+      "status":  "CHANGE_STATUS_MODIFIED"
+    },
+    {
+      "target":  {
+        "path":  "range_dir/both_changed.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "source":  {
+        "path":  "range_dir/both_changed.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "status":  "CHANGE_STATUS_MODIFIED"
+    },
+    {
+      "target":  {
+        "path":  "range_dir/pr_changed.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "source":  {
+        "path":  "range_dir/pr_changed.txt",
+        "type":  "ENTRY_TYPE_FILE"
+      },
+      "status":  "CHANGE_STATUS_MODIFIED"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "merge_conflict": {
+    "id": "96905979924447233",
+    "merge_commit_hash": "6cce013cd9aa71f28a1b55caf627e9b4d6630a78",
+    "source_hash": "ea2eff7e7dbf51d31cb0f26a1fb0ea894b440237",
+    "target_hash": "ffb2c1648cc2f33496457c7304f239fded007e45",
+    "conflicts": [
+      {
+        "id": "96905979924316161",
+        "conflict_type": "INFO_AUTO_MERGING",
+        "is_info": true,
+        "is_resolved": false,
+        "paths": [
+          "two_to_one"
+        ],
+        "message": "Auto-merging two_to_one"
+      },
+      {
+        "id": "96905979924381697",
+        "conflict_type": "CONFLICT_CONTENTS",
+        "is_info": false,
+        "is_resolved": true,
+        "paths": [
+          "two_to_one"
+        ],
+        "message": "CONFLICT (add/add): Merge conflict in two_to_one"
+      }
+    ]
+  }
+}

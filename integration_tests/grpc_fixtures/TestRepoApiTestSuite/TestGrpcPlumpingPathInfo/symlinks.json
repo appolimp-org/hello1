@@ -1,0 +1,157 @@
+{
+  "entry": {
+    "path": "/",
+    "type": "ENTRY_TYPE_DIR",
+    "name": "",
+    "last_commit": {
+      "hash": "ae6137045759ca029bd41c61b400a1b0dd61af35",
+      "message": "v6: update origin files\n",
+      "parent_hashes": [
+        "4c81bc50e01cdf340d63f36f452aa2e1f2c67ae9"
+      ],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2024-02-19T12:08:20Z"
+      },
+      "committer": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:08:20Z"
+      }
+    },
+    "directory": {
+      "children": [
+        {
+          "path": "another-link-to-the-same-file.txt",
+          "type": "ENTRY_TYPE_SYMLINK",
+          "name": "another-link-to-the-same-file.txt",
+          "last_commit": {
+            "hash": "4c81bc50e01cdf340d63f36f452aa2e1f2c67ae9",
+            "message": "v5: another link to the same file\n",
+            "parent_hashes": [
+              "5a7977f6332b302c6c02d4e8e5c07b82c73c4b20"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:06:40Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:06:40Z"
+            }
+          },
+          "symlink": {
+            "path": "file-origin-2.txt"
+          }
+        },
+        {
+          "path": "file-linked-to-not-exist.txt",
+          "type": "ENTRY_TYPE_SYMLINK",
+          "name": "file-linked-to-not-exist.txt",
+          "last_commit": {
+            "hash": "5a7977f6332b302c6c02d4e8e5c07b82c73c4b20",
+            "message": "v4: update link and add wrong link\n",
+            "parent_hashes": [
+              "283d8eb9b720f3142248c064a734dc375666c8fd"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:05:00Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:05:00Z"
+            }
+          },
+          "symlink": {
+            "path": "file-origin-none.txt"
+          }
+        },
+        {
+          "path": "file-linked.txt",
+          "type": "ENTRY_TYPE_SYMLINK",
+          "name": "file-linked.txt",
+          "last_commit": {
+            "hash": "5a7977f6332b302c6c02d4e8e5c07b82c73c4b20",
+            "message": "v4: update link and add wrong link\n",
+            "parent_hashes": [
+              "283d8eb9b720f3142248c064a734dc375666c8fd"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:05:00Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:05:00Z"
+            }
+          },
+          "symlink": {
+            "path": "file-origin-2.txt"
+          }
+        },
+        {
+          "path": "file-origin-2.txt",
+          "type": "ENTRY_TYPE_FILE",
+          "name": "file-origin-2.txt",
+          "last_commit": {
+            "hash": "ae6137045759ca029bd41c61b400a1b0dd61af35",
+            "message": "v6: update origin files\n",
+            "parent_hashes": [
+              "4c81bc50e01cdf340d63f36f452aa2e1f2c67ae9"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:08:20Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:08:20Z"
+            }
+          },
+          "file": {
+            "size": "53",
+            "mimetype": "text/plain; charset=utf-8",
+            "is_binary": false
+          }
+        },
+        {
+          "path": "file-origin.txt",
+          "type": "ENTRY_TYPE_FILE",
+          "name": "file-origin.txt",
+          "last_commit": {
+            "hash": "ae6137045759ca029bd41c61b400a1b0dd61af35",
+            "message": "v6: update origin files\n",
+            "parent_hashes": [
+              "4c81bc50e01cdf340d63f36f452aa2e1f2c67ae9"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:08:20Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:08:20Z"
+            }
+          },
+          "file": {
+            "size": "74",
+            "mimetype": "text/plain; charset=utf-8",
+            "is_binary": false
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/yandex/odyssey/issues?after=Y3Vyc29yOnYyOpLPAAABY7fhpyjOE5E6gw%3D%3D&page=11&per_page=100&state=all
+        headers:
+            Accept:
+                - application/vnd.github.squirrel-girl-preview
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:46:00.393981+03:00
+      response_uuid: 7c3669d0-8fd4-4145-96ae-037e3db14c68

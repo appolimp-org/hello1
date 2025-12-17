@@ -1,0 +1,79 @@
+{
+  "ranges": [
+    {
+      "old_begin": 1,
+      "old_lines_count": 1,
+      "new_begin": 1,
+      "new_lines_count": 1,
+      "commit_hash": "43683522b7adcfb445b2c9323083c8a2f9cde4b8",
+      "reblame_path": "file.txt"
+    },
+    {
+      "old_begin": 2,
+      "old_lines_count": 1,
+      "new_begin": 2,
+      "new_lines_count": 1,
+      "commit_hash": "efc7d51346c9dc1dfcc2c8881b2e4ed8fea53d9e",
+      "reblame_path": "file.txt"
+    },
+    {
+      "old_begin": 3,
+      "old_lines_count": 1,
+      "new_begin": 3,
+      "new_lines_count": 1,
+      "commit_hash": "256b095a4cee4a9e19da2e736586d92f6c6224b1",
+      "reblame_path": "file-rename.txt"
+    }
+  ],
+  "commits": [
+    {
+      "hash": "43683522b7adcfb445b2c9323083c8a2f9cde4b8",
+      "message": "first commit\n",
+      "parent_commits": [],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2024-02-19T12:00:00Z"
+      },
+      "commiter": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:00:00Z"
+      }
+    },
+    {
+      "hash": "efc7d51346c9dc1dfcc2c8881b2e4ed8fea53d9e",
+      "message": "second commit\n",
+      "parent_commits": [
+        "43683522b7adcfb445b2c9323083c8a2f9cde4b8"
+      ],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2024-02-19T12:01:40Z"
+      },
+      "commiter": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:01:40Z"
+      }
+    },
+    {
+      "hash": "256b095a4cee4a9e19da2e736586d92f6c6224b1",
+      "message": "3 commit\n",
+      "parent_commits": [
+        "efc7d51346c9dc1dfcc2c8881b2e4ed8fea53d9e"
+      ],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2024-02-19T12:03:20Z"
+      },
+      "commiter": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:03:20Z"
+      }
+    }
+  ]
+}

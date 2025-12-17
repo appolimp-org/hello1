@@ -1,0 +1,28 @@
+{
+  "id": "aeng9bjmlnkvp83tszaj",
+  "description": "accept_invite",
+  "created_at": "2025-12-15T09:54:27.578228Z",
+  "created_by": "7",
+  "modified_at": "2025-12-15T09:54:27.881535Z",
+  "done": true,
+  "metadata": {
+    "@type": "type.googleapis.com/yandex.cloud.priv.gitcore.v1.OperationMetadata",
+    "object": {
+      "type": "OBJECT_UNSPECIFIED",
+      "id": "7"
+    },
+    "status": "FAILED"
+  },
+  "error": {
+    "code": 8,
+    "message": "Invite is already expired",
+    "details": [
+      {
+        "@type": "type.googleapis.com/common.DisplayMessage",
+        "message_id": "InviteAlreadyExpired",
+        "fallback": "Invite is already expired",
+        "args": []
+      }
+    ]
+  }
+}

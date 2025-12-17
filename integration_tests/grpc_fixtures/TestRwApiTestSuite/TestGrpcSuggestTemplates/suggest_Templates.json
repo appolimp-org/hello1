@@ -1,0 +1,103 @@
+{
+  "repositories": [
+    {
+      "id": "97041825075822593",
+      "uuid": "019a39f0-35f0-7e09-ab75-a2f009f964a9",
+      "name": "go",
+      "default_branch": "master",
+      "org_slug": "sourcecraft",
+      "slug": "go",
+      "is_empty": false,
+      "description": "go",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_SYSTEM",
+      "clone_url": {
+        "https": "http://git@localhost:8081/sourcecraft/go.git",
+        "ssh": "ssh://localhost:2222/sourcecraft/go.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-10-31T11:03:55.473850Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "97041826568994817",
+      "uuid": "019a39f0-3971-7f3a-a10f-587faa8b9b97",
+      "name": "goose",
+      "default_branch": "master",
+      "org_slug": "sourcecraft",
+      "slug": "goose",
+      "is_empty": false,
+      "description": "goose",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_SYSTEM",
+      "clone_url": {
+        "https": "http://git@localhost:8081/sourcecraft/goose.git",
+        "ssh": "ssh://localhost:2222/sourcecraft/goose.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-10-31T11:03:56.242926Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    },
+    {
+      "id": "97041827005202433",
+      "uuid": "019a39f0-3a75-70f2-8201-e9631bd54f4d",
+      "name": "gorm",
+      "default_branch": "master",
+      "org_slug": "sourcecraft",
+      "slug": "gorm",
+      "is_empty": false,
+      "description": "gorm",
+      "visibility": "RESOURCE_PUBLIC",
+      "effective_visibility": "RESOURCE_PUBLIC",
+      "template_type": "TEMPLATE_SYSTEM",
+      "clone_url": {
+        "https": "http://git@localhost:8081/sourcecraft/gorm.git",
+        "ssh": "ssh://localhost:2222/sourcecraft/gorm.git"
+      },
+      "revision": "1",
+      "links": [],
+      "migration_id": "",
+      "stars": "0",
+      "forks": "0",
+      "pull_requests": "0",
+      "issues": "0",
+      "tags": "0",
+      "branches": "1",
+      "last_updated": "2025-10-31T11:03:56.480931Z",
+      "broken_fork_chain": false,
+      "rating": {
+        "percentile": 100,
+        "reactions": {},
+        "value": 0
+      }
+    }
+  ]
+}

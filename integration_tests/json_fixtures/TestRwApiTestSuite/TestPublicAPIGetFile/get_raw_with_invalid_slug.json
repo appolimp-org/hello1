@@ -1,0 +1,18 @@
+{
+  "Code": 400,
+  "Payload": {
+    "details": [
+      {
+        "field": "org_slug",
+        "rule": "Slug.Pattern"
+      },
+      {
+        "field": "repo_slug",
+        "rule": "Slug.Pattern"
+      }
+    ],
+    "error_code": "ValidationError",
+    "message": "Validation error: \n  org_slug: value must begin with a lowercase letter and contains only letters, numbers and dash\n  repo_slug: value must begin with a lowercase letter and contains only letters, numbers and dash",
+    "request_id": "8236906b-0c31-92a0-8f0f-84a3c513e207"
+  }
+}

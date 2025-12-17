@@ -1,0 +1,130 @@
+{
+  "added_user_ids":  [],
+  "created_invites":  [],
+  "errors":  [
+    {
+      "invitee_email":  "",
+      "invitee_id":  "0",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "UnknownAccessBindingsError",
+        "fallback":  "Couldn't add an invitee to the repo because of an unexpected cloud error: forbidden subject",
+        "args":  [
+          {
+            "@type":  "type.googleapis.com/google.protobuf.StringValue",
+            "value":  "forbidden subject"
+          }
+        ]
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "1",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "UnknownAccessBindingsError",
+        "fallback":  "Couldn't add an invitee to the repo because of an unexpected cloud error: forbidden subject",
+        "args":  [
+          {
+            "@type":  "type.googleapis.com/google.protobuf.StringValue",
+            "value":  "forbidden subject"
+          }
+        ]
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "2",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "UnknownInviteError",
+        "fallback":  "IAM rejected creation of the invite",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "3",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "InviteeMatchesInviter",
+        "fallback":  "Inviter tried to issue an invite to themselves",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "3",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "InviteeMatchesInviter",
+        "fallback":  "Inviter tried to issue an invite to themselves",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "3",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "UnknownAccessBindingsError",
+        "fallback":  "Couldn't add an invitee to the repo because of an unexpected cloud error: forbidden subject",
+        "args":  [
+          {
+            "@type":  "type.googleapis.com/google.protobuf.StringValue",
+            "value":  "forbidden subject"
+          }
+        ]
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "6",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "UnknownAccessBindingsError",
+        "fallback":  "Couldn't add an invitee to the repo because of an unexpected cloud error: forbidden subject",
+        "args":  [
+          {
+            "@type":  "type.googleapis.com/google.protobuf.StringValue",
+            "value":  "forbidden subject"
+          }
+        ]
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "9",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "InviteeIsFederative",
+        "fallback":  "Invited user is federative and can't be invited into organization",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "test@example.com",
+      "invitee_id":  "0",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "UnknownAccessBindingsError",
+        "fallback":  "Couldn't add an invitee to the repo because of an unexpected cloud error: forbidden subject",
+        "args":  [
+          {
+            "@type":  "type.googleapis.com/google.protobuf.StringValue",
+            "value":  "forbidden subject"
+          }
+        ]
+      }
+    }
+  ]
+}

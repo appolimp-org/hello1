@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/src-migration-tests/generic/issues/comments?per_page=100
+        headers:
+            Accept:
+                - application/vnd.github.squirrel-girl-preview
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:40:44.415846+03:00
+      response_uuid: 06848993-6de0-4744-afdb-2c2e7f965c33

@@ -1,0 +1,9 @@
+{
+  "bounds":  {
+    "old_begin":  0,
+    "old_lines_count":  0,
+    "new_begin":  1,
+    "new_lines_count":  1
+  },
+  "diff_content":  "+version 2.4\n"
+}

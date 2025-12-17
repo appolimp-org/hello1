@@ -1,0 +1,102 @@
+{
+  "created_invites":  [
+    {
+      "id":  "invite-by-id",
+      "invitee_email":  "",
+      "invitee_id":  "6",
+      "invitee_alias":  "",
+      "code":  "",
+      "status":  "PENDING",
+      "expires_at":  "1970-01-01T00:00:00Z",
+      "created_at":  "1970-01-01T00:00:00Z"
+    },
+    {
+      "id":  "invite-by-alias",
+      "invitee_email":  "",
+      "invitee_id":  "0",
+      "invitee_alias":  "valid-alias",
+      "code":  "secret-code-456",
+      "status":  "PENDING",
+      "expires_at":  "1970-01-01T00:00:00Z",
+      "created_at":  "1970-01-01T00:00:00Z"
+    },
+    {
+      "id":  "invite-email",
+      "invitee_email":  "valid@example.com",
+      "invitee_id":  "0",
+      "invitee_alias":  "",
+      "code":  "",
+      "status":  "PENDING",
+      "expires_at":  "1970-01-01T00:00:00Z",
+      "created_at":  "1970-01-01T00:00:00Z"
+    }
+  ],
+  "errors":  [
+    {
+      "invitee_email":  "",
+      "invitee_id":  "1",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "InviteeHasAlreadyJoined",
+        "fallback":  "Invited user is already a member",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "11",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "InviteeHasAlreadyJoined",
+        "fallback":  "Invited user is already a member",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "2",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "UnknownInviteError",
+        "fallback":  "IAM rejected creation of the invite",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "9",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "InviteeIsFederative",
+        "fallback":  "Invited user is federative and can't be invited into organization",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "0",
+      "invitee_username":  "",
+      "invitee_alias":  "invalid-alias",
+      "error":  {
+        "message_id":  "InviteAlreadyCreated",
+        "fallback":  "Invite to this user already exists",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "invalid@example.com",
+      "invitee_id":  "0",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "UnknownInviteError",
+        "fallback":  "IAM rejected creation of the invite",
+        "args":  []
+      }
+    }
+  ]
+}

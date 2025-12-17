@@ -1,0 +1,10 @@
+{
+  "Code": 200,
+  "Payload": {
+    "created_at": "2025-12-08T16:04:38.739384Z",
+    "modified_at": "2025-12-08T16:04:38.739384Z",
+    "operation_id": "in_progress_________",
+    "status": "in_progress",
+    "status_url": "/orgs/id:019afeb1-e542-79c7-bc29-a05c2cfad234/operations/create-invites/in_progress_________"
+  }
+}

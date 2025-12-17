@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "31",
+      "user_identity": {
+        "id": "user-k",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f1b4-4141-771c-92d4-bebb75a6957f",
+      "display_name": "User-k",
+      "username": "user-k",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/user-k.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "onboarded_at": "2025-10-17T10:25:46.308189Z"
+    }
+  ]
+}

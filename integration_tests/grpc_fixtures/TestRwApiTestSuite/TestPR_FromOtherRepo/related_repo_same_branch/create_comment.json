@@ -1,0 +1,30 @@
+{
+  "id": "72276647990001665",
+  "body": "this is the best code I've ever seen",
+  "anchor": {
+    "path": "CHANGELOG",
+    "position": {
+      "from": 10,
+      "to": 12,
+      "side": "TARGET",
+      "outdated": false
+    },
+    "hunk": {
+      "from_start": 7,
+      "from_count": -5,
+      "to_start": 1,
+      "to_count": 1,
+      "patch": "-\n+Initial changelog\n"
+    }
+  },
+  "iteration": "72276647839137793",
+  "need_resolution": false,
+  "author_id": "7",
+  "is_published": true,
+  "is_deleted": false,
+  "is_outdated": false,
+  "created_at": "2025-05-13T14:43:59.299324Z",
+  "updated_at": "2025-05-13T14:43:59.299324Z",
+  "reactions": {},
+  "type":  "PR_COMMENT_TYPE_DEFAULT"
+}

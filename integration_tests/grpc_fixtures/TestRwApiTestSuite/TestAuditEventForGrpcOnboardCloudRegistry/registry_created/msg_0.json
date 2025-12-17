@@ -1,0 +1,51 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "kopatych",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": [
+      {
+        "permission": "src.repositories.addArtifactsRegistry",
+        "resource_type": "organization-manager.organization",
+        "resource_id": "yc.organization-manager.yandex",
+        "authorized": true
+      }
+    ]
+  },
+  "event_metadata": {
+    "event_id": "aeng0oq3pafbzqrpg1hg",
+    "event_type": "yandex.cloud.events.sourcecraft.OnboardCloudRegistry",
+    "created_at": "2025-09-09T11:35:49.595223Z",
+    "tracing_context":  {
+      "trace_id":  "69702f32a6a2c6b7d46a2527e2b8f136",
+      "span_id":  "ec42cd47590d2ffc",
+      "parent_span_id":  ""
+    },
+    "organization_id": "yc.organization-manager.yandex"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "a706bd23-35cb-93e5-1d0f-8b05842120e4",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "STARTED",
+  "details": {
+    "organization_id": "yc.organization-manager.yandex",
+    "registry_id": ""
+  },
+  "request_parameters": {
+    "organization_id": "yc.organization-manager.yandex",
+    "registry_id": ""
+  },
+  "response": {
+    "operation_id": "aeng302um7bmina1dyzc"
+  }
+}

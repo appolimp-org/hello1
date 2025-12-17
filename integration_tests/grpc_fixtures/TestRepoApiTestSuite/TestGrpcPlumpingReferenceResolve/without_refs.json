@@ -1,0 +1,19 @@
+{
+  "commit": {
+    "hash": "43683522b7adcfb445b2c9323083c8a2f9cde4b8",
+    "message": "first commit\n",
+    "parent_hashes": [],
+    "author": {
+      "name": "Author",
+      "email": "author@example.com",
+      "date": "2024-02-19T12:00:00Z"
+    },
+    "committer": {
+      "name": "Commiter",
+      "email": "committer@example.com",
+      "date": "2024-02-19T12:00:00Z"
+    }
+  },
+  "revision_type": "REVISION_COMMIT",
+  "references": []
+}

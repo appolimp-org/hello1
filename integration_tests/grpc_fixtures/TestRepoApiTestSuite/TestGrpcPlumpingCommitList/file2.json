@@ -1,0 +1,21 @@
+{
+  "commits": [
+    {
+      "hash": "b8e471f58bcbca63b07bda20e428190409c2db47",
+      "message": "Creating changelog\n",
+      "parent_hashes": [
+        "b029517f6300c2da0f4b651b8642506cd6aaf45d"
+      ],
+      "author": {
+        "name": "Daniel Ripolles",
+        "email": "daniel@lordran.local",
+        "date": "2015-03-31T11:44:52Z"
+      },
+      "committer": {
+        "name": "Daniel Ripolles",
+        "email": "daniel@lordran.local",
+        "date": "2015-03-31T11:44:52Z"
+      }
+    }
+  ]
+}

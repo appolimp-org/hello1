@@ -1,0 +1,18 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "trees": [
+      {
+        "name": "long.json",
+        "path": "json/long.json",
+        "type": "file"
+      },
+      {
+        "name": "short.json",
+        "path": "json/short.json",
+        "type": "file"
+      }
+    ]
+  }
+}

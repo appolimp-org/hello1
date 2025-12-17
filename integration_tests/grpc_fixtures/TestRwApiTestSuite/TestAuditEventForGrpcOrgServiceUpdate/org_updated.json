@@ -1,0 +1,60 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "admin",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": [
+      {
+        "permission": "organization-manager.organizations.update",
+        "resource_type": "organization-manager.organization",
+        "resource_id": "78055d72-9d75-4b7a-a065-69d057d5aef6",
+        "authorized": true
+      }
+    ]
+  },
+  "event_metadata": {
+    "event_id": "aengwew5wsduf8dl30b7",
+    "event_type": "yandex.cloud.events.sourcecraft.UpdateOrganization",
+    "created_at": "2025-09-09T11:26:38.769655Z",
+    "tracing_context": {
+      "trace_id": "67472168ef26fd86873a07a55b5e1f2a",
+      "span_id": "53ed92ebcc9008ce",
+      "parent_span_id": ""
+    },
+    "organization_id": "78055d72-9d75-4b7a-a065-69d057d5aef6"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "8ef12e33-cc7f-43b1-ab40-775c4c27486a",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "DONE",
+  "details": {
+    "organization_id": "78055d72-9d75-4b7a-a065-69d057d5aef6",
+    "organization_slug": "slugabf796ee2274954ea98acc2d9a7926cb",
+    "organization_name": "NewTestDisplayName1",
+    "organization_description": "NewTestDescription1",
+    "organization_visibility": "PRIVATE",
+    "generative_background_seed": "seed"
+  },
+  "request_parameters": {
+    "organization_id": "78055d72-9d75-4b7a-a065-69d057d5aef6",
+    "organization_slug": "",
+    "organization_name": "NewTestDisplayName1",
+    "organization_description": "NewTestDescription1",
+    "organization_visibility": "PRIVATE",
+    "generative_background_seed": "seed",
+    "update_mask": "displayName,description,visibility,generativeBackgroundSeed"
+  },
+  "response": {
+    "operation_id": "aengwbgnpm0spzof3ewl"
+  }
+}

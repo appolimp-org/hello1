@@ -1,0 +1,38 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "trees": [
+      {
+        "name": "deep",
+        "path": "deep",
+        "type": "dir"
+      },
+      {
+        "name": "submodule_deep",
+        "path": "deep/submodule_deep",
+        "type": "submodule"
+      },
+      {
+        "name": "submodule_local",
+        "path": "submodule_local",
+        "type": "submodule"
+      },
+      {
+        "name": "submodule_remote",
+        "path": "submodule_remote",
+        "type": "submodule"
+      },
+      {
+        "name": ".gitmodules",
+        "path": ".gitmodules",
+        "type": "file"
+      },
+      {
+        "name": "file-parent.txt",
+        "path": "file-parent.txt",
+        "type": "file"
+      }
+    ]
+  }
+}

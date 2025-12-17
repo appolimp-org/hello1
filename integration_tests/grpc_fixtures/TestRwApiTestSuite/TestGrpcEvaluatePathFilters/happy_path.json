@@ -1,0 +1,11 @@
+{
+  "matched_files": [
+    "file1.txt",
+    "file4.txt",
+    "dir2",
+    "dir1",
+    "dir3",
+    "dir1/file1.txt",
+    "dir1/file1.txt"
+  ]
+}

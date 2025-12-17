@@ -1,0 +1,47 @@
+{
+  "merge_checks": {
+    "code_review": {
+      "check": {
+        "status": "SUCCESS",
+        "name": "code review",
+        "disabled": false,
+        "progress": {
+          "percent": 100
+        }
+      },
+      "total_ships": 0,
+      "need_ships": 0,
+      "rules": []
+    },
+    "conflicts": {
+      "check": {
+        "status": "SUCCESS",
+        "name": "merge conflicts",
+        "disabled": false
+      },
+      "conflicts": [],
+      "error": ""
+    },
+    "ci_workflows": [],
+    "config_validations": [
+      {
+        "check": {
+          "status": "SUCCESS",
+          "name": "Config validation",
+          "disabled": true
+        },
+        "file_path": ".sourcecraft/branches.yaml",
+        "error_message": ""
+      },
+      {
+        "check": {
+          "status": "FAILURE",
+          "name": "Config validation",
+          "disabled": true
+        },
+        "file_path": ".sourcecraft/review.yaml",
+        "error_message": "yaml: unmarshal errors:\n  line 1: cannot unmarshal !!str `invalid` into codereview.Config"
+      }
+    ]
+  }
+}

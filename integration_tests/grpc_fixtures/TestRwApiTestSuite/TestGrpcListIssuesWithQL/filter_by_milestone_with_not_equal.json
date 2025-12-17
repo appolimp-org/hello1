@@ -1,0 +1,141 @@
+{
+  "issues":  [
+    {
+      "id":  "85466082823045378",
+      "public_id":  "1",
+      "title":  "%issue1",
+      "description":  "Issue description",
+      "repo_id":  "85466082772648194",
+      "status_id":  "1",
+      "priority":  "PRIORITY_CRITICAL",
+      "author_id":  "7",
+      "updated_by":  "7",
+      "created_at":  "2025-08-12T14:29:15.074528Z",
+      "updated_at":  "2025-08-12T14:29:15.074528Z",
+      "deadline":  "2024-01-01T00:00:00Z",
+      "assignee_id":  "2",
+      "subscriber_ids":  [],
+      "mention_ids":  [],
+      "attachments_ids":  [],
+      "milestone":  {
+        "id":  "85466082789490946",
+        "name":  "Milestone2",
+        "slug":  "milestone2",
+        "description":  "",
+        "status":  "STATUS_OPEN",
+        "author_id":  "7",
+        "updated_by":  "7",
+        "created_at":  "2025-08-12T14:29:15.059737Z",
+        "updated_at":  "2025-08-12T14:29:15.059737Z"
+      },
+      "labels":  [
+        {
+          "id":  "85466082806202626",
+          "name":  "Task",
+          "slug":  "task",
+          "color":  "grey",
+          "author_id":  "7",
+          "updated_by":  "7",
+          "created_at":  "2025-08-12T14:29:15.065388Z",
+          "updated_at":  "2025-08-12T14:29:15.065388Z"
+        },
+        {
+          "id":  "85466082806333698",
+          "name":  "Bug",
+          "slug":  "bug",
+          "color":  "red",
+          "author_id":  "7",
+          "updated_by":  "7",
+          "created_at":  "2025-08-12T14:29:15.069710Z",
+          "updated_at":  "2025-08-12T14:29:15.069710Z"
+        }
+      ],
+      "reactions":  {
+        "1":  {
+          "count":  0,
+          "self_react":  false
+        }
+      },
+      "comments_count":  0,
+      "linked_prs":  [],
+      "visibility":  "VISIBILITY_PUBLIC",
+      "effective_visibility":  "VISIBILITY_UNSPECIFIED"
+    },
+    {
+      "id":  "85466082890154242",
+      "public_id":  "2",
+      "title":  "closed minor issue 2",
+      "description":  "Issue description",
+      "repo_id":  "85466082772648194",
+      "status_id":  "4",
+      "priority":  "PRIORITY_MINOR",
+      "author_id":  "2",
+      "updated_by":  "2",
+      "created_at":  "2025-08-12T14:29:15.119537Z",
+      "updated_at":  "2025-08-12T14:29:15.119537Z",
+      "completed_at":  "2025-08-12T14:29:15.118939Z",
+      "assignee_id":  "5",
+      "subscriber_ids":  [],
+      "mention_ids":  [],
+      "attachments_ids":  [],
+      "labels":  [
+        {
+          "id":  "85466082806333698",
+          "name":  "Bug",
+          "slug":  "bug",
+          "color":  "red",
+          "author_id":  "7",
+          "updated_by":  "7",
+          "created_at":  "2025-08-12T14:29:15.069710Z",
+          "updated_at":  "2025-08-12T14:29:15.069710Z"
+        }
+      ],
+      "reactions":  {
+        "1":  {
+          "count":  0,
+          "self_react":  false
+        }
+      },
+      "comments_count":  0,
+      "linked_prs":  [],
+      "visibility":  "VISIBILITY_PRIVATE",
+      "effective_visibility":  "VISIBILITY_UNSPECIFIED"
+    },
+    {
+      "id":  "85466083057860866",
+      "public_id":  "5",
+      "title":  "issue5",
+      "description":  "Issue description",
+      "repo_id":  "85466082772648194",
+      "status_id":  "2",
+      "priority":  "PRIORITY_TRIVIAL",
+      "author_id":  "5",
+      "updated_by":  "5",
+      "created_at":  "2025-08-12T14:29:15.211668Z",
+      "updated_at":  "2025-08-12T14:29:15.211668Z",
+      "started_at":  "2025-08-12T14:29:15.211205Z",
+      "assignee_id":  "5",
+      "subscriber_ids":  [],
+      "mention_ids":  [],
+      "attachments_ids":  [],
+      "labels":  [],
+      "reactions":  {
+        "1":  {
+          "count":  0,
+          "self_react":  false
+        }
+      },
+      "comments_count":  0,
+      "linked_prs":  [],
+      "visibility":  "VISIBILITY_PUBLIC",
+      "effective_visibility":  "VISIBILITY_UNSPECIFIED"
+    }
+  ],
+  "revision":  {
+    "value":  "5",
+    "count":  5
+  },
+  "prev_page_token":  "",
+  "next_page_token":  "",
+  "total":  3
+}

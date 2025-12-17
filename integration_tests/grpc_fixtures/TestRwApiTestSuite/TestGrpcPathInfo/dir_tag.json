@@ -1,0 +1,30 @@
+{
+  "dir_entry": {
+    "type": "DE_FILE",
+    "name": "file1.txt",
+    "path": "file1.txt",
+    "last_commit": {
+      "hash": "9ab452585ad6dae14356027d596c5a04e703decd",
+      "message": "b1\n",
+      "parent_commits": [
+        "39427c55a3c59b91b11b5c1413033ebb85f84364"
+      ],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2024-02-19T12:01:40Z"
+      },
+      "commiter": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:01:40Z"
+      }
+    },
+    "children": [],
+    "file_metadata": {
+      "size": "6",
+      "mimetype": "text/plain; charset=utf-8",
+      "is_binary": false
+    }
+  }
+}

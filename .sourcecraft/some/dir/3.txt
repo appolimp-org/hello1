@@ -1,0 +1,17 @@
+ => => naming to cr.cloud-preprod.yandex.net/crtq6gi4otida156llen/gitcore:dev-glebov-n-25-12-17  0.0s
+The push refers to repository [cr.cloud-preprod.yandex.net/crtq6gi4otida156llen/gitcore]
+55975f8831e7: Pushed
+a4c78433e1ad: Pushed
+5b13f98d98fd: Layer already exists
+2798efff1d97: Layer already exists
+1066287285f7: Layer already exists
+c4a0295bf73e: Pushed
+15162618d714: Pushed
+90623450f2db: Pushed
+eab5e2e91aa2: Pushed
+f2329ee6de3a: Layer already exists
+001bb54cf4fa: Layer already exists
+b03f61f7e733: Layer already exists
+768a58cfc710: Layer already exists
+994456c4fd7b: Layer already exists
+dev-glebov-n-25-12-17.12-38-08: digest: sha

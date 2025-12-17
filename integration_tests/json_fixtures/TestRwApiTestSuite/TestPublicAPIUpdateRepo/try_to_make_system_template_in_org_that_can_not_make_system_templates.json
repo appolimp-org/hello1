@@ -1,0 +1,6 @@
+{
+    "Code": 403,
+    "Payload": {
+        "error_code": "PermissionDenied"
+    }
+}

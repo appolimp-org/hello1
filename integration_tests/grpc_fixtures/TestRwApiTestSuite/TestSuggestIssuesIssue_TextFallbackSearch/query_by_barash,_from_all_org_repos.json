@@ -1,0 +1,44 @@
+{
+  "issues":  [
+    {
+      "id":  "79366237595172865",
+      "public_id":  "1",
+      "title":  "Важный заголовок",
+      "description":  "Какое-то описание",
+      "repo_id":  "8",
+      "author_id":  "6",
+      "updated_by":  "6",
+      "assignee_id":  "6"
+    },
+    {
+      "id":  "79366237896900609",
+      "public_id":  "1",
+      "title":  "Важный заголовок",
+      "description":  "Какое-то описание",
+      "repo_id":  "1",
+      "author_id":  "6",
+      "updated_by":  "6",
+      "assignee_id":  "6"
+    },
+    {
+      "id":  "79366237729193985",
+      "public_id":  "2",
+      "title":  "Венера",
+      "description":  "Важное описание",
+      "repo_id":  "8",
+      "author_id":  "2",
+      "updated_by":  "2",
+      "assignee_id":  "2"
+    },
+    {
+      "id":  "79366237980852225",
+      "public_id":  "2",
+      "title":  "Венера",
+      "description":  "Важное описание",
+      "repo_id":  "1",
+      "author_id":  "2",
+      "updated_by":  "2",
+      "assignee_id":  "2"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "tags": [
+      {
+        "commit": {
+          "author": {
+            "date": "2024-02-19T12:01:40Z",
+            "email": "author@example.com",
+            "name": "Author"
+          },
+          "committer": {
+            "date": "2024-02-19T12:01:40Z",
+            "email": "committer@example.com",
+            "name": "Commiter"
+          },
+          "hash": "9ab452585ad6dae14356027d596c5a04e703decd",
+          "merge_tag": "",
+          "message": "b1\n",
+          "parent_hashes": [
+            "39427c55a3c59b91b11b5c1413033ebb85f84364"
+          ],
+          "tree_hash": "0000000000000000000000000000000000000000"
+        },
+        "name": "v2.b1",
+        "target": "9ab452585ad6dae14356027d596c5a04e703decd"
+      },
+      {
+        "commit": {
+          "author": {
+            "date": "2024-02-19T12:03:20Z",
+            "email": "author@example.com",
+            "name": "Author"
+          },
+          "committer": {
+            "date": "2024-02-19T12:03:20Z",
+            "email": "committer@example.com",
+            "name": "Commiter"
+          },
+          "hash": "78350efe20fc33f940c2894e7c74e15963d7356a",
+          "merge_tag": "",
+          "message": "main 2\n",
+          "parent_hashes": [
+            "39427c55a3c59b91b11b5c1413033ebb85f84364"
+          ],
+          "tree_hash": "0000000000000000000000000000000000000000"
+        },
+        "name": "v2.main",
+        "target": "78350efe20fc33f940c2894e7c74e15963d7356a"
+      },
+      {
+        "commit": {
+          "author": {
+            "date": "2024-02-19T12:03:20Z",
+            "email": "author@example.com",
+            "name": "Author"
+          },
+          "committer": {
+            "date": "2024-02-19T12:03:20Z",
+            "email": "committer@example.com",
+            "name": "Commiter"
+          },
+          "hash": "78350efe20fc33f940c2894e7c74e15963d7356a",
+          "merge_tag": "",
+          "message": "main 2\n",
+          "parent_hashes": [
+            "39427c55a3c59b91b11b5c1413033ebb85f84364"
+          ],
+          "tree_hash": "0000000000000000000000000000000000000000"
+        },
+        "message": "annotated tag\n",
+        "name": "v2.main-an",
+        "target": "1399632e728990ce12c3703a3134ed4a7e627382"
+      }
+    ]
+  }
+}

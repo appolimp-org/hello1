@@ -1,0 +1,60 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "admin",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": [
+      {
+        "permission": "src.projects.forceDelete",
+        "resource_type": "organization-manager.organization",
+        "resource_id": "b69598d8-f37a-464e-8e2d-49b35135466e",
+        "authorized": true
+      },
+      {
+        "permission": "src.repositories.forceDelete",
+        "resource_type": "organization-manager.organization",
+        "resource_id": "b69598d8-f37a-464e-8e2d-49b35135466e",
+        "authorized": true
+      }
+    ]
+  },
+  "event_metadata": {
+    "event_id": "aeng71cgtys8necn462m",
+    "event_type": "yandex.cloud.events.sourcecraft.OffboardOrganization",
+    "created_at": "2025-09-09T11:26:35.528641Z",
+    "tracing_context":  {
+      "trace_id":  "8c7ed713f67c116e75b77927b5f4dacf",
+      "span_id":  "beb9786a0285bc2b",
+      "parent_span_id":  ""
+    },
+    "organization_id": "b69598d8-f37a-464e-8e2d-49b35135466e"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "ff9c0902-8bfe-3ba6-04cb-9c9f94dfd72c",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "STARTED",
+  "details": {
+    "organization_id": "b69598d8-f37a-464e-8e2d-49b35135466e",
+    "organization_slug": "slug04fc094ff23b6fd60eb502623180f043",
+    "organization_name": "Yandex",
+    "organization_description": "Yandex",
+    "organization_visibility": "PUBLIC",
+    "generative_background_seed": ""
+  },
+  "request_parameters": {
+    "organization_id": "b69598d8-f37a-464e-8e2d-49b35135466e"
+  },
+  "response": {
+    "operation_id": "aengh5p374ix6rnydfx4"
+  }
+}

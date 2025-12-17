@@ -1,0 +1,8 @@
+{
+  "Code": 400,
+  "Payload": {
+    "error_code": "RepoIDOrSlugRequired",
+    "message": "this method required either ID or slug",
+    "request_id": "75756e48-ce20-5d75-03e6-e024ae36ea09"
+  }
+}

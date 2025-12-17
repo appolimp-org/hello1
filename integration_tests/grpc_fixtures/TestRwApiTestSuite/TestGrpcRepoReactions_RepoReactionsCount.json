@@ -1,0 +1,9 @@
+{
+  "percentile":  100,
+  "reactions":  {
+    "RR_TYPE_POSITIVE_LEVEL_10":  1,
+    "RR_TYPE_POSITIVE_LEVEL_20":  3,
+    "RR_TYPE_POSITIVE_LEVEL_30":  2
+  },
+  "value":  18.5
+}

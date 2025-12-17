@@ -1,0 +1,41 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "kopatych",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": []
+  },
+  "event_metadata": {
+    "event_id": "aengkxuy75788b723gy5",
+    "event_type": "yandex.cloud.events.sourcecraft.CreatePersonalAccessToken",
+    "created_at": "2025-09-17T08:22:12.242872Z",
+    "organization_id": "e1cacc6f-79f7-458c-bdf0-56e67ee3c53a"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "02baf13c-c931-3398-7648-ea22f1049ffb",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "DONE",
+  "details": {
+    "user_id": "1",
+    "key_id": "90647519909904385",
+    "name": "name",
+    "description": "pat2"
+  },
+  "request_parameters": {
+    "name": "name",
+    "description": "pat2"
+  },
+  "response": {
+    "operation_id": "aengaavm9mhu1l9whyr8"
+  }
+}

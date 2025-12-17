@@ -1,0 +1,47 @@
+{
+  "added_user_ids":  [
+    "1"
+  ],
+  "created_invites":  [
+    {
+      "id":  "",
+      "invitee_email":  "",
+      "invitee_id":  "6",
+      "status":  "PENDING",
+      "expires_at":  "1970-01-01T00:00:00Z",
+      "created_at":  "1970-01-01T00:00:00Z"
+    }
+  ],
+  "errors":  [
+    {
+      "invitee_email":  "",
+      "invitee_id":  "7",
+      "invitee_username":  "",
+      "error":  {
+        "message_id":  "InviteeMatchesInviter",
+        "fallback":  "Inviter tried to issue an invite to themselves",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "9",
+      "invitee_username":  "",
+      "error":  {
+        "message_id":  "InviteeIsFederative",
+        "fallback":  "Invited user is federative and can't be invited into organization",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "2",
+      "invitee_username":  "",
+      "error":  {
+        "message_id":  "UnknownInviteError",
+        "fallback":  "IAM rejected creation of the invite",
+        "args":  []
+      }
+    }
+  ]
+}

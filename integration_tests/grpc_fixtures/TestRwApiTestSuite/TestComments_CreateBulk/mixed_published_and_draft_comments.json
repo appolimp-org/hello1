@@ -1,0 +1,58 @@
+{
+  "id": "aeng9znzjns2dwct6npj",
+  "description": "CreateBulkComment",
+  "created_by": "<iam:kopatych>",
+  "done": true,
+  "metadata": {
+    "@type": "type.googleapis.com/google.protobuf.Empty",
+    "value": {}
+  },
+  "response": {
+    "@type": "type.googleapis.com/yandex.cloud.priv.gitcore.v1.CreateBulkCommentResponse",
+    "comments": [
+      {
+        "id": "88339801115197441",
+        "body": "Published comment 1",
+        "iteration": "88339800880316417",
+        "need_resolution": false,
+        "author_id": "1",
+        "is_published": true,
+        "is_deleted": false,
+        "is_outdated": false,
+        "created_at": "2025-09-01T10:17:04.650850Z",
+        "updated_at": "2025-09-01T10:17:04.650850Z",
+        "reactions": {},
+        "type": "PR_COMMENT_TYPE_DEFAULT"
+      },
+      {
+        "id": "88339801115262977",
+        "body": "Draft comment 1",
+        "iteration": "88339800880316417",
+        "need_resolution": false,
+        "author_id": "1",
+        "is_published": false,
+        "is_deleted": false,
+        "is_outdated": false,
+        "created_at": "2025-09-01T10:17:04.650850Z",
+        "updated_at": "2025-09-01T10:17:04.650850Z",
+        "reactions": {},
+        "type": "PR_COMMENT_TYPE_DEFAULT"
+      },
+      {
+        "id": "88339801115328513",
+        "body": "Published comment 2",
+        "iteration": "88339800880316417",
+        "need_resolution": false,
+        "author_id": "1",
+        "is_published": true,
+        "is_deleted": false,
+        "is_outdated": false,
+        "created_at": "2025-09-01T10:17:04.650850Z",
+        "updated_at": "2025-09-01T10:17:04.650850Z",
+        "reactions": {},
+        "type": "PR_COMMENT_TYPE_APPSEC"
+      }
+    ],
+    "created_count": "3"
+  }
+}

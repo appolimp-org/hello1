@@ -1,0 +1,21 @@
+{
+  "Code": 201,
+  "Payload": {
+    "author": {
+      "id": "019929c1-5d48-70ea-8478-f4d48af48a18",
+      "slug": "kopatych"
+    },
+    "body": "New comment created via ID-based API",
+    "created_at": "2025-09-08T15:48:05.205992Z",
+    "id": "01992a03-53d6-7000-8e11-df13357593f4",
+    "is_deleted": false,
+    "is_outdated": false,
+    "is_published": false,
+    "is_resolved": false,
+    "iteration": "89387806052384769",
+    "need_resolution": false,
+    "reactions": {},
+    "type": "default",
+    "updated_at": "2025-09-08T15:48:05.205992Z"
+  }
+}

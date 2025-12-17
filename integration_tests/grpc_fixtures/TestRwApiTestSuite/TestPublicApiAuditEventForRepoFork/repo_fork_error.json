@@ -1,0 +1,40 @@
+{
+  "authentication":  {
+    "authenticated":  true,
+    "subject_type":  "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id":  "krosh",
+    "token_info":  {
+      "masked_iam_token":  "*** hidden ***"
+    }
+  },
+  "authorization":  {
+    "authorized":  false,
+    "permissions":  [
+      {
+        "permission":  "src.repositories.create",
+        "resource_type":  "organization-manager.organization",
+        "resource_id":  "89521318449381377",
+        "authorized":  false
+      }
+    ]
+  },
+  "event_metadata":  {
+    "event_id":  "aengcviwin9moje0agvk",
+    "event_type":  "yandex.cloud.events.sourcecraft.CreateRepository",
+    "created_at":  "2025-09-09T16:56:17.212896Z",
+    "organization_id":  "89521318449381377"
+  },
+  "request_metadata":  {
+    "remote_address":  "127.0.0.1",
+    "user_agent":  "grpc-go/1.73.0",
+    "request_id":  "3e491464-29d0-4132-fa4e-dd4adfeb44b5",
+    "idempotency_id":  "",
+    "remote_port":  "0"
+  },
+  "event_status":  "ERROR",
+  "error":  {
+    "code":  7,
+    "message":  "permission denied",
+    "details":  []
+  }
+}

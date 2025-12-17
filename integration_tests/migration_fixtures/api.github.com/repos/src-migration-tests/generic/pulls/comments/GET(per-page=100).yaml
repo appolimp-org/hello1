@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/src-migration-tests/generic/pulls/comments?per_page=100
+        headers:
+            Accept:
+                - application/vnd.github.squirrel-girl-preview, application/vnd.github.comfort-fade-preview+json
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:40:45.184664+03:00
+      response_uuid: 56f8d8ce-21f2-4c07-8a7d-3574d0c7c790

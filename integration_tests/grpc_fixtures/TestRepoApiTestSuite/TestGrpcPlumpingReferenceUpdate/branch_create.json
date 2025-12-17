@@ -1,0 +1,22 @@
+{
+  "reference": {
+    "name": "refs/heads/new-branch",
+    "commit": {
+      "hash": "36bc7e4edeaa6c65aa617ce05ad28c3c207f5116",
+      "message": "add config\n",
+      "parent_hashes": [
+        "9f75156e8509cfc8ddfa8f179fe3bcd96e876a0e"
+      ],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2005-04-01T11:14:15Z"
+      },
+      "committer": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2005-04-01T11:14:15Z"
+      }
+    }
+  }
+}

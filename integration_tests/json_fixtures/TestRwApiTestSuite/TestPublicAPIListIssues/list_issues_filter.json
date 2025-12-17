@@ -1,0 +1,41 @@
+{
+  "Code": 200,
+  "Payload": {
+    "issues": [
+      {
+        "author": {
+          "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+          "slug": "kopatych"
+        },
+        "created_at": "2025-05-27T13:34:20.978193Z",
+        "description": "",
+        "id": "019711f3-8332-72ab-8df4-5a471c676457",
+        "labels": [
+          {
+            "color": "green",
+            "id": "019711f3-8221-7dcf-8e11-693a78c5f21d",
+            "name": "Feature",
+            "slug": "feature"
+          }
+        ],
+        "linked_prs": [],
+        "priority": "critical",
+        "slug": "2",
+        "status": {
+          "id": "1",
+          "name": "Open",
+          "slug": "open",
+          "status_type": "initial"
+        },
+        "title": "Second issue",
+        "updated_at": "2025-05-27T13:34:20.978193Z",
+        "updated_by": {
+          "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+          "slug": "kopatych"
+        },
+        "visibility": "private"
+      }
+    ],
+    "next_page_token": ""
+  }
+}

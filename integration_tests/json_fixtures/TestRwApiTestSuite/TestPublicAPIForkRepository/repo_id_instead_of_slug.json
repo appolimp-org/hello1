@@ -1,0 +1,38 @@
+{
+  "Code": 201,
+  "Payload": {
+    "clone_url": {
+      "https": "http://git@localhost:8081/yandex/fork-by-id.git",
+      "ssh": "ssh://localhost:2222/yandex/fork-by-id.git"
+    },
+    "counters": {
+      "branches": "1",
+      "forks": "0",
+      "issues": "0",
+      "pull_requests": "0",
+      "tags": "0"
+    },
+    "default_branch": "master",
+    "description": "description is alpha",
+    "id": "019a3ecc-85b8-7a5c-9389-516ce719d58f",
+    "is_empty": false,
+    "language": {
+      "color": "#4F5D95",
+      "name": "PHP"
+    },
+    "last_updated": "2025-11-01T09:43:02.390916Z",
+    "links": [],
+    "name": "",
+    "organization": {
+      "id": "019a3eb8-c42d-7d2b-987e-a5d81f09eb45",
+      "slug": "yandex"
+    },
+    "parent": {
+      "id": "019a3eb8-c466-7d71-8986-9655ab39a3cf",
+      "slug": "alpha"
+    },
+    "slug": "fork-by-id",
+    "template_type": "not_a_template",
+    "visibility": "public"
+  }
+}

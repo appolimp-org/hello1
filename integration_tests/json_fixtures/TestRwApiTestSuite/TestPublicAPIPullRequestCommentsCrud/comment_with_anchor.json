@@ -1,0 +1,37 @@
+{
+  "Code": 201,
+  "Payload": {
+    "anchor": {
+      "hunk": {
+        "from_count": 0,
+        "from_start": 0,
+        "patch": "+\t\"math\"\n+)\n+\n+func main() {\n+\ts := \"Hello, John!\"\n+\tnum := 9\n+\tfmt.Println(s)\n",
+        "to_count": 7,
+        "to_start": 3
+      },
+      "path": "newfile.go",
+      "position": {
+        "from": 6,
+        "outdated": false,
+        "side": "source",
+        "to": 6
+      }
+    },
+    "author": {
+      "id": "019937e2-1c05-7cb9-8c02-5eb744c728e7",
+      "slug": "admin"
+    },
+    "body": "Comment on code change",
+    "created_at": "2025-09-11T09:16:19.292403Z",
+    "id": "0199380f-bbdc-7645-81d5-39c891c615ca",
+    "is_deleted": false,
+    "is_outdated": false,
+    "is_published": false,
+    "is_resolved": false,
+    "iteration": "89783235671883777",
+    "need_resolution": false,
+    "reactions": {},
+    "type": "default",
+    "updated_at": "2025-09-11T09:16:19.292403Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "added_user_ids":  [],
+  "created_invites":  [],
+  "errors":  [
+    {
+      "invitee_email":  "",
+      "invitee_id":  "6",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "InviteAlreadyCreated",
+        "fallback":  "Invite to this user already exists",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "",
+      "invitee_id":  "0",
+      "invitee_username":  "",
+      "invitee_alias":  "invalid-alias",
+      "error":  {
+        "message_id":  "InviteAlreadyCreated",
+        "fallback":  "Invite to this user already exists",
+        "args":  []
+      }
+    },
+    {
+      "invitee_email":  "error@example.com",
+      "invitee_id":  "0",
+      "invitee_username":  "",
+      "invitee_alias":  "",
+      "error":  {
+        "message_id":  "InviteAlreadyCreated",
+        "fallback":  "Invite to this user already exists",
+        "args":  []
+      }
+    }
+  ]
+}

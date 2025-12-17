@@ -1,0 +1,15 @@
+records:
+    - request:
+        method: GET
+        url: https://api.github.com/repos/yandex/odyssey/pulls?page=6&per_page=100&state=all
+        headers:
+            Accept:
+                - application/vnd.github.v3+json
+            Authorization:
+                - <HIDDEN>
+            User-Agent:
+                - go-github/v74.0.0
+            X-Github-Api-Version:
+                - "2022-11-28"
+        recorded_at: 2025-10-16T19:46:24.90676+03:00
+      response_uuid: f7ca03aa-df06-43b9-8913-b12d5fd8bb87

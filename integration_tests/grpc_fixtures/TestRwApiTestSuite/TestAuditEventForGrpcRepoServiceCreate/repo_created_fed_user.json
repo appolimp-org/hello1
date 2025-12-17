@@ -1,0 +1,52 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "FEDERATED_USER_ACCOUNT",
+    "subject_id": "federal1",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": []
+  },
+  "event_metadata": {
+    "event_id": "aeng799s6td4mhxltr89",
+    "event_type": "yandex.cloud.events.sourcecraft.CreateRepository",
+    "created_at": "2025-09-12T15:16:30.306312Z",
+    "tracing_context": {
+      "trace_id": "ff4561ab61d2a50d90dd21532f054149",
+      "span_id": "d895ebd8af476946",
+      "parent_span_id": ""
+    },
+    "organization_id": "89963355191640065"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "c08d8555-dc96-aff4-56c4-9f98b588b26a",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "DONE",
+  "details": {
+    "organization_id": "3",
+    "repository_id": "89964449066123627",
+    "repository_slug": "foo4",
+    "repository_description": "Foo description",
+    "repository_default_branch": "",
+    "repository_visibility": "PRIVATE",
+    "template_type": "NOT_A_TEMPLATE"
+  },
+  "request_parameters": {
+    "organization_id": "3",
+    "repository_slug": "foo4",
+    "repository_description": "Foo description",
+    "repository_default_branch": "main",
+    "repository_visibility": "PRIVATE"
+  },
+  "response": {
+    "operation_id": "aenguui7zrd7kqvhdrh3"
+  }
+}

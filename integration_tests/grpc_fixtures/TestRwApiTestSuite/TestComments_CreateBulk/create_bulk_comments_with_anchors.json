@@ -1,0 +1,107 @@
+{
+  "id":  "aengf8upfx218n5pfcoc",
+  "description":  "CreateBulkComment",
+  "created_by":  "<iam:kopatych>",
+  "done":  true,
+  "metadata":  {
+    "@type":  "type.googleapis.com/google.protobuf.Empty",
+    "value":  {}
+  },
+  "response":  {
+    "@type":  "type.googleapis.com/yandex.cloud.priv.gitcore.v1.CreateBulkCommentResponse",
+    "comments":  [
+      {
+        "id":  "88480702835720193",
+        "body":  "Comment with file anchor",
+        "anchor":  {
+          "path":  "file1.txt",
+          "position":  {
+            "from":  1,
+            "to":  2,
+            "side":  "SOURCE",
+            "outdated":  false
+          },
+          "hunk":  {
+            "from_start":  1,
+            "from_count":  1,
+            "to_start":  1,
+            "to_count":  2,
+            "patch":  "-v1\n+v2\n+something\n"
+          }
+        },
+        "iteration":  "88480702600839169",
+        "need_resolution":  true,
+        "author_id":  "1",
+        "is_resolved":  false,
+        "is_published":  true,
+        "is_deleted":  false,
+        "is_outdated":  false,
+        "created_at":  "2025-09-02T09:36:48.623599Z",
+        "updated_at":  "2025-09-02T09:36:48.623599Z",
+        "reactions":  {},
+        "type":  "PR_COMMENT_TYPE_DEFAULT"
+      },
+      {
+        "id":  "88480702835785729",
+        "body":  "Comment with line anchor",
+        "anchor":  {
+          "path":  "file1.txt",
+          "position":  {
+            "from":  2,
+            "to":  2,
+            "side":  "SOURCE",
+            "outdated":  false
+          },
+          "hunk":  {
+            "from_start":  1,
+            "from_count":  1,
+            "to_start":  1,
+            "to_count":  2,
+            "patch":  "-v1\n+v2\n+something\n"
+          }
+        },
+        "iteration":  "88480702600839169",
+        "need_resolution":  false,
+        "author_id":  "1",
+        "is_published":  true,
+        "is_deleted":  false,
+        "is_outdated":  false,
+        "created_at":  "2025-09-02T09:36:48.623599Z",
+        "updated_at":  "2025-09-02T09:36:48.623599Z",
+        "reactions":  {},
+        "type":  "PR_COMMENT_TYPE_DEFAULT"
+      },
+      {
+        "id":  "88480702835851265",
+        "body":  "Comment with range anchor",
+        "anchor":  {
+          "path":  "file1.txt",
+          "position":  {
+            "from":  1,
+            "to":  1,
+            "side":  "TARGET",
+            "outdated":  false
+          },
+          "hunk":  {
+            "from_start":  1,
+            "from_count":  1,
+            "to_start":  1,
+            "to_count":  1,
+            "patch":  "-v1\n+v2\n"
+          }
+        },
+        "iteration":  "88480702600839169",
+        "need_resolution":  false,
+        "author_id":  "1",
+        "is_published":  true,
+        "is_deleted":  false,
+        "is_outdated":  false,
+        "created_at":  "2025-09-02T09:36:48.623599Z",
+        "updated_at":  "2025-09-02T09:36:48.623599Z",
+        "reactions":  {},
+        "type":  "PR_COMMENT_TYPE_DEFAULT"
+      }
+    ],
+    "created_count":  "3"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Code": 200,
+  "Payload": {
+    "labels": [
+      {
+        "author": {
+          "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+          "slug": "admin"
+        },
+        "color": "red",
+        "created_at": "2025-05-27T13:28:11.708166Z",
+        "id": "019711ed-e0bc-723e-99e3-d2137c5a2245",
+        "name": "Bug",
+        "slug": "bug",
+        "updated_at": "2025-05-27T13:28:11.708166Z",
+        "updated_by": {
+          "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+          "slug": "admin"
+        }
+      },
+      {
+        "author": {
+          "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+          "slug": "admin"
+        },
+        "color": "green",
+        "created_at": "2025-05-27T13:28:11.715941Z",
+        "id": "019711ed-e0c3-7d9c-b45a-3e93eb8ef55e",
+        "name": "Feature",
+        "slug": "feature",
+        "updated_at": "2025-05-27T13:28:11.715941Z",
+        "updated_by": {
+          "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+          "slug": "admin"
+        }
+      }
+    ]
+  }
+}

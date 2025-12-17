@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "6",
+      "user_identity": {
+        "id": "barash",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-f60f-7246-816e-d1870d013166",
+      "display_name": "Barash",
+      "username": "barash",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PRIVATE",
+      "avatar": {
+        "url": "https://dev.null/avatars/barash.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "",
+      "revision": "",
+      "personal_org_id": "95006051950133614",
+      "onboarded_at": "2025-10-17T10:00:19.734554Z"
+    },
+    {
+      "id": "7",
+      "user_identity": {
+        "id": "admin",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-f768-7674-962f-5e42b9afd5a0",
+      "display_name": "Admin",
+      "username": "admin",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PRIVATE",
+      "avatar": {
+        "url": "https://dev.null/avatars/admin.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "",
+      "revision": "",
+      "personal_org_id": "95006052554113390",
+      "onboarded_at": "2025-10-17T10:00:20.082177Z"
+    }
+  ]
+}

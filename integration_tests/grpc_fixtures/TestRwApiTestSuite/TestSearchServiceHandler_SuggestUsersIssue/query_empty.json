@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "user_identity": {
+        "id": "kopatych",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-ee43-7547-8316-e7a0ae6bbd56",
+      "display_name": "Kopatych",
+      "username": "kopatych",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PRIVATE",
+      "avatar": {
+        "url": "https://dev.null/avatars/kopatych.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "",
+      "revision": "",
+      "personal_org_id": "95006048628244846",
+      "onboarded_at": "2025-10-17T10:00:17.738758Z"
+    },
+    {
+      "id": "3",
+      "user_identity": {
+        "id": "slowpoke",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-f0f8-7084-9c76-2e5fe6b283ac",
+      "display_name": "Slowpoke",
+      "username": "slowpoke",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PRIVATE",
+      "avatar": {
+        "url": "https://dev.null/avatars/slowpoke.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "",
+      "revision": "",
+      "personal_org_id": "95006049785872750",
+      "onboarded_at": "2025-10-17T10:00:18.434112Z"
+    },
+    {
+      "id": "4",
+      "user_identity": {
+        "id": "raichu",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-f25a-794e-9937-a29d8c5ede8e",
+      "display_name": "Raichu",
+      "username": "raichu",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PRIVATE",
+      "avatar": {
+        "url": "https://dev.null/avatars/raichu.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "",
+      "revision": "",
+      "personal_org_id": "95006050389852526",
+      "onboarded_at": "2025-10-17T10:00:18.789143Z"
+    },
+    {
+      "id": "6",
+      "user_identity": {
+        "id": "barash",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-f60f-7246-816e-d1870d013166",
+      "display_name": "Barash",
+      "username": "barash",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PRIVATE",
+      "avatar": {
+        "url": "https://dev.null/avatars/barash.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "",
+      "revision": "",
+      "personal_org_id": "95006051950133614",
+      "onboarded_at": "2025-10-17T10:00:19.734554Z"
+    },
+    {
+      "id": "7",
+      "user_identity": {
+        "id": "admin",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-f768-7674-962f-5e42b9afd5a0",
+      "display_name": "Admin",
+      "username": "admin",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PRIVATE",
+      "avatar": {
+        "url": "https://dev.null/avatars/admin.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "",
+      "revision": "",
+      "personal_org_id": "95006052554113390",
+      "onboarded_at": "2025-10-17T10:00:20.082177Z"
+    },
+    {
+      "id": "10",
+      "user_identity": {
+        "id": "bibipublic",
+        "src": "IDP_IAM"
+      },
+      "uuid": "0199f19c-fb65-797d-bc0c-08bad55f0829",
+      "display_name": "Bibipublic",
+      "username": "bibipublic",
+      "bio": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "avatar": {
+        "url": "https://dev.null/avatars/bibipublic.bmp"
+      },
+      "generative_background_seed": "",
+      "locale": "en",
+      "revision": "",
+      "personal_org_id": "95006054265389422",
+      "onboarded_at": "2025-10-17T10:00:21.103293Z"
+    }
+  ]
+}

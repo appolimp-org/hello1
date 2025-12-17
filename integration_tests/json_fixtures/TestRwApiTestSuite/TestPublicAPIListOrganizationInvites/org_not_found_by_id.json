@@ -1,0 +1,8 @@
+{
+  "Code": 404,
+  "Payload": {
+    "error_code": "OrgNotFound",
+    "message": "org#00000000-0000-0000-0000-000000000000 does not exist",
+    "request_id": "ecdbca8e-833b-8dd4-e2ed-a8ad59ff6a03"
+  }
+}

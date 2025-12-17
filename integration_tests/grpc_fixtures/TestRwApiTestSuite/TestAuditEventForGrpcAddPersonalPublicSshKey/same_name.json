@@ -1,0 +1,41 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "kopatych",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": []
+  },
+  "event_metadata": {
+    "event_id": "aeng836o85cr824a117o",
+    "event_type": "yandex.cloud.events.sourcecraft.AddPersonalPublicSshKey",
+    "created_at": "2025-09-13T20:11:25.365380799Z",
+    "organization_id": "60e151c2-f023-444e-a1e7-4eaf4a132079"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "55d50092-19fa-30e1-3a6b-72e5d9aaf907",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "DONE",
+  "details": {
+    "key_id": "90139091613515777",
+    "key_name": "same_name",
+    "user_id": "1",
+    "fingerprint": "SHA256:fclPKM5F5A6n/ca6U7awOQtoYb8nIt0waSpeWkZB4/U"
+  },
+  "request_parameters": {
+    "key_name": "same_name",
+    "fingerprint": "SHA256:fclPKM5F5A6n/ca6U7awOQtoYb8nIt0waSpeWkZB4/U"
+  },
+  "response": {
+    "operation_id": "aengofrffub2fozo8vbe"
+  }
+}

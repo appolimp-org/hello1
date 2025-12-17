@@ -1,0 +1,23 @@
+{
+  "id": "100096051297386497",
+  "event_type": "PR_UPDATED",
+  "created_at": "2025-11-21T12:44:55.814565Z",
+  "details": {
+    "update": {
+      "diffs": [
+        {
+          "field_name": "title",
+          "from": "TASK-1 add README.md",
+          "to": "My new title"
+        },
+        {
+          "field_name": "description",
+          "from": "",
+          "to": "AZAZA"
+        }
+      ],
+      "user_id": "6",
+      "type": "TYPE_DEFAULT"
+    }
+  }
+}

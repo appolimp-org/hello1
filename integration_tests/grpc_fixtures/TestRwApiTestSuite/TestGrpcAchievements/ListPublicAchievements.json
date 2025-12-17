@@ -1,0 +1,100 @@
+{
+  "achievements": [
+    {
+      "id": "100100",
+      "slug": "first-achievement",
+      "category": "CATEGORY_CODE",
+      "title": {
+        "ru": "Первый достижение",
+        "en": "First achievement"
+      },
+      "description": {
+        "ru": "Какое-то описание",
+        "en": "Some description"
+      },
+      "picture_url": "first-achievement.png",
+      "max_level": "1",
+      "created_at": "2025-08-04T12:48:49.781301Z",
+      "properties": {
+        "type": "STATIC",
+        "images": [
+          "first-achievement.png"
+        ],
+        "generator": ""
+      }
+    },
+    {
+      "id": "100102",
+      "slug": "levellable-achievement",
+      "category": "CATEGORY_COMMUNITY",
+      "title": {
+        "ru": "Ачивка с уровнями",
+        "en": "Levellable achievement"
+      },
+      "description": {
+        "ru": "Какое-то описание",
+        "en": "Some description"
+      },
+      "picture_url": "levellable-achievement.png",
+      "max_level": "999",
+      "created_at": "2025-08-04T12:48:49.782057Z",
+      "properties": {
+        "type": "STATIC",
+        "images": [
+          "levellable-achievement.png"
+        ],
+        "generator": ""
+      }
+    },
+    {
+      "id": "100104",
+      "slug": "variants-achievement",
+      "category": "CATEGORY_EXPERT",
+      "title": {
+        "ru": "Много картинок",
+        "en": "Multiple images"
+      },
+      "description": {
+        "ru": "Какое-то описание",
+        "en": "Some description"
+      },
+      "picture_url": "https://storage.yandex.ru/nice-achievement-1.png",
+      "max_level": "1",
+      "created_at": "2025-08-04T12:48:49.782499Z",
+      "properties": {
+        "type": "STATIC",
+        "images": [
+          "https://storage.yandex.ru/nice-achievement-1.png",
+          "https://storage.yandex.ru/nice-achievement-2.png",
+          "https://storage.yandex.ru/nice-achievement-3.png",
+          "https://storage.yandex.ru/nice-achievement-4.png",
+          "https://storage.yandex.ru/nice-achievement-5.png"
+        ],
+        "generator": ""
+      }
+    },
+    {
+      "id": "100105",
+      "slug": "generative-achievement",
+      "category": "CATEGORY_EXPERT",
+      "title": {
+        "ru": "Генеративное достижение",
+        "en": "Generative achievement"
+      },
+      "description": {
+        "ru": "Какое-то описание",
+        "en": "Some description"
+      },
+      "picture_url": "",
+      "max_level": "1",
+      "created_at": "2025-08-04T12:48:49.782731Z",
+      "properties": {
+        "type": "GENERATIVE",
+        "images": [],
+        "generator": "mandelbrot"
+      }
+    }
+  ],
+  "prev_page_token": "",
+  "next_page_token": ""
+}

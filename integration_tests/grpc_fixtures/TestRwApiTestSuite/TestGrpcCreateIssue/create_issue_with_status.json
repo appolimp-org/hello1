@@ -1,0 +1,31 @@
+{
+  "id":  "50368299271211698",
+  "public_id":  "5",
+  "title":  "Issue",
+  "description":  "Issue with status",
+  "repo_id":  "50368298918890162",
+  "status_id":  "2",
+  "priority":  "PRIORITY_NORMAL",
+  "author_id":  "7",
+  "updated_by":  "7",
+  "created_at":  "2024-12-13T11:24:05.866105Z",
+  "updated_at":  "2024-12-13T11:24:05.866105Z",
+  "started_at":  "2025-08-05T07:59:26.712050Z",
+  "subscriber_ids":  [],
+  "mention_ids":  [],
+  "labels":  [],
+  "reactions":  {},
+  "comments_count":  0,
+  "visibility":  "VISIBILITY_PUBLIC",
+  "effective_visibility": "VISIBILITY_PUBLIC",
+  "revision":  {
+    "value":  "1",
+    "count":  0
+  },
+  "available_actions":  {
+    "update":  true,
+    "update_visibility":  true,
+    "create_comments":  true,
+    "update_comments":  true
+  }
+}

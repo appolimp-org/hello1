@@ -1,0 +1,15 @@
+{
+  "created_invites":  [],
+  "errors":  [
+    {
+      "invitee_email":  "",
+      "invitee_id":  "2",
+      "invitee_username":  "",
+      "error":  {
+        "message_id":  "UnknownInviteError",
+        "fallback":  "IAM rejected creation of the invite",
+        "args":  []
+      }
+    }
+  ]
+}

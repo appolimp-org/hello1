@@ -1,0 +1,8 @@
+{
+    "Code": 200,
+    "Payload": {
+        "trigger_status": "created",
+        "flux_id": "0",
+        "flux_public_id": "0"
+    }
+}

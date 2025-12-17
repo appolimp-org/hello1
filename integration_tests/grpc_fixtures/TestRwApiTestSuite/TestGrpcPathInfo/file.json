@@ -1,0 +1,28 @@
+{
+  "dir_entry": {
+    "type": "DE_FILE",
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "last_commit": {
+      "hash": "b029517f6300c2da0f4b651b8642506cd6aaf45d",
+      "message": "Initial commit\n",
+      "parent_commits": [],
+      "author": {
+        "name": "Máximo Cuadros",
+        "email": "mcuadros@gmail.com",
+        "date": "2015-03-31T11:42:21Z"
+      },
+      "commiter": {
+        "name": "Máximo Cuadros",
+        "email": "mcuadros@gmail.com",
+        "date": "2015-03-31T11:42:21Z"
+      }
+    },
+    "children": [],
+    "file_metadata": {
+      "size": "189",
+      "mimetype": "text/plain",
+      "is_binary": false
+    }
+  }
+}

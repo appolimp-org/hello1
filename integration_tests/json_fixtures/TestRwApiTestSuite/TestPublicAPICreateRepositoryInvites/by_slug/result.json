@@ -1,0 +1,59 @@
+{
+  "Code": 200,
+  "Payload": {
+    "created_at": "2025-12-09T12:09:22.064951Z",
+    "modified_at": "2025-12-09T12:09:22.138121Z",
+    "operation_id": "aengx3lnc8t9ddkitigo",
+    "response": {
+      "added_users": [
+        {
+          "id": "00000000-0000-4000-8000-000000000001",
+          "slug": "kopatych"
+        },
+        {
+          "id": "00000000-0000-4000-8000-00000000000b",
+          "slug": "bibiinternal"
+        }
+      ],
+      "errors": [
+        {
+          "error_code": "InviteeIsFederative",
+          "invitee": {
+            "email": "",
+            "slug": "pininternal"
+          },
+          "message": "Invited user is federative and can't be invited into organization"
+        },
+        {
+          "error_code": "UnknownInviteError",
+          "invitee": {
+            "email": "",
+            "slug": "pikachu"
+          },
+          "message": "IAM rejected creation of the invite"
+        }
+      ],
+      "invites": [
+        {
+          "created_at": "1970-01-01T00:00:00Z",
+          "email": "valid@example.com",
+          "expires_at": "1970-01-01T00:00:00Z",
+          "id": "",
+          "status": "pending"
+        },
+        {
+          "created_at": "1970-01-01T00:00:00Z",
+          "expires_at": "1970-01-01T00:00:00Z",
+          "id": "",
+          "invitee": {
+            "id": "00000000-0000-4000-8000-000000000006",
+            "slug": "barash"
+          },
+          "status": "pending"
+        }
+      ]
+    },
+    "status": "success",
+    "status_url": "/repos/by-id/019b0304-23fa-7d38-9a0b-ff86e3c9ef2f/operations/create-invites/aengx3lnc8t9ddkitigo"
+  }
+}

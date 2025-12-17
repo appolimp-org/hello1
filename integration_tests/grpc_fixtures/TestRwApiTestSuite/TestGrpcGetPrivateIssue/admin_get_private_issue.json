@@ -1,0 +1,30 @@
+{
+  "id":  "50368307307629234",
+  "public_id":  "1",
+  "title":  "Private Issue",
+  "description":  "",
+  "repo_id":  "50368307290917554",
+  "status_id":  "1",
+  "priority":  "PRIORITY_NORMAL",
+  "author_id":  "2",
+  "updated_by":  "2",
+  "created_at":  "2024-12-13T11:24:10.658493Z",
+  "updated_at":  "2024-12-13T11:24:10.658493Z",
+  "subscriber_ids":  [],
+  "mention_ids":  [],
+  "labels":  [],
+  "reactions":  {},
+  "comments_count":  0,
+  "visibility":  "VISIBILITY_PRIVATE",
+  "effective_visibility": "VISIBILITY_PRIVATE",
+  "revision":  {
+    "value":  "1",
+    "count":  0
+  },
+  "available_actions":  {
+    "update":  true,
+    "update_visibility":  true,
+    "create_comments":  true,
+    "update_comments":  true
+  }
+}

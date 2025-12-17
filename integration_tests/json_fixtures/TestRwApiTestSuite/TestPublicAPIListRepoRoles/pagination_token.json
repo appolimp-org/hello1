@@ -1,0 +1,22 @@
+{
+    "Code": 200,
+    "Payload": {
+        "next_page_token": "",
+        "subject_roles": [
+            {
+                "role": "admin",
+                "subject": {
+                    "id": "barash",
+                    "type": "user"
+                }
+            },
+            {
+                "role": "admin",
+                "subject": {
+                    "id": "krosh",
+                    "type": "user"
+                }
+            }
+        ]
+    }
+}

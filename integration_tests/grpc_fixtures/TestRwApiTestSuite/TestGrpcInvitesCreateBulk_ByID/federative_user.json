@@ -1,0 +1,15 @@
+{
+  "created_invites":  [],
+  "errors":  [
+    {
+      "invitee_email":  "",
+      "invitee_id":  "9",
+      "invitee_username":  "",
+      "error":  {
+        "message_id":  "InviteeIsFederative",
+        "fallback":  "Invited user is federative and can't be invited into organization",
+        "args":  []
+      }
+    }
+  ]
+}

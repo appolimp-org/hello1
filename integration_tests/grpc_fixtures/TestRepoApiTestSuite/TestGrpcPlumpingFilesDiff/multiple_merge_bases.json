@@ -1,0 +1,36 @@
+{
+  "file_diffs": [
+    {
+      "diff_path": {
+        "source_path": "a1",
+        "target_path": "a1"
+      },
+      "diff": {
+        "chunks": [
+          {
+            "region": {
+              "old_begin": 1,
+              "old_lines_count": 1,
+              "new_begin": 1,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": "C"
+              },
+              {
+                "type": "ADD",
+                "content": "G"
+              }
+            ]
+          }
+        ],
+        "target_lines_count": 1,
+        "source_lines_count": 1,
+        "added_lines_count": 1,
+        "removed_lines_count": 1
+      }
+    }
+  ]
+}

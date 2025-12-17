@@ -1,0 +1,19 @@
+{
+  "Code": 200,
+  "Payload": {
+    "author": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    },
+    "color": "green",
+    "created_at": "2025-05-27T13:32:05.576533Z",
+    "id": "019711f1-7248-77d0-8080-11f02abae93e",
+    "name": "Feature",
+    "slug": "feature",
+    "updated_at": "2025-05-27T13:32:05.576533Z",
+    "updated_by": {
+      "id": "019711be-8855-7918-8133-2f9e4dbf8779",
+      "slug": "kopatych"
+    }
+  }
+}

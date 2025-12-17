@@ -1,0 +1,53 @@
+{
+  "Code": 200,
+  "Payload": {
+    "pull_requests": [
+      {
+        "author": {
+          "id": "019904f8-423d-7d61-b8e4-10fd678e1f0d",
+          "slug": "krosh"
+        },
+        "created_at": "2025-09-01T17:02:34.931488Z",
+        "description": "",
+        "id": "0199063b-03b3-776e-add3-1a9a63875498",
+        "repository": {
+          "id": "0199063b-037d-77ac-8d9b-c85028501b74",
+          "slug": "repo88380620333383681"
+        },
+        "slug": "1",
+        "source_branch": "branch-1",
+        "status": "draft",
+        "target_branch": "master",
+        "title": "PR-1",
+        "updated_at": "2025-09-01T17:02:34.931488Z",
+        "updated_by": {
+          "id": "019904f8-423d-7d61-b8e4-10fd678e1f0d",
+          "slug": "krosh"
+        }
+      },
+      {
+        "author": {
+          "id": "019904f8-423d-7d61-b8e4-10fd678e1f0d",
+          "slug": "krosh"
+        },
+        "created_at": "2025-09-01T17:02:34.985893Z",
+        "description": "",
+        "id": "0199063b-03e9-7da0-b2a3-507bd5280ea2",
+        "repository": {
+          "id": "0199063b-037d-77ac-8d9b-c85028501b74",
+          "slug": "repo88380620333383681"
+        },
+        "slug": "3",
+        "source_branch": "branch-3",
+        "status": "draft",
+        "target_branch": "master",
+        "title": "PR-3",
+        "updated_at": "2025-09-01T17:02:34.985893Z",
+        "updated_by": {
+          "id": "019904f8-423d-7d61-b8e4-10fd678e1f0d",
+          "slug": "krosh"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "releases":  [
+    {
+      "id":  "101059653248483329",
+      "repo_id":  "1",
+      "version":  "",
+      "tag":  "v1.1.0",
+      "hash":  "f16744c9212891e08f446786f42f6d5b2b82b4c6",
+      "create_tag_from":  "master",
+      "title":  "1.1.0 - create tag",
+      "changelog":  "",
+      "description":  "Default release notes",
+      "release_notes":  "Default release notes",
+      "release_status":  "STATUS_PUBLISHED",
+      "created_at":  "2025-11-28T07:17:27.199035Z",
+      "updated_at":  "2025-11-28T04:17:27.339626Z",
+      "released_at":  "2025-11-28T07:17:27.199035Z",
+      "assets":  [
+        {
+          "id":  "101059653265260545",
+          "name":  "Default link",
+          "link":  "https://example.com"
+        },
+        {
+          "id":  "101059653265326081",
+          "name":  "Default attachment",
+          "attachment":  {
+            "id":  "101059651201662977",
+            "name":  "document.pdf",
+            "mime_type":  "application/pdf",
+            "file_type":  "FILE_TYPE_DOCUMENT",
+            "entity_type":  "ENTITY_TYPE_RELEASE",
+            "entity_id":  "101059653248483329",
+            "size":  "6022",
+            "sha256":  "b55afd89ea9eaf684f7d67ecf84fb3af9eaeb5f7f9e313ae14ec9d6712840254"
+          }
+        }
+      ],
+      "is_latest":  true,
+      "is_pre_release":  false,
+      "created_by":  "7"
+    },
+    {
+      "id":  "101059652980047873",
+      "repo_id":  "1",
+      "version":  "",
+      "tag":  "v1.0.0",
+      "hash":  "6ecf0ef2c2dffb796033e5a02219af86ec6584e5",
+      "title":  "1.0.0 - from existing",
+      "changelog":  "",
+      "description":  "Default release notes",
+      "release_notes":  "Default release notes",
+      "release_status":  "STATUS_DRAFT",
+      "created_at":  "2025-11-28T07:17:27.154461Z",
+      "updated_at":  "2025-11-28T04:17:27.171979Z",
+      "assets":  [],
+      "is_latest":  false,
+      "is_pre_release":  false,
+      "created_by":  "7"
+    }
+  ],
+  "prev_page_token":  "",
+  "next_page_token":  ""
+}

@@ -1,0 +1,47 @@
+{
+  "Code": 200,
+  "Payload": {
+    "issues": [
+      {
+        "author": {
+          "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+          "slug": "admin"
+        },
+        "created_at": "2025-05-27T13:34:20.741328Z",
+        "description": "",
+        "id": "019711f3-8244-745d-bec9-17693a702883",
+        "labels": [
+          {
+            "color": "grey",
+            "id": "019711f3-81fe-7274-913e-8da541856bb4",
+            "name": "Task",
+            "slug": "task"
+          },
+          {
+            "color": "red",
+            "id": "019711f3-820e-76b6-a0b2-c5b22cedaedb",
+            "name": "Bug",
+            "slug": "bug"
+          }
+        ],
+        "linked_prs": [],
+        "priority": "normal",
+        "slug": "1",
+        "status": {
+          "id": "5",
+          "name": "Declined",
+          "slug": "declined",
+          "status_type": "cancelled"
+        },
+        "title": "First issue",
+        "updated_at": "2025-05-27T13:34:20.741328Z",
+        "updated_by": {
+          "id": "019711be-90ad-7d36-9d92-f1fae0958069",
+          "slug": "admin"
+        },
+        "visibility": "public"
+      }
+    ],
+    "next_page_token": ""
+  }
+}

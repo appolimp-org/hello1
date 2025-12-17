@@ -1,0 +1,159 @@
+{
+  "entry": {
+    "path": "/",
+    "type": "ENTRY_TYPE_DIR",
+    "name": "",
+    "last_commit": {
+      "hash": "96890902822b65f0f3c30e01b8501337deb1d6bf",
+      "message": "No submodules' change commit\n",
+      "parent_hashes": [
+        "3ec72e534babbf9141c5f2bd2390546138be61d8"
+      ],
+      "author": {
+        "name": "Author",
+        "email": "author@example.com",
+        "date": "2024-02-19T12:06:40Z"
+      },
+      "committer": {
+        "name": "Commiter",
+        "email": "committer@example.com",
+        "date": "2024-02-19T12:06:40Z"
+      }
+    },
+    "directory": {
+      "children": [
+        {
+          "path": "deep",
+          "type": "ENTRY_TYPE_DIR",
+          "name": "deep",
+          "last_commit": {
+            "hash": "3ec72e534babbf9141c5f2bd2390546138be61d8",
+            "message": "Deep submodule\n",
+            "parent_hashes": [
+              "b2fd7551d02b14f8509594ba2fc3f0544957b075"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:05:00Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:05:00Z"
+            }
+          },
+          "directory": {
+            "children": []
+          }
+        },
+        {
+          "path": ".gitmodules",
+          "type": "ENTRY_TYPE_FILE",
+          "name": ".gitmodules",
+          "last_commit": {
+            "hash": "3ec72e534babbf9141c5f2bd2390546138be61d8",
+            "message": "Deep submodule\n",
+            "parent_hashes": [
+              "b2fd7551d02b14f8509594ba2fc3f0544957b075"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:05:00Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:05:00Z"
+            }
+          },
+          "file": {
+            "size": "299",
+            "mimetype": "text/plain",
+            "is_binary": false
+          }
+        },
+        {
+          "path": "file-parent.txt",
+          "type": "ENTRY_TYPE_FILE",
+          "name": "file-parent.txt",
+          "last_commit": {
+            "hash": "96890902822b65f0f3c30e01b8501337deb1d6bf",
+            "message": "No submodules' change commit\n",
+            "parent_hashes": [
+              "3ec72e534babbf9141c5f2bd2390546138be61d8"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:06:40Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:06:40Z"
+            }
+          },
+          "file": {
+            "size": "175",
+            "mimetype": "text/plain; charset=utf-8",
+            "is_binary": false
+          }
+        },
+        {
+          "path": "submodule_local",
+          "type": "ENTRY_TYPE_SUBMODULE",
+          "name": "submodule_local",
+          "last_commit": {
+            "hash": "b2fd7551d02b14f8509594ba2fc3f0544957b075",
+            "message": "Local submodule\n",
+            "parent_hashes": [
+              "9d1cd6315374faa81aa6faaad65176f1fc7bacc3"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:03:20Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:03:20Z"
+            }
+          },
+          "submodule": {
+            "url": "../../../submodule.git",
+            "commit_hash": "d793ffd2ea7c07175263abe631a307ef1ca7f41b"
+          }
+        },
+        {
+          "path": "submodule_remote",
+          "type": "ENTRY_TYPE_SUBMODULE",
+          "name": "submodule_remote",
+          "last_commit": {
+            "hash": "9d1cd6315374faa81aa6faaad65176f1fc7bacc3",
+            "message": "Remote submodule\n",
+            "parent_hashes": [
+              "0b0cbb803dc4728f5a1bfd0593c001eb3f1faaa1"
+            ],
+            "author": {
+              "name": "Author",
+              "email": "author@example.com",
+              "date": "2024-02-19T12:01:40Z"
+            },
+            "committer": {
+              "name": "Commiter",
+              "email": "committer@example.com",
+              "date": "2024-02-19T12:01:40Z"
+            }
+          },
+          "submodule": {
+            "url": "git@localhost:yandex/submodule.git",
+            "commit_hash": "c1cc931c767b89c95f41e929b12544d6b95f9f2e"
+          }
+        }
+      ]
+    }
+  }
+}

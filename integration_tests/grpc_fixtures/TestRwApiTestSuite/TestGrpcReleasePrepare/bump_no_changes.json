@@ -1,0 +1,10 @@
+{
+  "release":  {
+    "version":  "0.0.2-rc",
+    "tag":  "tag-ci-0.0.2-rc",
+    "changelog":  "",
+    "description":  "",
+    "hash":  "b029517f6300c2da0f4b651b8642506cd6aaf45d"
+  },
+  "previous_version":  "0.0.1"
+}

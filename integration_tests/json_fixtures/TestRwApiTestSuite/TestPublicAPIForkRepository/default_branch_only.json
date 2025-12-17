@@ -1,0 +1,38 @@
+{
+  "Code": 201,
+  "Payload": {
+    "clone_url": {
+      "https": "http://git@localhost:8081/sme/fork-default-only.git",
+      "ssh": "ssh://localhost:2222/sme/fork-default-only.git"
+    },
+    "counters": {
+      "branches": "1",
+      "forks": "0",
+      "issues": "0",
+      "pull_requests": "0",
+      "tags": "0"
+    },
+    "default_branch": "master",
+    "description": "description is alpha",
+    "id": "019a3ecc-873c-7d75-aad9-a83b0b01fcfa",
+    "is_empty": false,
+    "language": {
+      "color": "#4F5D95",
+      "name": "PHP"
+    },
+    "last_updated": "2025-11-01T09:43:02.784869Z",
+    "links": [],
+    "name": "",
+    "organization": {
+      "id": "019a3eb8-c453-7249-b5fe-5b986a1f6944",
+      "slug": "sme"
+    },
+    "parent": {
+      "id": "019a3eb8-c466-7d71-8986-9655ab39a3cf",
+      "slug": "alpha"
+    },
+    "slug": "fork-default-only",
+    "template_type": "not_a_template",
+    "visibility": "public"
+  }
+}

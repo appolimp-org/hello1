@@ -1,0 +1,77 @@
+{
+  "Code": 200,
+  "Payload": {
+    "issues": [
+      {
+        "assignee": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "author": {
+          "id": "0198b19b-a3dc-7612-8958-24e8eec9551d",
+          "slug": "krosh"
+        },
+        "completed_at": "2025-08-18T22:25:45.959058Z",
+        "created_at": "2025-08-18T22:25:45.959550Z",
+        "description": "Issue description",
+        "id": "0198bf49-dde7-7817-8504-483d36cba78a",
+        "labels": [
+          {
+            "color": "red",
+            "id": "0198bf49-ddb6-7992-858d-01f13d4b4e49",
+            "name": "Bug",
+            "slug": "bug"
+          }
+        ],
+        "linked_prs": [],
+        "priority": "minor",
+        "slug": "2",
+        "status": {
+          "id": "4",
+          "name": "Closed",
+          "slug": "closed",
+          "status_type": "completed"
+        },
+        "title": "closed minor issue 2",
+        "updated_at": "2025-08-18T22:25:45.959550Z",
+        "updated_by": {
+          "id": "0198b19b-a3dc-7612-8958-24e8eec9551d",
+          "slug": "krosh"
+        },
+        "visibility": "private"
+      },
+      {
+        "assignee": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "author": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "created_at": "2025-08-18T22:25:46.053820Z",
+        "description": "Issue description",
+        "id": "0198bf49-de45-7c34-935c-1a15c67df032",
+        "labels": [],
+        "linked_prs": [],
+        "priority": "trivial",
+        "slug": "5",
+        "started_at": "2025-08-18T22:25:46.053263Z",
+        "status": {
+          "id": "2",
+          "name": "In progress",
+          "slug": "inProgress",
+          "status_type": "in_progress"
+        },
+        "title": "issue5",
+        "updated_at": "2025-08-18T22:25:46.053820Z",
+        "updated_by": {
+          "id": "0198b19b-a7ae-7889-94a7-d2fc98a92640",
+          "slug": "pikachu"
+        },
+        "visibility": "public"
+      }
+    ],
+    "next_page_token": ""
+  }
+}

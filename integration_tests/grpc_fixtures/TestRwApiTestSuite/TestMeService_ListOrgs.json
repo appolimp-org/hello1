@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "id": "90523041339015169",
+      "org_identity": {
+        "id": "a631148f-02e2-4380-bb9f-bd2e44ee4087",
+        "src": "ORG_IAM"
+      },
+      "display_name": "kopatych Personal Organization (SourceCraft)",
+      "slug": "kopatych",
+      "description": "Created by SourceCraft",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "generative_background_seed": "",
+      "revision": "",
+      "settings": {}
+    },
+    {
+      "id": "3",
+      "org_identity": {
+        "id": "90523049291481089",
+        "src": "ORG_SELFHOSTED"
+      },
+      "display_name": "sme",
+      "slug": "sme",
+      "description": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "generative_background_seed": "",
+      "revision": "",
+      "settings": {}
+    }
+  ],
+  "orgs": [
+    {
+      "id": "3",
+      "org_identity": {
+        "id": "90523049291481089",
+        "src": "ORG_SELFHOSTED"
+      },
+      "display_name": "sme",
+      "slug": "sme",
+      "description": "",
+      "links": [],
+      "visibility": "PROFILE_PUBLIC",
+      "generative_background_seed": "",
+      "revision": "",
+      "settings": {}
+    }
+  ],
+  "personal": {
+    "id": "90523041339015169",
+    "org_identity": {
+      "id": "a631148f-02e2-4380-bb9f-bd2e44ee4087",
+      "src": "ORG_IAM"
+    },
+    "display_name": "kopatych Personal Organization (SourceCraft)",
+    "slug": "kopatych",
+    "description": "Created by SourceCraft",
+    "links": [],
+    "visibility": "PROFILE_PUBLIC",
+    "generative_background_seed": "",
+    "revision": "",
+    "settings": {}
+  }
+}

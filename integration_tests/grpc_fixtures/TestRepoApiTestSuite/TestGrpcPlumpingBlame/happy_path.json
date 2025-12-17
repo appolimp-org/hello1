@@ -1,0 +1,28 @@
+{
+  "ranges": [
+    {
+      "commit_hash": "43683522b7adcfb445b2c9323083c8a2f9cde4b8",
+      "old_begin": 4,
+      "old_lines_count": 3,
+      "new_begin": 2,
+      "new_lines_count": 3,
+      "reblame_path": "file3.txt"
+    },
+    {
+      "commit_hash": "256b095a4cee4a9e19da2e736586d92f6c6224b1",
+      "old_begin": 5,
+      "old_lines_count": 2,
+      "new_begin": 5,
+      "new_lines_count": 2,
+      "reblame_path": "file3.txt"
+    },
+    {
+      "commit_hash": "43683522b7adcfb445b2c9323083c8a2f9cde4b8",
+      "old_begin": 7,
+      "old_lines_count": 1,
+      "new_begin": 7,
+      "new_lines_count": 1,
+      "reblame_path": "file3.txt"
+    }
+  ]
+}

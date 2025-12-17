@@ -1,0 +1,23 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "trees": [
+      {
+        "name": ".gitignore",
+        "path": ".gitignore",
+        "type": "file"
+      },
+      {
+        "name": "LICENSE",
+        "path": "LICENSE",
+        "type": "file"
+      },
+      {
+        "name": "binary.jpg",
+        "path": "binary.jpg",
+        "type": "file"
+      }
+    ]
+  }
+}

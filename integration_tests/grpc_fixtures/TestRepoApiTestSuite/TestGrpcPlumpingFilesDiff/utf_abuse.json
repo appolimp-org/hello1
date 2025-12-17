@@ -1,0 +1,40 @@
+{
+  "file_diffs": [
+    {
+      "diff_path": {
+        "source_path": "utfabuse.txt",
+        "target_path": "utfabuse.txt"
+      },
+      "diff": {
+        "chunks": [
+          {
+            "region": {
+              "old_begin": 1,
+              "old_lines_count": 2,
+              "new_begin": 0,
+              "new_lines_count": 0
+            },
+            "lines": [
+              {
+                "type": "REMOVE",
+                "content": "x\u0001�"
+              },
+              {
+                "type": "REMOVE",
+                "content": "�0\u0010D=�+r\u0017d7I�.\u0014Q�f�A�\u0012�\u0006\u000b^=͛\u0007\u0003�%�[�\u0006aת�fA\u0013�D�\u0007�x$�!�!�D�$�\u0006�Z�*�\u0019�\"\u0007\u001f�HLCr(d(�\u0019�[|솒\u00115?۵T}�b�I�s^�r�\u001a\u0003�9\u0003�`\u0001T�\\�/_�0�ܟ�zY�\u0001�\u0003A�"
+              },
+              {
+                "type": "UNCHANGED",
+                "content": "\\ No newline at end of file"
+              }
+            ]
+          }
+        ],
+        "target_lines_count": 2,
+        "source_lines_count": 0,
+        "added_lines_count": 0,
+        "removed_lines_count": 2
+      }
+    }
+  ]
+}

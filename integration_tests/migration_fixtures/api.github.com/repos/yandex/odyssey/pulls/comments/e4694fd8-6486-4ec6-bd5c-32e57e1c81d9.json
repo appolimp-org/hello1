@@ -1,0 +1,71 @@
+[
+  {
+    "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/309120218",
+    "pull_request_review_id": 268885990,
+    "id": 309120218,
+    "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDMwOTEyMDIxOA==",
+    "diff_hunk": "@@ -0,0 +1,45 @@\n+\n+#include <machinarium.h>\n+#include <sleep_lock.h>\n+#include <odyssey_test.h>\n+\n+mm_sleeplock_t global_lock;\n+\n+static void\n+test_coroutine(void *arg)\n+{\n+\tuint64_t* value = (uint64_t*)arg;\n+\tfor (int i = 0; i < (1 << 22); i++){",
+    "path": "test/machinarium/test_sleeplock.c",
+    "commit_id": "13bd4f1998b048f7fb2dfda7c3fb3b16e22ef181",
+    "original_commit_id": "770e242e724e67c6446af5fe82395b781aaff2a2",
+    "user": {
+      "login": "pmwkaa",
+      "id": 741216,
+      "node_id": "MDQ6VXNlcjc0MTIxNg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/741216?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pmwkaa",
+      "html_url": "https://github.com/pmwkaa",
+      "followers_url": "https://api.github.com/users/pmwkaa/followers",
+      "following_url": "https://api.github.com/users/pmwkaa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pmwkaa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pmwkaa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pmwkaa/subscriptions",
+      "organizations_url": "https://api.github.com/users/pmwkaa/orgs",
+      "repos_url": "https://api.github.com/users/pmwkaa/repos",
+      "events_url": "https://api.github.com/users/pmwkaa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pmwkaa/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "I wonder, how much time this test takes to execute? In Travis for example",
+    "created_at": "2019-07-31T09:21:53Z",
+    "updated_at": "2019-07-31T09:56:56Z",
+    "html_url": "https://github.com/yandex/odyssey/pull/63#discussion_r309120218",
+    "pull_request_url": "https://api.github.com/repos/yandex/odyssey/pulls/63",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/comments/309120218"
+      },
+      "html": {
+        "href": "https://github.com/yandex/odyssey/pull/63#discussion_r309120218"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/yandex/odyssey/pulls/63"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/yandex/odyssey/pulls/comments/309120218/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 12,
+    "original_line": 12,
+    "side": "RIGHT",
+    "author_association": "CONTRIBUTOR",
+    "original_position": 12,
+    "position": 12,
+    "subject_type": "line"
+  }
+]

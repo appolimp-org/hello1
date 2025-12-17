@@ -1,0 +1,282 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "g6dDb2x1bW5zkoOkTmFtZaZyYXRpbmepRGlyZWN0aW9uw6VWYWx1ZcCDpE5hbWWhX6lEaXJlY3Rpb27CpVZhbHVlzwAAAAAAAAAKqURpcmVjdGlvbsKqQ2xvdWRUb2tlbsA",
+    "repositories": [
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/alpha.git",
+          "ssh": "ssh://localhost:2222/yandex/alpha.git"
+        },
+        "counters": {
+          "branches": "3",
+          "forks": "1",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "master",
+        "description": "description is alpha",
+        "id": "019a3575-0dd8-7530-a269-33912ece9bcd",
+        "is_empty": false,
+        "language": {
+          "color": "#4F5D95",
+          "name": "PHP"
+        },
+        "last_updated": "2025-10-30T14:10:55.599593Z",
+        "links": [],
+        "name": "alpha",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "alpha",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/history.git",
+          "ssh": "ssh://localhost:2222/yandex/history.git"
+        },
+        "counters": {
+          "branches": "2",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "master",
+        "description": "description is history",
+        "id": "019a3575-1008-78a2-800f-d1ee372c26d6",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:55.743421Z",
+        "links": [],
+        "name": "history",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "history",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/mergehistory.git",
+          "ssh": "ssh://localhost:2222/yandex/mergehistory.git"
+        },
+        "counters": {
+          "branches": "2",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "main",
+        "description": "description is mergehistory",
+        "id": "019a3575-108e-73b1-8d88-022b9b313623",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:55.857616Z",
+        "links": [],
+        "name": "mergehistory",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "mergehistory",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/listtree.git",
+          "ssh": "ssh://localhost:2222/yandex/listtree.git"
+        },
+        "counters": {
+          "branches": "1",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "main",
+        "description": "description is listtree",
+        "id": "019a3575-1103-714c-85c4-c2a6aa48f319",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:55.957916Z",
+        "links": [],
+        "name": "listtree",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "listtree",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/listbranches.git",
+          "ssh": "ssh://localhost:2222/yandex/listbranches.git"
+        },
+        "counters": {
+          "branches": "4",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "main",
+        "description": "description is listbranches",
+        "id": "019a3575-1164-76c2-8a32-f4467b441bbb",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:56.055411Z",
+        "links": [],
+        "name": "listbranches",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "listbranches",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/listtags.git",
+          "ssh": "ssh://localhost:2222/yandex/listtags.git"
+        },
+        "counters": {
+          "branches": "2",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "7"
+        },
+        "default_branch": "main",
+        "description": "description is listtags",
+        "id": "019a3575-11c5-79d7-946b-0f99381f1ccc",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:56.161592Z",
+        "links": [],
+        "name": "listtags",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "listtags",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/pathinfo.git",
+          "ssh": "ssh://localhost:2222/yandex/pathinfo.git"
+        },
+        "counters": {
+          "branches": "1",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "main",
+        "description": "description is pathinfo",
+        "id": "019a3575-122f-79bc-845e-6ba1afd456ac",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:56.254797Z",
+        "links": [],
+        "name": "pathinfo",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "pathinfo",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/treediff.git",
+          "ssh": "ssh://localhost:2222/yandex/treediff.git"
+        },
+        "counters": {
+          "branches": "8",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "0"
+        },
+        "default_branch": "main",
+        "description": "description is treediff",
+        "id": "019a3575-1291-7a02-a697-665c1f613b92",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:56.364219Z",
+        "links": [],
+        "name": "treediff",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "treediff",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/submodule.git",
+          "ssh": "ssh://localhost:2222/yandex/submodule.git"
+        },
+        "counters": {
+          "branches": "1",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "3"
+        },
+        "default_branch": "main",
+        "description": "description is submodule",
+        "id": "019a3575-12f9-7cec-a703-4aab4bbc2089",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:56.457206Z",
+        "links": [],
+        "name": "submodule",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "submodule",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      },
+      {
+        "clone_url": {
+          "https": "http://git@localhost:8081/yandex/submodule-parent.git",
+          "ssh": "ssh://localhost:2222/yandex/submodule-parent.git"
+        },
+        "counters": {
+          "branches": "1",
+          "forks": "0",
+          "issues": "0",
+          "pull_requests": "0",
+          "tags": "5"
+        },
+        "default_branch": "main",
+        "description": "description is submodule-parent",
+        "id": "019a3575-1358-78ed-9782-928b1002fefb",
+        "is_empty": false,
+        "last_updated": "2025-10-30T14:10:56.571945Z",
+        "links": [],
+        "name": "submodule-parent",
+        "organization": {
+          "id": "019a3575-0daf-76d9-a18e-f6ddd04d883c",
+          "slug": "yandex"
+        },
+        "slug": "submodule-parent",
+        "template_type": "not_a_template",
+        "visibility": "public"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "file_diffs": [
+    {
+      "diff_path": {
+        "source_path": "README",
+        "target_path": ""
+      },
+      "diff": {
+        "chunks": [
+          {
+            "region": {
+              "old_begin": 0,
+              "old_lines_count": 0,
+              "new_begin": 1,
+              "new_lines_count": 1
+            },
+            "lines": [
+              {
+                "type": "ADD",
+                "content": "# README"
+              }
+            ]
+          }
+        ],
+        "target_lines_count": 0,
+        "source_lines_count": 1,
+        "added_lines_count": 1,
+        "removed_lines_count": 0
+      }
+    }
+  ]
+}

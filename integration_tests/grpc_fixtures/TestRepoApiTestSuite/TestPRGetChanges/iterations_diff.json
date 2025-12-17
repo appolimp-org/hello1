@@ -1,0 +1,28 @@
+{
+  "tree_diffs":  [
+    {
+      "paths":  {
+        "target":  "range_dir",
+        "source":  "range_dir"
+      },
+      "type":  "DIR",
+      "status":  "MODIFIED"
+    },
+    {
+      "paths":  {
+        "target":  "range_dir/both_changed.txt",
+        "source":  "range_dir/both_changed.txt"
+      },
+      "type":  "FILE",
+      "status":  "MODIFIED"
+    },
+    {
+      "paths":  {
+        "target":  "range_dir/pr_changed.txt",
+        "source":  "range_dir/pr_changed.txt"
+      },
+      "type":  "FILE",
+      "status":  "MODIFIED"
+    }
+  ]
+}

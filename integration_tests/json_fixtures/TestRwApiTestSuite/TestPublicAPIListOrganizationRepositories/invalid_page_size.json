@@ -1,0 +1,8 @@
+{
+  "Code": 400,
+  "Payload": {
+    "error_code": "BadRequest",
+    "message": "parsing field \"page_size\": strconv.ParseUint: parsing \"invalid\": invalid syntax",
+    "request_id": "c2251c54-c95c-017a-9766-54d83d442b1d"
+  }
+}

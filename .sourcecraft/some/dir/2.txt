@@ -1,0 +1,7 @@
+W1217 12:39:51.631821 2338274 warnings.go:70] policy verify-images.autogen-verify-images: missing digest for cr.cloud-preprod.yandex.net/crtq6gi4otida156llen/frontend:latest
+W1217 12:39:52.611276 2338274 warnings.go:70] policy verify-images.autogen-verify-images: failed to verify image cr.cloud-preprod.yandex.net/crtq6gi4otida156llen/gitcore:dev-glebov-n-25-12-17.12-38-08: .attestors[0].entries[0].certificates: GET https://cr.cloud-preprod.yandex.net/v2/crtq6gi4otida156llen/gitcore/manifests/dev-glebov-n-25-12-17.12-38-08: UNAUTHORIZED: Authentication problem ; requestId = 8d02f637-9285-4bc9-b629-5994c1bd7507
+W1217 12:39:52.611292 2338274 warnings.go:70] policy verify-images.autogen-verify-images: missing digest for cr.cloud-preprod.yandex.net/crtq6gi4otida156llen/gitcore:dev-glebov-n-25-12-17.12-38-08
+Release "gitcore-alpha" has been upgraded. Happy Helming!
+NAME: gitcore-alpha
+STATUS: deployed
+REVISION: 131

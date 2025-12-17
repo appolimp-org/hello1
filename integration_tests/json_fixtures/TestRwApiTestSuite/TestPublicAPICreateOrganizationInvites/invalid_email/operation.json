@@ -1,0 +1,14 @@
+{
+  "Code": 400,
+  "Payload": {
+    "details": [
+      {
+        "field": "email",
+        "rule": "Email"
+      }
+    ],
+    "error_code": "ValidationError",
+    "message": "Validation error: \n  email: value must be a valid email address",
+    "request_id": "4b9b5505-f241-7028-c398-487eeb2128b2"
+  }
+}

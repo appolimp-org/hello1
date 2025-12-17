@@ -1,0 +1,80 @@
+{
+  "tree_entries": [
+    {
+      "target": {
+        "path": ".gitmodules",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "source": {
+        "path": ".gitmodules",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_MODIFIED"
+    },
+    {
+      "target": {
+        "path": "renamed_dir",
+        "type": "ENTRY_TYPE_DIR"
+      },
+      "source": {
+        "path": "renamed_dir",
+        "type": "ENTRY_TYPE_DIR"
+      },
+      "status": "CHANGE_STATUS_MODIFIED"
+    },
+    {
+      "target": {
+        "path": "renamed_dir/inner",
+        "type": "ENTRY_TYPE_DIR"
+      },
+      "source": {
+        "path": "renamed_dir/inner2",
+        "type": "ENTRY_TYPE_DIR"
+      },
+      "status": "CHANGE_STATUS_RENAMED"
+    },
+    {
+      "target": {
+        "path": "renamed_dir/inner/3.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "source": {
+        "path": "renamed_dir/inner2/3.txt",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_RENAMED"
+    },
+    {
+      "target": {
+        "path": "renamed_dir/partial_notok",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_DELETED"
+    },
+    {
+      "source": {
+        "path": "renamed_dir/partial_notok_2",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_ADDED"
+    },
+    {
+      "target": {
+        "path": "renamed_dir/partial_ok",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "source": {
+        "path": "renamed_dir/partial_ok_2",
+        "type": "ENTRY_TYPE_FILE"
+      },
+      "status": "CHANGE_STATUS_RENAMED_MODIFIED"
+    },
+    {
+      "target": {
+        "path": "subdir",
+        "type": "ENTRY_TYPE_SUBMODULE"
+      },
+      "status": "CHANGE_STATUS_DELETED"
+    }
+  ]
+}

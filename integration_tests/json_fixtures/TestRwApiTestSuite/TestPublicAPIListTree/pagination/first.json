@@ -1,0 +1,58 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "eyJjb21taXRfaGFzaCI6ImIyMjQ2OGRhYTRiMDk4ZDQwNmFmYzFhMjVlODQzODEzNmViNzM1OGUiLCJuYW1lX2ZpbHRlciI6IiIsImNhc2VfaW5zZW5zaXRpdmUiOmZhbHNlLCJwYXRoIjoiZm9vIiwibGltaXRfbWF0Y2hlcyI6MTAsInJlY3Vyc2l2ZSI6dHJ1ZSwic3RhcnRfZnJvbSI6eyJwYXRoIjoiZm9vL2Jhci92ZW5kb3IvZ29nNS50eHQiLCJtb2RlIjozMzE4OH19",
+    "trees": [
+      {
+        "name": "bam",
+        "path": "foo/bam",
+        "type": "dir"
+      },
+      {
+        "name": "bamer.txt",
+        "path": "foo/bam/bamer.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog.txt",
+        "path": "foo/bam/gog.txt",
+        "type": "file"
+      },
+      {
+        "name": "bar",
+        "path": "foo/bar",
+        "type": "dir"
+      },
+      {
+        "name": "vendor",
+        "path": "foo/bar/vendor",
+        "type": "dir"
+      },
+      {
+        "name": "gog.txt",
+        "path": "foo/bar/vendor/gog.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog1.txt",
+        "path": "foo/bar/vendor/gog1.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog2.txt",
+        "path": "foo/bar/vendor/gog2.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog3.txt",
+        "path": "foo/bar/vendor/gog3.txt",
+        "type": "file"
+      },
+      {
+        "name": "gog4.txt",
+        "path": "foo/bar/vendor/gog4.txt",
+        "type": "file"
+      }
+    ]
+  }
+}

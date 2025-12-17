@@ -1,0 +1,21 @@
+{
+  "Code": 200,
+  "Payload": {
+    "attachments": [
+      {
+        "file_type": "image",
+        "id": "0196f394-e42a-72b3-bb17-5285e759fcd0",
+        "mime_type": "image/jpeg",
+        "name": "cat.jpeg",
+        "size": "4919"
+      },
+      {
+        "file_type": "document",
+        "id": "0196f394-e43d-791b-be5a-3273809d8c7e",
+        "mime_type": "application/pdf",
+        "name": "document.pdf",
+        "size": "6022"
+      }
+    ]
+  }
+}

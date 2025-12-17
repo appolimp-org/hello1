@@ -1,0 +1,55 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "admin",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": true,
+    "permissions": [
+      {
+        "permission": "src.repositories.delete",
+        "resource_type": "src.repository",
+        "resource_id": "1",
+        "authorized": true
+      }
+    ]
+  },
+  "event_metadata": {
+    "event_id": "aeng2bw6ty3z7vm5urfk",
+    "event_type": "yandex.cloud.events.sourcecraft.DeleteRepository",
+    "created_at": "2025-09-12T15:18:20.017281Z",
+    "tracing_context":  {
+      "trace_id":  "22c42ea0c44232bbb981ce30352b70b0",
+      "span_id":  "88cd4da527f135e9",
+      "parent_span_id":  ""
+    },
+    "organization_id": "89963354856095745"
+  },
+  "request_metadata": {
+    "remote_address": "",
+    "user_agent": "go-resty/2.16.5 (https://github.com/go-resty/resty)",
+    "request_id": "9b91ec38-37f9-e4eb-26fc-3de656732033",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "DONE",
+  "details": {
+    "organization_id": "1",
+    "repository_id": "1",
+    "repository_slug": "alpha",
+    "repository_description": "description is alpha",
+    "repository_default_branch": "master",
+    "repository_visibility": "PUBLIC",
+    "template_type": "NOT_A_TEMPLATE"
+  },
+  "request_parameters": {
+    "repository_id": "1"
+  },
+  "response": {
+    "operation_id": "empty"
+  }
+}

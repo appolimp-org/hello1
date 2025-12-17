@@ -1,0 +1,40 @@
+{
+  "authentication": {
+    "authenticated": true,
+    "subject_type": "YANDEX_PASSPORT_USER_ACCOUNT",
+    "subject_id": "krosh",
+    "token_info": {
+      "masked_iam_token": "*** hidden ***"
+    }
+  },
+  "authorization": {
+    "authorized": false,
+    "permissions": [
+      {
+        "permission": "organization-manager.organizations.update",
+        "resource_type": "organization-manager.organization",
+        "resource_id": "78055d72-9d75-4b7a-a065-69d057d5aef6",
+        "authorized": false
+      }
+    ]
+  },
+  "event_metadata": {
+    "event_id": "aengc7w1hr7d5yzceyp9",
+    "event_type": "yandex.cloud.events.sourcecraft.UpdateOrganization",
+    "created_at": "2025-09-09T11:26:39.346227Z",
+    "organization_id": "78055d72-9d75-4b7a-a065-69d057d5aef6"
+  },
+  "request_metadata": {
+    "remote_address": "127.0.0.1",
+    "user_agent": "grpc-go/1.73.0",
+    "request_id": "f3dd8692-d94a-bf80-fd9e-2110bd7720af",
+    "idempotency_id": "",
+    "remote_port": "0"
+  },
+  "event_status": "ERROR",
+  "error": {
+    "code": 7,
+    "message": "permission denied",
+    "details": []
+  }
+}

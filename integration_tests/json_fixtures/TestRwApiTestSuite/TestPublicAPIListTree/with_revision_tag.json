@@ -1,0 +1,13 @@
+{
+  "Code": 200,
+  "Payload": {
+    "next_page_token": "",
+    "trees": [
+      {
+        "name": "file1.txt",
+        "path": "file1.txt",
+        "type": "file"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "added_user_ids":  [],
+  "created_invites":  [],
+  "errors":  [
+    {
+      "invitee_email":  "",
+      "invitee_id":  "7",
+      "invitee_username":  "",
+      "error":  {
+        "message_id":  "InviteeMatchesInviter",
+        "fallback":  "Inviter tried to issue an invite to themselves",
+        "args":  []
+      }
+    }
+  ]
+}

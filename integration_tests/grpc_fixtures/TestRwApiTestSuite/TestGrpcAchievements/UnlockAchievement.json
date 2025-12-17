@@ -1,0 +1,64 @@
+{
+  "achievements": [
+    {
+      "achievement": {
+        "id": "100103",
+        "slug": "rare-achievement",
+        "category": "CATEGORY_EXPERT",
+        "title": {
+          "ru": "Редкое достижение",
+          "en": "Rare achievement"
+        },
+        "description": {
+          "ru": "Какое-то описание",
+          "en": "Some description"
+        },
+        "picture_url": "rare-achievement.png",
+        "max_level": "1",
+        "properties": {
+          "type": "STATIC",
+          "images": [
+            "rare-achievement.png"
+          ]
+        }
+      },
+      "unlocked_at": "2025-07-31T17:49:36.189002Z",
+      "current_level": "2",
+      "seed": 0,
+      "given_by": "23"
+    },
+    {
+      "achievement": {
+        "id": "100100",
+        "slug": "first-achievement",
+        "category": "CATEGORY_CODE",
+        "title": {
+          "ru": "Первый достижение",
+          "en": "First achievement"
+        },
+        "description": {
+          "ru": "Какое-то описание",
+          "en": "Some description"
+        },
+        "picture_url": "first-achievement.png",
+        "max_level": "1",
+        "properties": {
+          "type": "STATIC",
+          "images": [
+            "first-achievement.png"
+          ]
+        }
+      },
+      "unlocked_at": "2025-07-31T17:49:36.172648Z",
+      "current_level": "1",
+      "seed": 0,
+      "given_by": "23"
+    }
+  ],
+  "prev_page_token": "",
+  "next_page_token": "",
+  "revision": {
+    "value": "3",
+    "count": 3
+  }
+}

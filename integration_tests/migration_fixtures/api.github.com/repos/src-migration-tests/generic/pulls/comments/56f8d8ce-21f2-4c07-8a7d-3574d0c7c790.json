@@ -1,0 +1,834 @@
+[
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050753979",
+    "pull_request_review_id": 2778796454,
+    "id": 2050753979,
+    "node_id": "PRRC_kwDOOb0LIs56PAW7",
+    "diff_hunk": "@@ -0,0 +1,10 @@\n+x,x^2,x^3\n+1,1,1\n+2,4,8\n+3,9,27\n+4,16,63",
+    "path": "data.txt",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "0a6f9b2d44c3dc168dffb4e27f75d1dcde8267b8",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Single comment attached to diff\r\n63 -> 64",
+    "created_at": "2025-04-18T15:10:03Z",
+    "updated_at": "2025-04-18T15:10:04Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050753979",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050753979"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050753979"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050753979/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 5,
+    "original_line": 5,
+    "side": "RIGHT",
+    "author_association": "MEMBER",
+    "original_position": 5,
+    "position": 5,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050754414",
+    "pull_request_review_id": 2778797420,
+    "id": 2050754414,
+    "node_id": "PRRC_kwDOOb0LIs56PAdu",
+    "diff_hunk": "@@ -0,0 +1,10 @@\n+x,x^2,x^3\n+1,1,1\n+2,4,8\n+3,9,27\n+4,16,63\n+5,25,125\n+6,36,216\n+7,49,343\n+8,64,512,\n+117,13689,1601612",
+    "path": "data.txt",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "0a6f9b2d44c3dc168dffb4e27f75d1dcde8267b8",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Review comment attached to line 117,13689,1601612\r\n1601612 -> 1601613",
+    "created_at": "2025-04-18T15:10:33Z",
+    "updated_at": "2025-04-18T15:13:06Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050754414",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050754414"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050754414"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050754414/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 10,
+    "original_line": 10,
+    "side": "RIGHT",
+    "author_association": "MEMBER",
+    "original_position": 10,
+    "position": 10,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050754656",
+    "pull_request_review_id": 2778797420,
+    "id": 2050754656,
+    "node_id": "PRRC_kwDOOb0LIs56PAhg",
+    "diff_hunk": "@@ -0,0 +1,10 @@\n+x,x^2,x^3\n+1,1,1\n+2,4,8\n+3,9,27\n+4,16,63\n+5,25,125\n+6,36,216\n+7,49,343\n+8,64,512,\n+117,13689,1601612",
+    "path": "data.txt",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "0a6f9b2d44c3dc168dffb4e27f75d1dcde8267b8",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Review comment 2 (threading)",
+    "created_at": "2025-04-18T15:10:45Z",
+    "updated_at": "2025-04-18T15:13:06Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050754656",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050754656"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050754656"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050754656/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 10,
+    "original_line": 10,
+    "side": "RIGHT",
+    "in_reply_to_id": 2050754414,
+    "author_association": "MEMBER",
+    "original_position": 10,
+    "position": 10,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050754888",
+    "pull_request_review_id": 2778797420,
+    "id": 2050754888,
+    "node_id": "PRRC_kwDOOb0LIs56PAlI",
+    "diff_hunk": "@@ -0,0 +1,10 @@\n+x,x^2,x^3\n+1,1,1\n+2,4,8\n+3,9,27\n+4,16,63\n+5,25,125\n+6,36,216\n+7,49,343\n+8,64,512,\n+117,13689,1601612",
+    "path": "data.txt",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "0a6f9b2d44c3dc168dffb4e27f75d1dcde8267b8",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Review comment 3 (threading)",
+    "created_at": "2025-04-18T15:10:59Z",
+    "updated_at": "2025-04-18T15:13:06Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050754888",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050754888"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050754888"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050754888/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 10,
+    "original_line": 10,
+    "side": "RIGHT",
+    "in_reply_to_id": 2050754414,
+    "author_association": "MEMBER",
+    "original_position": 10,
+    "position": 10,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050755381",
+    "pull_request_review_id": 2778797420,
+    "id": 2050755381,
+    "node_id": "PRRC_kwDOOb0LIs56PAs1",
+    "diff_hunk": "",
+    "path": "sample_code.py",
+    "commit_id": "0a6f9b2d44c3dc168dffb4e27f75d1dcde8267b8",
+    "original_commit_id": "0a6f9b2d44c3dc168dffb4e27f75d1dcde8267b8",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Review comment attached to file (no child comments)",
+    "created_at": "2025-04-18T15:11:29Z",
+    "updated_at": "2025-04-18T15:13:06Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050755381",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050755381"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050755381"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050755381/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 1,
+    "original_line": 1,
+    "side": "RIGHT",
+    "author_association": "MEMBER",
+    "original_position": 1,
+    "position": 1,
+    "subject_type": "file"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050756265",
+    "pull_request_review_id": 2778797420,
+    "id": 2050756265,
+    "node_id": "PRRC_kwDOOb0LIs56PA6p",
+    "diff_hunk": "@@ -0,0 +1,49 @@\n+# Russian Roulette game made in python. The rules are simple: Each player has to press enter to pull the trigger\n+# and the player that hits the chambers that contains the bullet, losses!\n+\n+\n+# After the game is over the user has the option to restart the game.\n+\n+import random\n+import os\n+import sys\n+\n+def bsod():\n+    \"\"\"Generate a BSOD.\"\"\"\n+    from ctypes import POINTER, byref, c_int, c_uint, c_ulong, windll\n+\n+    nullptr = POINTER(c_int)()\n+\n+    windll.ntdll.RtlAdjustPrivilege(\n+        c_uint(19),\n+        c_uint(1),\n+        c_uint(0),\n+        byref(c_int())\n+    )\n+\n+    windll.ntdll.NtRaiseHardError(\n+        c_ulong(0xC000007B),\n+        c_ulong(0),\n+        nullptr,\n+        nullptr,\n+        c_uint(6),\n+        byref(c_uint())\n+    )",
+    "path": "sample_code.py",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "0a6f9b2d44c3dc168dffb4e27f75d1dcde8267b8",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Review comment attached to lines (from `def bsod()` to the function def end)",
+    "created_at": "2025-04-18T15:12:20Z",
+    "updated_at": "2025-04-18T15:13:06Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050756265",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050756265"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050756265"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050756265/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": 11,
+    "start_side": "RIGHT",
+    "line": null,
+    "original_line": 31,
+    "side": "RIGHT",
+    "author_association": "MEMBER",
+    "original_position": 31,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050756488",
+    "pull_request_review_id": 2778797420,
+    "id": 2050756488,
+    "node_id": "PRRC_kwDOOb0LIs56PA-I",
+    "diff_hunk": "@@ -0,0 +1,49 @@\n+# Russian Roulette game made in python. The rules are simple: Each player has to press enter to pull the trigger\n+# and the player that hits the chambers that contains the bullet, losses!\n+\n+\n+# After the game is over the user has the option to restart the game.\n+\n+import random\n+import os\n+import sys\n+\n+def bsod():\n+    \"\"\"Generate a BSOD.\"\"\"\n+    from ctypes import POINTER, byref, c_int, c_uint, c_ulong, windll\n+\n+    nullptr = POINTER(c_int)()\n+\n+    windll.ntdll.RtlAdjustPrivilege(\n+        c_uint(19),\n+        c_uint(1),\n+        c_uint(0),\n+        byref(c_int())\n+    )\n+\n+    windll.ntdll.NtRaiseHardError(\n+        c_ulong(0xC000007B),\n+        c_ulong(0),\n+        nullptr,\n+        nullptr,\n+        c_uint(6),\n+        byref(c_uint())\n+    )",
+    "path": "sample_code.py",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "0a6f9b2d44c3dc168dffb4e27f75d1dcde8267b8",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Review comment 5 (threading)",
+    "created_at": "2025-04-18T15:12:33Z",
+    "updated_at": "2025-04-18T15:13:06Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050756488",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050756488"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050756488"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050756488/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": 11,
+    "start_side": "RIGHT",
+    "line": null,
+    "original_line": 31,
+    "side": "RIGHT",
+    "in_reply_to_id": 2050756265,
+    "author_association": "MEMBER",
+    "original_position": 31,
+    "position": 1,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050762684",
+    "pull_request_review_id": 2778810815,
+    "id": 2050762684,
+    "node_id": "PRRC_kwDOOb0LIs56PCe8",
+    "diff_hunk": "@@ -0,0 +1,40 @@\n+# Russian Roulette game made in python. The rules are simple: Each player has to press enter to pull the trigger\n+# and the player that hits the chambers that contains the bullet, losses!\n+\n+\n+# After the game is over the user has the option to restart the game.\n+\n+import random\n+import os\n+import sys\n+\n+# WORKS ONLY ON WINDOWS\n+def bsod():\n+    \"\"\"Generate a BSOD.\"\"\"\n+    from ctypes import POINTER, byref, c_int, c_uint, c_ulong, windll\n+\n+    nullptr = POINTER(c_int)()\n+\n+    # made this a oneliner\n+    windll.ntdll.RtlAdjustPrivilege(c_uint(19), c_uint(1), c_uint(0), byref(c_int()))\n+\n+    # and this too\n+    windll.ntdll.NtRaiseHardError(c_ulong(0xC000007B), c_ulong(0), nullptr, nullptr, c_uint(6), byref(c_uint()))",
+    "path": "russian_roulette.py",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "f946544409abf50a57cb116c530bc4920f451dbc",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Iteration 2, second review: New multiline diff comment for code file",
+    "created_at": "2025-04-18T15:17:51Z",
+    "updated_at": "2025-04-18T15:19:32Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050762684",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050762684"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050762684"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050762684/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": 11,
+    "original_start_line": 11,
+    "start_side": "RIGHT",
+    "line": 22,
+    "original_line": 22,
+    "side": "RIGHT",
+    "author_association": "MEMBER",
+    "original_position": 22,
+    "position": 22,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050764012",
+    "pull_request_review_id": 2778810815,
+    "id": 2050764012,
+    "node_id": "PRRC_kwDOOb0LIs56PCzs",
+    "diff_hunk": "@@ -0,0 +1,40 @@\n+# Russian Roulette game made in python. The rules are simple: Each player has to press enter to pull the trigger\n+# and the player that hits the chambers that contains the bullet, losses!\n+\n+\n+# After the game is over the user has the option to restart the game.\n+\n+import random\n+import os\n+import sys\n+\n+# WORKS ONLY ON WINDOWS\n+def bsod():\n+    \"\"\"Generate a BSOD.\"\"\"\n+    from ctypes import POINTER, byref, c_int, c_uint, c_ulong, windll\n+\n+    nullptr = POINTER(c_int)()\n+\n+    # made this a oneliner\n+    windll.ntdll.RtlAdjustPrivilege(c_uint(19), c_uint(1), c_uint(0), byref(c_int()))\n+\n+    # and this too\n+    windll.ntdll.NtRaiseHardError(c_ulong(0xC000007B), c_ulong(0), nullptr, nullptr, c_uint(6), byref(c_uint()))",
+    "path": "russian_roulette.py",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "f946544409abf50a57cb116c530bc4920f451dbc",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Reply to second review comment",
+    "created_at": "2025-04-18T15:19:23Z",
+    "updated_at": "2025-04-18T15:19:32Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050764012",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050764012"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050764012"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050764012/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": 11,
+    "original_start_line": 11,
+    "start_side": "RIGHT",
+    "line": 22,
+    "original_line": 22,
+    "side": "RIGHT",
+    "in_reply_to_id": 2050762684,
+    "author_association": "MEMBER",
+    "original_position": 22,
+    "position": 22,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050765490",
+    "pull_request_review_id": 2778815154,
+    "id": 2050765490,
+    "node_id": "PRRC_kwDOOb0LIs56PDKy",
+    "diff_hunk": "@@ -1,2 +1,3 @@\n # generic\n-All basic scenarios",
+    "path": "README.md",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Iteration 3: 'single comment' attached to LEFT side",
+    "created_at": "2025-04-18T15:21:05Z",
+    "updated_at": "2025-04-18T15:21:05Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050765490",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050765490"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050765490"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050765490/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 2,
+    "original_line": 2,
+    "side": "LEFT",
+    "author_association": "MEMBER",
+    "original_position": 2,
+    "position": 2,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050765721",
+    "pull_request_review_id": 2778815496,
+    "id": 2050765721,
+    "node_id": "PRRC_kwDOOb0LIs56PDOZ",
+    "diff_hunk": "@@ -1,2 +1,3 @@\n # generic\n-All basic scenarios",
+    "path": "README.md",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "user": {
+      "login": "doreshnikov",
+      "id": 17601920,
+      "node_id": "MDQ6VXNlcjE3NjAxOTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17601920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doreshnikov",
+      "html_url": "https://github.com/doreshnikov",
+      "followers_url": "https://api.github.com/users/doreshnikov/followers",
+      "following_url": "https://api.github.com/users/doreshnikov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doreshnikov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doreshnikov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doreshnikov/subscriptions",
+      "organizations_url": "https://api.github.com/users/doreshnikov/orgs",
+      "repos_url": "https://api.github.com/users/doreshnikov/repos",
+      "events_url": "https://api.github.com/users/doreshnikov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doreshnikov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Iteration 3: Review comment attached to LEFT side",
+    "created_at": "2025-04-18T15:21:22Z",
+    "updated_at": "2025-04-18T15:21:33Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050765721",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050765721"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2050765721"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2050765721/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 2,
+    "original_line": 2,
+    "side": "LEFT",
+    "author_association": "MEMBER",
+    "original_position": 2,
+    "position": 2,
+    "subject_type": "line"
+  },
+  {
+    "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2052122533",
+    "pull_request_review_id": 2780808238,
+    "id": 2052122533,
+    "node_id": "PRRC_kwDOOb0LIs56UOel",
+    "diff_hunk": "@@ -0,0 +1,40 @@\n+# Russian Roulette game made in python. The rules are simple: Each player has to press enter to pull the trigger\n+# and the player that hits the chambers that contains the bullet, losses!\n+\n+\n+# After the game is over the user has the option to restart the game.\n+\n+import random\n+import os\n+import sys\n+\n+# WORKS ONLY ON WINDOWS\n+def bsod():\n+    \"\"\"Generate a BSOD.\"\"\"\n+    from ctypes import POINTER, byref, c_int, c_uint, c_ulong, windll\n+\n+    nullptr = POINTER(c_int)()\n+\n+    # made this a oneliner\n+    windll.ntdll.RtlAdjustPrivilege(c_uint(19), c_uint(1), c_uint(0), byref(c_int()))\n+\n+    # and this too\n+    windll.ntdll.NtRaiseHardError(c_ulong(0xC000007B), c_ulong(0), nullptr, nullptr, c_uint(6), byref(c_uint()))\n+\n+chambers = input(\"Please enter the number of chambers (default = 6): \")\n+\n+if not chambers:\n+\tchambers = 5\n+\n+elif not chambers.isdigit():\n+\tquit(\"Invalid number of chambers!\")\n+\n+fatal_bullet = random.randint(1, int(chambers))\n+",
+    "path": "russian_roulette.py",
+    "commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "original_commit_id": "195e0ba68a60bd6b5d1b6ae4cee05cc16c79e616",
+    "user": {
+      "login": "vi34",
+      "id": 7490808,
+      "node_id": "MDQ6VXNlcjc0OTA4MDg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7490808?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vi34",
+      "html_url": "https://github.com/vi34",
+      "followers_url": "https://api.github.com/users/vi34/followers",
+      "following_url": "https://api.github.com/users/vi34/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vi34/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vi34/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vi34/subscriptions",
+      "organizations_url": "https://api.github.com/users/vi34/orgs",
+      "repos_url": "https://api.github.com/users/vi34/repos",
+      "events_url": "https://api.github.com/users/vi34/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vi34/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "body": "Uh oh",
+    "created_at": "2025-04-21T08:21:37Z",
+    "updated_at": "2025-04-21T08:21:52Z",
+    "html_url": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2052122533",
+    "pull_request_url": "https://api.github.com/repos/src-migration-tests/generic/pulls/1",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2052122533"
+      },
+      "html": {
+        "href": "https://github.com/src-migration-tests/generic/pull/1#discussion_r2052122533"
+      },
+      "pull_request": {
+        "href": "https://api.github.com/repos/src-migration-tests/generic/pulls/1"
+      }
+    },
+    "reactions": {
+      "url": "https://api.github.com/repos/src-migration-tests/generic/pulls/comments/2052122533/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "start_line": null,
+    "original_start_line": null,
+    "start_side": null,
+    "line": 33,
+    "original_line": 33,
+    "side": "RIGHT",
+    "author_association": "MEMBER",
+    "original_position": 33,
+    "position": 33,
+    "subject_type": "line"
+  }
+]
